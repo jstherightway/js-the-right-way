@@ -1,0 +1,16 @@
+---
+layout: default
+description: "A quickly reference to the best practices of JavaScript, code patterns and tutorials links over the web"
+---
+
+{% capture welcome_content %}{% include welcome.md %}{% endcapture %}
+{{ welcome_content|markdownify }}
+
+{% capture backtotop %}[Back to top](#top){.top}{% endcapture %}
+{% for post in site.posts reversed %}
+    {% if post.isChild != true and loop.first != true %}
+    {{ backtotop|markdownify }}
+    {% endif %}
+    {{ post.content }}
+{% endfor %}
+{{ backtotop|markdownify }}
