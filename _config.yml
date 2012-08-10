@@ -3,6 +3,7 @@ server: true
 server_port: 4000
 baseurl: /
 url: http://localhost:4000
+auto: true
 
 pygments: true
 markdown: maruku
