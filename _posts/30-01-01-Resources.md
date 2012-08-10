@@ -18,4 +18,7 @@
 
 ## JavaScript PaaS Providers
 
-[Heroku](http://heroku.com) - Node.JS
+* [Heroku](http://heroku.com) - Node.JS
+* [Nodejitsu](http://nodejitsu.com) - Node.JS
+* [dotCloud](http://dotcloud.com) - Node.JS
+* [Nodester](http://nodester.com) - Node.JS
