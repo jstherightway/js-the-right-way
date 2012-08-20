@@ -2,7 +2,7 @@
 
 * ## Object Oriented
 
-* ## Anonynous Functions
+* ## Anonymous Functions
 
 * ## Loose Typing
 
