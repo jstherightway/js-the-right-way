@@ -5,4 +5,9 @@ isChild: true
 
 ## Frameworks
 
-TO-DO
+* [Backbone.js](http://documentcloud.github.com/backbone/)
+* [Ember.js](http://emberjs.com/)
+* [Knockout.js](http://knockoutjs.com/)
+* [Angular.js](http://angularjs.org)
+* [Capuccino](http://cappuccino.org/)
+* [JavaScript MVC](http://javascriptmvc.com/)
