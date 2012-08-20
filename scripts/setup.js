@@ -3,7 +3,7 @@
     var $contributors = $('#contributors');
     if ( $contributors.length ) {
         var fail = function () {
-            $contributors.html('<p>This project would not be possible without the help of <a href="https://github.com/codeguy/php-the-right-way/graphs/contributors">our amazing contributors</a> on GitHub.</p>');
+            $contributors.html('<p>This project would not be possible without the help of <a href="https://github.com/braziljs/js-the-right-way/graphs/contributors">our amazing contributors</a> on GitHub.</p>');
         };
         $.ajax({
             cache: false,
