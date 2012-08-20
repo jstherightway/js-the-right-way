@@ -8,6 +8,7 @@
 ## People to follow
 
 * [Brendan Eich](http://brendaneich.com/)
+* [Isaac Schlueter (node.js)](http://izs.me)
 * [Richard D. Worth](http://rdworth.org/blog/)
 * [Fat (Twitter Bootstrap)](http://byfat.xxx/)
 * [Michal Budzynski](http://michalbe.blogspot.com.br/)
@@ -22,3 +23,5 @@
 * [Nodejitsu](http://nodejitsu.com) - Node.JS
 * [dotCloud](http://dotcloud.com) - Node.JS
 * [Nodester](http://nodester.com) - Node.JS
+* [OpenShift](https://openshift.redhat.com)
+* [JSApp.US](http://jsapp.us/)
