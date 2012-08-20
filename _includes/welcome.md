@@ -18,4 +18,4 @@ Help make this website the best resource for new JavaScript programmers! [Contri
 
 Send to your friends and put a link on your website. Help grow the best practices and good information about JavaScript!
 
-[1]: https://github.com/braziljs/php-the-right-way/
+[1]: https://github.com/braziljs/js-the-right-way/

@@ -4,9 +4,6 @@ server_port: 4000
 baseurl: /
 url: http://localhost:4000
 
-ftp_host: jstherightway.com
-ftp_dir: /public_html/
-
 pygments: true
 markdown: maruku
 permalink: date
