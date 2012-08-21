@@ -26,7 +26,7 @@
 * [OpenShift](https://openshift.redhat.com)
 * [JSApp.US](http://jsapp.us/)
 
-## JavaScript Packages Managers &amp; Public CDN's
+## JavaScript Package Managers &amp; Public CDN's
 
 * [NPM](https://npmjs.org/) - Node Packaged Modules
 * [Jam](http://jamjs.org/) - The JavaScript package manager
