@@ -22,7 +22,6 @@ This is a GitHub repository for _JS: The Right Way_.
 * Use American English spelling (primary English repo only)
 * Use four (4) spaces to indent text; do not use tabs.
 * Wrap all text to 120 characters.
-* Code samples should adhere to PSR-1 or higher.
 
 ## Where
 
