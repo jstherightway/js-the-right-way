@@ -7,7 +7,7 @@ isChild: true
 
 ### Client-side
 
-* [Backbone.js](http://backbone.js) - The most popular JS client-site framework, built by [@jashkenas](http://twitter.com/jashkenas)
+* [Backbone.js](http://backbonejs.org) - The most popular JS client-site framework, built by [@jashkenas](http://twitter.com/jashkenas)
 * [Ember.js](http://emberjs.com) - Built by [@wycats](http://twitter.com/wycats), jQuery and Ruby on Rails core developer
 * [Knockout.js](http://knockoutjs.com/)
 * [Angular.js](http://angularjs.org/) - Built by Google, Angular.js is like a polyfill for the future of HTML
