@@ -42,9 +42,17 @@
                     <h1 class="site-title"><a href="/">JavaScript</a></h1>
                     <h2 class="site-slogan">The Right Way.</h2>
                 </hgroup>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.com/" data-size="large" data-hashtags="js">Tweet</a>
-                <br/>
-                <div class="fb-like" data-href="http://jstherightway.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                <div class="social" id="social">
+                    <div class="social-share">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.com/" data-size="medium" data-hashtags="js">Tweet</a>
+                    </div>
+                    <div class="social-share">
+                        <div class="g-plusone" data-href="http://jstherightway.com" data-size="medium" data-annotation="bubble" data-width="300"></div>
+                    </div>
+                    <div class="social-share">
+                        <div class="fb-like" data-href="http://jstherightway.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                    </div>
+                </div>
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
@@ -101,6 +109,7 @@
             asyncScriptLoad( '//www.google-analytics.com/ga.js', 'google-analytics' );
             asyncScriptLoad( '//connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk' );
             asyncScriptLoad( '//platform.twitter.com/widgets.js', 'twitter-wjs' );
+            asyncScriptLoad( 'https://apis.google.com/js/plusone.js', 'google-plusone' );
         </script>
     </body>
 </html>

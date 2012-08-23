@@ -3037,14 +3037,12 @@ select {
   z-index: 2;
 }
 .social {
-  line-height: 30px;
-  line-height: 30px;
-  text-align: center;
+  line-height: 20px;
 }
-.social .social-share {
+.social iframe,
+.social div {
   display: inline-block;
-  vertical-align: bottom;
-  height: 20px;
+  vertical-align: middle;
 }
 .interior-site-header {
   background: #EEE;
