@@ -15,7 +15,6 @@
         <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/styles/all.css"/>
         <link rel="stylesheet" href="/styles/syntax.css"/>
-        <link rel="icon" href="/images/favicon.png" type="image/png"/>
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-33927105-1']);
@@ -47,7 +46,7 @@
                     {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
                     <li><a href="/#{{ post.title | downcase | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
                     {% assign lastIsChild = post.isChild %}
-                {% endfor %}    
+                {% endfor %}
             </ul>
             <li><a href="/#site-footer">Credits</a></li>
         </nav>
@@ -75,7 +74,7 @@
 
                 <h2 class="epsilon">Source</h2>
                 <ul>
-                    <a href="https://developer.mozilla.org/docs/javascript" target="_blank">Mozilla Foundation</a> 
+                    <a href="https://developer.mozilla.org/docs/javascript" target="_blank">Mozilla Foundation</a>
                 </ul>
 
 				<h2 class="epsilon">Contributors</h2>
