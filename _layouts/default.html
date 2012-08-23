@@ -1,43 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} - {% endif %}JS: The Right Way</title>
-        <meta name="description" content="{{ page.description }}"/>
-        <meta name="robots" content="index,follow,archive"/>
-        <meta property="og:image" content="http://www.jstherightway.com/images/og-logo.png"/>
-        <meta property="og:title" content="JS: The Right Way"/>
-        <meta property="og:description" content="A quickly reference to the best practices of JavaScript, code patterns and tutorials links over the web."/>
-        <meta property="og:url" content="http://www.jstherightway.com"/>
-        <meta property="og:site_name" content="JS: The Right Way"/>
-        <meta property="og:type" content="website"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-        <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/styles/all.css"/>
-        <link rel="stylesheet" href="/styles/syntax.css"/>
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-33927105-1']);
-          _gaq.push(['_trackPageview']);
+        <meta property="og:image" content="http://www.jstherightway.com/images/og-logo.png">
+        <meta property="og:title" content="JS: The Right Way">
+        <meta property="og:site_name" content="JS: The Right Way">
+        <meta name="description" property="og:description" content="{{ page.description }}">
+        <meta property="og:url" content="http://www.jstherightway.com">
+        <meta property="og:type" content="website">
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
+        <meta name="robots" content="index,follow,archive">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700">
+        <link rel="stylesheet" href="/styles/all.css">
+        <link rel="stylesheet" href="/styles/syntax.css">
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
         <nav class="site-navigation">
-            <div class="build-date">Last update: {{ site.time }}</div>
             <ul>
                 <li><a href="/#site-header">Welcome</a></li>
                 {% assign lastIsChild = false %}
@@ -61,9 +42,17 @@
                     <h1 class="site-title"><a href="/">JavaScript</a></h1>
                     <h2 class="site-slogan">The Right Way.</h2>
                 </hgroup>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.com/" data-size="large" data-hashtags="js">Tweet</a>
-                <br/>
-                <div class="fb-like" data-href="http://jstherightway.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                <div class="social" id="social">
+                    <div class="social-share">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.com/" data-size="medium" data-hashtags="js">Tweet</a>
+                    </div>
+                    <div class="social-share">
+                        <div class="g-plusone" data-href="http://jstherightway.com" data-size="medium" data-annotation="bubble" data-width="300"></div>
+                    </div>
+                    <div class="social-share">
+                        <div class="fb-like" data-href="http://jstherightway.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                    </div>
+                </div>
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
@@ -90,16 +79,37 @@
                 </ul>
 
                 <p>
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JS: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/gnuwilliam" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.com" rel="dct:source">http://jstherightway.com</a>.
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JS: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/gnuwilliam" property="cc:attributionName" rel="cc:">William Oliveira</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+                <p>
+                    Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.com" rel="dct:source">http://jstherightway.com</a>.
                 </p>
                 <p>
                     Inspired on <a href="http://twitter.com/codeguy">Josh Lockhart's</a> project <a href="http://phptherightway.com">PHP: The Right Way</a>
                 </p>
+                <p class="build-date">Last update: {{ site.time }}</p>
             </footer>
         </div>
-
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <div id="fb-root"></div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/scripts/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="/scripts/setup.js"></script>
+        <script>
+            function asyncScriptLoad( url, id ) {
+                var js, fjs = document.getElementsByTagName( 'script' )[0];
+                if ( document.getElementById( id ) ) {
+                    return;
+                }
+                js = document.createElement( 'script' );
+                js.id = id;
+                js.src = url;
+                fjs.parentNode.insertBefore( js, fjs );
+            }
+            var _gaq = [['_setAccount', 'UA-33927105-1'], ['_trackPageview']];
+            asyncScriptLoad( '//www.google-analytics.com/ga.js', 'google-analytics' );
+            asyncScriptLoad( '//connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk' );
+            asyncScriptLoad( '//platform.twitter.com/widgets.js', 'twitter-wjs' );
+            asyncScriptLoad( 'https://apis.google.com/js/plusone.js', 'google-plusone' );
+        </script>
     </body>
 </html>
