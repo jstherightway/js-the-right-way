@@ -23,14 +23,11 @@
             }
         }).fail(fail);
     }
-})(jQuery);
 
-(function ($) {
     //Add current view's highlighting to the navigation
     
     /** helper for highlighting */
-    function highlightNav(navLinks,id)
-    {
+    function highlightNav( navLinks, id ) {
         navLinks.filter('[href="/#'+id+'"]').addClass("active");
     }
 
