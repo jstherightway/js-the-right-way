@@ -29,6 +29,14 @@
         </script>
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <nav class="site-navigation">
             <div class="build-date">Last update: {{ site.time }}</div>
             <ul>
@@ -55,6 +63,8 @@
                     <h2 class="site-slogan">The Right Way.</h2>
                 </hgroup>
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.com/" data-size="large" data-hashtags="js">Tweet</a>
+                <br/>
+                <div class="fb-like" data-href="http://jstherightway.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
