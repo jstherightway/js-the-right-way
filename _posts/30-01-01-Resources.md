@@ -5,6 +5,11 @@
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/JavaScript)
 * [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/JavaScript/Reference)
 
+## E-books
+
+* [JSbooks](http://jsbooks.revolunet.com/) - A list of free JavaScript e-books
+
+
 ## People to follow
 
 * [Brendan Eich](http://brendaneich.com/)
