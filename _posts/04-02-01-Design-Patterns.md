@@ -5,14 +5,14 @@ isChild: true
 
 ## Design Patterns
 
-### Creational Design Patters
+### Creational Design Patterns
 
 * [Factory](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#factorypatternjavascript)
 * [Prototype](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#prototypepatternjavascript)
 * [Mixin](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript)
 * [Singleton](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript)
 
-### Structural Design Patters
+### Structural Design Patterns
 
 * [Adapter](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery)
 * [Bridge](http://www.joezimjs.com/javascript/javascript-design-patterns-bridge/)
@@ -24,7 +24,7 @@ isChild: true
 * [Proxy](http://www.joezimjs.com/javascript/javascript-design-patterns-proxy/)
 * [Reveling Module](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript)
 
-### Behavioral Design Patters
+### Behavioral Design Patterns
 
 * [Chain of Responsability](http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/)
 * [Command](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript)
