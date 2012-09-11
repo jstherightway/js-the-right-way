@@ -1,6 +1,6 @@
 # Welcome
 
-There's a lot of obsolete and wrong information about JavaScript on the web. This makes new developers be afraid on moving into the language, and the web a worst place to be, since JavaScript is the most popular web language nowadays.
+Since JavaScript is the most popular language nowadays, there's a lot of obsolete and wrong information about it on the web. This makes new developers propagate bad practices and bad code. This must stop. JS: The Right Way is an easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.
 
 ## Attention
 
