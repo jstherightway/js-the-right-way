@@ -1,0 +1,1 @@
+rsync -avz -e ssh ./_site/ braziljs@bolkens.dreamhost.com:~/jstherightway.com -v
