@@ -2,6 +2,10 @@
 
 There's a lot of obsolete and wrong information about JavaScript on the web. This makes new developers be afraid on moving into the language, and the web a worst place to be, since JavaScript is the most popular web language nowadays.
 
+## Attention
+
+This is a work in progress. We are working with the community to create this guide. So if you want to help, feel free to [contribute on GitHub][1].
+
 ## Disclaimer
 
 It's important to know that JavaScript has some bad parts, but also have nice ones! And that nice parts make it worth. It's a fun language to work with, and if you know how to use it in the "right way", you can enjoy programming on it.
