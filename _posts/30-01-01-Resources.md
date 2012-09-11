@@ -34,6 +34,7 @@
 ## JavaScript Package Managers &amp; Public CDN's
 
 * [NPM](https://npmjs.org/) - Node Packaged Modules
+* [BOWER](http://twitter.github.com/bower/) - A package manager for the web
 * [Jam](http://jamjs.org/) - The JavaScript package manager
 * [Ender](http://ender.no.de/) - The no-library library
 * [CDN JS](http://cdnjs.com/) - the missing cdn
