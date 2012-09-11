@@ -1,5 +1,9 @@
 # JavaScript: The Right Way
 
+## Attention
+
+This is a work in progress. We are working with the community to create this guide. So if you want to help, feel free to contribute.
+
 ## About
 
 This is a GitHub repository for _JS: The Right Way_.
