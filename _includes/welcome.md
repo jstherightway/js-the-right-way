@@ -1,6 +1,6 @@
 # Welcome
 
-Since JavaScript is the most popular language nowadays, there's a lot of obsolete and wrong information about it on the web. This makes new developers propagate bad practices and bad code. This must stop. JS: The Right Way is an easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.
+Since JavaScript is one of the most popular languages nowadays, there's a lot of obsolete and wrong information about it on the web. This makes new developers propagate bad practices and bad code. This must stop. JS: The Right Way is an easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.
 
 ## Attention
 
