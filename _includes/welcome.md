@@ -8,7 +8,7 @@ This is a work in progress. We are working with the community to create this gui
 
 ## Disclaimer
 
-It's important to know that JavaScript has some bad parts, but also have nice ones! And that nice parts make it worth. It's a fun language to work with, and if you know how to use it in the "right way", you can enjoy programming on it.
+It's important to know that JavaScript has some bad parts, but also does have nice ones! And those nice parts make it worth. It's a fun language to work with, and if you know how to use it in the "right way", you can enjoy programming on it.
 
 We also ensure that there's no really "right way" to work with JavaScript. There's many ways, and this makes each programmer and each language unique. Here we just introduce new JavaScript developers and also experienced ones to follow best practices and get references, such as follow the creators and big names of JavaScript community.
 
