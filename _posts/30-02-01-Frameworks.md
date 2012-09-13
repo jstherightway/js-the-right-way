@@ -11,7 +11,7 @@ isChild: true
 * [Ember.js](http://emberjs.com) - Built by [@wycats](http://twitter.com/wycats), jQuery and Ruby on Rails core developer
 * [Knockout.js](http://knockoutjs.com/)
 * [Angular.js](http://angularjs.org/) - Built by Google, Angular.js is like a polyfill for the future of HTML
-* [Capuccino](http://cappuccino.org/)
+* [Cappuccino](http://cappuccino.org/)
 * [JavaScript MVC](http://javascriptmvc.com/)
 * [YUI](http://yuilibrary.com/) - Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications.
 
