@@ -26,40 +26,35 @@
 
     //Add current view's highlighting to the navigation
     
-    /** helper for highlighting */
-    function highlightNav( navLinks, id ) {
-        navLinks.filter('[href="/#'+id+'"]').addClass("active");
-    }
+    var win = $(window);
+    var navLinks = $('.site-navigation a');
+    var headers = $('h1, h2');
+    
+    var headerTops = headers.map(function(e){ return $(e).offset().top; })
+    var headerBottoms = headers.map(functin(e){ return $(e).offset().top + $(e).height(); });
+    var headerIds = headers.map(function(e){ return $(e).id; });
+    
+    var navlinksById = {};
+    $.each(headerIds, function(e){ navliksById[e] = navlink.fiter('[href="/#'+e+'"]'); });
 
-    $(window).scroll(function() {
-        //console.log("They see me scrollin, they hatin"); LOL
-
-        //clear highlighting
-        var navLinks = $('.site-navigation a');
+    win.scroll(function() {
         navLinks.removeClass("active");
 
-        //calc current viewport
-        var viewTop = $(window).scrollTop();
-        var viewBottom = viewTop + $(window).height();
+        var viewTop = win.scrollTop();
+        var viewBottom = viewTop + win.height();
 
-        //for all h1 and h2 elements, check if they are visible
-        //performance tweak: stop each() after the first element is found to be behind view
         var previous = "";
         var foundOne = false;
         var fallback = "";
-        $('h1, h2').each(function(i,e) {
-            //get element position;
-            var eTop = $(e).offset().top;
-            var eBottom = eTop + $(e).height();
-            var id=e.id;
-
-            if (eTop >= viewTop) {
+        
+        //for all h1 and h2 elements, check if they are visible
+        headers.each(function(i,e) {
+            if (headerTops[i] >= viewTop) {
                 //if we are passed the view and no heading was highlighted yet, store previous one as fallback
-                if (! foundOne) {
+                if (!foundOne)
                     fallback=previous;
-                }
-                if (eBottom <= viewBottom) {
-                    highlightNav(navLinks, id);
+                if (headerBottoms[i] <= viewBottom) {
+                    navlinksById[headerIds[i]].addClass('active');
                     foundOne = true;
                 } else {
                     return false; //break the each(), the rest is below
@@ -68,9 +63,8 @@
             previous=id;
         });
         //no h1/h2 is in the viewport, so highlight the last one above
-        if (! foundOne) {
-            highlightNav(navLinks, fallback);
-        }
+        if (!foundOne && fallback)
+            navlinksById[fallback].addClass('active');
     });
 })(jQuery);
 
