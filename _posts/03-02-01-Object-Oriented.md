@@ -1,5 +1,5 @@
 ---
-title: Ojbect Oriented
+title: Object Oriented
 isChild: true
 ---
 
