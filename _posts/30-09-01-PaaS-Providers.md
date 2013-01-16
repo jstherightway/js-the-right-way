@@ -10,5 +10,5 @@ isChild: true
 * [Nodejitsu](http://nodejitsu.com) - Node.JS
 * [dotCloud](http://dotcloud.com) - Node.JS
 * [Nodester](http://nodester.com) - Node.JS
-* [OpenShift](https://openshift.redhat.com)
+* [OpenShift](https://openshift.redhat.com) - Node.JS
 * [JSApp.US](http://jsapp.us/)
