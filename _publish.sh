@@ -1,1 +1,4 @@
-rsync -avz -e ssh ./_site/ braziljs@bolkens.dreamhost.com:~/jstherightway.com -v
+git checkout gh-pages
+git merge master
+git push origin gh-pages
+git checkout master
