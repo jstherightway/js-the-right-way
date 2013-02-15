@@ -15,7 +15,7 @@ This is a GitHub repository for _JS: The Right Way_.
 
 ## Share it!
 
-## How to contribute
+## How to contribute 
 
 1. Fork and edit
 2. Optionally install Ruby with Jekyll gem to preview locally
