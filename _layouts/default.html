@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
     <head>
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} - {% endif %}JS: The Right Way</title>
@@ -38,6 +38,14 @@
                 alt="Fork us on GitHub!">
             </a>
 
+            <div class="translations-avaiable">
+                {% if page.lang == "pt-BR" %}
+                    <a href="/" class="link">Read in english</a>
+                {% else %}
+                    <a href="/pt/" class="link">Leia em português</a>
+                {% endif %}
+            </div>
+
             <header class="site-header" id="site-header">
                 <hgroup>
                     <h1 class="site-title"><a href="/">JavaScript</a></h1>
@@ -57,20 +65,39 @@
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
-                <h2 class="epsilon">Created and maintained by</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Criado e mantido por</h2>
+                {% else %}
+                    <h2 class="epsilon">Created and maintained by</h2>
+                {% endif %}
                 <ul>
                     <li><a href="http://twitter.com/gnuwilliam">William Oliveira</a></li>
                 </ul>
 
-                <h2 class="epsilon">Source</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Fonte</h2>
+                {% else %}
+                    <h2 class="epsilon">Source</h2>
+                {% endif %}
+
                 <ul>
                     <a href="https://developer.mozilla.org/docs/javascript" target="_blank">Mozilla Foundation</a>
                 </ul>
 
-				<h2 class="epsilon">Contributors</h2>
-				<div id="contributors"></div>
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Contribuidores</h2>
+                {% else %}
+				    <h2 class="epsilon">Contributors</h2>
+                {% endif %}
 
-                <h2 class="epsilon">Support</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Apoio</h2>
+                {% else %}
+                    <h2 class="epsilon">Support</h2>
+                {% endif %}
                 <ul class="mbd">
                     <li>
                         <a href="http://www.apiki.com"><img src="http://frontinbh.com.br/assets/imagens/apoiadores/apiki.png" target="_blank" title="Apiki" /></a>
@@ -86,7 +113,12 @@
                     Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.com" rel="dct:source">http://jstherightway.com</a>.
                 </p>
                 <p>
-                    Inspired on <a href="http://twitter.com/codeguy">Josh Lockhart's</a> project <a href="http://phptherightway.com">PHP: The Right Way</a>
+
+                    {% if page.lang == "pt-BR" %}
+                        Inspirado no projeto <a href="http://phptherightway.com">PHP: The Right Way</a> de <a href="http://twitter.com/codeguy">Josh Lockhart's</a>.
+                    {% else %}
+                        Inspired on <a href="http://twitter.com/codeguy">Josh Lockhart's</a> project <a href="http://phptherightway.com">PHP: The Right Way</a>
+                    {% endif %}
                 </p>
                 <p class="build-date">Last update: {{ site.time }}</p>
             </footer>
