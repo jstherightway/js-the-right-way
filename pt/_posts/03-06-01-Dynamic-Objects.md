@@ -1,7 +1,7 @@
----
-title: Dynamic Objects
+﻿---
+title: Objetos dinâmicos
 isChild: true
 lang: pt-BR
 ---
 
-### Dynamic Objects
+### Objetos dinâmicos

@@ -1,7 +1,7 @@
----
-title: Expressive Object Literal Notation
+﻿---
+title: Objetos literais
 isChild: true
 lang: pt-BR
 ---
 
-### Expressive Object Literal Notation
+### Objetos literais

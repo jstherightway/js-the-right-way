@@ -1,6 +1,6 @@
----
-title: Getting Started
+﻿---
+title: Primeiros passos
 lang: pt-BR
 ---
 
-# Getting Started
+# Primeiros passos

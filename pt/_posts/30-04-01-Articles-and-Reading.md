@@ -1,10 +1,10 @@
----
-title: Articles &amp; Reading
+﻿---
+title: Artigos &amp; Leituras
 isChild: true
 lang: pt-BR
 ---
 
-## Articles &amp; Reading
+## Artigos &amp; Leituras
 
 ### JavaScript
 

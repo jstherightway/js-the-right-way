@@ -1,4 +1,4 @@
----
+﻿---
 title: Design Patterns
 isChild: true
 lang: pt-BR
@@ -31,4 +31,3 @@ lang: pt-BR
 * [Command](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript)
 * [Mediator](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript)
 * [Observer](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
-

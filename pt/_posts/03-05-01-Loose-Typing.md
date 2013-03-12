@@ -1,7 +1,7 @@
----
-title: Loose Typing
+﻿---
+title: Tipagem fraca
 isChild: true
 lang: pt-BR
 ---
 
-### Loose Typing
+### Tipagem fraca

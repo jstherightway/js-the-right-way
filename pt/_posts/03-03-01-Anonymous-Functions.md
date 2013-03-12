@@ -1,7 +1,7 @@
----
-title: Anonymous Functions
+﻿---
+title: Funções anônimas
 isChild: true
 lang: pt-BR
 ---
 
-### Anonymous Functions
+### Funções anônimas

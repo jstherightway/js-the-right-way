@@ -1,7 +1,7 @@
----
-title: Resources
+﻿---
+title: Recursos
 lang: pt-BR
 ---
 
-# Resources
+# Recursos
 

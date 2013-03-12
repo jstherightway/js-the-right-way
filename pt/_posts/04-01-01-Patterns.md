@@ -1,8 +1,8 @@
----
+﻿---
 lang: pt-BR
 ---
 
-# Patterns
+# Padrões
 
 Too many of the classical design patterns are implemented and have uses in JavaScript and there are some JS Patterns that are exclusive.
 

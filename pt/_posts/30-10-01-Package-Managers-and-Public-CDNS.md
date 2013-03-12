@@ -1,10 +1,10 @@
----
-title: Package Managers &amp; Public CDN's
+﻿---
+title: Gerenciadores de pacotes &amp; CDN's Publicos
 isChild: true
 lang: pt-BR
 ---
 
-## Package Managers &amp; Public CDN's
+## Gerenciadores de pacotes &amp; CDN's Publicos
 
 * [NPM](https://npmjs.org/) - Node Packaged Modules
 * [BOWER](http://twitter.github.com/bower/) - A package manager for the web

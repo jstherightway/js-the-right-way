@@ -1,12 +1,12 @@
----
-title: MV* Patterns
+﻿---
+title: Padrões MV
 isChild: true
 lang: pt-BR
 ---
 
-## MV* Patterns
+## Padrões MV
 
-There are some implementations of the traditional MVC Pattern and its variations in JS: 
+There are some implementations of the traditional MVC Pattern and its variations in JS:
 
 * [MVC Pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvc)
 * [MVP Pattern](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvp)

@@ -1,7 +1,7 @@
----
-title: Functions as First-class Objects
+﻿---
+title: Objetos de primeira classe
 isChild: true
 lang: pt-BR
 ---
 
-### Functions as First-class Objects
+### Objetos de primeira classe

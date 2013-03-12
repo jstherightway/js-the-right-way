@@ -1,7 +1,7 @@
----
-title: Object Oriented
+﻿---
+title: Orientado a objetos
 isChild: true
 lang: pt-BR
 ---
 
-### Object Oriented
+### Orientado a objetos

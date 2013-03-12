@@ -1,6 +1,6 @@
----
-title: Good Parts
+﻿---
+title: As partes boas
 lang: pt-BR
 ---
 
-# Good Parts
+# As partes boas

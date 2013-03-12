@@ -1,10 +1,10 @@
----
-title: People to follow
+﻿---
+title: Pessoas para seguir
 isChild: true
 lang: pt-BR
 ---
 
-## People to follow
+## Pessoas para seguir
 
 * [Brendan Eich](http://brendaneich.com/)
 * [Isaac Schlueter (node.js)](http://izs.me)
