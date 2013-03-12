@@ -20,7 +20,13 @@
     <body>
         <nav class="site-navigation">
             <ul>
-                <li><a href="/#site-header">Welcome</a></li>
+
+                {% if page.lang == "pt-BR" %}
+                    <li><a href="/#site-header">Bem vindo</a></li>
+                {% else %}
+                    <li><a href="/#site-header">Welcome</a></li>
+                {% endif %}
+
                 {% assign lastIsChild = false %}
                 {% for post in site.posts reversed %}
                     {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
@@ -29,7 +35,12 @@
                     {% assign lastIsChild = post.isChild %}
                 {% endfor %}
             </ul>
-            <li><a href="/#site-footer">Credits</a></li>
+
+            {% if page.lang == "pt-BR" %}
+                <li><a href="/#site-footer">Créditos</a></li>
+            {% else %}
+                <li><a href="/#site-footer">Credits</a></li>
+            {% endif %}
         </nav>
         <div class="site-content">
 
@@ -49,7 +60,12 @@
             <header class="site-header" id="site-header">
                 <hgroup>
                     <h1 class="site-title"><a href="/">JavaScript</a></h1>
-                    <h2 class="site-slogan">The Right Way.</h2>
+
+                    {% if page.lang == "pt-BR" %}
+                        <h2 class="site-slogan">O caminho certo.</h2>
+                    {% else %}
+                        <h2 class="site-slogan">The Right Way.</h2>
+                    {% endif %}
                 </hgroup>
                 <div class="social" id="social">
                     <div class="social-share">
