@@ -1,3 +1,7 @@
+---
+lang: pt-BR
+---
+
 # Testing Tools
 
 * [Mocha](http://visionmedia.github.com/mocha/)

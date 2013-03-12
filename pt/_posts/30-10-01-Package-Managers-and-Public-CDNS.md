@@ -1,6 +1,7 @@
 ---
 title: Package Managers &amp; Public CDN's
 isChild: true
+lang: pt-BR
 ---
 
 ## Package Managers &amp; Public CDN's

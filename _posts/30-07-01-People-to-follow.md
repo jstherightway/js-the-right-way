@@ -1,6 +1,7 @@
 ---
 title: People to follow
 isChild: true
+lang: en
 ---
 
 ## People to follow

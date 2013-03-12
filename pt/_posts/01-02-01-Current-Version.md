@@ -1,6 +1,7 @@
 ---
 title: Current version
 isChild: true
+lang: pt-BR
 ---
 
 ## About JavaScript

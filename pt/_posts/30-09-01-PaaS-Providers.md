@@ -1,6 +1,7 @@
 ---
 title: JavaScript PaaS Providers
 isChild: true
+lang: pt-BR
 ---
 
 ## PaaS Providers

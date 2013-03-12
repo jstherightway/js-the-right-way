@@ -1,6 +1,7 @@
 ---
 layout: default
 description: "A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
+lang: en
 ---
 
 {% capture welcome_content %}{% include welcome.md %}{% endcapture %}
@@ -8,9 +9,11 @@ description: "A quick reference to best practices for writing JavaScript -- link
 
 {% capture backtotop %}[Back to top](#top){.top}{% endcapture %}
 {% for post in site.posts reversed %}
-    {% if post.isChild != true and loop.first != true %}
-    {{ backtotop|markdownify }}
+    {% if post.lang == page.lang %}
+        {% if post.isChild != true and loop.first != true %}
+            {{ backtotop|markdownify }}
+            {% endif %}
+        {{ post.content }}
     {% endif %}
-    {{ post.content }}
 {% endfor %}
 {{ backtotop|markdownify }}

@@ -1,6 +1,7 @@
 ---
 title: Design Patterns
 isChild: true
+lang: en
 ---
 
 ## Design Patterns

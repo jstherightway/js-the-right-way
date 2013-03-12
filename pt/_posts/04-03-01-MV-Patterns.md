@@ -1,6 +1,7 @@
 ---
 title: MV* Patterns
 isChild: true
+lang: pt-BR
 ---
 
 ## MV* Patterns

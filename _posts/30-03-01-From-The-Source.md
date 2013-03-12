@@ -1,6 +1,7 @@
 ---
 title: From the source
 isChild: true
+lang: en
 ---
 
 ## From the source

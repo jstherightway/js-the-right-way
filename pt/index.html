@@ -9,9 +9,11 @@ lang: pt-BR
 
 {% capture backtotop %}[Back to top](#top){.top}{% endcapture %}
 {% for post in site.posts reversed %}
-    {% if post.isChild != true and loop.first != true %}
-    {{ backtotop|markdownify }}
+    {% if post.lang == page.lang %}
+        {% if post.isChild != true and loop.first != true %}
+            {{ backtotop|markdownify }}
+            {% endif %}
+        {{ post.content }}
     {% endif %}
-    {{ post.content }}
 {% endfor %}
 {{ backtotop|markdownify }}

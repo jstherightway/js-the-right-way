@@ -29,10 +29,12 @@
 
                 {% assign lastIsChild = false %}
                 {% for post in site.posts reversed %}
-                    {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
-                    {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
-                    <li><a href="/#{{ post.title | downcase | replace:'*','' | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
-                    {% assign lastIsChild = post.isChild %}
+                    {% if post.lang == page.lang %}
+                        {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
+                        {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
+                        <li><a href="/#{{ post.title | downcase | replace:'*','' | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
+                        {% assign lastIsChild = post.isChild %}
+                    {% endif %}
                 {% endfor %}
             </ul>
 

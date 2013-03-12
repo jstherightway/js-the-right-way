@@ -1,3 +1,8 @@
+---
+title: JS Code Style!
+lang: pt-BR
+---
+
 # JS Code Style!
 
 As every language, JavaScript has many code style guides. Maybe the most used and recommended is the [Google Code Style Guide for JavaScript][1], but we recommend you to read the [Idiomatic.js][2].

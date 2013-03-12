@@ -1,6 +1,7 @@
 ---
 title: Articles &amp; Reading
 isChild: true
+lang: en
 ---
 
 ## Articles &amp; Reading
