@@ -1,10 +1,10 @@
 ---
-title: MV* Patterns
+title: MV&#42; Patterns
 isChild: true
 lang: en
 ---
 
-## MV* Patterns
+## MV&#42; Patterns
 
 There are some implementations of the traditional MVC Pattern and its variations in JS: 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Na fonte
 isChild: true
 lang: pt-BR

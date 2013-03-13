@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pessoas para seguir
 isChild: true
 lang: pt-BR

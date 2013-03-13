@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mentoring
 isChild: true
 lang: pt-BR

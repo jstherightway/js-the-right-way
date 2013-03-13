@@ -1,4 +1,4 @@
-﻿---
+---
 title: Design Patterns
 isChild: true
 lang: pt-BR

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Provedores JavaScript PaaS
 isChild: true
 lang: pt-BR

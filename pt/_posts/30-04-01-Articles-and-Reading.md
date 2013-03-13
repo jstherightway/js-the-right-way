@@ -1,4 +1,4 @@
-﻿---
+---
 title: Artigos &amp; Leituras
 isChild: true
 lang: pt-BR

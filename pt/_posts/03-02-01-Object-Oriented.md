@@ -1,4 +1,4 @@
-﻿---
+---
 title: Orientado a objetos
 isChild: true
 lang: pt-BR

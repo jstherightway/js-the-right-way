@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gerenciadores de pacotes &amp; CDN's Publicos
 isChild: true
 lang: pt-BR

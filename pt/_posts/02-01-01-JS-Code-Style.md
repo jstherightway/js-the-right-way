@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guia de estilo!
 lang: pt-BR
 ---

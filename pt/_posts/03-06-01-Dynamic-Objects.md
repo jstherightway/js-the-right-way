@@ -1,4 +1,4 @@
-﻿---
+---
 title: Objetos dinâmicos
 isChild: true
 lang: pt-BR
