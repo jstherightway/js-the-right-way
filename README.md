@@ -39,6 +39,10 @@ Today we've got a lot of websites running JavaScript. I think we need a place to
 
 My name is [William Oliveira](http://github.com/gnuwilliam). I'm contributor of many open source projects, and also a Tech Lead at [apiki](http://www.apiki.com/).
 
+## Translations
+
+* Português
+
 ## License
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
