@@ -15,7 +15,7 @@ This is a GitHub repository for _JS: The Right Way_.
 
 ## Share it!
 
-## How to contribute 
+## How to contribute
 
 1. Fork and edit
 2. Optionally install Ruby with Jekyll gem to preview locally
@@ -38,6 +38,10 @@ Today we've got a lot of websites running JavaScript. I think we need a place to
 ## Who
 
 My name is [William Oliveira](http://github.com/gnuwilliam). I'm contributor of many open source projects, and also a Tech Lead at [apiki](http://www.apiki.com/).
+
+## Translations
+
+* Português
 
 ## License
 

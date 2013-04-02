@@ -1,2 +1,6 @@
-# Resources
+---
+title: Resources
+lang: en
+---
 
+# Resources

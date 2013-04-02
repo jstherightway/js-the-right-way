@@ -1,9 +1,8 @@
 ---
-title: Testing Tools
-lang: en
+lang: pt-BR
 ---
 
-# Testing Tools
+# Ferramentas de testes
 
 * [Mocha](http://visionmedia.github.com/mocha/)
 * [qUnit](http://qunitjs.com/)

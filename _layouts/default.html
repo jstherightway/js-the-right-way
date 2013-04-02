@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
     <head>
         <meta charset="utf-8">
         <title>{% if page.title %}{{ page.title }} - {% endif %}JS: The Right Way</title>
@@ -14,22 +14,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700">
-        <link rel="stylesheet" href="styles/all.css">
-        <link rel="stylesheet" href="styles/syntax.css">
+        <link rel="stylesheet" href="/styles/all.css">
+        <link rel="stylesheet" href="/styles/syntax.css">
     </head>
     <body>
         <nav class="site-navigation">
             <ul>
-                <li><a href="/#site-header">Welcome</a></li>
+
+                {% if page.lang == "pt-BR" %}
+                    <li><a href="/#site-header">Bem vindo</a></li>
+                {% else %}
+                    <li><a href="/#site-header">Welcome</a></li>
+                {% endif %}
+
                 {% assign lastIsChild = false %}
                 {% for post in site.posts reversed %}
-                    {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
-                    {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
-                    <li><a href="/#{{ post.title | downcase | replace:'*','' | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
-                    {% assign lastIsChild = post.isChild %}
+                    {% if post.lang == page.lang %}
+                        {% if post.isChild and lastIsChild != true %}<ul>{% endif %}
+                        {% if lastIsChild and post.isChild != true %}</ul>{% endif %}
+                        <li><a href="/#{{ post.title | downcase | replace:'*','' | replace:' ','_' | replace:'(','' | replace:')','' | replace:'.','' | replace:'-','' }}">{{ post.title }}</a>
+                        {% assign lastIsChild = post.isChild %}
+                    {% endif %}
                 {% endfor %}
             </ul>
-            <li><a href="/#site-footer">Credits</a></li>
+
+            {% if page.lang == "pt-BR" %}
+                <li><a href="/#site-footer">Créditos</a></li>
+            {% else %}
+                <li><a href="/#site-footer">Credits</a></li>
+            {% endif %}
         </nav>
         <div class="site-content">
 
@@ -38,10 +51,23 @@
                 alt="Fork us on GitHub!">
             </a>
 
+            <div class="translations-avaiable">
+                {% if page.lang == "pt-BR" %}
+                    <a href="/" class="link">Read in english</a>
+                {% else %}
+                    <a href="/pt/" class="link">Leia em português</a>
+                {% endif %}
+            </div>
+
             <header class="site-header" id="site-header">
                 <hgroup>
                     <h1 class="site-title"><a href="/">JavaScript</a></h1>
-                    <h2 class="site-slogan">The Right Way.</h2>
+
+                    {% if page.lang == "pt-BR" %}
+                        <h2 class="site-slogan">O caminho certo.</h2>
+                    {% else %}
+                        <h2 class="site-slogan">The Right Way.</h2>
+                    {% endif %}
                 </hgroup>
                 <div class="social" id="social">
                     <div class="social-share">
@@ -57,25 +83,44 @@
             </header>
             {{ content }}
             <footer class="site-footer" id="site-footer">
-                <h2 class="epsilon">Created and maintained by</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Criado e mantido por</h2>
+                {% else %}
+                    <h2 class="epsilon">Created and maintained by</h2>
+                {% endif %}
                 <ul>
                     <li><a href="http://twitter.com/gnuwilliam">William Oliveira</a></li>
                 </ul>
 
-                <h2 class="epsilon">Source</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Fonte</h2>
+                {% else %}
+                    <h2 class="epsilon">Source</h2>
+                {% endif %}
+
                 <ul>
                     <a href="https://developer.mozilla.org/docs/javascript" target="_blank">Mozilla Foundation</a>
                 </ul>
 
-				<h2 class="epsilon">Contributors</h2>
-				<div id="contributors"></div>
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Contribuidores</h2>
+                {% else %}
+				    <h2 class="epsilon">Contributors</h2>
+                {% endif %}
 
-                <h2 class="epsilon">Support</h2>
+
+                {% if page.lang == "pt-BR" %}
+                    <h2 class="epsilon">Apoio</h2>
+                {% else %}
+                    <h2 class="epsilon">Support</h2>
+                {% endif %}
                 <ul class="mbd">
                     <li>
                         <a href="http://www.apiki.com"><img src="http://frontinbh.com.br/assets/imagens/apoiadores/apiki.png" target="_blank" title="Apiki" /></a>
-                        <a href="http://braziljs.org" target="_blank"><img style="margin-top: 3px;" src="images/braziljs_logo.png" title="BrazilJS Foundation" /></a>
-                        <a href="http://imasters.com.br" target="_blank"><img style="margin-left: 7px;" src="images/imasters_logo.png" title="iMasters"></a>
+                        <a href="http://braziljs.org" target="_blank"><img style="margin-top: 3px;" src="/images/braziljs_logo.png" title="BrazilJS Foundation" /></a>
+                        <a href="http://imasters.com.br" target="_blank"><img style="margin-left: 7px;" src="/images/imasters_logo.png" title="iMasters"></a>
                     </li>
                 </ul>
 
@@ -86,7 +131,12 @@
                     Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.com" rel="dct:source">http://jstherightway.com</a>.
                 </p>
                 <p>
-                    Inspired on <a href="http://twitter.com/codeguy">Josh Lockhart's</a> project <a href="http://phptherightway.com">PHP: The Right Way</a>
+
+                    {% if page.lang == "pt-BR" %}
+                        Inspirado no projeto <a href="http://phptherightway.com">PHP: The Right Way</a> de <a href="http://twitter.com/codeguy">Josh Lockhart's</a>.
+                    {% else %}
+                        Inspired on <a href="http://twitter.com/codeguy">Josh Lockhart's</a> project <a href="http://phptherightway.com">PHP: The Right Way</a>
+                    {% endif %}
                 </p>
                 <p class="build-date">Last update: {{ site.time }}</p>
             </footer>

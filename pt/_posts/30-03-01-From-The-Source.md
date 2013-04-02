@@ -1,10 +1,10 @@
 ---
-title: From the source
+title: Na fonte
 isChild: true
-lang: en
+lang: pt-BR
 ---
 
-## From the source
+## Na fonte
 
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/JavaScript)
 * [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/JavaScript/Reference)

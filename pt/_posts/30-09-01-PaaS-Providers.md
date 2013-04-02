@@ -1,10 +1,10 @@
 ---
-title: JavaScript PaaS Providers
+title: Provedores JavaScript PaaS
 isChild: true
-lang: en
+lang: pt-BR
 ---
 
-## PaaS Providers
+## Provedores PaaS
 
 * [Heroku](http://heroku.com) - Node.JS
 * [Modulus](https://modulus.io) - Node.JS

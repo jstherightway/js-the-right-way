@@ -1,7 +1,7 @@
 ---
 title: Design Patterns
 isChild: true
-lang: en
+lang: pt-BR
 ---
 
 ## Design Patterns
@@ -31,4 +31,3 @@ lang: en
 * [Command](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript)
 * [Mediator](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript)
 * [Observer](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
-
