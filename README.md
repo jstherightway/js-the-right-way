@@ -1,25 +1,27 @@
 # JavaScript: The Right Way
 
-## Attention
+## Atenção
 
-This is a work in progress. We are working with the community to create this guide. So if you want to help, feel free to contribute.
+Este projeto está em desenvolvimento. Estamos trabalhando com a comunidade para criar este guia. Então se você quer nos ajudar, sinta-se livre para contribuir.
 
-## About
+## Sobre
 
-This is a GitHub repository for _JS: The Right Way_.
+Este é um repositório para _JS: The Right Way_.
 
-* This is a Jekyll project.
-* Each section and sub-section are located in `_posts/`.
+* Utilizamos Jekyll.
+* Todas as sessões e sub-sessões estão no caminho `_posts/`.
 * Sub-sections have isChild: true in their front matter.
-* The navigation and page structure are automatically generated.
+* Toda navegação e estrutura da página é gerada automaticamente. 
 
-## Share it!
 
-## How to contribute 
+## Compartilhe este projeto!
 
-1. Fork and edit
-2. Optionally install Ruby with Jekyll gem to preview locally
-3. Submit pull request for consideration
+## Como contribuir? 
+
+1. Fork e edite no seu repositório
+2. Instale o Ruby com a `gem Jekyll` para conseguir visualizar no seu localhost *Opcional
+3. Envie seu pull request
+
 
 ## Contributor Style Guide
 
