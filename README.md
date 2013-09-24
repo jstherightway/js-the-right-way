@@ -29,7 +29,7 @@ This is a GitHub repository for _JS: The Right Way_.
 
 ## Where
 
-<http://www.jstherightway.com>
+<http://www.jstherightway.org>
 
 ## Why?
 
