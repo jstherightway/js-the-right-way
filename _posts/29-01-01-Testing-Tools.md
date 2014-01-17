@@ -7,3 +7,4 @@
 * [SugarTest](http://sugartest.scriptia.net/)
 * [Karma](http://karma-runner.github.io/)
 * [Intern](http://theintern.io/)
+* [SinonJS](http://sinonjs.org/)
