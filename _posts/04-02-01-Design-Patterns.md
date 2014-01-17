@@ -22,7 +22,7 @@ isChild: true
 * [Flyweight](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailflyweight)
 * [Module](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript)
 * [Proxy](http://www.joezimjs.com/javascript/javascript-design-patterns-proxy/)
-* [Reveling Module](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript)
+* [Revealing Module](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript)
 
 ### Behavioral Design Patterns
 
