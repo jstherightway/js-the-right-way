@@ -12,3 +12,4 @@ isChild: true
 * [Nodester](http://nodester.com) - Node.JS
 * [OpenShift](https://openshift.redhat.com) - Node.JS
 * [JSApp.US](http://jsapp.us/)
+* [Windows Azure](http://www.windowsazure.com/en-us/develop/nodejs/)
