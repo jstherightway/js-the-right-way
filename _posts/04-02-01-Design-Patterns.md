@@ -26,7 +26,7 @@ isChild: true
 
 ### Behavioral Design Patterns
 
-* [Chain of Responsability](http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/)
+* [Chain of Responsibility](http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/)
 * [Command](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript)
 * [Mediator](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript)
 * [Observer](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
