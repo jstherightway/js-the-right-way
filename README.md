@@ -1,35 +1,35 @@
 # JavaScript: The Right Way
 
-## Attention
+> ### This is a work in progress! :warning:
 
-This is a work in progress. We are working with the community to create this guide. So if you want to help, feel free to contribute.
+> We are working with the community to create this guide, so feel free to contribute if you want to help.
 
 ## About
 
-This is a GitHub repository for _JS: The Right Way_.
+A GitHub repository for _JS: The Right Way_.
 
-* This is a Jekyll project.
+* Powered by Jekyll.
 * Each section and sub-section are located in `_posts/`.
-* Sub-sections have isChild: true in their front matter.
+* Sub-sections have `isChild: true` in their front matter.
 * The navigation and page structure are automatically generated.
 
 ## Share it!
 
 ## How to contribute 
 
-1. Fork and edit
-2. Optionally install Ruby with Jekyll gem to preview locally
-3. Submit pull request for consideration
+1. Fork and edit.
+2. Optionally install Ruby with Jekyll gem to preview locally.
+3. Submit pull request for consideration.
 
 ## Contributor Style Guide
 
-* Use American English spelling (primary English repo only)
+* Use American English spelling (primary English repo only).
 * Use four (4) spaces to indent text; do not use tabs.
 * Wrap all text to 120 characters.
 
 ## Where
 
-<http://www.jstherightway.org>
+[jstherightway.org](http://jstherightway.org  "Visit JS The Right Way")
 
 ## Why?
 
