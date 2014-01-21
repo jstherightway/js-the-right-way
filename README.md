@@ -1,5 +1,3 @@
-# JavaScript: The Right Way
-
 ![](http://i.imgur.com/jaEbd80.png)
 
 ## Note
