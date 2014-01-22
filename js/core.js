@@ -4,12 +4,16 @@ var users = [
   'rdworth', 
   'fat', 
   'michalbe', 
+  'afabbro',
   'addyosmani', 
   'joezimjs', 
   'douglascrockford',
   'paulirish',
   'visionmedia',
-  'guille'
+  'guille',
+  'nzakas',
+  'jeresig',
+  'substack',
 ];
 
 for (var user in users) {
