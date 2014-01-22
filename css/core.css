@@ -252,8 +252,8 @@ header small {
 #helpers .helpers-container {
     text-align: center;
     display: table;
-    margin: 25px auto;
-    width: 60%;
+    margin: 0px auto;
+    width: 90%;
 }
 
 #helpers a {
@@ -267,7 +267,9 @@ header small {
 }
 
 #helpers a img {
-    width: 80px;
+    width: 80%;
+    max-width: 110px;
+    margin-left: 30%;
     height: auto;
     opacity: 0.5;
 
@@ -449,4 +451,14 @@ header small {
 
 iframe[id^="oauth2relay"]{
   position: fixed !important;
+}
+@media only screen and (max-width: 530px) {
+
+   header h1 {
+        font-size: 50px;
+    }
+   .section h1 {
+        font-size: 20px;
+    }
+
 }
