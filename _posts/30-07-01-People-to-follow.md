@@ -13,3 +13,6 @@ isChild: true
 * [Addy Osmani](http://addyosmani.com/)
 * [Joe Zim](http://www.joezimjs.com/javascript/)
 * [Douglas Crockford](http://www.crockford.com/)
+* [Nicholas C. Zakas](http://www.nczonline.net/)
+* [John Resig (jQuery)](http://ejohn.org/)
+* [James Halliday (browserify)](http://substack.net/)
