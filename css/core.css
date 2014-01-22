@@ -383,12 +383,12 @@ header small {
     float: right;
     margin-top: -100px;
     margin-right: 40px;
-    height: 60px;
+    height: auto;
     line-height: 30px;
 }
 
 #footer .bio p a {
-    color: #FF0B0B;
+    color: #00BACA;
     font-weight: bold;
 }
 
@@ -450,15 +450,54 @@ header small {
 }
 
 iframe[id^="oauth2relay"]{
-  position: fixed !important;
+    position: fixed !important;
 }
+
+@media only screen and (max-width: 1300px) {
+    #footer .bio p {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 530px) {
 
-   header h1 {
+    header h1 {
         font-size: 50px;
     }
-   .section h1 {
+    .section h1 {
         font-size: 20px;
+    }
+    .fork-me {
+        display: none;
+    }
+    .social .github iframe {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .share .wrapper {
+        width: 100%;
+    }
+    .links-container {
+        width: 100%;
+    }
+    .links-container .link {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #footer .bio p {
+        margin-top: 15px;
+        margin-right: 0;
+        height: auto;
+        line-height: auto;
+        display: inline-block;
+    }
+    #footer hr {
+        margin-top: 0;
+    }
+    .contributors {
+        padding-top: 15px;
     }
 
 }
