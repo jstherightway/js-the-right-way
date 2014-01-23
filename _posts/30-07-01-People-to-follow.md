@@ -13,3 +13,4 @@ isChild: true
 * [Addy Osmani](http://addyosmani.com/)
 * [Joe Zim](http://www.joezimjs.com/javascript/)
 * [Douglas Crockford](http://www.crockford.com/)
+* [Cody Lindley](http://www.codylindley.com/)
