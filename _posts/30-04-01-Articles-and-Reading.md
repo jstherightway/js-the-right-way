@@ -13,6 +13,7 @@ isChild: true
 * [Understanding JavaScript Function Invocation and "this"](http://yehudakatz.com/2011/08/11/understanding-JavaScript-function-invocation-and-this/)
 * [Partial Application in JavaScript by Ben Alman](http://benalman.com/news/2012/09/partial-application-in-javascript/)
 * [Smashing Magazine](http://coding.smashingmagazine.com/tag/javascript/)
+* [How to Learn Javascript Properly](http://javascriptissexy.com/how-to-learn-javascript-properly/)
 
 ### Node.js
 
