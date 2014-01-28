@@ -292,6 +292,27 @@ header small {
     transition: all 0.2s ease-in-out;
 }
 
+#screencasts {
+    background: rgba(245,226,19,0.6)
+}
+
+.screencasts-container {
+    margin-top: 30px;
+}
+
+.screencasts-container a {
+    
+    width: 120px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.screencasts-container a img{
+    width: inherit;
+}
+
 .source {
     color: #FFF !important;
     margin-top: -16px;
