@@ -21,7 +21,7 @@
     <body>
         <header>
             <a class="fork-me" href="https://github.com/braziljs/js-the-right-way"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-            
+
             <section class="wrapper">
                 <h1>JavaScript</h1>
                 <small>The Right Way</small>
@@ -186,6 +186,19 @@
                 <p class="source">
                     Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
                 </p>
+
+                <h3>Scoping and Hoisting</h3>
+
+                <p>
+                    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+                </p>
+
+                <p>
+                    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogheter on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+                </p>
+
+                <p class="source">
+                    Source: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
             </section>
         </section>
 
@@ -272,7 +285,7 @@
                 <h3>Description</h3>
 
                 <p>
-                    Various libraries and frameworks to do tests in JavaScript. 
+                    Various libraries and frameworks to do tests in JavaScript.
                 </p>
 
                 <h3>Links</h3>
@@ -422,7 +435,7 @@
                 </section>
 
                 <p class="source">
-                    JavaScriptMVC is an open-source framework containing the best ideas in jQuery development. 
+                    JavaScriptMVC is an open-source framework containing the best ideas in jQuery development.
                 </p>
 
                 <section class="txt">
@@ -490,7 +503,7 @@
                 </section>
 
                 <p class="source">
-                LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and 
+                LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and
                 desktop browsers.
                 </p>
 
