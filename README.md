@@ -1,11 +1,9 @@
 ![](http://i.imgur.com/jaEbd80.png)
 
 ## Note
+For now we'll be using plain html for editing the guide, but soon it will be migrated to DocPad.
 
-As you might have seen, the code in this repository makes reference to the old website. The new one, is still only html, and I need help to port it to Docpad or some other tool to make it easy for other people to contribute. 
-So, if you have knowledge to make it happen, please fork this project and checkout the `latest` branch. There you'll see the website on [JSTRW](http://jstherightway.org). Feel free to contact me if you need anything `sudowilliam@gmail.com`.
-
-Thanks, and let's continue to improve this guide and provide the best resources to the JavaScript community!
+Feel free to contribute!
 
 ## Where
 
