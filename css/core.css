@@ -296,6 +296,10 @@ header small {
     background: rgba(245,226,19,0.6)
 }
 
+#screencasts h1{
+    opacity: 1;
+}
+
 #screencasts .screencasts-container {
     margin-top: 30px;
 }
