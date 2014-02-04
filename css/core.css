@@ -206,7 +206,7 @@ header small {
 }
 
 #the-good-parts {
-    background: #C35C48;    
+    background: #C35C48;
 }
 
 #patterns {
@@ -230,15 +230,15 @@ header small {
 }
 
 #game-engines {
-  background: #648A64;
+    background: #648A64;
 }
 
 #game-engines .section p a, .txt a {
-  color: #1F4E53;
+    color: #1F4E53;
 }
 
 #game-engines .source a {
-  color: #8CFF02;
+    color: #8CFF02;
 }
 
 #reading {
@@ -472,7 +472,6 @@ iframe[id^="oauth2relay"]{
 }
 
 @media only screen and (max-width: 530px) {
-
     header h1 {
         font-size: 50px;
     }
@@ -511,5 +510,4 @@ iframe[id^="oauth2relay"]{
     .contributors {
         padding-top: 15px;
     }
-
 }
