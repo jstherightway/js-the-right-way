@@ -276,6 +276,11 @@ header small {
 
 #helpers a:hover img {
     opacity: 1;
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 #helpers a img {
