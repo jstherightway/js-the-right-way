@@ -282,27 +282,49 @@ header small {
     margin: 0 40px;
 }
 
-#helpers a:hover img {
+#helpers a:hover figure {
     opacity: 1;
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    -ms-transform: scale(1.4);
-    -o-transform: scale(1.4);
-    transform: scale(1.4);
 }
 
-#helpers a img {
-    width: 80%;
-    max-width: 110px;
-    margin-left: 30%;
-    height: auto;
+#helpers a figure {
+    width: 120px;
+    height: 120px;
     opacity: 0.5;
+    overflow: hidden;
 
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+#helpers a img {
+    width: 100%;
+    height: auto;
+    margin: auto auto;
+}
+
+#helpers a:nth-child(1) figure img {
+    margin: 40px 0;
+}
+
+#helpers a:nth-child(3) figure img {
+    margin: 10px 0;
+}
+
+#helpers a:nth-child(4) figure img {
+    width: 100px;
+}
+
+#helpers a:nth-child(5) figure img {
+    width: 64px;
+    margin: -15px 0;
+}
+
+#helpers a:nth-child(6) figure img {
+    width: 110px;
+    margin: 10px 0;
 }
 
 #screencasts {
@@ -318,18 +340,16 @@ header small {
 }
 
 #screencasts .screencasts-container a {
-    
     width: 120px;
     display: block;
     position: relative;
     margin: 0 auto;
-
-
 }
 
 #screencasts a img {
     opacity: 0.5;
-      -webkit-transition: all 0.2s ease-in-out;
+
+    -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -547,6 +567,16 @@ iframe[id^="oauth2relay"]{
         width: 100%;
         box-sizing: border-box;
         margin-bottom: 30px;
+        text-align: center;
+    }
+    #helpers a {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+    }
+    #helpers a figure {
+        margin: 15px auto;
         text-align: center;
     }
     #footer .bio p {
