@@ -20,7 +20,7 @@ body {
 }
 
 .gh-button {
-    width: 100px;
+    width: 91px;
 }
 
 .gh-follow-button {
@@ -71,6 +71,14 @@ header small {
     margin: 0 auto;
     padding-bottom: 20px;
     padding-top: 15px;
+}
+
+.share .fb-like iframe {
+    margin-top: -5px;
+}
+
+.share .twitter-share-button {
+    width: 100px !important;
 }
 
 .welcome {
