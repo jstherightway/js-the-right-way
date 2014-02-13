@@ -113,9 +113,13 @@ header small {
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
+    margin: 0;
+}
+
+.main h1 a {
     color: #FFF;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.11);
-    margin: 0;
+    text-decoration: none;
 }
 
 .main ul {
@@ -159,6 +163,12 @@ header small {
     text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.16);
     margin: 0;
     text-transform: uppercase;
+}
+
+.section h1 a {
+    color: #FFF;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
 }
 
 .section h3 {
