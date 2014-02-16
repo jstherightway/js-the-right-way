@@ -590,8 +590,7 @@ iframe[id^="oauth2relay"]{
         text-align: center;
     }
     #footer .bio p {
-        margin-top: 15px;
-        margin-right: 0;
+        margin: 15px 0 0 0;
         height: auto;
         line-height: auto;
         display: inline-block;
