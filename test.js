@@ -1,0 +1,4 @@
+var date;
+function date(){
+  
+}
