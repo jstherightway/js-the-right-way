@@ -14,7 +14,10 @@ var users = [
   'nzakas',
   'jeresig',
   'substack',
-  'dherman'
+  'dherman',
+  'creationix',
+  'mrdoob',
+  'codepo8'
 ];
 
 for (var user in users) {
