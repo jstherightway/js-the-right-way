@@ -259,12 +259,28 @@ header small {
     color: #8CFF02;
 }
 
+#news {
+    background: #456481;
+}
+
+#news .source a {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.52);
+}
+
 #reading {
     background: #7C84BE;
 }
 
 #reading .source a {
     color: #FFE55A;
+}
+
+#podcasts {
+    background: #24E56A;
+}
+
+#podcasts .link a {
+    color: #FFF;
 }
 
 #whotofollow {
