@@ -17,7 +17,9 @@ var users = [
   'dherman',
   'creationix',
   'mrdoob',
-  'codepo8'
+  'codepo8',
+  'rwaldron',
+  'darkwing'
 ];
 
 for (var user in users) {
