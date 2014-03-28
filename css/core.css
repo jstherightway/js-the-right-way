@@ -368,6 +368,7 @@ header small {
 #screencasts .screencasts-container a {
     width: 120px;
     display: block;
+    padding: 16px 0;
     position: relative;
     margin: 0 auto;
 }
