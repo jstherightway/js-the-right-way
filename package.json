@@ -1,0 +1,24 @@
+{
+  "name": "js-the-right-way",
+  "version": "0.0.0",
+  "description": "![](http://i.imgur.com/jaEbd80.png)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/braziljs/js-the-right-way.git"
+  },
+  "author": "William Oliveira",
+  "license": "CC BY-NC-SA 3.0",
+  "bugs": {
+    "url": "https://github.com/braziljs/js-the-right-way/issues"
+  },
+  "homepage": "http://jstherightway.org",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.9.0"
+  }
+}
