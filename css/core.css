@@ -297,15 +297,13 @@ header small {
 
 #helpers .helpers-container {
     text-align: center;
-    display: table;
     margin: 0px auto;
-    width: 90%;
 }
 
 #helpers a {
-    display: table-cell;
     vertical-align: middle;
-    margin: 0 40px;
+    margin: 20px 40px;
+    display: inline-block;
 }
 
 #helpers a:hover figure {
