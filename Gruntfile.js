@@ -1,39 +1,43 @@
 module.exports = function(grunt){
 
-	grunt.initConfig({
-		uglify:{
-			options: {
-				compress: true,
-				report: true,
-				banner: "/* Minified on <%= grunt.template.date() %>*/\n"
-			},
-			app:{
-				files:{
-					'js/core.min.js': [
-						'js/core.js'
-					]
+    // -- Init Configuration ---------------------------------------
+    grunt.initConfig({
 
-				}
-			}
+        uglify:{
+            options: {
+                compress: true,
+                report: true,
+                banner: '/* Minified on <%= grunt.template.date() %>*/\n'
+            },
+            app: {
+                files: {
+                    'js/core.min.js': [
+                        'js/core.js'
+                    ]
+                }
+            }
+        },
+        cssmin: {
+            options: {
+                banner: '/* Minified on <%= grunt.template.date() %>*/\n'
+            },
+            app: {
+                files: {
+                    'css/core.min.css': [
+                        'css/normalize.css',
+                        'css/core.css'
+                    ]
+                }
+            }
+        }
 
-		},
-		cssmin: {
-		  	add_banner: {
-		    options: {
-		      banner: '/* Minified on <%= grunt.template.date() %>*/\n'
-		    },
-		    files: {
-		      	'css/core.min.css': [
-		      		'css/core.css'
-		      	]
-		    }
-		  }
-		}
+    });
 
-	});
+    // -- Load Plugins ----------------------------------------------
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
-grunt.loadNpmTasks('grunt-contrib-cssmin');
-grunt.loadNpmTasks('grunt-contrib-uglify');
-grunt.registerTask('default', ['uglify', 'cssmin']);
+    // -- Register Task ---------------------------------------------
+    grunt.registerTask('default', ['uglify', 'cssmin']);
 
-}
+};
