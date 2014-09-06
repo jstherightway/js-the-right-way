@@ -11,11 +11,11 @@ Feel free to contribute!
 
 ## Why?
 
-Today we have a bunch of websites running JavaScript. I think we need a place to put all the best practices and references together so we can share this (good) information and help to keep the web more organized.
+Today we have a bunch of websites running JavaScript. I think we need a place to put all the best practices and references together so we can share this (good) information and help keep the web more organized.
 
 ## Who
 
-My name is [William Oliveira](http://github.com/gnuwilliam). I'm contributor of many open source projects, and also a Freelance Developer.
+My name is [William Oliveira](http://github.com/gnuwilliam). I'm a contributor of many open source projects, and also a Freelance Developer.
 
 ## License
 
