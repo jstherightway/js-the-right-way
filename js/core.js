@@ -9,7 +9,7 @@ var users = [
   'joezimjs', 
   'douglascrockford',
   'paulirish',
-  'visionmedia',
+  'tj',
   'guille',
   'nzakas',
   'jeresig',
