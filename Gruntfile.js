@@ -29,6 +29,20 @@ module.exports = function(grunt){
                     ]
                 }
             }
+        },
+        connect: {
+          server: {
+            options: 9001,
+            keepalive: true
+          }
+        },
+        watch: {
+          assets: {
+            files: ['**/*.js', '**/*.html', '**/*.css'],
+            options: {
+              livereload: true
+            }
+          }
         }
 
     });
@@ -36,8 +50,11 @@ module.exports = function(grunt){
     // -- Load Plugins ----------------------------------------------
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // -- Register Task ---------------------------------------------
     grunt.registerTask('default', ['uglify', 'cssmin']);
+    grunt.registerTask('server', ['connect', 'watch']);
 
 };
