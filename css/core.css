@@ -416,6 +416,7 @@ header small {
     clear: none !important;
     display: inline-block;
     margin-right: 15px;
+    margin-top: 0px;
 }
 
 .link:hover {
