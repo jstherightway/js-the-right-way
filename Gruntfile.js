@@ -5,7 +5,7 @@ module.exports = function(grunt){
 
         uglify:{
             options: {
-                compress: true,
+                compress: false,
                 report: true,
                 banner: '/* Minified on <%= grunt.template.date() %>*/\n'
             },
