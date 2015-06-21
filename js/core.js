@@ -24,7 +24,8 @@ var App = (function( window, document, $ ) {
       'codepo8',
       'rwaldron',
       'darkwing',
-      'bevacqua'
+      'bevacqua',
+      'sindresorhus'
     ],
     userIsDone,
     URL = 'https://api.github.com/';
