@@ -1,5 +1,7 @@
 ![](http://i.imgur.com/jaEbd80.png)
 
+[Leia em português](./README-PT_BR.md)
+
 ## Note
 For now we'll be using plain html for editing the guide, but soon it will be migrated to DocPad.
 
