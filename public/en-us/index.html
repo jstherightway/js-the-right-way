@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>1JS: The Right Way1</title>
+        <title>JS: The Right Way</title>
         <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
         <meta property="og:title" content="JS: The Right Way">
         <meta property="og:site_name" content="JS: The Right Way">
@@ -11,7 +11,7 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="css/core.min.css">
+        <link rel="stylesheet" href="assets/css/core.min.css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
@@ -52,19 +52,7 @@
 
         <section class="welcome">
             <div class="wrapper">
-                <h1>Hey, you!</h1>
-
-                <p>
-                    This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
-                </p>
-
-                <p>
-                    Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.
-                </p>
-
-                <p>
-                    We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.
-                </p>
+              <h1>Hey, you!</h1><p>This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.</p><p>Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.</p><p>We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.</p>
             </div>
         </section>
 
@@ -94,154 +82,117 @@
         <section class="section" id="getting-started">
             <div class="wrapper">
                 <h1><a href="#getting-started">GETTING STARTED</a></h1>
-
-                <h3>ABOUT</h3>
-
-                <p>
-                    Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation.
-
-                    Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today.
-
-                    Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language.
-
-                    Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser.
-                </p>
-
-                <h3>CURRENT VERSION</h3>
-
-                <p>
-                    The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. A 6th major revision of the standard is being worked on.
-                </p>
-
-                <p>
-                    A good reference to versions, references and news about JavaScript can be found at the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
-                </p>
-
-                <h3>THE DOM</h3>
-
-                <p>
-                    The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>.
-                </p>
+                <h3>ABOUT</h3> <p> Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation. Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today. Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language. Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser. </p><h3>CURRENT VERSION</h3> <p> The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. A 6th major revision of the standard is being worked on. </p><p> A good reference to versions, references and news about JavaScript can be found at the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>. </p><h3>THE DOM</h3> <p> The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>. </p>
             </div>
         </section>
 
         <section class="section" id="js-code-style">
             <div class="wrapper">
                 <h1><a href="#js-code-style">JS CODE STYLE</a></h1>
-
-                <h3>Conventions</h3>
-
-                <p>
-                    As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
-                </p>
-
-                <h3>Linting</h3>
-
-                <p>
-                    Nowadays the best tool for linting your JavaScript code is <a target="_blank" href="http://www.jshint.com/">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool.
-                </p>
-            </div>
+                <h4>Conventions</h3> <p> As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>. </p><h3>Linting</h3> <p> Nowadays the best tool for linting your JavaScript code is <a target="_blank" href="http://www.jshint.com/">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool. </p>
         </section>
 
         <section class="section" id="the-good-parts">
             <div class="wrapper">
                 <h1><a href="#the-good-parts">THE GOOD PARTS</a></h1>
 
-                <h3>Object Oriented</h3>
+<h3>Object Oriented</h3>
 
-                <p>
-                    JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
-                </p>
+<p>
+    JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object-Oriented JavaScript</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object-Oriented JavaScript</a>
+</p>
 
-                <h3>Anonymous Functions</h3>
+<h3>Anonymous Functions</h3>
 
-                <p>
-                    Anonymous functions are functions that are dynamically declared at runtime. They’re called anonymous functions because they aren’t given a name in the same way as normal functions.
-                </p>
+<p>
+    Anonymous functions are functions that are dynamically declared at runtime. They’re called anonymous functions because they aren’t given a name in the same way as normal functions.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+</p>
 
-                <h3>Functions as First-class Objects</h3>
+<h3>Functions as First-class Objects</h3>
 
-                <p>
-                    Functions in JavaScript are first class objects. This means that JavaScript functions are just a special type of object that can do all the things that regular objects can do.
-                </p>
+<p>
+    Functions in JavaScript are first class objects. This means that JavaScript functions are just a special type of object that can do all the things that regular objects can do.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+</p>
 
-                <h3>Loose Typing</h3>
+<h3>Loose Typing</h3>
 
-                <p>
-                    For many front-end developers, JavaScript was their first taste of a scripting and/or interpretive language. To these developers, the concept and implications of loosely typed variables may be second nature. However, the explosive growth in demand for modern web applications has resulted in a growing number of back-end developers that have had to dip their feet into the pool of client-side technologies. Many of these developers are coming from a background of strongly typed languages, such as C# or Java, and are unfamiliar with both the freedom and the potential pitfalls involved in working with loosely typed variables.
-                </p>
+<p>
+    For many front-end developers, JavaScript was their first taste of a scripting and/or interpretive language. To these developers, the concept and implications of loosely typed variables may be second nature. However, the explosive growth in demand for modern web applications has resulted in a growing number of back-end developers that have had to dip their feet into the pool of client-side technologies. Many of these developers are coming from a background of strongly typed languages, such as C# or Java, and are unfamiliar with both the freedom and the potential pitfalls involved in working with loosely typed variables.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
 
-                <h3>Scoping and Hoisting</h3>
+<h3>Scoping and Hoisting</h3>
 
-                <p>
-                    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
-                </p>
+<p>
+    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+</p>
 
-                <p>
-                    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
-                </p>
+<p>
+    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+</p>
 
-                <h3>Function Binding</h3>
+<h3>Function Binding</h3>
 
-                <p>
-                    Function binding is most probably the least of your concerns when beginning with JavaScript, but when you realize that you need a solution to the problem of how to keep the context of this within another function, then you might realize that what you actually need is <b>Function.prototype.bind()</b>.
-                </p>
+<p>
+    Function binding is most probably the least of your concerns when beginning with JavaScript, but when you realize that you need a solution to the problem of how to keep the context of this within another function, then you might realize that what you actually need is <b>Function.prototype.bind()</b>.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
 
-                <h3>Closure Function</h3>
+<h3>Closure Function</h3>
 
-                <p>
-                    Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in.
-        		    It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
-                 </p>
+<p>
+    Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in.
+It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
+ </p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+</p>
 
-          	    <h3>Strict mode</h3>
+<h3>Strict mode</h3>
 
-                <p>
-                    ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
-                 </p>
+<p>
+    ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+ </p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+</p>
 
-                <h3>Immediately-Invoked Function Expression (IIFE)</h3>
+<h3>Immediately-Invoked Function Expression (IIFE)</h3>
 
-                <p>
-                   An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.<br/><br/>
-                   <i>This pattern has been referred to as a self-executing anonymous function, but <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduced the term IIFE as a more semantically accurate term for the pattern</i>.
-                </p>
+<p>
+   An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.<br/><br/>
+   <i>This pattern has been referred to as a self-executing anonymous function, but <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduced the term IIFE as a more semantically accurate term for the pattern</i>.
+</p>
 
-                <p class="source">
-                    Source: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
-                </p>
+<p class="source">
+    Source: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+</p>
+
+
 
 
             </div>
@@ -1410,7 +1361,7 @@
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="js/core.min.js"></script>
+        <script type="text/javascript" src="assets/js/core.min.js"></script>
         <div id="fb-root"></div>
         <script>
             function asyncScriptLoad( url, id ) {
