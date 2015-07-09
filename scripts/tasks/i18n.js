@@ -13,6 +13,7 @@ module.exports = function (grunt) {
   var extend = require('node.extend');
   var mustache = require('mustache');
   var Entities = require('html-entities').AllHtmlEntities;
+  var htmlMinify = require('html-minifier').minify;
   var entities = new Entities();
 
   // Constants
@@ -52,13 +53,14 @@ module.exports = function (grunt) {
   // Save a file with the rendered template
   var save = function (name, dest, content) {
       try {
-        // grunt.log.write('Creating file ' + path.join(PUBLIC_PATH, dest.replace('.json', ''), name) + '\n');
-        grunt.file.write(path.join(PUBLIC_PATH, dest.replace('.json', ''), name), content);
+        grunt.log.write('Creating file ' + path.join(PUBLIC_PATH, dest.replace('.json', ''), name) + '\n');
+        grunt.file.write(path.join(PUBLIC_PATH, dest.replace('.json', ''), name), htmlMinify(content, {removeAttributeQuotes: true, collapseWhitespace:true}));
       } catch (e) {
         grunt.log.write(e);
       }
   }
 
+  // Parse @link files if exists
   var getData = function(filename, lang) {
     var data = grunt.file.readJSON(filename);
     var re = /{{@link=([^\s]+)}}/, res;
