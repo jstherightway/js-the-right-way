@@ -1,5 +1,7 @@
 module.exports = function(grunt){
 
+    // Loading i18n task
+    require('./scripts/tasks/i18n')(grunt);
     // -- Init Configuration ---------------------------------------
     grunt.initConfig({
 
@@ -54,7 +56,7 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // -- Register Task ---------------------------------------------
-    grunt.registerTask('default', ['uglify', 'cssmin']);
+    grunt.registerTask('default', ['i18n', 'uglify', 'cssmin']);
     grunt.registerTask('server', ['connect', 'watch']);
 
 };
