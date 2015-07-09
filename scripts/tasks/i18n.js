@@ -24,7 +24,7 @@ module.exports = function (grunt) {
   var DEFAULT_LANGUAGE = 'en-us.json';
 
   // Read the i18n directory and render a template with the json's data
-  var generete = function () {
+  var generate = function () {
     var template = grunt.file.read(path.join(TEMPLATE_PATH, TEMPLATE_FILE));
     var data, t;
     var defaultData = grunt.file.readJSON(path.join(JSON_PATH, DEFAULT_LANGUAGE.replace('.json', ''),DEFAULT_LANGUAGE));
@@ -87,6 +87,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('i18n', function() {
       grunt.log.write('Translating...\n');
-      generete.call();
+      generate.call();
   });
 }
