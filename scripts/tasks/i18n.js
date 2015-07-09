@@ -11,6 +11,9 @@
 module.exports = function (grunt) {
   var path = require('path');
   var extend = require('node.extend');
+  var mustache = require('mustache');
+  var Entities = require('html-entities').AllHtmlEntities;
+  var entities = new Entities();
 
   // Constants
   var JSON_PATH = path.join(__dirname, '../../i18n');
@@ -35,8 +38,13 @@ module.exports = function (grunt) {
         // Extend from default language
         data = extend(true, defaultData, data);
 
-        t = grunt.template.process(template, {data: data});
-        save(TEMPLATE_FILE, filename, t);
+        t = mustache.to_html(template, data);
+        save(TEMPLATE_FILE, filename, entities.decode(t));
+
+        // Save the index file on the Public derectory with the default language
+        if(DEFAULT_LANGUAGE === filename) {
+          save(TEMPLATE_FILE, '', entities.decode(t));
+        }
       }
     });
   }
@@ -56,7 +64,7 @@ module.exports = function (grunt) {
     var re = /{{@link=([^\s]+)}}/, res;
     data = (function r(o) {
       var tmp;
-        if( typeof o == "object" ) {
+        if( typeof o === "object" ) {
           for (var v in o) {
             if (o.hasOwnProperty(v)) {
                 o[v] = r(o[v]);
@@ -67,7 +75,7 @@ module.exports = function (grunt) {
             res= re.exec(o);
             if(res) {
               tmp = grunt.file.read(path.join(JSON_PATH,lang,res[1]));
-              o = tmp !== '' ? tmp : 'File ' + res[1] + ' not found.'
+              o = tmp !== '' ? tmp : 'File ' + path.join(JSON_PATH,lang,res[1]) + ' not found.'
             }
         }
         return o;

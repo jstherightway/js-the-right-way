@@ -11,7 +11,7 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="assets/css/core.min.css">
+        <link rel="stylesheet" href="css/core.min.css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
@@ -52,7 +52,19 @@
 
         <section class="welcome">
             <div class="wrapper">
-              <h1>Hey, you!</h1><p>This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.</p><p>Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.</p><p>We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.</p>
+                <h1>Hey, you!</h1>
+
+                <p>
+                    This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
+                </p>
+
+                <p>
+                    Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.
+                </p>
+
+                <p>
+                    We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.
+                </p>
             </div>
         </section>
 
@@ -82,21 +94,59 @@
         <section class="section" id="getting-started">
             <div class="wrapper">
                 <h1><a href="#getting-started">GETTING STARTED</a></h1>
-                <h3>ABOUT</h3> <p> Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation. Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today. Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language. Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser. </p><h3>CURRENT VERSION</h3> <p> The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. A 6th major revision of the standard is being worked on. </p><p> A good reference to versions, references and news about JavaScript can be found at the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>. </p><h3>THE DOM</h3> <p> The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>. </p>
+
+                <h3>ABOUT</h3>
+
+                <p>
+                    Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation.
+
+                    Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today.
+
+                    Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language.
+
+                    Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser.
+                </p>
+
+                <h3>CURRENT VERSION</h3>
+
+                <p>
+                    The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. A 6th major revision of the standard is being worked on.
+                </p>
+
+                <p>
+                    A good reference to versions, references and news about JavaScript can be found at the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
+                </p>
+
+                <h3>THE DOM</h3>
+
+                <p>
+                    The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>.
+                </p>
             </div>
         </section>
 
         <section class="section" id="js-code-style">
             <div class="wrapper">
                 <h1><a href="#js-code-style">JS CODE STYLE</a></h1>
-                <h4>Conventions</h3> <p> As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>. </p><h3>Linting</h3> <p> Nowadays the best tool for linting your JavaScript code is <a target="_blank" href="http://www.jshint.com/">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool. </p>
+
+                <h3>Conventions</h3>
+
+                <p>
+                    As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
+                </p>
+
+                <h3>Linting</h3>
+
+                <p>
+                    Nowadays the best tool for linting your JavaScript code is <a target="_blank" href="http://www.jshint.com/">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool.
+                </p>
+            </div>
         </section>
 
         <section class="section" id="the-good-parts">
             <div class="wrapper">
                 <h1><a href="#the-good-parts">THE GOOD PARTS</a></h1>
 
-{{@link=good-parts.html}}
                 <h3>Object Oriented</h3>
 
                 <p>
@@ -1360,7 +1410,7 @@
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="assets/js/core.min.js"></script>
+        <script type="text/javascript" src="js/core.min.js"></script>
         <div id="fb-root"></div>
         <script>
             function asyncScriptLoad( url, id ) {

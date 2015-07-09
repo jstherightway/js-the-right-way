@@ -3,35 +3,261 @@
       "title":"JS: The Right Way",
       "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
   },
-  "welcome": "<h1>Hey, you!</h1><p>This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.</p><p>Despite the name, this guide doesn't necessarily mean \"the only way\" to do JavaScript.</p><p>We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is \"the right way\", or the best way to do so.</p>",
+  "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
-    "title":"Choose your path",
-    "gettingStarted":"Getting Started",
-    "codeStyle":"JavaScript Code Style",
-    "goodParts":"The Good Parts",
-    "patterns":"Patterns",
-    "testingTools":"Testing Tools",
-    "frameworks":"Frameworks",
-    "gameEngines":"Game Engines",
-    "news":"News",
-    "reading":"Reading",
-    "podcasts":"Podcasts",
-    "screencasts":"Screencasts",
-    "whotofollow":"Who to follow",
-    "paas":"PaaS Providers",
-    "helpers":"Helpers"
+    "title": "Choose your path",
+    "links": [
+      {
+        "title":"Getting Started",
+        "url":"#getting-started"
+      },
+      {
+        "title":"JavaScript Code Style",
+        "url":"#js-code-style"
+      },
+      {
+        "title":"The Good Parts",
+        "url":"#the-good-parts"
+      },
+      {
+        "title":"The Good Parts",
+        "url":"#the-good-parts"
+      },
+      {
+        "title":"Patterns",
+        "url":"#patterns"
+      },
+      {
+        "title":"Testing Tools",
+        "url":"#testing-tools"
+      },
+      {
+        "title":"Frameworks",
+        "url":"#frameworks"
+      },
+      {
+        "title":"Game Engines",
+        "url":"#game-engines"
+      },
+      {
+        "title":"News",
+        "url":"#news"
+      },
+      {
+        "title":"Reading",
+        "url":"#reading"
+      },
+      {
+        "title":"Podcasts",
+        "url":"#podcasts"
+      },
+      {
+        "title":"Screencasts",
+        "url":"#screencasts"
+      },
+      {
+        "title":"Who to follow",
+        "url":"#whotofollow"
+      },
+      {
+        "title":"PaaS Providers",
+        "url":"#paas"
+      },
+      {
+        "title":"Helpers",
+        "url":"#helpers"
+      }
+    ]
   },
   "gettingStarted": {
     "title":"GETTING STARTED",
-    "text":"<h3>ABOUT</h3> <p> Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation. Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today. Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language. Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an \"interpreter\". In case of JavaScript, the interpreter is the browser. </p><h3>CURRENT VERSION</h3> <p> The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. A 6th major revision of the standard is being worked on. </p><p> A good reference to versions, references and news about JavaScript can be found at the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/JavaScript\">Mozilla Developer Network</a>. </p><h3>THE DOM</h3> <p> The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM\">Mozilla Developer Network - DOM</a>. </p>"
+    "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
     "title":"JS CODE STYLE",
-    "text":"<h4>Conventions</h3> <p> As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target=\"_blank\" href=\"http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml\">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target=\"_blank\" href=\"https://github.com/rwldrn/idiomatic.js/\">Idiomatic.js</a>. </p><h3>Linting</h3> <p> Nowadays the best tool for linting your JavaScript code is <a target=\"_blank\" href=\"http://www.jshint.com/\">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool. </p>"
+    "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
     "title":"THE GOOD PARTS",
-    "text":"{{@link=good-parts.html}}"
+    "text":"{{@link=partials/good-parts.html}}"
+  },
+  "patterns":{
+    "title":"PATTERNS",
+    "text":"{{@link=partials/patterns.html}}"
+  },
+  "testingTools":{
+    "title":"TESTING TOOLS",
+    "text":"{{@link=partials/testing-tools.html}}",
+    "links":[
+        {
+          "name":"Mocha",
+          "url":"http://mochajs.org",
+          "description":" Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        }
+    ]
+  },
+  "frameworks":{
+    "title":"FRAMEWORKS",
+    "cat":[
+      {
+        "title":"GENERAL PURPOSE",
+        "links":[
+          {
+            "name":"jQuery",
+            "url":"http://jquery.com",
+            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+          }
+        ]
+      },
+      {
+        "title":"MV*",
+        "links":[
+          {
+            "name":"Backbone.js",
+            "url":"http://backbonejs.org",
+            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+          }
+        ]
+      }
+    ]
+  },
+  "gameEngines":{
+    "title":"GAME ENGINES",
+    "links":[
+      {
+        "name":"MelonJS",
+        "url":"http://melonJS.org/",
+        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+      }
+    ]
+  },
+  "news":{
+    "title":"News",
+    "cat":[
+      {
+        "title":"Websites",
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"http://javascript.com",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"Newsletter",
+        "links":[
+          {
+            "name":"JavaScript Weekly",
+            "url":"http://javascriptweekly.com",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "reading":{
+    "title":"Reading",
+    "cat":[
+      {
+        "title":"Articles",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Understanding JavaScript OOP",
+            "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
+            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+          }
+        ]
+      },
+      {
+        "title":"Books",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Eloquent JavaScript",
+            "url":"http://eloquentjavascript.net/",
+            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
+          }
+        ]
+      },
+      {
+        "title":"Free E-Books",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JSBooks",
+            "url":"http://jsbooks.revolunet.com/",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"Portals",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"https://www.javascript.com",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "podcasts":{
+    "title":"Podcasts",
+    "links":[
+      {
+        "name":"Ember Hot Seat",
+        "url":"http://emberhotseat.com/",
+        "description":""
+      }
+    ]
+  },
+  "screencasts":{
+    "title":"Screencasts",
+    "links":[
+      {
+        "name":"Egghead",
+        "img":"egghead.svg",
+        "url":"https://egghead.io/",
+        "description":""
+      }
+    ]
+  },
+  "whoToFollow":{
+    "title":"Who To Follow"
+  },
+  "paasProviders":{
+    "title":"PaaS Provider",
+    "links":[
+      {
+        "name":"Heroku",
+        "url":"http://heroku.com/",
+        "description":""
+      }
+    ]
+  },
+  "helpers":{
+    "title":"Helpers",
+    "links":[
+      {
+        "name":"npm",
+        "img":"npm.png",
+        "url":"https://npmjs.org/",
+        "description":""
+      }
+    ]
+  },
+  "footer":{
+    "credit":"Created and maintained by",
+    "contributors":"Contributors",
+    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "licence":"{{@link=partials/licence.html}}"
   }
-
 }
