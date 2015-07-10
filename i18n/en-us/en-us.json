@@ -717,7 +717,32 @@
     "links":[
       {
         "name":"Heroku",
-        "url":"http://heroku.com/",
+        "url":"http://heroku.com",
+        "description":""
+      },
+      {
+        "name":"Modulus",
+        "url":"https://modulus.io",
+        "description":""
+      },
+      {
+        "name":"Nodejitsu",
+        "url":"http://nodejitsu.com",
+        "description":""
+      },
+      {
+        "name":"OpenShift",
+        "url":"https://www.openshift.com",
+        "description":""
+      },
+      {
+        "name":"dotCloud",
+        "url":"http://getupcloud.com/index_en.html",
+        "description":""
+      },
+      {
+        "name":"Windows Azure",
+        "url":"http://www.windowsazure.com/en-us/develop/nodejs",
         "description":""
       }
     ]
