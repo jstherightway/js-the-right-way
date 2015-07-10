@@ -605,6 +605,46 @@
             "name":"JavaScript.com",
             "url":"https://www.javascript.com",
             "description":""
+          },
+          {
+            "name":"HTML5 Rocks",
+            "url":"http://www.html5rocks.com",
+            "description":""
+          },
+          {
+            "name":"W3Fools",
+            "url":"http://www.w3fools.com",
+            "description":""
+          },
+          {
+            "name":"Mozilla Developer Network",
+            "url":"http://developer.mozilla.org/docs/JavaScript",
+            "description":""
+          },
+          {
+            "name":"Web Platform",
+            "url":"http://docs.webplatform.org/wiki/javascript",
+            "description":""
+          },
+          {
+            "name":"Smashing Magazine",
+            "url":"http://coding.smashingmagazine.com/tag/javascript",
+            "description":""
+          },
+          {
+            "name":"Node School",
+            "url":"http://nodeschool.io",
+            "description":""
+          },
+          {
+            "name":"How to Node",
+            "url":"http://howtonode.org",
+            "description":""
+          },
+          {
+            "name":"Felix’s Node.js Beginners Guide",
+            "url":"http://nodeguide.com/beginner.html",
+            "description":""
           }
         ]
       }
