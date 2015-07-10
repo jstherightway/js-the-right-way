@@ -101,7 +101,7 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery es un rápido, pequeño, y gran vais a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery es una libreria en Javascript rápida, pequeña, y abundante en características. Contruida por <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
           }
         ]
       },
@@ -111,27 +111,27 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Framework javascript del lado cliente muy popular, Construido por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           }
         ]
       }
     ]
   },
   "gameEngines":{
-    "title":"GAME ENGINES",
+    "title":"MOTORES DE JUEGOGAME ENGINES",
     "links":[
       {
         "name":"MelonJS",
         "url":"http://melonJS.org/",
-        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+        "description":"MelonJS es gratuito, Motor de juego en HTML5 ligero. El motor integra el formato de mapa de baldosas haciendo el diseño de niveles muy fácil."
       }
     ]
   },
   "news":{
-    "title":"News",
+    "title":"Noticias",
     "cat":[
       {
-        "title":"Websites",
+        "title":"Sitios Web",
         "links":[
           {
             "name":"JavaScript.com",
@@ -141,10 +141,10 @@
         ]
       },
       {
-        "title":"Newsletter",
+        "title":"Boletín",
         "links":[
           {
-            "name":"JavaScript Weekly",
+            "name":"JavaScript Semanal",
             "url":"http://javascriptweekly.com",
             "description":""
           }
@@ -153,34 +153,34 @@
     ]
   },
   "reading":{
-    "title":"Reading",
+    "title":"Lectura",
     "cat":[
       {
-        "title":"Articles",
+        "title":"Artículos",
         "credit":true,
         "box":false,
         "links":[
           {
-            "name":"Understanding JavaScript OOP",
+            "name":"Entendiendo programación orientada a objetos en JavaScript",
             "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+            "description":"por <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
           }
         ]
       },
       {
-        "title":"Books",
+        "title":"Libros",
         "credit":true,
         "box":false,
         "links":[
           {
-            "name":"Eloquent JavaScript",
+            "name":"JavaScript Elocuente",
             "url":"http://eloquentjavascript.net/",
             "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
           }
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"E-Books Gratuitos",
         "credit":false,
         "box":true,
         "links":[
@@ -192,7 +192,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"Portales",
         "credit":false,
         "box":true,
         "links":[
@@ -216,7 +216,7 @@
     ]
   },
   "screencasts":{
-    "title":"Screencasts",
+    "title":"Videotutoriales",
     "links":[
       {
         "name":"Egghead",
@@ -227,10 +227,10 @@
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"A quien seguir?"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"Proveedores PaaS",
     "links":[
       {
         "name":"Heroku",
@@ -240,7 +240,7 @@
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"Ayudantes",
     "links":[
       {
         "name":"npm",
@@ -251,9 +251,9 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"Creado y mnatenido por",
+    "contributors":"Colaboradores",
+    "contribDesc":"Es proyecto no existiría sinestos maravillosos colaboradores. Gracias muchachos por hacer esto real!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }

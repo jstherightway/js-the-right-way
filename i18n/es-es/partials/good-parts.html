@@ -28,68 +28,68 @@
     Fuente: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Las funciones son objetos de primera clase en JavaScript</a>
 </p>
 
-<h3>Loose Typing</h3>
+<h3>Tipado Blando</h3>
 
 <p>
-    For many front-end developers, JavaScript was their first taste of a scripting and/or interpretive language. To these developers, the concept and implications of loosely typed variables may be second nature. However, the explosive growth in demand for modern web applications has resulted in a growing number of back-end developers that have had to dip their feet into the pool of client-side technologies. Many of these developers are coming from a background of strongly typed languages, such as C# or Java, and are unfamiliar with both the freedom and the potential pitfalls involved in working with loosely typed variables.
+    Para muchos desarrolladores front-end, JavaScript fue su primera experiencia un lenguaje de scripting y/o interpretado. Para estos desarrolladores, el concepto y las implicaciones de las variables de tipado blando quizas con de segunda naturaleza. Como siempre, el crecimiento explosivo en demanda para aplicaciones web modernas han resultado en un crecimiento en el número de desarrolladores back-end que han tenido que zambullir sus pies dentro de la piscina de las tecnologías del lado cliente. Muchos de estos programadores llegan con fuerte transfondo de lenguajes de tipado fuerte, tales como C# o Java, y le son desconocidos la libertad y las potenciales trampas envueltas en el trabajo con variables de tipado blando.
 </p>
 
 <p class="source">
     Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
 </p>
 
-<h3>Scoping and Hoisting</h3>
+<h3>Alcance y Elevación</h3>
 
 <p>
-    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+    <b>Alcance:</b> En JavaScript, las funciones son nuestras delimitadoras del alcance <i>de facto</i> al mometno de la declaración de variables, lo cual significa que los bloques que habitalmente de bucles y condicionales (tales como if, for, while, switch y try) NO delimitan el alcance, a diferencia de la mayoría de otros lenguajes. Por lo tanto, estos bloques compartirán el mismo alcance que la función que as contiene. Esta forma, podría ser peligroso declarar variables dentro de bloques si pudieran ser vistas las variables solo en el bloque que pertenecen.
 </p>
 
 <p>
-    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+    <b>Elevación:</b> En ejecución, todas las declaraciones var y function son movidas para el principio de la de cada función (su alcance) - esto es conocido como Elevación. Dicho esto, es buena practica declarar todas las variables todas juntas en la primera línea, con el fín de evitar falsas expectativas con las variables que han sido declaradas luego de la asignación de su valor - esto es un problema común con  programadores que llegan de lenguajes con alcance de bloques.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+    Fuentes: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">Alcance y Elevación en JavaScript</a>
 </p>
 
-<h3>Function Binding</h3>
+<h3>Función de Vinculación</h3>
 
 <p>
-    Function binding is most probably the least of your concerns when beginning with JavaScript, but when you realize that you need a solution to the problem of how to keep the context of this within another function, then you might realize that what you actually need is <b>Function.prototype.bind()</b>.
+    La Función de Vinculación es probablemente la última de las preocupaciones de un principiante con JavaScript, pero cuando se entiende que necesita una solución al problema de como mantener el contexto de 'this' dentro de otra función, entonces puede darse cuenta que de hecho necesita está  <b>Function.prototype.bind()</b>.
 </p>
 
 <p class="source">
     Source: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
 </p>
 
-<h3>Closure Function</h3>
+<h3>Función de Clausura</h3>
 
 <p>
-    Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in.
-It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
+    Las Clausuras son funciones que hacen referencia a variables (libres) independientes. En otras palabras, la función definida en la clausura 'recuerda' el ambiente en el cual esta fue creado.
+Esto es un importante concepto para entender, así como útil durante el desarrollo, por ejemplo emular métodos privados. Esto puede también ayuda a aprender como evitar errores, como crear clausuras en bucles.
  </p>
 
 <p class="source">
-    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+    Fuente: <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript/Closures">MDN - Clausuras</a>
 </p>
 
-<h3>Strict mode</h3>
+<h3>Modo EstrictoStrict </h3>
 
 <p>
-    ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+    El modo estricto de ECMAScript 5 es una manera de optar a una variable restringida de JavaScript. El modo estricto no es solo un subconjunto: este tiene intencionalmente un a semántica diferente del código normal. Los navegadores que no soportan el modo estricto correran el código de forma distinta con aquellos navegadores que lo soportan, entonces no confie en el modo estricto sin una prueba de característica que soporte los aspectos relevantes del modo estricto. El código en modo estricto y no estrícto pueden coexistir, de esta forma, scripts pueden optar entrar al modo estrícto de forma incremental. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
  </p>
 
 <p class="source">
     Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
 </p>
 
-<h3>Immediately-Invoked Function Expression (IIFE)</h3>
+<h3>Expresión de Función Inmediatamente Invocada (IIFE)</h3>
 
 <p>
-   An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.<br/><br/>
-   <i>This pattern has been referred to as a self-executing anonymous function, but <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduced the term IIFE as a more semantically accurate term for the pattern</i>.
+   Una expresión de función inmediatamente invocada es un patrón el cual produce un alcance lexico usando usando Javascript. Alcance de función. Expresión de función imadiatamente invocada puede ser usada para evitar la elevación de las variables con los bloques, proteje enprotejiendo en contra contra la contaminación del ambien global y simultáneamente permite acceder a los métodos publicos al tiempo que conserva la privacidad en las variables definidas dentro de la función.<br/><br/>
+   <i>Este patrón ha sido referido como una función anónima autoejecutable, pero <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduce el termino IIFE como un término semántico más exacto para el patrón</i>.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+    Fuente: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Expresión de Función Inmediatamente Invocada (IIFE)</a>
 </p>
