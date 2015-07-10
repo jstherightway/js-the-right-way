@@ -352,6 +352,56 @@
             "name":"JavaScript Weekly",
             "url":"http://javascriptweekly.com",
             "description":""
+          },
+          {
+            "name":"A Drip of JavaScript",
+            "url":"http://designpepper.com/a-drip-of-javascript",
+            "description":""
+          },
+          {
+            "name":"Ember Weekly",
+            "url":"http://emberweekly.com",
+            "description":""
+          },
+          {
+            "name":"Backbone Weekly",
+            "url":"http://backboneweekly.com",
+            "description":""
+          },
+          {
+            "name":"Node Weekly",
+            "url":"http://nodeweekly.com",
+            "description":""
+          },
+          {
+            "name":"Meteor Weekly",
+            "url":"http://meteorhacks.com/meteor-weekly",
+            "description":""
+          },
+          {
+            "name":"Grunt Weekly",
+            "url":"https://twitter.com/gruntweekly",
+            "description":""
+          },
+          {
+            "name":"Gamedev.js Weekly",
+            "url":"http://weekly.gamedevjs.com",
+            "description":""
+          },
+          {
+            "name":"HTML5 Weekly",
+            "url":"http://html5weekly.com",
+            "description":""
+          },
+          {
+            "name":"UDGWebDev Weekly",
+            "url":"http://udgwebdev.com/newsletter",
+            "description":""
+          },
+          {
+            "name":"The React Newsletter",
+            "url":"http://theproblemsolver.nl/TheReactNewsletter/Subscribe",
+            "description":""
           }
         ]
       }
