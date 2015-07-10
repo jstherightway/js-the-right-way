@@ -123,11 +123,6 @@
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
-        },
-        {
-          "name":"Mocha",
-          "url":"http://mochajs.org",
           "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         }
     ]
@@ -142,6 +137,26 @@
             "name":"jQuery",
             "url":"http://jquery.com",
             "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+          },
+          {
+            "name":"YUI",
+            "url":"http://yuilibrary.com",
+            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+          },
+          {
+            "name":"ZeptoJS",
+            "url":"http://zeptojs.com",
+            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+          },
+          {
+            "name":"Dojo Toolkit",
+            "url":"http://dojotoolkit.org",
+            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+          },
+          {
+            "name":"Underscore.js",
+            "url":"http://underscorejs.org",
+            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
           }
         ]
       },
@@ -152,6 +167,71 @@
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
             "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+          },
+          {
+            "name":"Ember.js",
+            "url":"http://emberjs.com",
+            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+          },
+          {
+            "name":"Knockout.js",
+            "url":"http://knockoutjs.com",
+            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+          },
+          {
+            "name":"Angular.js",
+            "url":"http://angularjs.org",
+            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+          },
+          {
+            "name":"Cappuccino",
+            "url":"http://cappuccino.org",
+            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+          },
+          {
+            "name":"JavaScript MVC",
+            "url":"http://javascriptmvc.com/",
+            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+          },
+          {
+            "name":"Meteor",
+            "url":"https://www.meteor.com",
+            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+          },
+          {
+            "name":"Spice.js",
+            "url":"http://www.3den.org/spicejs",
+            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+          },
+          {
+            "name":"Riot.js",
+            "url":"http://www.riotjs.com/",
+            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+          },
+          {
+            "name":"CanJS",
+            "url":"http://canjs.com",
+            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+          }
+        ]
+      },
+      {
+        "title":"Library",
+        "links":[
+          {
+            "name":"React",
+            "url":"http://facebook.github.io/react",
+            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+          },
+          {
+            "name":"Handlebars",
+            "url":"http://handlebarsjs.com",
+            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+          },
+          {
+            "name":"Dust.js",
+            "url":"http://linkedin.github.io/dustjs",
+            "description":"Asynchronous templates for the browser and node.js."
           }
         ]
       }
