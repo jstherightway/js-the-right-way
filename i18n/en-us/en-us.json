@@ -655,7 +655,27 @@
     "links":[
       {
         "name":"Ember Hot Seat",
-        "url":"http://emberhotseat.com/",
+        "url":"http://emberhotseat.com",
+        "description":""
+      },
+      {
+        "name":"JavaScript Jabber",
+        "url":"http://javascriptjabber.com",
+        "description":""
+      },
+      {
+        "name":"Node Up",
+        "url":"http://nodeup.com",
+        "description":""
+      },
+      {
+        "name":"5 Minutes of JavaScript",
+        "url":"ttp://five-js.envylabs.com",
+        "description":""
+      },
+      {
+        "name":"The Meteor Podcast",
+        "url":"http://www.meteorpodcast.com",
         "description":""
       }
     ]
