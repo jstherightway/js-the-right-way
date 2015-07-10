@@ -88,7 +88,47 @@
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":" Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        },
+        {
+          "name":"QUnit",
+          "url":"http://qunitjs.com",
+          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+        },
+        {
+          "name":"Jasmine",
+          "url":"https://github.com/pivotal/jasmine",
+          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+        },
+        {
+          "name":"Karma",
+          "url":"http://karma-runner.github.io/",
+          "description":"Maintained by the team behind AngularJS. Mostly by <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+        },
+        {
+          "name":"Intern",
+          "url":"http://theintern.io",
+          "description":"Maintained by <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+        },
+        {
+          "name":"Istanbul",
+          "url":"http://gotwarlost.github.io/istanbul",
+          "description":"A JavaScript code coverage tool written in JavaScript, maintained by <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+        },
+        {
+          "name":"Sinon.JS",
+          "url":"http://sinonjs.org",
+          "description":"Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+        },
+        {
+          "name":"DexterJS",
+          "url":"https://github.com/leobalter/DexterJS",
+          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        },
+        {
+          "name":"Mocha",
+          "url":"http://mochajs.org",
+          "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         }
     ]
   },
