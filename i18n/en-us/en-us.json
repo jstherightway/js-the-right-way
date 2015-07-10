@@ -307,6 +307,41 @@
             "name":"JavaScript.com",
             "url":"http://javascript.com",
             "description":""
+          },
+          {
+            "name":"DailyJS",
+            "url":"http://dailyjs.com",
+            "description":""
+          },
+          {
+            "name":"Echo JS",
+            "url":"http://www.echojs.com",
+            "description":""
+          },
+          {
+            "name":"The Treehouse Show",
+            "url":"http://teamtreehouse.com/library/the-treehouse-show",
+            "description":""
+          },
+          {
+            "name":"/r/javascript on Reddit",
+            "url":"http://www.reddit.com/r/javascript",
+            "description":""
+          },
+          {
+            "name":"Open Web Platform Daily Digest",
+            "url":"http://webplatformdaily.org",
+            "description":""
+          },
+          {
+            "name":"Badass JavaScript",
+            "url":"http://badassjs.com",
+            "description":""
+          },
+          {
+            "name":"AngularJS Daily",
+            "url":"http://paper.li/gwinnem/1390553142",
+            "description":""
           }
         ]
       },
