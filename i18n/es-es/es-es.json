@@ -85,11 +85,51 @@
     "title":"HERRAMIENTAS DE PRUEBAS",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
-        {
-          "name":"Mocha",
-          "url":"http://mochajs.org",
-          "description":" Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
-        }
+      {
+        "name":"Mocha",
+        "url":"http://mochajs.org",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+      },
+      {
+        "name":"QUnit",
+        "url":"http://qunitjs.com",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+      },
+      {
+        "name":"Jasmine",
+        "url":"https://github.com/pivotal/jasmine",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+      },
+      {
+        "name":"Karma",
+        "url":"http://karma-runner.github.io/",
+        "description":"Mantenido por el equipo detrás de  AngularJS. Mayormente por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+      },
+      {
+        "name":"Intern",
+        "url":"http://theintern.io",
+        "description":"Mantenido por <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+      },
+      {
+        "name":"Istanbul",
+        "url":"http://gotwarlost.github.io/istanbul",
+        "description":"Una herramienta de cobertura de código JavaScript escrita en JavaScript, mantenida por <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+      },
+      {
+        "name":"Sinon.JS",
+        "url":"http://sinonjs.org",
+        "description":"Espias de prueba autónomos, stubs y mocks para JavaScript. Sin ependencias, trabaja con cualquier framework de pruebas unitarias. Creado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+      },
+      {
+        "name":"DexterJS",
+        "url":"https://github.com/leobalter/DexterJS",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+      },
+      {
+        "name":"Mocha",
+        "url":"http://mochajs.org",
+        "description":"Un ayudante para simular funciones y los objetos XHR, mantenido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+      }
     ]
   },
   "frameworks":{
