@@ -5,13 +5,33 @@ module.exports = function(grunt){
     // -- Init Configuration ---------------------------------------
     grunt.initConfig({
 
+        application:{
+          dev: {
+            csspath:"/assets/css/",
+            jspath:"/assets/js/",
+            imgpath:"/assets/img/",
+
+          },
+          dist:{
+            csspath:"/assets/css/",
+            jspath:"/assets/js/",
+            imgpath:"/assets/img/",
+          }
+        },
         uglify:{
             options: {
                 compress: false,
                 report: true,
                 banner: '/* Minified on <%= grunt.template.date() %>*/\n'
             },
-            app: {
+            dev: {
+                files: {
+                    '.tmp/public/assets/js/core.min.js': [
+                        'public/assets/js/core.js'
+                    ]
+                }
+            },
+            dist: {
                 files: {
                     'dist/public/assets/js/core.min.js': [
                         'public/assets/js/core.js'
@@ -23,7 +43,15 @@ module.exports = function(grunt){
             options: {
                 banner: '/* Minified on <%= grunt.template.date() %>*/\n'
             },
-            app: {
+            dev: {
+                files: {
+                    '.tmp/public/assets/css/core.min.css': [
+                        'public/assets/css/normalize.css',
+                        'public/assets/css/core.css'
+                    ]
+                }
+            },
+            dist: {
                 files: {
                     'dist/public/assets/css/core.min.css': [
                         'public/assets/css/normalize.css',
@@ -33,22 +61,42 @@ module.exports = function(grunt){
             }
         },
         copy: {
-          main: {
+          dist: {
             files: [
               // includes files within path and its sub-directories
-              {expand: true, src: ['public/**'], dest: 'dist/'}
+              {expand: true, src: ['public/**', '!**/*[.css|.js]'], dest: 'dist/'}
+            ],
+          },
+          dev: {
+            files: [
+              // includes files within path and its sub-directories
+              {expand: true, src: ['public/**', '!**/*[.css|.js]'], dest: '.tmp/'}
             ],
           },
         },
+        clean: {
+          dev: [".tmp/"],
+          dist: ["dist/"]
+        },
         connect: {
-          server: {
-            options: 9001,
-            keepalive: true
+          dev: {
+            options: {
+              port: 9001,
+              base: ['.tmp/public']
+            }
+          },
+          dist: {
+            options: {
+              port: 9002,
+              base: ['dist/public/'],
+              keepalive:true
+            }
           }
         },
         watch: {
           assets: {
-            files: ['**/*.js', '**/*.html', '**/*.css'],
+            files: ['public/assets/css/*.css', 'public/assets/js/*.js', 'templates/**/*.html', 'i18n/**/*.json', 'i18n/**/*.html'],
+            tasks:['build'],
             options: {
               livereload: true
             }
@@ -74,10 +122,12 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // -- Register Task ---------------------------------------------
-    grunt.registerTask('default', ['i18n', 'uglify', 'cssmin']);
-    grunt.registerTask('server', ['connect', 'watch']);
-    grunt.registerTask('dist', ['i18n', 'copy', 'cssmin', 'uglify', 'imagemin']);
+    grunt.registerTask('server', ['clean:dev' ,'i18n', 'copy:dev','cssmin:dev', 'uglify:dev','connect:dev', 'watch']);
+    grunt.registerTask('dist', ['clean:dist', 'i18n', 'copy:dist', 'cssmin:dist', 'uglify:dist', 'imagemin']);
+    grunt.registerTask('build', ['clean:dev', 'i18n', 'copy:dev', 'cssmin:dev', 'uglify:dev']);
+    grunt.registerTask('serverdist', ['connect:dist']);
 
 };

@@ -39,7 +39,7 @@ var App = (function( window, document, $ ) {
         // Getting and appending users of github
         getGithubUsers: function() {
             var i=0, length = userIsDone = users.length,
-                str='';
+                str=''; 
 
             // Callback function
             function cb( result ) {
