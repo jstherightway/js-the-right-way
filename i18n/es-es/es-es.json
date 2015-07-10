@@ -118,7 +118,7 @@
     ]
   },
   "gameEngines":{
-    "title":"MOTORES DE JUEGOGAME ENGINES",
+    "title":"MOTORES DE JUEGO",
     "links":[
       {
         "name":"MelonJS",
@@ -251,9 +251,9 @@
     ]
   },
   "footer":{
-    "credit":"Creado y mnatenido por",
+    "credit":"Creado y maatenido por",
     "contributors":"Colaboradores",
-    "contribDesc":"Es proyecto no existiría sinestos maravillosos colaboradores. Gracias muchachos por hacer esto real!",
+    "contribDesc":"Es proyecto no existiría sin estos maravillosos colaboradores. Gracias muchachos por hacer esto real!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
