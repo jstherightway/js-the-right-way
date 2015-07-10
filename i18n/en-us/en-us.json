@@ -419,6 +419,51 @@
             "name":"Understanding JavaScript OOP",
             "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
             "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+          },
+          {
+            "name":"Understanding “Prototypes” in JavaScript",
+            "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
+            "description":"by <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
+          },
+          {
+            "name":"Prototypes and Inheritance in JavaScript",
+            "url":"http://msdn.microsoft.com/en-us/magazine/ff852808.aspx",
+            "description":"by <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
+          },
+          {
+            "name":"Partial Application in JavaScript",
+            "url":"http://benalman.com/news/2012/09/partial-application-in-javascript",
+            "description":"by <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
+          },
+          {
+            "name":"Getting Over jQuery",
+            "url":"http://blog.ponyfoo.com/2013/07/09/getting-over-jquery",
+            "description":"by <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
+          },
+          {
+            "name":"A Dive Into Plain JavaScript",
+            "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
+            "description":"by <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
+          },
+          {
+            "name":"A Deeper Look at Objects in JavaScript",
+            "url":"http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm",
+            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"Introduction to Easing in JavaScript",
+            "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
+            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"How to Learn JavaScript Properly",
+            "url":"http://javascriptissexy.com/how-to-learn-javascript-properly",
+            "description":"by <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
+          },
+          {
+            "name":"How to Start with JavaScript",
+            "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
+            "description":"by <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
           }
         ]
       },
