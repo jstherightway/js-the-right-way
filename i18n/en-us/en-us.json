@@ -686,7 +686,25 @@
       {
         "name":"Egghead",
         "img":"egghead.svg",
-        "url":"https://egghead.io/",
+        "url":"https://egghead.io",
+        "description":""
+      },
+      {
+        "name":"DevFreeCasts",
+        "img":"devfreecasts.png",
+        "url":"http://devfreecasts.org",
+        "description":""
+      },
+      {
+        "name":"tagtree.tv",
+        "img":"tagtree.png",
+        "url":"https://tagtree.tv/",
+        "description":""
+      },
+      {
+        "name":"frontndmasters.com",
+        "img":"frontendmasters.svg",
+        "url":"http://frontendmasters.com",
         "description":""
       }
     ]
