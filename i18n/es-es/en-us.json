@@ -1,0 +1,259 @@
+{
+  "meta": {
+      "title":"JS: La forma correcta",
+      "description":"Una referencia para las mejores prácticas para escribir JavaScript -- enlaces de patrones de código y tutoriales alrededor de la web"
+  },
+  "welcome": "{{@link=partials/welcome.html}}",
+  "menu": {
+    "title": "Elije tu camino",
+    "links": [
+      {
+        "title":"Primeros Pasos",
+        "url":"#getting-started"
+      },
+      {
+        "title":"Estilo de Código de JavaScript",
+        "url":"#js-code-style"
+      },
+      {
+        "title":"Las Buenas Partes",
+        "url":"#the-good-parts"
+      },
+      {
+        "title":"Patrones",
+        "url":"#patterns"
+      },
+      {
+        "title":"Herramientas de Pruebas",
+        "url":"#testing-tools"
+      },
+      {
+        "title":"Frameworks",
+        "url":"#frameworks"
+      },
+      {
+        "title":"Motores de Juego",
+        "url":"#game-engines"
+      },
+      {
+        "title":"Noticias",
+        "url":"#news"
+      },
+      {
+        "title":"Lectura",
+        "url":"#reading"
+      },
+      {
+        "title":"Podcasts",
+        "url":"#podcasts"
+      },
+      {
+        "title":"Videotutoriales",
+        "url":"#screencasts"
+      },
+      {
+        "title":"A quien seguir?",
+        "url":"#whotofollow"
+      },
+      {
+        "title":"Proveedores PaaS",
+        "url":"#paas"
+      },
+      {
+        "title":"Ayudantes",
+        "url":"#helpers"
+      }
+    ]
+  },
+  "gettingStarted": {
+    "title":"PRIMEROS PASOS",
+    "text":"{{@link=partials/getting-started.html}}"
+  },
+  "codeStyle": {
+    "title":"ESTILO DE CODIGO JS",
+    "text":"{{@link=partials/code-style.html}}"
+  },
+  "goodParts":{
+    "title":"LAS BUENAS PARTES",
+    "text":"{{@link=partials/good-parts.html}}"
+  },
+  "patterns":{
+    "title":"PATRONES",
+    "text":"{{@link=partials/patterns.html}}"
+  },
+  "testingTools":{
+    "title":"HERRAMIENTAS DE PRUEBAS",
+    "text":"{{@link=partials/testing-tools.html}}",
+    "links":[
+        {
+          "name":"Mocha",
+          "url":"http://mochajs.org",
+          "description":" Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        }
+    ]
+  },
+  "frameworks":{
+    "title":"FRAMEWORKS",
+    "cat":[
+      {
+        "title":"PROPOSITO GENERAL",
+        "links":[
+          {
+            "name":"jQuery",
+            "url":"http://jquery.com",
+            "description":"jQuery es un rápido, pequeño, y gran vais a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+          }
+        ]
+      },
+      {
+        "title":"MV*",
+        "links":[
+          {
+            "name":"Backbone.js",
+            "url":"http://backbonejs.org",
+            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+          }
+        ]
+      }
+    ]
+  },
+  "gameEngines":{
+    "title":"GAME ENGINES",
+    "links":[
+      {
+        "name":"MelonJS",
+        "url":"http://melonJS.org/",
+        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+      }
+    ]
+  },
+  "news":{
+    "title":"News",
+    "cat":[
+      {
+        "title":"Websites",
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"http://javascript.com",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"Newsletter",
+        "links":[
+          {
+            "name":"JavaScript Weekly",
+            "url":"http://javascriptweekly.com",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "reading":{
+    "title":"Reading",
+    "cat":[
+      {
+        "title":"Articles",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Understanding JavaScript OOP",
+            "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
+            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+          }
+        ]
+      },
+      {
+        "title":"Books",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Eloquent JavaScript",
+            "url":"http://eloquentjavascript.net/",
+            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
+          }
+        ]
+      },
+      {
+        "title":"Free E-Books",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JSBooks",
+            "url":"http://jsbooks.revolunet.com/",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"Portals",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"https://www.javascript.com",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "podcasts":{
+    "title":"Podcasts",
+    "links":[
+      {
+        "name":"Ember Hot Seat",
+        "url":"http://emberhotseat.com/",
+        "description":""
+      }
+    ]
+  },
+  "screencasts":{
+    "title":"Screencasts",
+    "links":[
+      {
+        "name":"Egghead",
+        "img":"egghead.svg",
+        "url":"https://egghead.io/",
+        "description":""
+      }
+    ]
+  },
+  "whoToFollow":{
+    "title":"Who To Follow"
+  },
+  "paasProviders":{
+    "title":"PaaS Provider",
+    "links":[
+      {
+        "name":"Heroku",
+        "url":"http://heroku.com/",
+        "description":""
+      }
+    ]
+  },
+  "helpers":{
+    "title":"Helpers",
+    "links":[
+      {
+        "name":"npm",
+        "img":"npm.png",
+        "url":"https://npmjs.org/",
+        "description":""
+      }
+    ]
+  },
+  "footer":{
+    "credit":"Created and maintained by",
+    "contributors":"Contributors",
+    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "licence":"{{@link=partials/licence.html}}"
+  }
+}
