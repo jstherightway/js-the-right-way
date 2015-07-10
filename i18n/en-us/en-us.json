@@ -753,7 +753,49 @@
       {
         "name":"npm",
         "img":"npm.png",
-        "url":"https://npmjs.org/",
+        "url":"https://npmjs.org",
+        "description":""
+      },
+      {
+        "name":"bower",
+        "img":"bower-logo.png",
+        "url":"http://bower.io",
+        "description":""
+      },
+      {
+        "name":"yeoman",
+        "img":"yeoman-logo.png",
+        "url":"http://yeoman.io",
+        "description":""
+      },
+      {
+        "name":"grunt",
+        "img":"grunt-logo.png",
+        "url":"http://gruntjs.com",
+        "description":""
+      },
+      {
+        "name":"gulp",
+        "img":"gulp.png",
+        "url":"http://gulpjs.com",
+        "description":""
+      },
+      {
+        "name":"brunch",
+        "img":"brunch-logo.png",
+        "url":"http://brunch.io",
+        "description":""
+      },
+      {
+        "name":"Browser compilation library",
+        "img":"broccoli-logo.png",
+        "url":"https://github.com/broccolijs/broccoli",
+        "description":""
+      },
+      {
+        "name":"todo mvc",
+        "img":"todomvc-logo.png",
+        "url":"http://todomvc.com",
         "description":""
       }
     ]
