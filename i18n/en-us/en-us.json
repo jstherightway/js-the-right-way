@@ -586,7 +586,12 @@
         "links":[
           {
             "name":"JSBooks",
-            "url":"http://jsbooks.revolunet.com/",
+            "url":"http://jsbooks.revolunet.com",
+            "description":""
+          },
+          {
+            "name":"DevFreeBooks",
+            "url":"http://devfreebooks.org",
             "description":""
           }
         ]
