@@ -492,109 +492,109 @@
         "box":false,
         "links":[
           {
-            "name":"Eloquent JavaScript",
-            "url":"http://eloquentjavascript.net",
-            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
+            "name":"자바스크립트 개론",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960773867",
+            "description":"저자: <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
           },
           {
-            "name":"JavaScript: The Definitive Guide",
-            "url":"http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
+            "name":"자바스크립트 완벽 가이드 (절판)",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260683",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
           },
           {
-            "name":"JavaScript: The Good Parts",
-            "url":"http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
+            "name":"더글라스 크락포드의 자바스크립트 핵심 가이드",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979145985",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
           },
           {
-            "name":"JavaScript Patterns",
-            "url":"http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "name":"자바스크립트 코딩 기법과 핵심 패턴",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260152",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
-            "name":"JavaScript Testing Recipes",
+            "name":"JavaScript Testing Recipes (원서)",
             "url":"http://jstesting.jcoglan.com",
-            "description":"by <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
           },
           {
-            "name":"Professional JavaScript for Web Developers",
+            "name":"Professional JavaScript for Web Developers (원서)",
             "url":"http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
-            "name":"High Performance JavaScript",
-            "url":"http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "name":"High Performance JavaScript 자바스크립트 성능 최적화",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979148550",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
-            "name":"Human JavaScript",
+            "name":"Human JavaScript (원서)",
             "url":"http://humanjavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
           },
           {
             "name":"Object Oriented JavaScript",
             "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
-            "name":"Pro JavaScript Design Patterns",
+            "name":"Pro JavaScript Design Patterns (원서)",
             "url":"http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
           },
           {
-            "name":"Secrets of the JavaScript Ninja",
-            "url":"http://jsninja.com",
-            "description":"by <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
+            "name":"자바스크립트 닌자 비급",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966261078",
+            "description":"저자: <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
           },
           {
-            "name":"JavaScript Application Design",
+            "name":"JavaScript Application Design (원서)",
             "url":"http://bevacqua.io/bf",
-            "description":"by <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
           },
           {
-            "name":"Speaking JavaScript",
-            "url":"http://speakingjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
+            "name":"자바스크립트를 말하다",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8968481199",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
           },
           {
-            "name":"Test-Driven JavaScript Development",
+            "name":"Test-Driven JavaScript Development (원서)",
             "url":"http://tddjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
           },
           {
-            "name":"You Don't Know JS",
+            "name":"You Don't Know JS (원서)",
             "url":"https://github.com/getify/You-Dont-Know-JS",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
           },
           {
-            "name":"You Might Not Need jQuery",
+            "name":"You Might Not Need jQuery (원서)",
             "url":"http://youmightnotneedjquery.com",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
           },
           {
             "name":"JavaScript Garden",
-            "url":"http://bonsaiden.github.io/JavaScript-Garden/",
-            "description":"by <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
+            "url":"http://bonsaiden.github.io/JavaScript-Garden/ko/",
+            "description":"저자: <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
           },
           {
-            "name":"Effective JavaScript",
-            "url":"http://effectivejs.com",
-            "description":"by <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
+            "name":"이팩티브 자바스크립트",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260853",
+            "description":"저자: <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
-            "name":"Functional JavaScript",
-            "url":"http://functionaljavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
+            "name":"함수형 자바스크립트",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8968480796",
+            "description":"저자: <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
           },
           {
-            "name":"JavaScript Allongé",
+            "name":"JavaScript Allongé (원서)",
             "url":"https://leanpub.com/javascript-allonge",
-            "description":"by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
           },
           {
-            "name":"JSBooks",
+            "name":"JSBooks (원서)",
             "url":"http://jsbooks.revolunet.com",
-            "description":"by <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
           }
         ]
       },
