@@ -18,7 +18,7 @@
         "url":"#js-code-style"
       },
       {
-        "title":"The Good Parts",
+        "title":"알면 좋은 것들",
         "url":"#the-good-parts"
       },
       {
@@ -26,7 +26,7 @@
         "url":"#patterns"
       },
       {
-        "title":"Testing Tools",
+        "title":"테스팅 도구",
         "url":"#testing-tools"
       },
       {
@@ -54,7 +54,7 @@
         "url":"#screencasts"
       },
       {
-        "title":"Who to follow",
+        "title":"존잘들",
         "url":"#whotofollow"
       },
       {
@@ -62,7 +62,7 @@
         "url":"#paas"
       },
       {
-        "title":"도움을 준 사람들",
+        "title":"도움이 되는 프로그램",
         "url":"#helpers"
       }
     ]
@@ -76,7 +76,7 @@
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
-    "title":"THE GOOD PARTS",
+    "title":"알면 좋은 것들",
     "text":"{{@link=partials/good-parts.html}}"
   },
   "patterns":{
@@ -155,27 +155,27 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery는 작고 빠르며, 풍부한 기능을 가지고 있는 JavaScript 라이브러리로 <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>이 만들었습니다."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+            "description":"Yahoo!가 제작한 YUI는 자유 오픈소스 JavaScript, CSS 라이브러리로 상호작용하는 웹 어플리케이션을 제작하는데 사용됩니다. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">2014년 8월 29일 이후로 새로운 개발이 진행되지 않고 있습니다</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+            "description":"Zepto는 현대적 웹브라우저를 위한, jQuery에 호환성을 가진 API를 제공하는 소형 JavaScript 라이브러리입니다. jQuery를 사용할 줄 안다면 Zepto를 어떻게 사용하는지 이미 알고 있는 겁니다."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+            "description":"Dojo는 고성능의 웹 어플리케이션을 만들기 위한 자유, 오픈소스 JavaScript 툴킷입니다. 이 프로젝트의 스폰서에는 IBM과 SitePen이 포함되어 있습니다."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+            "description":"Underscore.js는 내장 객체를 확장하지 않고도 유용한 함수형 프로그래밍 헬퍼를 사용할 수 있도록 돕는 JavaScript 라이브러리입니다."
           }
         ]
       },
@@ -185,12 +185,12 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"<a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>가 만든 아주 유명한 JavaScript 클라이언트측 프레임워크입니다."
           },
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+            "description":"jQuery와 Ruby on Rails 코어 개발자인 <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>가 만들었습니다."
           },
           {
             "name":"Knockout.js",
@@ -317,10 +317,10 @@
     ]
   },
   "news":{
-    "title":"News",
+    "title":"뉴스",
     "cat":[
       {
-        "title":"Websites",
+        "title":"웹사이트",
         "links":[
           {
             "name":"JavaScript.com",
@@ -365,7 +365,7 @@
         ]
       },
       {
-        "title":"Newsletter",
+        "title":"뉴스레터",
         "links":[
           {
             "name":"JavaScript Weekly",
@@ -492,114 +492,114 @@
         "box":false,
         "links":[
           {
-            "name":"Eloquent JavaScript",
-            "url":"http://eloquentjavascript.net",
-            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
+            "name":"자바스크립트 개론",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8960773867",
+            "description":"저자: <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
           },
           {
-            "name":"JavaScript: The Definitive Guide",
-            "url":"http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
+            "name":"자바스크립트 완벽 가이드 (절판)",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260683",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
           },
           {
-            "name":"JavaScript: The Good Parts",
-            "url":"http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
+            "name":"더글라스 크락포드의 자바스크립트 핵심 가이드",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979145985",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
           },
           {
-            "name":"JavaScript Patterns",
-            "url":"http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "name":"자바스크립트 코딩 기법과 핵심 패턴",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260152",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
-            "name":"JavaScript Testing Recipes",
+            "name":"JavaScript Testing Recipes (원서)",
             "url":"http://jstesting.jcoglan.com",
-            "description":"by <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
           },
           {
-            "name":"Professional JavaScript for Web Developers",
+            "name":"Professional JavaScript for Web Developers (원서)",
             "url":"http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
-            "name":"High Performance JavaScript",
-            "url":"http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "name":"High Performance JavaScript 자바스크립트 성능 최적화",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8979148550",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
-            "name":"Human JavaScript",
+            "name":"Human JavaScript (원서)",
             "url":"http://humanjavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
           },
           {
             "name":"Object Oriented JavaScript",
             "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
-            "name":"Pro JavaScript Design Patterns",
+            "name":"Pro JavaScript Design Patterns (원서)",
             "url":"http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
           },
           {
-            "name":"Secrets of the JavaScript Ninja",
-            "url":"http://jsninja.com",
-            "description":"by <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
+            "name":"자바스크립트 닌자 비급",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966261078",
+            "description":"저자: <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
           },
           {
-            "name":"JavaScript Application Design",
+            "name":"JavaScript Application Design (원서)",
             "url":"http://bevacqua.io/bf",
-            "description":"by <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
           },
           {
-            "name":"Speaking JavaScript",
-            "url":"http://speakingjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
+            "name":"자바스크립트를 말하다",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8968481199",
+            "description":"저자: <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
           },
           {
-            "name":"Test-Driven JavaScript Development",
+            "name":"Test-Driven JavaScript Development (원서)",
             "url":"http://tddjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
           },
           {
-            "name":"You Don't Know JS",
+            "name":"You Don't Know JS (원서)",
             "url":"https://github.com/getify/You-Dont-Know-JS",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
           },
           {
-            "name":"You Might Not Need jQuery",
+            "name":"You Might Not Need jQuery (원서)",
             "url":"http://youmightnotneedjquery.com",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
           },
           {
             "name":"JavaScript Garden",
-            "url":"http://bonsaiden.github.io/JavaScript-Garden/",
-            "description":"by <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
+            "url":"http://bonsaiden.github.io/JavaScript-Garden/ko/",
+            "description":"저자: <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
           },
           {
-            "name":"Effective JavaScript",
-            "url":"http://effectivejs.com",
-            "description":"by <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
+            "name":"이팩티브 자바스크립트",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8966260853",
+            "description":"저자: <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
-            "name":"Functional JavaScript",
-            "url":"http://functionaljavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
+            "name":"함수형 자바스크립트",
+            "url":"http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8968480796",
+            "description":"저자: <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
           },
           {
-            "name":"JavaScript Allongé",
+            "name":"JavaScript Allongé (원서)",
             "url":"https://leanpub.com/javascript-allonge",
-            "description":"by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
           },
           {
-            "name":"JSBooks",
+            "name":"JSBooks (원서)",
             "url":"http://jsbooks.revolunet.com",
-            "description":"by <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
           }
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"무료 E-Book",
         "credit":false,
         "box":true,
         "links":[
@@ -616,7 +616,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"포탈",
         "credit":false,
         "box":true,
         "links":[
@@ -700,7 +700,7 @@
     ]
   },
   "screencasts":{
-    "title":"Screencasts",
+    "title":"스크린캐스트",
     "links":[
       {
         "name":"Egghead",
@@ -729,10 +729,10 @@
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"존잘들"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"PaaS 공급자",
     "links":[
       {
         "name":"Heroku",
@@ -767,7 +767,7 @@
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"도움이 되는 프로그램",
     "links":[
       {
         "name":"npm",
@@ -820,9 +820,10 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"만들고 고친 사람들: ",
+    "contributors":"기여자들",
+    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수
+    없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
