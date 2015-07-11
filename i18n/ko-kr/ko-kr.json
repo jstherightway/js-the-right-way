@@ -155,27 +155,27 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery는 작고 빠르며, 풍부한 기능을 가지고 있는 JavaScript 라이브러리로 <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>이 만들었습니다."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+            "description":"Yahoo!가 제작한 YUI는 자유 오픈소스 JavaScript, CSS 라이브러리로 상호작용하는 웹 어플리케이션을 제작하는데 사용됩니다. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">2014년 8월 29일 이후로 새로운 개발이 진행되지 않고 있습니다</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+            "description":"Zepto는 현대적 웹브라우저를 위한, jQuery에 호환성을 가진 API를 제공하는 소형 JavaScript 라이브러리입니다. jQuery를 사용할 줄 안다면 Zepto를 어떻게 사용하는지 이미 알고 있는 겁니다."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+            "description":"Dojo는 고성능의 웹 어플리케이션을 만들기 위한 자유, 오픈소스 JavaScript 툴킷입니다. 이 프로젝트의 스폰서에는 IBM과 SitePen이 포함되어 있습니다."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+            "description":"Underscore.js는 내장 객체를 확장하지 않고도 유용한 함수형 프로그래밍 헬퍼를 사용할 수 있도록 돕는 JavaScript 라이브러리입니다."
           }
         ]
       },
@@ -185,12 +185,12 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"<a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>가 만든 아주 유명한 JavaScript 클라이언트측 프레임워크입니다."
           },
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+            "description":"jQuery와 Ruby on Rails 코어 개발자인 <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>가 만들었습니다."
           },
           {
             "name":"Knockout.js",
@@ -317,10 +317,10 @@
     ]
   },
   "news":{
-    "title":"News",
+    "title":"뉴스",
     "cat":[
       {
-        "title":"Websites",
+        "title":"웹사이트",
         "links":[
           {
             "name":"JavaScript.com",
@@ -365,7 +365,7 @@
         ]
       },
       {
-        "title":"Newsletter",
+        "title":"뉴스레터",
         "links":[
           {
             "name":"JavaScript Weekly",
