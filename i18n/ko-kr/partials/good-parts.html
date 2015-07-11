@@ -41,11 +41,11 @@
 <h3>Scoping and Hoisting</h3>
 
 <p>
-    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+    <b>스코핑:</b> JavaScript에서는, 함수가 <i>사실 상의</i> 변수들의 스코프 범위입니다. 그 말인 즉슨, 루프나 조건문(if, for, while, switch, try같은)의 블럭은 다른 언어들과는 다르게 스코프 범위가 아닙니다. 그러므로, 함수와 그 함수 내에 있는 블럭들은 같은 스코프를 사용합니다. 이렇기 때문에, 변수가 블럭 내에서만 존재할거라 생각하고 변수를 선언하는 것은 위험할 수도 있습니다.
 </p>
 
 <p>
-    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+    <b>호이스팅:</b> 런타임에서, 모든 변수와 함수의 선언은 각 함수(스코프)의 가장 위로 옮겨집니다. 이것이 바로 호이스팅입니다. 이것 때문에, 첫 줄 이후에 선언 된 변수들은 호이스팅으로 인해 선언한 곳 전부터 존재하게 됩니다. 실수를 피하기 위해 모든 변수를 제일 첫 줄에 함께 선언하는 것은 좋은 습관입니다. 이것은 블럭 스코프 기반 언어를 사용하던 프로그래머들이 흔하게 겪는 문제입니다.
 </p>
 
 <p class="source">
@@ -55,7 +55,7 @@
 <h3>Function Binding</h3>
 
 <p>
-    Function binding is most probably the least of your concerns when beginning with JavaScript, but when you realize that you need a solution to the problem of how to keep the context of this within another function, then you might realize that what you actually need is <b>Function.prototype.bind()</b>.
+    함수 바인딩은 처음 JavaScript를 시작할 때에는 아마 거의 신경 쓸 일이 없을지도 모릅니다. 하지만 다른 함수 내에서 this의 context를 유지해야 할 일이 생겼을 때 당신이 정말 필요로 하는 것은 <b>Function.prototype.bind()</b>라는 걸 알게 될 겁니다.
 </p>
 
 <p class="source">
