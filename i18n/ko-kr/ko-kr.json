@@ -26,7 +26,7 @@
         "url":"#patterns"
       },
       {
-        "title":"Testing Tools",
+        "title":"테스팅 도구",
         "url":"#testing-tools"
       },
       {
@@ -76,7 +76,7 @@
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
-    "title":"THE GOOD PARTS",
+    "title":"알면 좋은 것들",
     "text":"{{@link=partials/good-parts.html}}"
   },
   "patterns":{
