@@ -599,7 +599,7 @@
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"무료 E-Book",
         "credit":false,
         "box":true,
         "links":[
@@ -616,7 +616,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"포탈",
         "credit":false,
         "box":true,
         "links":[
@@ -700,7 +700,7 @@
     ]
   },
   "screencasts":{
-    "title":"Screencasts",
+    "title":"스크린캐스트",
     "links":[
       {
         "name":"Egghead",
@@ -732,7 +732,7 @@
     "title":"Who To Follow"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"PaaS 공급자",
     "links":[
       {
         "name":"Heroku",
@@ -767,7 +767,7 @@
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"도움이 되는 프로그램",
     "links":[
       {
         "name":"npm",
@@ -820,9 +820,10 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"만들고 고친 사람들: ",
+    "contributors":"기여자들",
+    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수
+    없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
