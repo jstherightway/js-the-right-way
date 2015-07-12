@@ -70,7 +70,7 @@
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
-    "title":"JS 코딩 스타일",
+    "title":"JavaScript 코딩 스타일",
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
