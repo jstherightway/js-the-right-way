@@ -27,7 +27,8 @@ module.exports = function(grunt){
                 files: {
                     'dist/public/assets/css/core.min.css': [
                         'public/assets/css/normalize.css',
-                        'public/assets/css/core.css'
+                        'public/assets/css/core.css',
+                        'public/assets/css/flags.css'
                     ]
                 }
             }

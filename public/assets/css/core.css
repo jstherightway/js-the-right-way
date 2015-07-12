@@ -50,10 +50,90 @@ header small {
     margin-top: -20px;
     display: inline-block;
     padding-bottom: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     color: #2D7896;
     border-bottom: 10px solid rgba(255, 255, 255, 0.08);
     box-shadow: 0px 2px rgba(0, 0, 0, 0.04);
+}
+
+#dropdown {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#dropdown input {
+    display: none;
+}
+
+#dropdown label, 
+#dropdown ul li, 
+#dropdown ul li a {
+    background-color:#1A7594;
+    font-size:13px;
+    color:#DDD;
+    cursor:pointer;
+}
+
+#dropdown label:hover,
+#dropdown input:checked + label {
+    background-color:#3A8AA5;
+}
+
+#dropdown ul li a:hover {
+    background-color:#3A8AA5;
+    color:#FFF;
+}
+
+#dropdown label {
+    padding:2px 5px;
+    float: left;
+}
+
+#dropdown label .flag {
+    margin-right: 5px;
+}
+
+#dropdown label:after {
+    content:"";
+    float:right;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #DDD;
+    margin-top:7px;
+}
+
+#dropdown ul li {
+    text-align: left;
+}
+
+#dropdown ul li a {
+    padding:2px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown input ~ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#dropdown input:checked ~ ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+#dropdown .flag-icon {
+    margin-right: 5px;
 }
 
 .social { 
@@ -617,5 +697,8 @@ iframe[id^="oauth2relay"]{
     }
     .contributors {
         padding-top: 15px;
+    }
+    #dropdown label .flag {
+        display: none;
     }
 }
