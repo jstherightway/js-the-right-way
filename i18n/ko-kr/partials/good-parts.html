@@ -75,18 +75,18 @@
 <h3>Strict 모드</h3>
 
 <p>
-    ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
- </p>
+  ECMAScript 5의 strict 모드는 JavaScript의 제한된 변형을 사용하는 방법입니다. 단순히 부분집합은 아닙니다: 의도적으로 일반 코드와 다른 의미를 갖습니다. Strict 모드를 지원하지 않는 브라우져는 지원하는 브라우져와 다르게 strict 모드 코드를 실행하므로, strict 모드에 대해 적절하게 지원되는지 기능 테스트가 없다면 신뢰할 수 없습니다. Strict 모드와 비Strict 모드의 코드는 동시에 존재할 수 있으므로, 계속해서 strict 모드를 명시해야 합니다.
+</p>
 
 <p class="source">
     참고: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
 </p>
 
-<h3>바로 실행되는 함수 표현</h3>
+<h3>즉시실행 함수 표현식(Immediately-Invoked Function Expression; IIFE)</h3>
 
 <p>
-   An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.<br/><br/>
-   <i>This pattern has been referred to as a self-executing anonymous function, but <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduced the term IIFE as a more semantically accurate term for the pattern</i>.
+   즉시실행 함수 표현식은 JavaScript의 함수 스코핑을 사용해서 렉시컬 스코프를 생성하는 패턴입니다. 즉시실행 함수 표현식은 블락 내에서 변수가 호이스팅되는걸 방지하거나 전역 환경이 오염되는걸 보호하는데 사용되기도 하며, 동시에 함수 내에서 정의된 변수를 private로 만들며 메소드만 접근하도록 만들수도 있습니다.
+   <i>이 패턴은 자기실행 익명 함수(self-executing anonymous function)이라고 불리기도 하지만, <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman)이 패턴에 대해 의미적으로 더 정확한 단어로 IIFE를 소개했습니다.
 </p>
 
 <p class="source">
