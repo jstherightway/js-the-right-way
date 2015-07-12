@@ -200,27 +200,27 @@
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Google이 배포한 Angular.js는 마치 미래의 HTML를 위한 polyfill 같습니다."
+            "description":"Google이 개발한 Angular.js는 마치 미래의 HTML를 위한 polyfill 같습니다."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino는 데스크탑 품질의 웹 어플리케이션을 쉽게 개발할 수 있게 해주는 오픈 소스 프레임워크입니다."
+            "description":"Cappuccino는 데스크탑 앱 품질의 웹 어플리케이션을 쉽게 개발할 수 있게 해주는 오픈 소스 프레임워크입니다."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC는 jQuery의 최고의 아이디어를 포함한 오픈 소스 프레임워크입니다."
+            "description":"JavaScriptMVC는 jQuery 개발에 쓰이는 최고의 아이디어를 포함한 오픈 소스 프레임워크입니다."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor는 개발자의 능력에 크게 상관없이 짧은 시간안에 최고 품질의 웹 어플리케이션을 만들게 도와주는 오픈 소스 플랫폼 입니다."
+            "description":"Meteor는 당신이 숙련된 개발자이건, 처음 시작한 개발자이건 상관 없이 짧은 시간안에 최고 품질의 웹 어플리케이션을 만들게 도와주는 오픈 소스 플랫폼 입니다."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 어플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 등의 다른 기술들과 같이 연동하기 쉽게 만들어졌습니다."
+            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 어플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 혹은 당신이 쓰는 어떤 기술들과도 같이 연동하기 쉽게 만들어졌습니다."
           },
           {
             "name":"Riot.js",
@@ -267,12 +267,12 @@
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS는 2010년 말에 소개 된 HTML5 게임 엔진입니다. ImpactJS는 꾸준히 업데이트 되고 관리되고 있으며 커뮤니티가 지원을 하고 있습니다. 많은 개발 문서가 있으며 ImpactJS를 이용해 게임을 제작하는 책도 있습니다."
+        "description":"ImpactJS는 2010년 말에 소개 된 HTML5 게임 엔진입니다. ImpactJS는 꾸준히 업데이트 되고 관리되고 있으며 대형 커뮤니티가 지원을 하고 있습니다. 많은 개발 문서가 있으며 ImpactJS를 이용해 게임을 제작하는 책도 있습니다."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS는 모든 모던 터치/데스크탑 브라우저에서 빠르고 네티이브에 가까운 게임을 개발할 수 있게 도와주는 HTML5 게임 프레임워크 입니다."
+        "description":"LimeJS는 모든 모던 터치스크린/데스크탑 브라우저에서 빠르고 네이티브에 가까운 게임을 개발할 수 있게 도와주는 HTML5 게임 프레임워크 입니다."
       },
       {
         "name":"Crafty",
