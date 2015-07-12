@@ -88,7 +88,7 @@
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":"<a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고 있습니다."
         },
         {
           "name":"QUnit",
@@ -113,7 +113,7 @@
         {
           "name":"Istanbul",
           "url":"http://gotwarlost.github.io/istanbul",
-          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 툴입니다. <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>이 관리하고 있습니다."
+          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 측정 도구입니다. <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>이 관리하고 있습니다."
         },
         {
           "name":"Sinon.JS",
@@ -123,7 +123,7 @@
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"Mock 함수와 XHR 오브젝트를 제공하는 테스트 도우미입니다. <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고 있습니다."
+          "description":"Mock 함수와 XHR 객체를 제공하는 테스트 도우미입니다. <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고 있습니다."
         }
     ]
   },
