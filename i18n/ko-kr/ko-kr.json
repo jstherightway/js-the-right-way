@@ -1,9 +1,7 @@
 {
   "meta": {
       "title":"JS: The Right Way",
-      "description":"JavaScript를 작성할때 있어서 최고의 방법들에 대한 간편한
-      레퍼런스입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고
-      있습니다."
+      "description":"JavaScript를 작성할때 있어서 최고의 방법들에 대한 간편한 레퍼런스입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고 있습니다."
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
@@ -90,59 +88,42 @@
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고
-          있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고있습니다."
         },
         {
           "name":"QUnit",
           "url":"http://qunitjs.com",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/jquery\">jQuery</a>가 관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>가 관리하고 있습니다."
         },
         {
           "name":"Jasmine",
           "url":"https://github.com/pivotal/jasmine",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>가
-          관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>가 관리하고 있습니다."
         },
         {
           "name":"Karma",
           "url":"http://karma-runner.github.io/",
-          "description":"AngularJS팀이 뒤에서 관리하고 있습니다. 주로 <a
-          target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta
-          Jina</a>가 관리하고 있습니다."
+          "description":"AngularJS팀이 뒤에서 관리하고 있습니다. 주로 <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>가 관리하고 있습니다."
         },
         {
           "name":"Intern",
           "url":"http://theintern.io",
-          "description":"<a target=\"_blank\"
-          href=\"http://www.sitepen.com\">Sitepen</a>이 관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>이 관리하고 있습니다."
         },
         {
           "name":"Istanbul",
           "url":"http://gotwarlost.github.io/istanbul",
-          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 툴입니다.
-          <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan
-          Anantheswaran</a>이 관리하고 있습니다."
+          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 툴입니다. <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>이 관리하고 있습니다."
         },
         {
           "name":"Sinon.JS",
           "url":"http://sinonjs.org",
-          "description":"JavaScript 테스트를 위한 Spy, Stub, Mock을 제공합니다.
-          의존성이 없고, 어느 유닛 테스트 프레임워크와도 동작합니다. <a
-          target=\"_blank\"
-          href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS
-          커뮤니티</a>가 만들었습니다."
+          "description":"JavaScript 테스트를 위한 Spy, Stub, Mock을 제공합니다. 의존성이 없고, 어느 유닛 테스트 프레임워크와도 동작합니다. <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS 커뮤니티</a>가 만들었습니다."
         },
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"Mock 함수와 XHR 오브젝트를 제공하는 테스트
-          도우미입니다. <a target=\"_blank\"
-          href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고
-          있습니다."
+          "description":"Mock 함수와 XHR 오브젝트를 제공하는 테스트 도우미입니다. <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고 있습니다."
         }
     ]
   },
@@ -822,8 +803,7 @@
   "footer":{
     "credit":"만들고 고친 사람들: ",
     "contributors":"기여자들",
-    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수
-    없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
+    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수 없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
