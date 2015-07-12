@@ -248,27 +248,27 @@
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS는 2010년 말에 소개 된 HTML5 게임 엔진입니다. ImpactJS는 꾸준히 업데이트 되고 관리되고 있으며 대형 커뮤니티가 지원을 하고 있습니다. 많은 개발 문서가 있으며 ImpactJS를 이용해 게임을 제작하는 책도 있습니다."
+        "description":"ImpactJS는 2010년 말에 소개된 HTML5 게임 엔진입니다. ImpactJS는 꾸준히 업데이트되고 관리되고 있으며 대형 커뮤니티가 지원하고 있습니다. 많은 개발 문서가 있으며 ImpactJS를 이용해 게임을 제작하는 책도 있습니다."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS는 모든 모던 터치스크린/데스크탑 브라우저에서 빠르고 네이티브에 가까운 게임을 개발할 수 있게 도와주는 HTML5 게임 프레임워크 입니다."
+        "description":"LimeJS는 모든 현대적인 터치스크린/데스크톱 브라우저에서 빠르고 네이티브 애플리케이션에 가까운 게임을 개발할 수 있게 도와주는 HTML5 게임 프레임워크입니다."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty는 2010년에 선보인 게임 엔진입니다. Crafty는 아주 쉽게 JavaScript 게임 개발을 시작 할 수 있게 도와줍니다."
+        "description":"Crafty는 2010년에 선보인 게임 엔진입니다. Crafty는 아주 쉽게 JavaScript 게임 개발을 시작할 수 있게 도와줍니다."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5는 MIT 라이센스의 오픈 소스 웹 2D 게임 프레임워크입니다. Cocos2d-html5는 Cocos2d-x 프로젝트의 HTML5 버전으로써 브라우저와 네이티브를 아우르는 Cocos2d 크로스 플랫폼을 만드는데 집중하고 있습니다."
+        "description":"Cocos2d-html5는 MIT 라이센스의 오픈소스 웹 2D 게임 프레임워크입니다. Cocos2d-html5는 Cocos2d-x 프로젝트의 HTML5 버전으로써 브라우저와 네이티브 환경을 아우르는 Cocos2d 크로스 플랫폼을 만드는 데 집중하고 있습니다."
       },
       {
         "name":"Phaser",
         "url":"http://phaser.io",
-        "description":"Phaser는 <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>에 기반하고 있습니다. 수년동안 HTML5 커뮤니티에서 왕성하게 활동해 온 Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>)가 Phaser를 관리하고 있습니다."
+        "description":"Phaser는 <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>에 기반을 두고 있습니다. 수년 동안 HTML5 커뮤니티에서 왕성하게 활동해 온 Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>)가 Phaser를 관리하고 있습니다."
       },
       {
         "name":"Goo",
@@ -278,22 +278,22 @@
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS는 JavaScript 게임 라이브러리입니다. 웹브라우저와 네이티브 환경에서 HTML5 Canvas, WebGL 또는 native OpenGL(ES) 기반 게임의 프로토타이핑과 배포를 위한 통합 솔루션을 제공합니다."
+        "description":"LycheeJS는 JavaScript 게임 라이브러리입니다. 웹 브라우저와 네이티브 환경에서 HTML5 Canvas, WebGL 또는 native OpenGL(ES) 기반 게임의 프로토타이핑과 배포를 위한 통합 솔루션을 제공합니다."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus는 모듈화/경량화를 위해 디자인 된 간결화 된 JavaScript 문법을 사용하는 HTML5 게임 엔진입니다."
+        "description":"Quintus는 모듈화/경량화를 위해 디자인된 간결화 된 JavaScript 문법을 사용하는 HTML5 게임 엔진입니다."
       },
       {
         "name":"KiwiJS",
         "url":"http://www.kiwijs.org",
-        "description":"Kiwi.js는 재미있고 친근한 HTML5 게임 엔진입니다. 몇몇 사람들은 HTML5 게임 엔진계의 워드프레스라고 부르기도 합니다."
+        "description":"Kiwi.js는 재미있고 친근한 HTML5 게임 엔진입니다. 몇몇 사람들은 HTML5 게임 엔진 계의 워드프레스라고 부릅니다."
       },
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js는 Canvas와 WebGL 렌더링을 사용하는 모바일/데스크탑용 HTML5 게임 엔진입니다."
+        "description":"Panda.js는 Canvas와 WebGL 렌더링을 사용하는 모바일/데스크톱용 HTML5 게임 엔진입니다."
       }
     ]
   },
