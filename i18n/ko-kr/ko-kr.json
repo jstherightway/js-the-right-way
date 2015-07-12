@@ -195,42 +195,42 @@
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+            "description":"Model-View-View Model (MVVM)를 적용하여 동적인 JavaScript 유저 인터페이스 개발을 간소화 시켜줍니다."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+            "description":"Google이 배포한 Angular.js는 마치 미래의 HTML를 위한 polyfill 같습니다."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+            "description":"Cappuccino는 데스크탑 품질의 웹 어플리케이션을 쉽게 개발할 수 있게 해주는 오픈 소스 프레임워크입니다."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+            "description":"JavaScriptMVC는 jQuery의 최고의 아이디어를 포함한 오픈 소스 프레임워크입니다."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+            "description":"Meteor는 개발자의 능력에 크게 상관없이 짧은 시간안에 최고 품질의 웹 어플리케이션을 만들게 도와주는 오픈 소스 플랫폼 입니다."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 어플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 등의 다른 기술들과 같이 연동하기 쉽게 만들어졌습니다."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+            "description":"Riot는 엄청 빠르고 파워풀하지만 아주 작으며, 대규모의 웹 어플리케이션 개발을 위한 클라이언트 (MV*) 라이브러리입니다. 아주 작은 사이즈에도 불구하고 템플릿 엔진, 라우터, 이벤트 라이브러리, 엄격한 MVP 패턴 같은 모든 필요한 요소를 갖추고 있습니다."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+            "description":"CanJS는 복잡한 어플리케이션을 쉽고 빠르게 개발할 수 있도록 해주는 JavaScript 프레임워크입니다. 배우기 쉽고 작으며 대단하진 않지만, 커스텀 태그나 양방향 바인딩같은 최신 기능을 지원합니다."
           }
         ]
       },
