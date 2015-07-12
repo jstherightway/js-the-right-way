@@ -235,22 +235,22 @@
         ]
       },
       {
-        "title":"Library",
+        "title":"라이브러리",
         "links":[
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+            "description":"Facebook이 공개한 React는 Facebook과 Instagram의 유저 인터페이스를 만들기 위해 사용된 JavaScript 라이브러리입니다. 많은 사람들이 MVC의 V로써 React를 선택하고 있습니다."
           },
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+            "description":"Handlebars는 의미론적인 템플릿을 효과적으로 만들 수 있게 해주는 라이브러리입니다."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchronous templates for the browser and node.js."
+            "description":"브라우저와 node.js를 위한 비동기 템플릿 라이브러리입니다."
           }
         ]
       }
