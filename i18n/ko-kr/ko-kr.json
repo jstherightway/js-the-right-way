@@ -141,22 +141,22 @@
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Yahoo!가 제작한 YUI는 자유 오픈소스 JavaScript, CSS 라이브러리로 상호작용하는 웹 어플리케이션을 제작하는데 사용됩니다. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">2014년 8월 29일 이후로 새로운 개발이 진행되지 않고 있습니다</a>."
+            "description":"Yahoo!가 제작한 YUI는 자유 오픈소스 JavaScript, CSS 라이브러리로 상호작용하는 웹 애플리케이션을 제작하는 데 사용됩니다. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">2014년 8월 29일 이후로 새로운 개발이 진행되지 않고 있습니다</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto는 현대적 웹브라우저를 위한, jQuery에 호환성을 가진 API를 제공하는 소형 JavaScript 라이브러리입니다. jQuery를 사용할 줄 안다면 Zepto를 어떻게 사용하는지 이미 알고 있는 겁니다."
+            "description":"Zepto는 현대적 웹 브라우저를 위한, jQuery에 호환성을 가진 API를 제공하는 소형 JavaScript 라이브러리입니다. jQuery를 사용할 줄 안다면 Zepto를 어떻게 사용하는지 이미 알고 있는 겁니다."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo는 고성능의 웹 어플리케이션을 만들기 위한 자유, 오픈소스 JavaScript 툴킷입니다. 이 프로젝트의 스폰서에는 IBM과 SitePen이 포함되어 있습니다."
+            "description":"Dojo는 고성능의 웹 애플리케이션을 만들기 위한 자유, 오픈소스 JavaScript Toolkit입니다. 이 프로젝트의 후원자에는 IBM과 SitePen이 포함되어 있습니다."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js는 내장 객체를 확장하지 않고도 유용한 함수형 프로그래밍 헬퍼를 사용할 수 있도록 돕는 JavaScript 라이브러리입니다."
+            "description":"Underscore.js는 내장 객체를 확장하지 않고도 유용한 함수형 프로그래밍 도우미를 사용할 수 있도록 돕는 JavaScript 라이브러리입니다."
           }
         ]
       },
@@ -166,7 +166,7 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"<a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>가 만든 아주 유명한 JavaScript 클라이언트측 프레임워크입니다."
+            "description":"<a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>가 만든 아주 유명한 JavaScript 클라이언트 측 프레임워크입니다."
           },
           {
             "name":"Ember.js",
@@ -176,42 +176,42 @@
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Model-View-View Model (MVVM)를 적용하여 동적인 JavaScript 유저 인터페이스 개발을 간소화 시켜줍니다."
+            "description":"Model-View-View Model (MVVM)를 적용하여 동적인 JavaScript 사용자 인터페이스 개발을 간소화시켜줍니다."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Google이 개발한 Angular.js는 마치 미래의 HTML를 위한 polyfill 같습니다."
+            "description":"Google이 개발한 Angular.js는 마치 미래의 HTML을 위한 polyfill 같습니다."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino는 데스크탑 앱 품질의 웹 어플리케이션을 쉽게 개발할 수 있게 해주는 오픈 소스 프레임워크입니다."
+            "description":"Cappuccino는 데스크톱 앱 품질의 웹 애플리케이션을 쉽게 개발할 수 있게 해주는 오픈소스 프레임워크입니다."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC는 jQuery 개발에 쓰이는 최고의 아이디어를 포함한 오픈 소스 프레임워크입니다."
+            "description":"JavaScriptMVC는 jQuery 개발에 쓰이는 최고의 아이디어를 포함한 오픈소스 프레임워크입니다."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor는 당신이 숙련된 개발자이건, 처음 시작한 개발자이건 상관 없이 짧은 시간안에 최고 품질의 웹 어플리케이션을 만들게 도와주는 오픈 소스 플랫폼 입니다."
+            "description":"Meteor는 당신이 숙련된 개발자이건, 처음 시작한 개발자이건 상관없이 짧은 시간 안에 최고 품질의 웹 애플리케이션을 만들게 도와주는 오픈소스 플랫폼입니다."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 어플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 혹은 당신이 쓰는 어떤 기술들과도 같이 연동하기 쉽게 만들어졌습니다."
+            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 애플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 혹은 당신이 쓰는 어떤 기술들과도 같이 연동하기 쉽게 만들어졌습니다."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot는 엄청 빠르고 파워풀하지만 아주 작으며, 대규모의 웹 어플리케이션 개발을 위한 클라이언트 (MV*) 라이브러리입니다. 아주 작은 사이즈에도 불구하고 템플릿 엔진, 라우터, 이벤트 라이브러리, 엄격한 MVP 패턴 같은 모든 필요한 요소를 갖추고 있습니다."
+            "description":"Riot은 엄청나게 빠르고 강력하지만 아주 작으며, 대규모의 웹 애플리케이션 개발을 위한 클라이언트 (MV*) 라이브러리입니다. 아주 작은 크기에도 불구하고 템플릿 엔진, 라우터, 이벤트 라이브러리, 엄격한 MVP 패턴 같은 모든 필요한 요소를 갖추고 있습니다."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS는 복잡한 어플리케이션을 쉽고 빠르게 개발할 수 있도록 해주는 JavaScript 프레임워크입니다. 배우기 쉽고 작으며 대단하진 않지만, 커스텀 태그나 양방향 바인딩같은 최신 기능을 지원합니다."
+            "description":"CanJS는 복잡한 애플리케이션을 쉽고 빠르게 개발할 수 있도록 해주는 JavaScript 프레임워크입니다. 배우기 쉽고 작으며 대단하진 않지만, 커스텀 태그나 양방향 바인딩 같은 최신 기능을 지원합니다."
           }
         ]
       },
@@ -221,7 +221,7 @@
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Facebook이 공개한 React는 Facebook과 Instagram의 유저 인터페이스를 만들기 위해 사용된 JavaScript 라이브러리입니다. 많은 사람들이 MVC의 V로써 React를 선택하고 있습니다."
+            "description":"Facebook이 공개한 React는 Facebook과 Instagram의 사용자 인터페이스를 만드는 데 사용된 JavaScript 라이브러리입니다. 많은 사람이 MVC의 V로써 React를 선택하고 있습니다."
           },
           {
             "name":"Handlebars",
