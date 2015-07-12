@@ -277,7 +277,7 @@
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty는 2010년에 선보인 game engine입니다. Crafty는 아주 쉽게 JavaScript 게임개발을 시작 할 수 있게 해줍니다."
+        "description":"Crafty는 2010년에 선보인 게임 엔진입니다. Crafty는 아주 쉽게 JavaScript 게임 개발을 시작 할 수 있게 도와줍니다."
       },
       {
         "name":"Cocos2d-HTML5",
@@ -302,17 +302,17 @@
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus는 모듈화/경량화를 위해 디자인 된 간결화 된 JavaScript 문법을 사용하는 HTML5 game engine입니다."
+        "description":"Quintus는 모듈화/경량화를 위해 디자인 된 간결화 된 JavaScript 문법을 사용하는 HTML5 게임 엔진입니다."
       },
       {
         "name":"KiwiJS",
         "url":"http://www.kiwijs.org",
-        "description":"Kiwi.js는 재미있고 친근한 HTML5 Game Engine입니다. 몇몇 사람들은 HTML5 game engines의 워드프레스가 부르기도 합니다."
+        "description":"Kiwi.js는 재미있고 친근한 HTML5 게임 엔진입니다. 몇몇 사람들은 HTML5 게임 엔진계의 워드프레스라고 부르기도 합니다."
       },
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js는 Cavas와 WebGL 렌더링을 사용하는 모바일/데스크탑용 HTML5 game engine입니다."
+        "description":"Panda.js는 Cavas와 WebGL 렌더링을 사용하는 모바일/데스크탑용 HTML5 게임 엔진입니다."
       }
     ]
   },
