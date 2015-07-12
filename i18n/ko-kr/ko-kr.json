@@ -1,7 +1,7 @@
 {
   "meta": {
       "title":"JS: The Right Way",
-      "description":"JavaScript를 작성할때 있어서 최고의 방법들에 대한 간편한 레퍼런스입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고 있습니다."
+      "description":"JavaScript를 작성할 때 있어서 최고의 방법들에 대한 간편한 참고문헌입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고 있습니다."
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
