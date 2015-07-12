@@ -1,9 +1,7 @@
 {
   "meta": {
       "title":"JS: The Right Way",
-      "description":"JavaScript를 작성할때 있어서 최고의 방법들에 대한 간편한
-      레퍼런스입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고
-      있습니다."
+      "description":"JavaScript를 작성할때 있어서 최고의 방법들에 대한 간편한 레퍼런스입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고 있습니다."
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
@@ -90,59 +88,42 @@
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고
-          있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>이 관리하고있습니다."
         },
         {
           "name":"QUnit",
           "url":"http://qunitjs.com",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/jquery\">jQuery</a>가 관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>가 관리하고 있습니다."
         },
         {
           "name":"Jasmine",
           "url":"https://github.com/pivotal/jasmine",
-          "description":"<a target=\"_blank\"
-          href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>가
-          관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>가 관리하고 있습니다."
         },
         {
           "name":"Karma",
           "url":"http://karma-runner.github.io/",
-          "description":"AngularJS팀이 뒤에서 관리하고 있습니다. 주로 <a
-          target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta
-          Jina</a>가 관리하고 있습니다."
+          "description":"AngularJS팀이 뒤에서 관리하고 있습니다. 주로 <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>가 관리하고 있습니다."
         },
         {
           "name":"Intern",
           "url":"http://theintern.io",
-          "description":"<a target=\"_blank\"
-          href=\"http://www.sitepen.com\">Sitepen</a>이 관리하고 있습니다."
+          "description":"<a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>이 관리하고 있습니다."
         },
         {
           "name":"Istanbul",
           "url":"http://gotwarlost.github.io/istanbul",
-          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 툴입니다.
-          <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan
-          Anantheswaran</a>이 관리하고 있습니다."
+          "description":"JavaScript로 작성된 JavaScript 코드 커버리지 툴입니다. <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>이 관리하고 있습니다."
         },
         {
           "name":"Sinon.JS",
           "url":"http://sinonjs.org",
-          "description":"JavaScript 테스트를 위한 Spy, Stub, Mock을 제공합니다.
-          의존성이 없고, 어느 유닛 테스트 프레임워크와도 동작합니다. <a
-          target=\"_blank\"
-          href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS
-          커뮤니티</a>가 만들었습니다."
+          "description":"JavaScript 테스트를 위한 Spy, Stub, Mock을 제공합니다. 의존성이 없고, 어느 유닛 테스트 프레임워크와도 동작합니다. <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS 커뮤니티</a>가 만들었습니다."
         },
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"Mock 함수와 XHR 오브젝트를 제공하는 테스트
-          도우미입니다. <a target=\"_blank\"
-          href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고
-          있습니다."
+          "description":"Mock 함수와 XHR 오브젝트를 제공하는 테스트 도우미입니다. <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>가 관리하고 있습니다."
         }
     ]
   },
@@ -195,62 +176,62 @@
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+            "description":"Model-View-View Model (MVVM)를 적용하여 동적인 JavaScript 유저 인터페이스 개발을 간소화 시켜줍니다."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+            "description":"Google이 개발한 Angular.js는 마치 미래의 HTML를 위한 polyfill 같습니다."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+            "description":"Cappuccino는 데스크탑 앱 품질의 웹 어플리케이션을 쉽게 개발할 수 있게 해주는 오픈 소스 프레임워크입니다."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+            "description":"JavaScriptMVC는 jQuery 개발에 쓰이는 최고의 아이디어를 포함한 오픈 소스 프레임워크입니다."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+            "description":"Meteor는 당신이 숙련된 개발자이건, 처음 시작한 개발자이건 상관 없이 짧은 시간안에 최고 품질의 웹 어플리케이션을 만들게 도와주는 오픈 소스 플랫폼 입니다."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+            "description":"Spice는 아주 작고 (&lt; 3k) 유연한 MVC JavaScript 프레임워크입니다. Spice는 이미 존재하는 어플리케이션에 쉽게 추가할 수 있고, jQuery, pjax, turbolinks, node 혹은 당신이 쓰는 어떤 기술들과도 같이 연동하기 쉽게 만들어졌습니다."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+            "description":"Riot는 엄청 빠르고 파워풀하지만 아주 작으며, 대규모의 웹 어플리케이션 개발을 위한 클라이언트 (MV*) 라이브러리입니다. 아주 작은 사이즈에도 불구하고 템플릿 엔진, 라우터, 이벤트 라이브러리, 엄격한 MVP 패턴 같은 모든 필요한 요소를 갖추고 있습니다."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+            "description":"CanJS는 복잡한 어플리케이션을 쉽고 빠르게 개발할 수 있도록 해주는 JavaScript 프레임워크입니다. 배우기 쉽고 작으며 대단하진 않지만, 커스텀 태그나 양방향 바인딩같은 최신 기능을 지원합니다."
           }
         ]
       },
       {
-        "title":"Library",
+        "title":"라이브러리",
         "links":[
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+            "description":"Facebook이 공개한 React는 Facebook과 Instagram의 유저 인터페이스를 만들기 위해 사용된 JavaScript 라이브러리입니다. 많은 사람들이 MVC의 V로써 React를 선택하고 있습니다."
           },
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+            "description":"Handlebars는 의미론적인 템플릿을 효과적으로 만들 수 있게 해주는 라이브러리입니다."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchronous templates for the browser and node.js."
+            "description":"브라우저와 node.js를 위한 비동기 템플릿 라이브러리입니다."
           }
         ]
       }
@@ -262,57 +243,57 @@
       {
         "name":"MelonJS",
         "url":"http://melonJS.org",
-        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+        "description":"MelonJS는 무료이며 경량화된 HTML5 게임 엔진입니다. MelonJS는 tiled map format을 사용하여 레벨 디자인을 하기 쉽게 도와줍니다."
       },
       {
         "name":"ImpactJS",
-        "url":"http://melonJS.org",
-        "description":"ImpactJS is one of the more tested-and-true HTML5 game engines with the initial release all the way back at the end of 2010. It is very well maintained and updated, and has a good-sized community backing it. There exists plenty of documentation - even two books on the subject of creating games with the engine."
+        "url":"http://impactjs.com",
+        "description":"ImpactJS는 2010년 말에 소개 된 HTML5 게임 엔진입니다. ImpactJS는 꾸준히 업데이트 되고 관리되고 있으며 대형 커뮤니티가 지원을 하고 있습니다. 많은 개발 문서가 있으며 ImpactJS를 이용해 게임을 제작하는 책도 있습니다."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers."
+        "description":"LimeJS는 모든 모던 터치스크린/데스크탑 브라우저에서 빠르고 네이티브에 가까운 게임을 개발할 수 있게 도와주는 HTML5 게임 프레임워크 입니다."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty is a game engine that dates back to late 2010. Crafty makes it really easy to get started making JavaScript games."
+        "description":"Crafty는 2010년에 선보인 게임 엔진입니다. Crafty는 아주 쉽게 JavaScript 게임 개발을 시작 할 수 있게 도와줍니다."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5 is an open-source web 2D game framework, released under MIT License. It is a HTML5 version of Cocos2d-x project. The focus for Cocos2d-html5 development is around making Cocos2d cross platforms between browsers and native application."
+        "description":"Cocos2d-html5는 MIT 라이센스의 오픈 소스 웹 2D 게임 프레임워크입니다. Cocos2d-html5는 Cocos2d-x 프로젝트의 HTML5 버전으로써 브라우저와 네이티브를 아우르는 Cocos2d 크로스 플랫폼을 만드는데 집중하고 있습니다."
       },
       {
         "name":"Phaser",
         "url":"http://phaser.io",
-        "description":"Phaser is based heavily on <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. It is maintained by Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) who has been very active in the HTML5 community for years."
+        "description":"Phaser는 <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>에 기반하고 있습니다. 수년동안 HTML5 커뮤니티에서 왕성하게 활동해 온 Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>)가 Phaser를 관리하고 있습니다."
       },
       {
         "name":"Goo",
         "url":"http://www.goocreate.com/learn",
-        "description":"Goo is a 3D JavaScript gaming engine entirely built on WebGL/HTML5"
+        "description":"Goo는 WebGL/HTML5 기반으로 제작된 3D JavaScript 게임 엔진입니다."
       },
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS is a JavaScript Game library that offers a complete solution for prototyping and deployment of HTML5 Canvas, WebGL or native OpenGL(ES) based games inside the Web Browser or native environments."
+        "description":"LycheeJS는 JavaScript 게임 라이브러리입니다. 웹브라우저와 네이티브 환경에서 HTML5 Canvas, WebGL 또는 native OpenGL(ES) 기반 게임의 프로토타이핑과 배포를 위한 통합 솔루션을 제공합니다."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus is an HTML5 game engine designed to be modular and lightweight, with a concise JavaScript-friendly syntax."
+        "description":"Quintus는 모듈화/경량화를 위해 디자인 된 간결화 된 JavaScript 문법을 사용하는 HTML5 게임 엔진입니다."
       },
       {
         "name":"KiwiJS",
         "url":"http://www.kiwijs.org",
-        "description":"Kiwi.js is a fun and friendly Open Source HTML5 Game Engine. Some people call it the WordPress of HTML5 game engines"
+        "description":"Kiwi.js는 재미있고 친근한 HTML5 게임 엔진입니다. 몇몇 사람들은 HTML5 게임 엔진계의 워드프레스라고 부르기도 합니다."
       },
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering."
+        "description":"Panda.js는 Canvas와 WebGL 렌더링을 사용하는 모바일/데스크탑용 HTML5 게임 엔진입니다."
       }
     ]
   },
@@ -430,59 +411,59 @@
     "title":"읽을거리",
     "cat":[
       {
-        "title":"Articles",
+        "title":"게시물",
         "credit":true,
         "box":false,
         "links":[
           {
             "name":"Understanding JavaScript OOP",
             "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
           },
           {
             "name":"Understanding “Prototypes” in JavaScript",
             "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
           },
           {
             "name":"Prototypes and Inheritance in JavaScript",
             "url":"http://msdn.microsoft.com/en-us/magazine/ff852808.aspx",
-            "description":"by <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
           },
           {
             "name":"Partial Application in JavaScript",
             "url":"http://benalman.com/news/2012/09/partial-application-in-javascript",
-            "description":"by <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
           },
           {
             "name":"Getting Over jQuery",
             "url":"http://blog.ponyfoo.com/2013/07/09/getting-over-jquery",
-            "description":"by <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
           },
           {
             "name":"A Dive Into Plain JavaScript",
             "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
           },
           {
             "name":"A Deeper Look at Objects in JavaScript",
             "url":"http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
           {
             "name":"Introduction to Easing in JavaScript",
             "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+            "description":"저자: <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
           {
             "name":"How to Learn JavaScript Properly",
             "url":"http://javascriptissexy.com/how-to-learn-javascript-properly",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
           },
           {
             "name":"How to Start with JavaScript",
             "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
+            "description":"저자: <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
           }
         ]
       },
@@ -670,7 +651,7 @@
     ]
   },
   "podcasts":{
-    "title":"Podcasts",
+    "title":"팟캐스트",
     "links":[
       {
         "name":"Ember Hot Seat",
@@ -822,8 +803,7 @@
   "footer":{
     "credit":"만들고 고친 사람들: ",
     "contributors":"기여자들",
-    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수
-    없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
+    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수 없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
