@@ -262,7 +262,7 @@
       {
         "name":"MelonJS",
         "url":"http://melonJS.org",
-        "description":"MelonJS는 무료이며 경량화된 HTML5 게임 엔진입니다. MelonJS는 tile map format을 사용하여 레벨 디자인을 하기 쉽게 도와줍니다."
+        "description":"MelonJS는 무료이며 경량화된 HTML5 게임 엔진입니다. MelonJS는 tiled map format을 사용하여 레벨 디자인을 하기 쉽게 도와줍니다."
       },
       {
         "name":"ImpactJS",
