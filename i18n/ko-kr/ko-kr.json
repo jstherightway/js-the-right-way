@@ -803,7 +803,7 @@
   "footer":{
     "credit":"만들고 고친 사람들: ",
     "contributors":"기여자들",
-    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수 없었을겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
+    "contribDesc":"이 프로젝트는 놀라운 기여자분들 없이는 존재할 수 없었을 겁니다. 이 문서를 만들어준 모두에게 정말 감사합니다!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
