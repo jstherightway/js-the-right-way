@@ -52,7 +52,7 @@
         "url":"#screencasts"
       },
       {
-        "title":"존잘들",
+        "title":"팔로우 추천",
         "url":"#whotofollow"
       },
       {
@@ -710,7 +710,7 @@
     ]
   },
   "whoToFollow":{
-    "title":"존잘들"
+    "title":"팔로우 추천"
   },
   "paasProviders":{
     "title":"PaaS 공급자",
