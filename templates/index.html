@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{meta.title}}</title>
+        <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
+        <meta property="og:title" content="{{ meta.title }}">
+        <meta property="og:site_name" content="{{ meta.title }}">
+        <meta name="description" property="og:description" content="{{ meta.description  }}">
+        <meta property="og:url" content="http://www.jstherightway.org">
+        <meta property="og:type" content="website">
+        <meta name="robots" content="index,follow,archive">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="{{paths.csspath}}core.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a class="fork-me" href="https://github.com/braziljs/js-the-right-way" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+
+            <div class="wrapper">
+                <h1>JavaScript</h1>
+                <small>The Right Way</small>
+            </div>
+        </header>
+
+        <section class="social">
+            <section class="github">
+                <div class="wrapper">
+                    <iframe class="gh-button" src="http://ghbtns.com/github-btn.html?user=braziljs&amp;repo=js-the-right-way&amp;type=watch&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+                    <iframe class="gh-button" src="http://ghbtns.com/github-btn.html?user=braziljs&amp;repo=js-the-right-way&amp;type=fork&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+
+                    <iframe class="gh-follow-button" src="http://ghbtns.com/github-btn.html?user=gnuwilliam&amp;type=follow&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="175" height="20"></iframe>
+                </div>
+            </section>
+
+            <section class="share">
+                <div class="wrapper">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.org/" data-size="medium" data-hashtags="js">Tweet</a>
+
+                    <div class="g-plusone" data-href="http://jstherightway.org" data-size="medium" data-annotation="bubble" data-width="300"></div>
+
+                    <div class="fb-like" data-href="http://jstherightway.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                </div>
+            </section>
+        </section>
+
+        <section class="welcome">
+            <div class="wrapper">
+              {{ welcome }}
+            </div>
+        </section>
+
+        <section class="main" id="main">
+            <div class="wrapper">
+                <h1><a href="#main">{{ menu.title }}</a></h1>
+
+                <ul>
+                  {{#menu.links}}
+                    <li><a href="{{url}}">{{title}}</a></li>
+                  {{/menu.links}}
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="getting-started">
+            <div class="wrapper">
+                <h1><a href="#getting-started">{{ gettingStarted.title }}</a></h1>
+                {{ gettingStarted.text }}
+            </div>
+        </section>
+
+        <section class="section" id="js-code-style">
+            <div class="wrapper">
+                <h1><a href="#js-code-style">{{ codeStyle.title }}</a></h1>
+                {{ codeStyle.text }}
+        </section>
+
+        <section class="section" id="the-good-parts">
+            <div class="wrapper">
+                <h1><a href="#the-good-parts">{{ goodParts.title }}</a></h1>
+                {{ goodParts.text }}
+            </div>
+        </section>
+
+        <section class="section" id="patterns">
+            <div class="wrapper">
+                <h1><a href="#patterns">{{ patterns.title}}</a></h1>
+                {{patterns.text}}
+            </div>
+        </section>
+
+        <section class="section" id="testing-tools">
+            <div class="wrapper">
+                <h1><a href="#testing-tools">{{testingTools.title}}</a></h1>
+                {{testingTools.text}}
+
+                <h3>Links</h3>
+                {{#testingTools.links}}
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="{{url}}">{{name}}</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  {{description}}
+                </p>
+                {{/testingTools.links}}
+
+            </div>
+        </section>
+
+        <section class="section" id="frameworks">
+            <div class="wrapper">
+                <h1><a href="#frameworks">{{frameworks.title}}</a></h1>
+
+                {{#frameworks.cat}}
+                <h3>{{title}}</h3>
+                {{#links}}
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="{{url}}">{{name}}</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  {{description}}
+                </p>
+                {{/links}}
+                {{/frameworks.cat}}
+            </div>
+        </section>
+
+
+        <section class="section" id="game-engines">
+            <div class="wrapper">
+                <h1><a href="#game-engines">{{gameEngines.title}}</a></h1>
+
+                <br/>
+                {{#gameEngines.links}}
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="{{url}}">{{name}}</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  {{description}}
+                </p>
+                {{/gameEngines.links}}
+
+            </div>
+        </section>
+
+        <section class="section" id="news">
+            <div class="wrapper">
+                <h1><a href="#news">{{news.title}}</a></h1>
+
+                {{#news.cat}}
+                <h3>{{title}}</h3>
+                <div class="links-container">
+                {{#links}}
+                    <p class="source link">
+                        <a href="{{url}}" target="_blank">{{name}}</a>
+                    </p>
+                {{/links}}
+                </div>
+                {{/news.cat}}
+
+            </div>
+        </section>
+
+        <section class="section" id="reading">
+            <div class="wrapper">
+                <h1><a href="#reading">{{reading.title}}</a></h1>
+
+                {{#reading.cat}}
+                <h3>{{title}}</h3>
+
+                {{#credit}}
+                {{#links}}
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="{{url}}">{{name}}</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  {{description}}
+                </p>
+
+                {{/links}}
+                {{/credit}}
+
+                {{#box}}
+                <section class="links-container">
+
+                    {{#links}}
+                    <p class="source link">
+                        <a target="_blank" href="{{url}}">{{name}}</a>
+                    </p>
+                    {{/links}}
+
+                </section>
+                {{/box}}
+
+                {{/reading.cat}}
+
+            </div>
+        </section>
+
+        <section class="section" id="podcasts">
+            <div class="wrapper">
+                <h1><a href="#podcasts">{{podcasts.title}}</a></h1>
+
+                <br/><br/>
+                <div class="links-container">
+                    {{#podcasts.links}}
+                    <p class="source link">
+                        <a href="{{url}}" target="_blank">{{name}}</a>
+                    </p>
+                    {{/podcasts.links}}
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="screencasts">
+            <div class="wrapper">
+                <h1><a href="#screencasts">{{screencasts.title}}</a></h1>
+
+                {{#screencasts.links}}
+                <div class="screencasts-container">
+                    <a href="{{url}}" target="_blank">
+                        <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
+                    </a>
+                </div>
+                {{/screencasts.links}}
+
+            </div>
+        </section>
+
+        <section class="section" id="whotofollow">
+            <div class="wrapper">
+                <h1><a href="#whotofollow">{{whoToFollow.title}}</a></h1>
+
+                <div class="users"></div>
+            </div>
+        </section>
+
+        <section class="section" id="paas">
+            <div class="wrapper">
+                <h1><a href="#paas">{{paasProviders.title}}</a></h1>
+
+                <br/><br/>
+                <section class="links-container">
+
+                  {{#paasProviders.links}}
+                    <p class="source link">
+                        <a href="{{url}}" target="_blank">{{name}}</a>
+                    </p>
+                  {{/paasProviders.links}}
+
+                </section>
+            </div>
+        </section>
+
+        <section class="section" id="helpers">
+            <div class="wrapper">
+                <h1><a href="#helpers">{{helpers.title}}</a></h1>
+
+                <div class="helpers-container">
+
+                  {{#helpers.links}}
+                    <a target="_blank" href="{{url}}">
+                        <figure>
+                            <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
+                        </figure>
+                    </a>
+                  {{/helpers.links}}
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="footer">
+            <div class="wrapper">
+                <div class="bio">
+                    <h3>{{footer.credit}}</h3>
+                    <a class="william" href="https://github.com/gnuwilliam">
+                        <img src="https://0.gravatar.com/avatar/05671f27a334fd17b787a88bf3d7d5b8?d=https%3A%2F%2Fidenticons.github.com%2Fdf5529fee499f928d4cfe6ffdac9d89c.png&amp;r=x&amp;s=440" alt="William oliveira" />
+                        <b>William Oliveira</b>
+                    </a>
+                </div>
+
+                <hr/>
+
+                <div class="contributors">
+                    <h1>{{footer.contributors}}</h1>
+                    <p>{{footer.contribDesc}}</p>
+                    <div class="users"></div>
+                </div>
+
+                {{footer.licence}}
+
+            </div>
+        </section>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="{{paths.jspath}}core.min.js"></script>
+        <div id="fb-root"></div>
+        <script>
+            function asyncScriptLoad( url, id ) {
+                var js, fjs = document.getElementsByTagName( 'script' )[0];
+                if ( document.getElementById( id ) ) {
+                    return;
+                }
+                js = document.createElement( 'script' );
+                js.id = id;
+                js.src = url;
+                fjs.parentNode.insertBefore( js, fjs );
+            }
+            var _gaq = [['_setAccount', 'UA-33927105-1'], ['_trackPageview']];
+            asyncScriptLoad( '//www.google-analytics.com/ga.js', 'google-analytics' );
+            asyncScriptLoad( '//connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk' );
+            asyncScriptLoad( '//platform.twitter.com/widgets.js', 'twitter-wjs' );
+            asyncScriptLoad( 'https://apis.google.com/js/plusone.js', 'google-plusone' );
+        </script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<h3>Orientado a Objetos</h3>
+
+<p>
+    JavaScript tiene una fuerte capacidad de programación orientada a objetos, a pesar de algunos debates que tienen lugar debido a las diferencias de la orientacion a objetos en Javascript comparado con otros lenguajes.
+</p>
+
+<p class="source">
+    Fuente: <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript/Introducci%C3%B3n_a_JavaScript_orientado_a_objetos">Introducción a JavaScript Orientado a Objetos</a>
+</p>
+
+<h3>Funciones Anónimas</h3>
+
+<p>
+    Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Ellas son llamadas anónimas porque ellas no tienen un nombre de la misma manera que las funciones normales.
+</p>
+
+<p class="source">
+    Fuente: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">Funciones anónimas</a>
+</p>
+
+<h3>Funciones de Objetos de primera clase</h3>
+
+<p>
+    Las funciones en JavaScript son objetos de primera clase. Esto significa que las funciones JavaScript son simplemente un tipo de objeto especial que pueden hacer todas las cosas que un objeto regular puede hacer.
+</p>
+
+<p class="source">
+    Fuente: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Las funciones son objetos de primera clase en JavaScript</a>
+</p>
+
+<h3>Tipado Blando</h3>
+
+<p>
+    Para muchos desarrolladores front-end, JavaScript fue su primera experiencia un lenguaje de scripting y/o interpretado. Para estos desarrolladores, el concepto y las implicaciones de las variables de tipado blando quizas con de segunda naturaleza. Como siempre, el crecimiento explosivo en demanda para aplicaciones web modernas han resultado en un crecimiento en el número de desarrolladores back-end que han tenido que zambullir sus pies dentro de la piscina de las tecnologías del lado cliente. Muchos de estos programadores llegan con fuerte transfondo de lenguajes de tipado fuerte, tales como C# o Java, y le son desconocidos la libertad y las potenciales trampas envueltas en el trabajo con variables de tipado blando.
+</p>
+
+<p class="source">
+    Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
+
+<h3>Alcance y Elevación</h3>
+
+<p>
+    <b>Alcance:</b> En JavaScript, las funciones son nuestras delimitadoras del alcance <i>de facto</i> al mometno de la declaración de variables, lo cual significa que los bloques que habitalmente de bucles y condicionales (tales como if, for, while, switch y try) NO delimitan el alcance, a diferencia de la mayoría de otros lenguajes. Por lo tanto, estos bloques compartirán el mismo alcance que la función que as contiene. Esta forma, podría ser peligroso declarar variables dentro de bloques si pudieran ser vistas las variables solo en el bloque que pertenecen.
+</p>
+
+<p>
+    <b>Elevación:</b> En ejecución, todas las declaraciones var y function son movidas para el principio de la de cada función (su alcance) - esto es conocido como Elevación. Dicho esto, es buena practica declarar todas las variables todas juntas en la primera línea, con el fín de evitar falsas expectativas con las variables que han sido declaradas luego de la asignación de su valor - esto es un problema común con  programadores que llegan de lenguajes con alcance de bloques.
+</p>
+
+<p class="source">
+    Fuentes: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">Alcance y Elevación en JavaScript</a>
+</p>
+
+<h3>Función de Vinculación</h3>
+
+<p>
+    La Función de Vinculación es probablemente la última de las preocupaciones de un principiante con JavaScript, pero cuando se entiende que necesita una solución al problema de como mantener el contexto de 'this' dentro de otra función, entonces puede darse cuenta que de hecho necesita está  <b>Function.prototype.bind()</b>.
+</p>
+
+<p class="source">
+    Source: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
+
+<h3>Función de Clausura</h3>
+
+<p>
+    Las Clausuras son funciones que hacen referencia a variables (libres) independientes. En otras palabras, la función definida en la clausura 'recuerda' el ambiente en el cual esta fue creado.
+Esto es un importante concepto para entender, así como útil durante el desarrollo, por ejemplo emular métodos privados. Esto puede también ayuda a aprender como evitar errores, como crear clausuras en bucles.
+ </p>
+
+<p class="source">
+    Fuente: <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript/Closures">MDN - Clausuras</a>
+</p>
+
+<h3>Modo EstrictoStrict </h3>
+
+<p>
+    El modo estricto de ECMAScript 5 es una manera de optar a una variable restringida de JavaScript. El modo estricto no es solo un subconjunto: este tiene intencionalmente un a semántica diferente del código normal. Los navegadores que no soportan el modo estricto correran el código de forma distinta con aquellos navegadores que lo soportan, entonces no confie en el modo estricto sin una prueba de característica que soporte los aspectos relevantes del modo estricto. El código en modo estricto y no estrícto pueden coexistir, de esta forma, scripts pueden optar entrar al modo estrícto de forma incremental. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+ </p>
+
+<p class="source">
+    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+</p>
+
+<h3>Expresión de Función Inmediatamente Invocada (IIFE)</h3>
+
+<p>
+   Una expresión de función inmediatamente invocada es un patrón el cual produce un alcance lexico usando usando Javascript. Alcance de función. Expresión de función imadiatamente invocada puede ser usada para evitar la elevación de las variables con los bloques, proteje enprotejiendo en contra contra la contaminación del ambien global y simultáneamente permite acceder a los métodos publicos al tiempo que conserva la privacidad en las variables definidas dentro de la función.<br/><br/>
+   <i>Este patrón ha sido referido como una función anónima autoejecutable, pero <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduce el termino IIFE como un término semántico más exacto para el patrón</i>.
+</p>
+
+<p class="source">
+    Fuente: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Expresión de Función Inmediatamente Invocada (IIFE)</a>
+</p>

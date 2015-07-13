@@ -1,0 +1,94 @@
+<h3>객체지향</h3>
+
+<p>
+    JavaScript는 객체지향 프로그래밍에 강력한 호환성을 제공하고 있지만, 그런데도 타 객체 지향 언어와 비교했을 때 다른 점으로 인해 자주 논의됩니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object-Oriented JavaScript</a>
+</p>
+
+<h3>익명 함수</h3>
+
+<p>
+    익명 함수는 실행 시간 중에 동적으로 선언되는 함수입니다. 이런 함수를 익명함수라 하는데 다른 평범한 함수와는 달리 이름이 주어지지 않기 때문입니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+</p>
+
+<h3>1급 객체로서의 함수</h3>
+
+<p>
+    JavaScript에서 함수는 1급 객체입니다. 다시 말해 JavaScript 함수는 특별한 타입의 객체로, 일반적인 객체가 할 수 있는 모든 일을 할 수 있다는 뜻입니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+</p>
+
+<h3>느슨한 타입</h3>
+
+<p>
+    많은 Front-end 개발자들에게 JavaScript는 처음으로 접하는 인터프리터 언어이자 스크립트 언어입니다. 이 개발자들에게 느슨한 타입의 변수라는 개념과 논리적 함축은 아주 자연스러운 것입니다. 하지만 모던 웹 애플리케이션에 대한 수요가 폭발적으로 증가함에 따라 클라이언트 측 기술에 발을 디딘 Back-end 개발자들도 점점 많아지고 있는데, C#이나 Java 같은 강한 타입의 언어에 친숙한 이 사람들에게는 느슨한 타입의 변수들이 주는 자유로움이나 잠재적인 함정들이 익숙하지 않습니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
+
+<h3>스코핑과 호이스팅</h3>
+
+<p>
+    <b>스코핑:</b> JavaScript에서는 함수가 <i>사실상의</i> 변수들의 스코프 범위입니다. 그 말인즉슨, 루프나 조건문(if, for, while, switch, try 같은)의 블록은 다른 언어들과는 다르게 스코프 범위가 아닙니다. 그러므로 함수와 그 함수 내에 있는 블록들은 같은 스코프를 사용합니다. 따라서 변수가 블록 내에서만 존재 할거라 생각하고 변수를 선언하는 것은 위험할 수도 있습니다.
+</p>
+
+<p>
+    <b>호이스팅:</b> 실행을 시작하면 모든 변수와 함수의 선언은 각 함수(스코프)의 가장 위로 옮겨집니다. 이것이 바로 호이스팅(hoisting)입니다. 이것 때문에, 첫 줄 이후에 선언된 변수들은 호이스팅으로 인해 선언한 곳 전부터 존재하게 됩니다. 실수를 피하고자 모든 변수를 제일 첫 줄에 함께 선언하는 것은 좋은 습관입니다. 이것은 블록 스코프 기반 언어를 사용하던 프로그래머들이 흔하게 겪는 문제입니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+</p>
+
+<h3>함수 바인딩</h3>
+
+<p>
+    함수 바인딩은 처음 JavaScript를 시작할 때에는 거의 신경 쓸 일이 없을지도 모릅니다. 하지만 다른 함수 내에서 this의 context를 유지해야 할 일이 생겼을 때 당신이 정말 필요로 하는 것은 <b>Function.prototype.bind()</b>라는 걸 알게 될 겁니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
+
+<h3>클로저 함수</h3>
+
+<p>
+    클로저는 독립적인(자유로운) 변수들을 가리키는 함수입니다. 다시 말하자면, 클로저 안에서 정의한 함수는 그 함수가 만들어진 환경을 '기억'합니다. private 메소드를 흉내 내는 것 이외에도 개발 시에 유용하게 쓰이는 개념이므로 이해하는 것이 중요합니다. 또한, 반복문 안에서 클로저를 생성하는 것처럼, 흔히 하는 실수들을 어떻게 피할 수 있는지 배우는 데도 도움이 됩니다.
+ </p>
+
+<p class="source">
+    참고: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+</p>
+
+<h3>Strict 모드</h3>
+
+<p>
+    ECMAScript 5의 strict 모드는 JavaScript의 제한된 변형을 사용하는 방법입니다. 단순히 부분집합은 아닙니다: 의도적으로 일반 코드와 다른 의미를 가집니다. Strict 모드를 지원하지 않는 브라우저는 지원하는 브라우저와 다르게 Strict 모드 코드를 실행하므로, Strict 모드에 대해 적절하게 지원되는지 기능 테스트가 없다면 신뢰할 수 없습니다. Strict 모드와 비 Strict 모드의 코드는 동시에 존재할 수 있으므로, 계속해서 Strict 모드를 명시해야 합니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+</p>
+
+<h3>즉시 실행 함수 표현(Immediately-Invoked Function Expression; IIFE)</h3>
+
+<p>
+   즉시 실행 함수 표현은 JavaScript의 함수 스코핑을 사용해서 렉시컬 스코프를 생성하는 패턴입니다. 즉시 실행 함수 표현은 블록 내에서 변수가 호이스팅되는걸 방지하거나 전역 환경이 오염되는 것을 보호하는 데 사용되기도 하며, 동시에 함수 내에서 정의된 변수를 private로 만들며 메소드만 접근하도록 만들 수도 있습니다.
+   <i>이 패턴은 자기실행 익명 함수(self-executing anonymous function)이라고 불리기도 하지만, <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman)이 패턴에 대해 의미상으로 더 정확한 단어로 IIFE를 소개했습니다.
+</p>
+
+<p class="source">
+    참고: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+</p>

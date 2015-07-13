@@ -2,3 +2,5 @@ _site/
 *.DS_Store
 node_modules
 npm-debug.log
+dist/
+.tmp/
