@@ -732,6 +732,11 @@
         "name":"The Meteor Podcast",
         "url":"http://www.meteorpodcast.com",
         "description":""
+      },
+      {
+        "name":"JSConf",
+        "url":"https://www.youtube.com/user/jsconfeu",
+        "description":""
       }
     ]
   },
