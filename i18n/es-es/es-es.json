@@ -85,11 +85,46 @@
     "title":"HERRAMIENTAS DE PRUEBAS",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
-        {
-          "name":"Mocha",
-          "url":"http://mochajs.org",
-          "description":" Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
-        }
+      {
+        "name":"Mocha",
+        "url":"http://mochajs.org",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+      },
+      {
+        "name":"QUnit",
+        "url":"http://qunitjs.com",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+      },
+      {
+        "name":"Jasmine",
+        "url":"https://github.com/pivotal/jasmine",
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+      },
+      {
+        "name":"Karma",
+        "url":"http://karma-runner.github.io/",
+        "description":"Mantenido por el equipo detrás de  AngularJS. Mayormente por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+      },
+      {
+        "name":"Intern",
+        "url":"http://theintern.io",
+        "description":"Mantenido por <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+      },
+      {
+        "name":"Istanbul",
+        "url":"http://gotwarlost.github.io/istanbul",
+        "description":"Una herramienta de cobertura de código JavaScript escrita en JavaScript, mantenida por <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+      },
+      {
+        "name":"Sinon.JS",
+        "url":"http://sinonjs.org",
+        "description":"Espias de prueba autónomos, stubs y mocks para JavaScript. Sin ependencias, trabaja con cualquier framework de pruebas unitarias. Creado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+      },
+      {
+        "name":"DexterJS",
+        "url":"https://github.com/leobalter/DexterJS",
+        "description":"Un ayudante para simular funciones y los objetos XHR, mantenido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+      }
     ]
   },
   "frameworks":{
@@ -101,7 +136,27 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery es un rápido, pequeño, y gran vais a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery es una libreria en Javascript rápida, pequeña, y abundante en características. Contruida por <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+          },
+          {
+            "name":"YUI",
+            "url":"http://yuilibrary.com",
+            "description":"Construido por Yahoo!, YUI es una libreria Javascript y CSS gratis, de código abierto para construir aplicaciones web altamente interactivas. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">El nuevo desarrollo ha sido detenido desde el 29 de Agosto del 2014</a>."
+          },
+          {
+            "name":"ZeptoJS",
+            "url":"http://zeptojs.com",
+            "description":"Zepto es una libreria JavaScript minimalista para navegadores modernos con un API en gran parte compatible con jQuery. Si usas jQuery, estas listo para conocer como se usa Zepto."
+          },
+          {
+            "name":"Dojo Toolkit",
+            "url":"http://dojotoolkit.org",
+            "description":"Dojo son herramientas Javascript gratuitas, código abierto para construir aplicaciones web de alto rendimento. IBM y SitePen son patrocinantes el proyecto."
+          },
+          {
+            "name":"Underscore.js",
+            "url":"http://underscorejs.org",
+            "description":"Underscore.js es una libreria JavaScript que provee una maraña de ayudantes de programación funcional sin extender alguno de los objetos preconstruidos."
           }
         ]
       },
@@ -111,41 +166,216 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Framework javascript del lado cliente muy popular, Construido por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+          },
+          {
+            "name":"Knockout.js",
+            "url":"http://knockoutjs.com",
+            "description":"Simplifica UI dináimcas JavaScript aplicando Model-View-View Model (MVVM)."
+          },
+          {
+            "name":"Angular.js",
+            "url":"http://angularjs.org",
+            "description":"Construido por Google, Angular.js es como un polyfill para el HTML del futuro."
+          },
+          {
+            "name":"Cappuccino",
+            "url":"http://cappuccino.org",
+            "description":"Cappuccino es un framework de código abierto que hace fácil la contrucción de aplicaciones del calibre de aplicaciones desktop que se ejecutan en un navegador web."
+          },
+          {
+            "name":"JavaScript MVC",
+            "url":"http://javascriptmvc.com/",
+            "description":"JavaScriptMVC es un framework de código abierto que con tiene las mejores ideas del desarrollo con jQuery."
+          },
+          {
+            "name":"Meteor",
+            "url":"https://www.meteor.com",
+            "description":"Meteor es una plataforma de código abierto para construir aplicaciones web de alta calidad en una fracción de tiempo, siendo un desarrollador experto o quien solo acaba de comenzar."
+          },
+          {
+            "name":"Spice.js",
+            "url":"http://spicejs.github.io/spicejs/",
+            "description":"Spice es un super mínimo (&lt; 3k) y flexible framework MVC para javascript. Spice fue construido para agregar fácilmente a cualquier application existente y jugar bien con otras tecnologías tales como jQuery, pjax, turbolinks, node o cualquier itra que usted utilice."
+          },
+          {
+            "name":"Riot.js",
+            "url":"http://www.riotjs.com/",
+            "description":"Riot es un incriblemente rápido, poderoso y aún así pequeña libreria (MV*) del lado cliente para contruir aplicacione web de gran escala. A persar de su pequeño tamaño todos los bloques de construcción se encuentran: un motor de plantilla, enrutador, libreria de eventos y un patrón MVP estricto para mantener las cosas organizadas."
+          },
+          {
+            "name":"CanJS",
+            "url":"http://canjs.com",
+            "description":"CanJS es un framework Javascript que hace el desarrollo de aplicaciones complejas sencillo y rápido. De fácil aprendizaje, pequeña, y sin ninguna asumpción de estructura de aplicación, pero con características modernas como etiquetar y vinculación doble vía."
           }
         ]
       }
     ]
   },
   "gameEngines":{
-    "title":"GAME ENGINES",
+    "title":"MOTORES DE JUEGO",
     "links":[
       {
         "name":"MelonJS",
-        "url":"http://melonJS.org/",
-        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+        "url":"http://melonJS.org",
+        "description":"MelonJS es gratuito, Motor de juego en HTML5 ligero. El motor integra el formato de mapa de baldosas haciendo el diseño de niveles muy fácil."
+      },
+      {
+        "name":"ImpactJS",
+        "url":"http://impactjs.com",
+        "description":"ImpactJS es uno de los mas probados y verdaderos motores de juegos en HTML5 con la publicación inicial se remonta al finales del 2010. Esta está muy bien mantenida y actualizada, y tiene comunidad que lo respalda de un buen tamaño. Existe abundante documentación - incluso dos libros obre el tema de crear juegos con el motor."
+      },
+      {
+        "name":"LimeJS",
+        "url":"http://limejs.com",
+        "description":"LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers."
+      },
+      {
+        "name":"Crafty",
+        "url":"http://craftyjs.com",
+        "description":"Crafty es un motor de juegos que data de finales del 2010. Crafty permite que sea realmente fácil comenzar a hacer juegos con JavaScript."
+      },
+      {
+        "name":"Cocos2d-HTML5",
+        "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
+        "description":"Cocos2d-html5 es un framework de juegos web 2D, liberado bajo MIT License. Este es una versión en HTML5 del proyecto Cocos2d-x. Cocos2d-html5 se enfoca en el desarrollo al readedor de hacer Cocos2d compatible con entre todas las plataformas, navegadores y applicaciones nativas."
+      },
+      {
+        "name":"Phaser",
+        "url":"http://phaser.io",
+        "description":"Phaser is esta basado based fuertemente en <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. Este es mantenido por Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) quien ha sido muy activo en la comunidad de HTML5 durante años."
+      },
+      {
+        "name":"Goo",
+        "url":"http://www.goocreate.com/learn",
+        "description":"Goo en es un motor de juegos 3D en JavaScript enteramente construido en WebGL/HTML5"
+      },
+      {
+        "name":"LycheeJS",
+        "url":"http://lycheejs.org",
+        "description":"LycheeJS es una libreria para juegos en JavaScript que ofrece un solución completa para protoripar y desarrollar juegos basados en Canvas HTML5,  WebGL o OpenGL(ES) nativo dentro del Navegador Web o ambientes nativos."
+      },
+      {
+        "name":"Quintus",
+        "url":"http://html5quintus.com",
+        "description":"Quintus es un motor de juego HTML5 diseñado para ser modular y ligero, con una syntaxis concisa amigable en JavaScript."
+      },
+      {
+        "name":"KiwiJS",
+        "url":"http://www.kiwijs.org",
+        "description":"Kiwi.js es un Motor de Juegos divertido y amigable en HTML5 de Código Abierto. Algunas personas lo llaman el WordPress de los motores de juegos de HTML5"
+      },
+      {
+        "name":"PandaJS",
+        "url":"http://www.pandajs.net",
+        "description":"Panda.js es un motor de juegos en HTML5 para moviles y escritorios con renderizado en Canvas y WebGL."
       }
     ]
   },
   "news":{
-    "title":"News",
+    "title":"Noticias",
     "cat":[
       {
-        "title":"Websites",
+        "title":"Sitios Web",
         "links":[
           {
             "name":"JavaScript.com",
             "url":"http://javascript.com",
             "description":""
+          },
+          {
+            "name":"DailyJS",
+            "url":"http://dailyjs.com",
+            "description":""
+          },
+          {
+            "name":"Echo JS",
+            "url":"http://www.echojs.com",
+            "description":""
+          },
+          {
+            "name":"The Treehouse Show",
+            "url":"http://teamtreehouse.com/library/the-treehouse-show",
+            "description":""
+          },
+          {
+            "name":"/r/javascript on Reddit",
+            "url":"http://www.reddit.com/r/javascript",
+            "description":""
+          },
+          {
+            "name":"Open Web Platform Daily Digest",
+            "url":"http://webplatformdaily.org",
+            "description":""
+          },
+          {
+            "name":"Badass JavaScript",
+            "url":"http://badassjs.com",
+            "description":""
+          },
+          {
+            "name":"AngularJS Daily",
+            "url":"http://paper.li/gwinnem/1390553142",
+            "description":""
           }
         ]
       },
       {
-        "title":"Newsletter",
+        "title":"Boletín",
         "links":[
           {
             "name":"JavaScript Weekly",
             "url":"http://javascriptweekly.com",
+            "description":""
+          },
+          {
+            "name":"A Drip of JavaScript",
+            "url":"http://designpepper.com/a-drip-of-javascript",
+            "description":""
+          },
+          {
+            "name":"Ember Weekly",
+            "url":"http://emberweekly.com",
+            "description":""
+          },
+          {
+            "name":"Backbone Weekly",
+            "url":"http://backboneweekly.com",
+            "description":""
+          },
+          {
+            "name":"Node Weekly",
+            "url":"http://nodeweekly.com",
+            "description":""
+          },
+          {
+            "name":"Meteor Weekly",
+            "url":"http://meteorhacks.com/meteor-weekly",
+            "description":""
+          },
+          {
+            "name":"Grunt Weekly",
+            "url":"https://twitter.com/gruntweekly",
+            "description":""
+          },
+          {
+            "name":"Gamedev.js Weekly",
+            "url":"http://weekly.gamedevjs.com",
+            "description":""
+          },
+          {
+            "name":"HTML5 Weekly",
+            "url":"http://html5weekly.com",
+            "description":""
+          },
+          {
+            "name":"UDGWebDev Weekly",
+            "url":"http://udgwebdev.com/newsletter",
+            "description":""
+          },
+          {
+            "name":"The React Newsletter",
+            "url":"http://theproblemsolver.nl/TheReactNewsletter/Subscribe",
             "description":""
           }
         ]
@@ -153,34 +383,179 @@
     ]
   },
   "reading":{
-    "title":"Reading",
+    "title":"Lectura",
     "cat":[
       {
-        "title":"Articles",
+        "title":"Artículos",
         "credit":true,
         "box":false,
         "links":[
           {
-            "name":"Understanding JavaScript OOP",
+            "name":"Entendiendo programación orientada a objetos en JavaScript",
             "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+            "description":"por <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+          },
+          {
+            "name":"Entendiendo “Prototypes” en JavaScript",
+            "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
+            "description":"por <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
+          },
+          {
+            "name":"Prototipos y Herencia en JavaScript",
+            "url":"http://msdn.microsoft.com/en-us/magazine/ff852808.aspx",
+            "description":"por <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
+          },
+          {
+            "name":"Aplicación Parcial en JavaScript",
+            "url":"http://benalman.com/news/2012/09/partial-application-in-javascript",
+            "description":"por <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
+          },
+          {
+            "name":"Atravesando jQuery",
+            "url":"http://blog.ponyfoo.com/2013/07/09/getting-over-jquery",
+            "description":"por <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
+          },
+          {
+            "name":"Una sumergida en Simple JavaScript",
+            "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
+            "description":"por <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
+          },
+          {
+            "name":"Un Vista en Profundidad a Objetos en JavaScript",
+            "url":"http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm",
+            "description":"por <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"Introducción a Flexibilización en JavaScript",
+            "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
+            "description":"por <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"¿Cómo Aprender JavaScript Apropiadamente?",
+            "url":"http://javascriptissexy.com/how-to-learn-javascript-properly",
+            "description":"por <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
+          },
+          {
+            "name":"¿Cómo Comenzar con JavaScript?",
+            "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
+            "description":"por <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
           }
         ]
       },
       {
-        "title":"Books",
+        "title":"Libros",
         "credit":true,
         "box":false,
         "links":[
           {
-            "name":"Eloquent JavaScript",
+            "name":"JavaScript Elocuente",
             "url":"http://eloquentjavascript.net/",
-            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
+            "description":"por <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
+          },
+          {
+            "name":"JavaScript: La Guía Definitiva",
+            "url":"http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
+          },
+          {
+            "name":"JavaScript: Las Partes Buenas",
+            "url":"http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
+          },
+          {
+            "name":"Patrones en JavaScript",
+            "url":"http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+          },
+          {
+            "name":"Formulas de Pruebas en JavaScript",
+            "url":"http://jstesting.jcoglan.com",
+            "description":"by <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
+          },
+          {
+            "name":"JavaScript para Desarrolladores Web Profesionales",
+            "url":"http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+          },
+          {
+            "name":"JavaScript de Alto Rendimiento",
+            "url":"http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+          },
+          {
+            "name":"JavaScript Humano",
+            "url":"http://humanjavascript.com",
+            "description":"por <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
+          },
+          {
+            "name":"JavaScript Orientado aObjetos",
+            "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
+            "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+          },
+          {
+            "name":"Pro JavaScript Patrones de Diseño",
+            "url":"http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X",
+            "description":"por <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
+          },
+          {
+            "name":"Secretos del JavaScript Ninja",
+            "url":"http://jsninja.com",
+            "description":"por <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
+          },
+          {
+            "name":"Diseño de Aplicaciones en JavaScript",
+            "url":"http://bevacqua.io/bf",
+            "description":"por <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
+          },
+          {
+            "name":"Hablando de JavaScript",
+            "url":"http://speakingjs.com",
+            "description":"por <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
+          },
+          {
+            "name":"Desarrollo de JavaScript Basado en Pruebas",
+            "url":"http://tddjs.com",
+            "description":"por <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
+          },
+          {
+            "name":"No conoces JS",
+            "url":"https://github.com/getify/You-Dont-Know-JS",
+            "description":"por <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+          },
+          {
+            "name":"Quizas no necesitas jQuery",
+            "url":"http://youmightnotneedjquery.com",
+            "description":"por <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
+          },
+          {
+            "name":"Jardín JavaScript",
+            "url":"http://bonsaiden.github.io/JavaScript-Garden/",
+            "description":"por <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
+          },
+          {
+            "name":"JavaScript Efectivo",
+            "url":"http://effectivejs.com",
+            "description":"por <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
+          },
+          {
+            "name":"JavaScript Funcional",
+            "url":"http://functionaljavascript.com",
+            "description":"por <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
+          },
+          {
+            "name":"JavaScript Allongé",
+            "url":"https://leanpub.com/javascript-allonge",
+            "description":"por <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+          },
+          {
+            "name":"JSBooks",
+            "url":"http://jsbooks.revolunet.com",
+            "description":"por <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
           }
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"E-Books Gratuitos",
         "credit":false,
         "box":true,
         "links":[
@@ -188,17 +563,62 @@
             "name":"JSBooks",
             "url":"http://jsbooks.revolunet.com/",
             "description":""
+          },
+          {
+            "name":"DevFreeBooks",
+            "url":"http://devfreebooks.org",
+            "description":""
           }
         ]
       },
       {
-        "title":"Portals",
+        "title":"Portales",
         "credit":false,
         "box":true,
         "links":[
           {
             "name":"JavaScript.com",
             "url":"https://www.javascript.com",
+            "description":""
+          },
+          {
+            "name":"HTML5 Rocks",
+            "url":"http://www.html5rocks.com",
+            "description":""
+          },
+          {
+            "name":"W3Fools",
+            "url":"http://www.w3fools.com",
+            "description":""
+          },
+          {
+            "name":"Red de Desarrolladores Mozilla",
+            "url":"http://developer.mozilla.org/docs/JavaScript",
+            "description":""
+          },
+          {
+            "name":"Plataforma Web",
+            "url":"http://docs.webplatform.org/wiki/javascript",
+            "description":""
+          },
+          {
+            "name":"Smashing Magazine",
+            "url":"http://coding.smashingmagazine.com/tag/javascript",
+            "description":""
+          },
+          {
+            "name":"Escuela de Node",
+            "url":"http://nodeschool.io",
+            "description":""
+          },
+          {
+            "name":"Cómo hacer Node?",
+            "url":"http://howtonode.org",
+            "description":""
+          },
+          {
+            "name":"La guía de Node.js Felix",
+            "url":"http://nodeguide.com/beginner.html",
             "description":""
           }
         ]
@@ -212,48 +632,153 @@
         "name":"Ember Hot Seat",
         "url":"http://emberhotseat.com/",
         "description":""
+      },
+      {
+        "name":"JavaScript Jabber",
+        "url":"http://javascriptjabber.com",
+        "description":""
+      },
+      {
+        "name":"Arriba Node",
+        "url":"http://nodeup.com",
+        "description":""
+      },
+      {
+        "name":"5 Minutos de JavaScript",
+        "url":"ttp://five-js.envylabs.com",
+        "description":""
+      },
+      {
+        "name":"The Meteor Podcast",
+        "url":"http://www.meteorpodcast.com",
+        "description":""
       }
     ]
   },
   "screencasts":{
-    "title":"Screencasts",
+    "title":"Videotutoriales",
     "links":[
       {
         "name":"Egghead",
         "img":"egghead.svg",
         "url":"https://egghead.io/",
         "description":""
+      },
+      {
+        "name":"DevFreeCasts",
+        "img":"devfreecasts.png",
+        "url":"http://devfreecasts.org",
+        "description":""
+      },
+      {
+        "name":"tagtree.tv",
+        "img":"tagtree.png",
+        "url":"https://tagtree.tv/",
+        "description":""
+      },
+      {
+        "name":"frontendmasters.com",
+        "img":"frontendmasters.svg",
+        "url":"http://frontendmasters.com",
+        "description":""
       }
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"¿A quien seguir?"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"Proveedores PaaS",
     "links":[
       {
         "name":"Heroku",
         "url":"http://heroku.com/",
         "description":""
+      },
+      {
+        "name":"Modulus",
+        "url":"https://modulus.io",
+        "description":""
+      },
+      {
+        "name":"Nodejitsu",
+        "url":"http://nodejitsu.com",
+        "description":""
+      },
+      {
+        "name":"OpenShift",
+        "url":"https://www.openshift.com",
+        "description":""
+      },
+      {
+        "name":"dotCloud",
+        "url":"http://getupcloud.com/index_en.html",
+        "description":""
+      },
+      {
+        "name":"Windows Azure",
+        "url":"http://www.windowsazure.com/en-us/develop/nodejs",
+        "description":""
       }
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"Ayudantes",
     "links":[
       {
         "name":"npm",
         "img":"npm.png",
         "url":"https://npmjs.org/",
         "description":""
+      },
+      {
+        "name":"bower",
+        "img":"bower-logo.png",
+        "url":"http://bower.io",
+        "description":""
+      },
+      {
+        "name":"yeoman",
+        "img":"yeoman-logo.png",
+        "url":"http://yeoman.io",
+        "description":""
+      },
+      {
+        "name":"grunt",
+        "img":"grunt-logo.png",
+        "url":"http://gruntjs.com",
+        "description":""
+      },
+      {
+        "name":"gulp",
+        "img":"gulp.png",
+        "url":"http://gulpjs.com",
+        "description":""
+      },
+      {
+        "name":"brunch",
+        "img":"brunch-logo.png",
+        "url":"http://brunch.io",
+        "description":""
+      },
+      {
+        "name":"Browser compilation library",
+        "img":"broccoli-logo.png",
+        "url":"https://github.com/broccolijs/broccoli",
+        "description":""
+      },
+      {
+        "name":"todo mvc",
+        "img":"todomvc-logo.png",
+        "url":"http://todomvc.com",
+        "description":""
       }
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"Creado y maatenido por",
+    "contributors":"Colaboradores",
+    "contribDesc":"Es proyecto no existiría sin estos maravillosos colaboradores. Gracias muchachos por hacer esto real!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }

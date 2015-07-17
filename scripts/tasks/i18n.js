@@ -29,15 +29,17 @@ module.exports = function (grunt) {
     var data, t;
     var defaultData = grunt.file.readJSON(path.join(JSON_PATH, DEFAULT_LANGUAGE.replace('.json', ''),DEFAULT_LANGUAGE));
 
-    grunt.file.recurse( JSON_PATH, function(abspath, rootdir, subdir, filename){
-      // grunt.log.write(filename + '\n');
-      if(filename.indexOf('.json') !== -1) {
+    grunt.file.recurse( JSON_PATH, function (abspath, rootdir, subdir, filename){
 
+      if(filename.indexOf('.json') !== -1) {
         data = getData(path.join(JSON_PATH, filename.replace('.json', ''), filename), filename.replace('.json', ''));
-        // grunt.log.write(data.goodParts.title)
 
         // Extend from default language
         data = extend(true, defaultData, data);
+
+        // Paths
+        var prop  = grunt.cli.tasks.indexOf('dist') !== -1 ? 'dist' : 'dev';
+        data.paths =  grunt.config.get('application')[prop];
 
         t = mustache.to_html(template, data);
         save(TEMPLATE_FILE, filename, entities.decode(t));
@@ -54,14 +56,14 @@ module.exports = function (grunt) {
   var save = function (name, dest, content) {
       try {
         grunt.log.write('Creating file ' + path.join(PUBLIC_PATH, dest.replace('.json', ''), name) + '\n');
-        grunt.file.write(path.join(PUBLIC_PATH, dest.replace('.json', ''), name), htmlMinify(content, {removeAttributeQuotes: true, collapseWhitespace:true}));
+        grunt.file.write(path.join(PUBLIC_PATH, dest.replace('.json', ''), name), htmlMinify(content));
       } catch (e) {
         grunt.log.write(e);
       }
   }
 
   // Parse @link files if exists
-  var getData = function(filename, lang) {
+  var getData = function (filename, lang) {
     var data = grunt.file.readJSON(filename);
     var re = /{{@link=([^\s]+)}}/, res;
     data = (function r(o) {
@@ -85,7 +87,7 @@ module.exports = function (grunt) {
     return data
   }
 
-  grunt.registerTask('i18n', function() {
+  grunt.registerTask('i18n', function () {
       grunt.log.write('Translating...\n');
       generate.call();
   });

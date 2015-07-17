@@ -11,7 +11,7 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="assets/css/core.min.css">
+        <link rel="stylesheet" href="{{paths.csspath}}core.min.css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
@@ -247,7 +247,7 @@
                 {{#screencasts.links}}
                 <div class="screencasts-container">
                     <a href="{{url}}" target="_blank">
-                        <img src="assets/img/{{img}}" alt="{{name}}" />
+                        <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                     </a>
                 </div>
                 {{/screencasts.links}}
@@ -289,7 +289,7 @@
                   {{#helpers.links}}
                     <a target="_blank" href="{{url}}">
                         <figure>
-                            <img src="assets/img/{{img}}" alt="{{name}}" />
+                            <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                         </figure>
                     </a>
                   {{/helpers.links}}
@@ -322,7 +322,7 @@
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="assets/js/core.min.js"></script>
+        <script type="text/javascript" src="{{paths.jspath}}core.min.js"></script>
         <div id="fb-root"></div>
         <script>
             function asyncScriptLoad( url, id ) {
