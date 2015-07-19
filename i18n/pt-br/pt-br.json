@@ -166,47 +166,47 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Framework JavaScript client-side muito popular, criado por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           },
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+            "description":"Criado por <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, desenvolvedores do núcleo do jQuery e Ruby on Rails ."
           },
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+            "description":"Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo Model-View-View Model (MVVM)."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+            "description":"Criado pelo Google, Angular.js é como um polyfill para o futuro do HTML."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+            "description":"Cappuccino é um framework de código aberto que torna fácil a criação de aplicações parecidas com desktop que rodam em um navegador."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+            "description":"JavaScriptMVC é um framework de código aberto que contém as melhores ideias no desenvolvimento do jQuery."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+            "description":"Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, sendo você um desenvolvedor experiênte ou que esta apenas começando."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+            "description":"Spice é um framework MVC em JavaScript minúsculo (&lt; 3k) e flexível. Spice foi construido para ser fácil de ser adicionado em qualquer aplicação existente e funciona bem com outras tecnologias como jQuery, pjax, turbolinks, node ou qualquer outra coisa que você esteja usando."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+            "description":"Riot é uma biblioteca client side (MV*) incrivelmente rápida, potente e pequena para criar aplicações web de grande escala. Apesar do tamanho pequeno todos os blocos de construção estão lá: um motor de templates, rotas, biblioteca de eventos e um padrão MVP rígido para manter as coisas organizadas."
           },
           {
             "name":"CanJS",
