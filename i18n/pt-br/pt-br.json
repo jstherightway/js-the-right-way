@@ -635,7 +635,7 @@
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"E-Books grátis",
         "credit":false,
         "box":true,
         "links":[
@@ -652,7 +652,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"Portais",
         "credit":false,
         "box":true,
         "links":[
@@ -673,7 +673,7 @@
           },
           {
             "name":"Mozilla Developer Network",
-            "url":"http://developer.mozilla.org/docs/JavaScript",
+            "url":"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
             "description":""
           },
           {
@@ -688,7 +688,7 @@
           },
           {
             "name":"Node School",
-            "url":"http://nodeschool.io",
+            "url":"http://nodeschool.io/pt-br/",
             "description":""
           },
           {
@@ -725,7 +725,7 @@
       },
       {
         "name":"5 Minutes of JavaScript",
-        "url":"ttp://five-js.envylabs.com",
+        "url":"http://five-js.envylabs.com",
         "description":""
       },
       {
