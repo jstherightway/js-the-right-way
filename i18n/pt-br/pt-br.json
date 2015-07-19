@@ -216,22 +216,22 @@
         ]
       },
       {
-        "title":"Library",
+        "title":"Biblioteca",
         "links":[
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+            "description":"Criado pelo Facebook. React é uma biblioteca JavaScript para criação de interfaces de usuários do Facebook e do Instagram. Muitas pessoas escolhem em pensar no React como o V do MVC."
           },
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+            "description":"Handlebars fornece eficazmente o poder necessário para você criar templates semanticos sem frustações."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchronous templates for the browser and node.js."
+            "description":"Templates assíncronos para o navegador e para node.js."
           }
         ]
       },
