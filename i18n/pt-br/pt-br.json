@@ -236,57 +236,57 @@
         ]
       },
       {
-        "title":"Animation",
+        "title":"Animação",
         "links":[
           {
             "name":"Velocity.js",
             "url":"http://julian.com/research/velocity/",
-            "description":"Velocity is an animation engine with the same API as jQuery's $.animate()."
+            "description":"Velocity é um motor de animações com a mesma API  $.animate() do jQuery."
           },
           {
             "name":"Bounce.js",
             "url":"http://bouncejs.com/",
-            "description":"Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations."
+            "description":"Bounce.js é uma biblioteca JavaScript e uma ferramenta que permite você criar lindas e incrementadas animações do CSS3."
           },
           {
             "name":"TweenJS",
             "url":"http://www.createjs.com/tweenjs",
-            "description":"A simple but powerful JavaScript library for tweening and animating HTML5 and JavaScript properties."
+            "description":"Uma biblioteca JavaScript simples mas poderosa para interpolação e animação de HTML5 e propriedades do JavaScript."
           },
           {
             "name":"Move.js",
             "url":"http://visionmedia.github.io/move.js/",
-            "description":"Move.js is a small JavaScript library making CSS3 backed animation extremely simple and elegant."
+            "description":"Move.js é uma biblioteca JavaScript pequena que torna animações do CSS3 super simples e elegante."
           },
           {
             "name":"Snap.svg",
             "url":"http://snapsvg.io/",
-            "description":"SVG is an excellent way to create interactive, resolution-independent vector graphics that will look great on any size screen."
+            "description":"SVG é um excelente caminho para criação de vetores de gráfico interativos e independentes de resolução, ficará bonito em qualquer tamanho de tela."
           },
           {
             "name":"Rekapi",
             "url":"http://rekapi.com/",
-            "description":"Rekapi is a library for making canvas and DOM animations with JavaScript, as well as CSS @keyframe animations for modern browsers."
+            "description":"Rekapi é uma biblioteca para criação de  animações de canvas e DOM com JavaScript, assim como animações @keyframe do CSS para navegadores modernos."
           },
           {
             "name":"Favico.js",
             "url":"http://lab.ejci.net/favico.js/",
-            "description":"Make use of your favicon with badges, images or videos."
+            "description":"Faça uso do seu favicon com emblemas, imagens ou vídeos."
           },
           {
             "name":"Textillate.js",
             "url":"http://jschr.github.io/textillate/",
-            "description":"Textillate.js combines some awesome libraries to provide a ease-to-use plugin for applying CSS3 animations to any text."
+            "description":"Textillate.js combina algumas bibliotecas impressionantes para fornecer um plugin fácil de usar para aplicar animações de CSS3 em qualquer texto."
           },
           {
             "name":"Motio",
             "url":"http://darsa.in/motio/",
-            "description":"Motio is a small JavaScript library for simple but powerful sprite based animations and panning."
+            "description":"Motio é uma pequena biblioteca JavaScript para uma simples porém poderosa animação baseada em sprites e panning (panorâmica)."
           },
           {
             "name":"Anima.js",
             "url":"http://lvivski.com/anima/",
-            "description":"With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!"
+            "description":"Com a Anima é fácil de animar mais de cem objetos de cada vez. Cada item pode ter sua massa e viscosidade para simular objetos da vida real!"
           }
         ]
       }
