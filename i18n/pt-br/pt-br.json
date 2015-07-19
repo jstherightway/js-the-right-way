@@ -131,32 +131,32 @@
     "title":"FRAMEWORKS",
     "cat":[
       {
-        "title":"GENERAL PURPOSE",
+        "title":"PROPOSTA GERAL",
         "links":[
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery é uma biblioteca JavaScript rápida, pequena e cheia de recursos. Criada por <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+            "description":"Criado pelo Yahoo!, YUI é uma biblioteca JavaScript e CSS de código aberto para criação de aplicações web ricas e interativas. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Novas atualizações estão paradas desde 29 de Agosto de 2014</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+            "description":"Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma grande compatibilidade com a API do jQuery. Se você usa jQuery, você já sabe como usar a Zepto."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+            "description":"Dojo é um kit de ferramentas JavaScript grátis e de código aberto para criação de aplicações web de alto desempenho. Os patrocinadores do projeto incluem IBM e SitePen."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+            "description":"Underscore.js é uma biblioteca JavaScript que fornece uma enorme quantidade de helpers úteis sem estender qualquer objeto interno."
           }
         ]
       },
