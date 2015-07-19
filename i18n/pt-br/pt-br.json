@@ -861,9 +861,9 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"Criado e mantido por",
+    "contributors":"Contribuidores",
+    "contribDesc":"Este projeto não existiria sem esses maravilhosos contribuidores. Obrigado galera por tornarem isso real!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
