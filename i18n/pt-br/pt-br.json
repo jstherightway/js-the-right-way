@@ -32,7 +32,7 @@
         "url":"#frameworks"
       },
       {
-        "title":"Engines de jogos",
+        "title":"Motores de jogos",
         "url":"#game-engines"
       },
       {
@@ -66,23 +66,23 @@
     ]
   },
   "gettingStarted": {
-    "title":"GETTING STARTED",
+    "title":"INICIANDO",
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
-    "title":"JS CODE STYLE",
+    "title":"ESTILOS DE CÓDIGO JS",
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
-    "title":"THE GOOD PARTS",
+    "title":"AS PARTES BOAS",
     "text":"{{@link=partials/good-parts.html}}"
   },
   "patterns":{
-    "title":"PATTERNS",
+    "title":"PADRÕES",
     "text":"{{@link=partials/patterns.html}}"
   },
   "testingTools":{
-    "title":"TESTING TOOLS",
+    "title":"FERRAMENTAS DE TESTE",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
         {
@@ -293,7 +293,7 @@
     ]
   },
   "gameEngines":{
-    "title":"GAME ENGINES",
+    "title":"MOTORES DE JOGOS",
     "links":[
       {
         "name":"MelonJS",
@@ -353,7 +353,7 @@
     ]
   },
   "news":{
-    "title":"News",
+    "title":"NOVIDADES",
     "cat":[
       {
         "title":"Websites",
@@ -463,7 +463,7 @@
     ]
   },
   "reading":{
-    "title":"Reading",
+    "title":"LEITURA",
     "cat":[
       {
         "title":"Articles",
@@ -770,10 +770,10 @@
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"QUEM SEGUIR"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"PROVEDORES PaaS",
     "links":[
       {
         "name":"Heroku",
