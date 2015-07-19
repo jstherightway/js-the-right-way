@@ -88,42 +88,42 @@
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+          "description":"Mantida por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
         },
         {
           "name":"QUnit",
           "url":"http://qunitjs.com",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+          "description":"Mantida por <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
         },
         {
           "name":"Jasmine",
           "url":"https://github.com/pivotal/jasmine",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+          "description":"Mantida por <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
         },
         {
           "name":"Karma",
           "url":"http://karma-runner.github.io/",
-          "description":"Maintained by the team behind AngularJS. Mostly by <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+          "description":"Mantida pelo time por trás do AngularJS. Maioria por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
         },
         {
           "name":"Intern",
           "url":"http://theintern.io",
-          "description":"Maintained by <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+          "description":"Mantida por <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
         },
         {
           "name":"Istanbul",
           "url":"http://gotwarlost.github.io/istanbul",
-          "description":"A JavaScript code coverage tool written in JavaScript, maintained by <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+          "description":"Uma ferramenta de cobertura de código JavaScript escrita em JavaScript, mantida por  <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
         },
         {
           "name":"Sinon.JS",
           "url":"http://sinonjs.org",
-          "description":"Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+          "description":"Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de teste unit. Criado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
         },
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+          "description":"Um helper de teste para fazer mocks de funções e de objetos XHR, mantido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         }
     ]
   },
