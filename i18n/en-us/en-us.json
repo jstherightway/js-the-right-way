@@ -200,7 +200,7 @@
           },
           {
             "name":"Spice.js",
-            "url":"http://www.3den.org/spicejs",
+            "url":"http://spicejs.github.io/spicejs/",
             "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
           },
           {
