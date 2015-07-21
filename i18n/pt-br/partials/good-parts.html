@@ -1,0 +1,96 @@
+<h3>Orientação a Objetos</h3>
+
+<p>
+    JavaScript tem fortes capacidades de programação orientada a objetos, apesar de ocorrerem algumas discussões devido às diferenças da orientação a objetos no JavaScript em comparação com outras linguagens.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introdução ao JavaScript Orientado a Objeto</a>
+</p>
+
+<h3>Funções anonimas</h3>
+
+<p>
+    Funções anonimas são funções que são declaradas dinamicamentes em tempo de execução. Elas são chamadas de funções anonimas devido a elas não receberem um nome como as funções normais.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+</p>
+
+<h3>Funções como Objetos de primeira classe</h3>
+
+<p>
+    Funções em JavaScript são funções de primeira classe. Isso significa que no JavaScript as funções são um tipo especial de objeto que podem fazer todas as coisas que um objeto normal pode fazer.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+</p>
+
+<h3>Tipagem fraca</h3>
+
+<p>
+    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, com o crescimento explosivo na demanda por aplicações web modernas, resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
+
+<h3>Escopos e elevação (<i>hoisting</i>)</h3>
+
+<p>
+    <b>Escopos:</b> Em JavaScript, funções são nosso <i>de fato</i> delimitador de escopo para declaração de variáveis, que significa que blocos usuais de loops e condicionais (como <i>if</i>, <i>for</i>, <i>while</i>, <i>switch</i> e <i>try</i>) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
+</p>
+
+<p>
+    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, em ordem de evitar falsas expectativas com uma variável que foi declarada depois mas aconteceu de ter um valor anteriormente - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+</p>
+
+<h3><i>Binding</i> de funções</h3>
+
+<p>
+    <i>Binding</i> de funções será provavelmente a última de suas preocupações quando estiver começando com o JavaScript, mas quando você perceber que precisa de uma solução para o problema de como manter o contexto do <i>'this'</i> dentro de outra função, então você pode se dar conta do que realmente precisa é a função <b>Function.prototype.bind()</b>.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
+
+<h3>Funções de fechamentos (<i>Closure</i>)</h3>
+
+<p>
+    <i>Closures</i> (fechamentos) são funções que se referem a variáveis livres (independentes). Em outras palavras, a função definida no <i>closure</i> "lembra" do ambiente em que ela foi criada.
+    
+    Esse é um importante conseito a ser entendido pois pode ser muito útil durante o desenvolvimento, como emulando métodos privados. Também pode ajudar a aprender como evitar erros comuns, como criando closures em loops.
+ </p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+</p>
+
+<h3>Modo rigoroso</h3>
+
+<p>
+    O modo rigoroso do ECMAScript 5 é um modo de optar por uma restrita variação do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar por modo rigoroso incrementalmente.
+ </p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+</p>
+
+<h3>Expressão de Função Invocada Imediatamente (IIFE - Immediately-Invoked Function Expression)</h3>
+
+<p>
+    Uma função imediata é um padrão que produz um escopo léxico unado a função de escopo do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (<i>hoisting</i>) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retem a privacidade para as variáveis declaradas dentro da função.<br/><br/>
+   <i>Esse padrão tem sido referenciado como função anônima de auto execução, mas <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais semântico para o padrão</i>.
+</p>
+
+<p class="source">
+    Fonte: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+</p>
