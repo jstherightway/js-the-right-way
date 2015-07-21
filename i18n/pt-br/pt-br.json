@@ -166,7 +166,7 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Framework JavaScript client-side muito popular, criado por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Framework JavaScript <i>client-side</i> muito popular, criado por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           },
           {
             "name":"Ember.js",
@@ -176,12 +176,12 @@
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo Model-View-View Model (MVVM)."
+            "description":"Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM)."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Criado pelo Google, Angular.js é como um polyfill para o futuro do HTML."
+            "description":"Criado pelo Google, Angular.js é como um <i>polyfill</i> para o futuro do HTML."
           },
           {
             "name":"Cappuccino",
@@ -206,7 +206,7 @@
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot é uma biblioteca client side (MV*) incrivelmente rápida, potente e pequena para criar aplicações web de grande escala. Apesar do tamanho pequeno todos os blocos de construção estão lá: um motor de templates, rotas, biblioteca de eventos e um padrão MVP rígido para manter as coisas organizadas."
+            "description":"Riot é uma biblioteca <i>client-side</i> (MV*) incrivelmente rápida, potente e pequena para criar aplicações web de grande escala. Apesar do tamanho pequeno todos os blocos de construção estão lá: um motor de templates, rotas, biblioteca de eventos e um padrão MVP rígido para manter as coisas organizadas."
           },
           {
             "name":"CanJS",
@@ -271,7 +271,7 @@
           {
             "name":"Favico.js",
             "url":"http://lab.ejci.net/favico.js/",
-            "description":"Faça uso do seu favicon com emblemas, imagens ou vídeos."
+            "description":"Faça uso do seu <i>favicon</i> com emblemas, imagens ou vídeos."
           },
           {
             "name":"Textillate.js",
@@ -281,7 +281,7 @@
           {
             "name":"Motio",
             "url":"http://darsa.in/motio/",
-            "description":"Motio é uma pequena biblioteca JavaScript para uma simples porém poderosa animação baseada em sprites e panning (panorâmica)."
+            "description":"Motio é uma pequena biblioteca JavaScript para uma simples porém poderosa animação baseada em <i>sprites</i> e <i>panning</i> (panorâmica)."
           },
           {
             "name":"Anima.js",
