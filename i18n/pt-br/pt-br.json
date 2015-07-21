@@ -146,7 +146,7 @@
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma grande compatibilidade com a API do jQuery. Se você usa jQuery, você já sabe como usar a Zepto."
+            "description":"Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma grande compatibilidade com a API do jQuery. Se você usa jQuery, você já sabe como usar o Zepto."
           },
           {
             "name":"Dojo Toolkit",
@@ -196,7 +196,7 @@
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, sendo você um desenvolvedor experiênte ou que esta apenas começando."
+            "description":"Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, sendo você um desenvolvedor experiente ou que esta apenas começando."
           },
           {
             "name":"Spice.js",
@@ -211,7 +211,7 @@
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+            "description":"CanJS é um framework JavaScript que simplifica e agiliza o desenvolvimento de aplicações complexas. Fácil de aprender, pequeno e com uma estrutura modesta, mas com características modernas como tags customizadas e com binding de duas vias."
           }
         ]
       },
@@ -226,7 +226,7 @@
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars fornece eficazmente o poder necessário para você criar templates semanticos sem frustações."
+            "description":"Handlebars fornece eficazmente o poder necessário para você criar templates semânticos sem frustrações."
           },
           {
             "name":"Dust.js",

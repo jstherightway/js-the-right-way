@@ -31,7 +31,7 @@
 <h3>Tipagem fraca</h3>
 
 <p>
-    Para muintos desenvolvedores front-end, o JavaScript foi o primeiro gostinho de uma linguagem de script e ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, com o crescimento explosivo na demanda por aplicações web modernas, resultou no crescimento do número de desenvolvedores back-end que tiveram que enfiar seus pés nas tecnologias de client-side. Muitos desses desenvolveros estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
+    Para muitos desenvolvedores front-end, o JavaScript foi o primeiro gostinho de uma linguagem de script e ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, com o crescimento explosivo na demanda por aplicações web modernas, resultou no crescimento do número de desenvolvedores back-end que tiveram que enfiar seus pés nas tecnologias de client-side. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
 </p>
 
 <p class="source">
@@ -41,7 +41,7 @@
 <h3>Escopos e elevação (hoisting)</h3>
 
 <p>
-    <b>Scopos:</b> Em JavaScript, funções são nosso <i>de fato</i> delimitador de escopo para declaração de variáveis, que significa que blocos usuais de loops e condicionais (como if, for, while, switch e try) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
+    <b>Escopos:</b> Em JavaScript, funções são nosso <i>de fato</i> delimitador de escopo para declaração de variáveis, que significa que blocos usuais de loops e condicionais (como if, for, while, switch e try) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
 </p>
 
 <p>
@@ -55,7 +55,7 @@
 <h3>Binding de funções</h3>
 
 <p>
-    Binding de funções será provavelmente a última de suas preocupações quando estiver começãndo com o JavaScript, mas quando vc perceber que precisa de uma solução para o problema de como manter o contexto do 'this' dentro de outra função, então você pode se dar conta do que realmente precisa é a função <b>Function.prototype.bind()</b>.
+    Binding de funções será provavelmente a última de suas preocupações quando estiver começando com o JavaScript, mas quando você perceber que precisa de uma solução para o problema de como manter o contexto do <i>'this'</i> dentro de outra função, então você pode se dar conta do que realmente precisa é a função <b>Function.prototype.bind()</b>.
 </p>
 
 <p class="source">
@@ -87,8 +87,8 @@
 <h3>Expressão de Função Invocada Imediatamente (IIFE - Immediately-Invoked Function Expression)</h3>
 
 <p>
-    Uma função imediata é um padrão que produz um escopo lexico unado a função de escopo do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (hoisting) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retem a privacidade para as variáveis declaradas dentro da função.<br/><br/>
-   <i>Esse padrão tem sido referênciado como função anônima de auto execução, mas <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais semântico para o padrão</i>.
+    Uma função imediata é um padrão que produz um escopo léxico unado a função de escopo do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (hoisting) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retem a privacidade para as variáveis declaradas dentro da função.<br/><br/>
+   <i>Esse padrão tem sido referenciado como função anônima de auto execução, mas <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais semântico para o padrão</i>.
 </p>
 
 <p class="source">
