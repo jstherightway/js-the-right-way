@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title":"JS: The Right Way",
-    "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
+    "title":"JS: Der richtige Weg",
+    "description":"Eine kurze Übersicht an Best-Practices für das Programmieren mit JavaScript -- Links zu Entwurfsmustern und Tutorials aus dem Web"
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
-    "title": "Choose your path",
+    "title": "Wähle deinen Weg",
     "links": [
       {
         "title":"Erste Schritte",
@@ -123,7 +123,6 @@
       {
         "name":"DexterJS",
         "url":"https://github.com/leobalter/DexterJS",
-        "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         "description":"Ein Test-Helferlein, um Mocks von Funktionen und dem XHR-Objekt zu erstellen, gewartet von <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
       }
     ]
