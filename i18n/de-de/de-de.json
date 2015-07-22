@@ -8,7 +8,7 @@
     "title": "Choose your path",
     "links": [
       {
-        "title":"Getting Started",
+        "title":"Erste Schritte",
         "url":"#getting-started"
       },
       {
@@ -16,15 +16,15 @@
         "url":"#js-code-style"
       },
       {
-        "title":"The Good Parts",
+        "title":"Die Vorteile",
         "url":"#the-good-parts"
       },
       {
-        "title":"Patterns",
+        "title":"Entwurfsmuster",
         "url":"#patterns"
       },
       {
-        "title":"Testing Tools",
+        "title":"Testwerkzeuge",
         "url":"#testing-tools"
       },
       {
@@ -36,11 +36,11 @@
         "url":"#game-engines"
       },
       {
-        "title":"News",
+        "title":"Neuigkeiten",
         "url":"#news"
       },
       {
-        "title":"Reading",
+        "title":"Literatur",
         "url":"#reading"
       },
       {
@@ -52,21 +52,21 @@
         "url":"#screencasts"
       },
       {
-        "title":"Who to follow",
+        "title":"Wem ist zu folgen",
         "url":"#whotofollow"
       },
       {
-        "title":"PaaS Providers",
+        "title":"PaaS-Anbieter",
         "url":"#paas"
       },
       {
-        "title":"Helpers",
+        "title":"Helferlein",
         "url":"#helpers"
       }
     ]
   },
   "gettingStarted": {
-    "title":"GETTING STARTED",
+    "title":"ERSTE SCHRITTE",
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
@@ -74,56 +74,57 @@
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
-    "title":"THE GOOD PARTS",
+    "title":"DIE VORTEILE",
     "text":"{{@link=partials/good-parts.html}}"
   },
   "patterns":{
-    "title":"PATTERNS",
+    "title":"ENTWURFSMUSTER",
     "text":"{{@link=partials/patterns.html}}"
   },
   "testingTools":{
-    "title":"TESTING TOOLS",
+    "title":"TESTWERKZEUGE",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
       {
         "name":"Mocha",
         "url":"http://mochajs.org",
-        "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        "description":"wird gewartet von <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
       },
       {
         "name":"QUnit",
         "url":"http://qunitjs.com",
-        "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+        "description":"wird gewartet von <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
       },
       {
         "name":"Jasmine",
         "url":"https://github.com/pivotal/jasmine",
-        "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+        "description":"wird gewartet von <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
       },
       {
         "name":"Karma",
         "url":"http://karma-runner.github.io/",
-        "description":"Maintained by the team behind AngularJS. Mostly by <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+        "description":"wird gewartet von dem Team hinter AngularJS. Am meisten durch <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
       },
       {
         "name":"Intern",
         "url":"http://theintern.io",
-        "description":"Maintained by <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+        "description":"wird gewartet von <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
       },
       {
         "name":"Istanbul",
         "url":"http://gotwarlost.github.io/istanbul",
-        "description":"A JavaScript code coverage tool written in JavaScript, maintained by <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+        "description":"Ein JavaScript Code-Coverage-Tool, geschrieben in JavaScript. Wird gewartet von <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
       },
       {
         "name":"Sinon.JS",
         "url":"http://sinonjs.org",
-        "description":"Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+        "description":"Eigenständige Test-Spies, Stubs und Mocks für JavaScript. Keine Abhängigkeiten, funktioniert mit beliebigen Unit-Test-Frameworks. Erstellt von der <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS Community</a>"
       },
       {
         "name":"DexterJS",
         "url":"https://github.com/leobalter/DexterJS",
         "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+        "description":"Ein Test-Helferlein, um Mocks von Funktionen und dem XHR-Objekt zu erstellen, gewartet von <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
       }
     ]
   },
@@ -131,7 +132,7 @@
     "title":"FRAMEWORKS",
     "cat":[
       {
-        "title":"GENERAL PURPOSE",
+        "title":"ALLGEMEINER ZWECK",
         "links":[
           {
             "name":"jQuery",
@@ -216,7 +217,7 @@
         ]
       },
       {
-        "title":"Library",
+        "title":"Bibliotheken",
         "links":[
           {
             "name":"React",
@@ -353,10 +354,10 @@
     ]
   },
   "news":{
-    "title":"News",
+    "title":"Neuigkeiten",
     "cat":[
       {
-        "title":"Websites",
+        "title":"Webseiten",
         "links":[
           {
             "name":"JavaScript.com",
@@ -463,10 +464,10 @@
     ]
   },
   "reading":{
-    "title":"Reading",
+    "title":"Literatur",
     "cat":[
       {
-        "title":"Articles",
+        "title":"Artikel",
         "credit":true,
         "box":false,
         "links":[
@@ -523,7 +524,7 @@
         ]
       },
       {
-        "title":"Books",
+        "title":"Bücher",
         "credit":true,
         "box":false,
         "links":[
@@ -635,7 +636,7 @@
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"Kostenlose E-Books",
         "credit":false,
         "box":true,
         "links":[
@@ -652,7 +653,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"Portale",
         "credit":false,
         "box":true,
         "links":[
@@ -770,10 +771,10 @@
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"Wem ist zu folgen"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"PaaS-Anbieter",
     "links":[
       {
         "name":"Heroku",
@@ -808,7 +809,7 @@
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"Helferlein",
     "links":[
       {
         "name":"npm",
@@ -861,9 +862,9 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"Erstellt und gewartet von",
+    "contributors":"Mitwirkende",
+    "contribDesc":"Dieses Projekt wäre ohne die Hilfe von diesen großartigen Personen nicht zustande gekommen. Vielen Dank dafür, dass ihr es möglich macht!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
