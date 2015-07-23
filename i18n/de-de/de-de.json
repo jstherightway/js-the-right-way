@@ -32,7 +32,7 @@
         "url":"#frameworks"
       },
       {
-        "title":"Game Engines",
+        "title":"Spiele-Engines",
         "url":"#game-engines"
       },
       {
@@ -136,27 +136,27 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery ist eine schnelle, kleine und featurereiche JavaScript-Bibliothek. Erstellt von <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+            "description":"Erstellt von Yahoo!, YUI ist eine freie, quelloffene JavaScript- und CSS-Bibliothek für die Erstellung von interaktiven Webanwendungen. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Die Weiterentwicklung wurde seit dem 29. August 2014 gestoppt.</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+            "description":"Zepto ist eine minimalistische Javascript-Bibliothek für moderne Browser mit einer weitestgehend jQuery-kompatiblen API. Wenn du bereits jQuery verwendest, weißt du bereits, wie man Zepto benutzt."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+            "description":"Dojo ist ein freies, quelloffenes JavaScript-Toolkit zum Erstellen von hochperformanten  Webanwendungen. Projektsponsoren umfassen unter anderem IBM und SitePen."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+            "description":"Underscore.js ist eine JavaScript-Bibliothek, die unterschiedlichste hilfreiche und funktionale Programmhelferlein bietet, ohne die eingebauten Objekte zu verändern."
           }
         ]
       },
@@ -166,52 +166,52 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Sehr beliebtes clientseitiges JavaScript-Framework, erstellt von <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           },
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+            "description":"Erstellt von <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery und den Ruby on Rails-Hauptentwicklern."
           },
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+            "description":"Vereinfacht dynamische JavaScript-UIs, indem es dem Model-View-View Model (MVVM)-Schema folgt."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+            "description":"Erstellt von Google, Angular.js ist eine Art Polyfill für die Zukunft von HTML."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+            "description":"Cappuccino ist ein quelloffenes Framework, welches die Erstellung von Desktop-Caliber-Anwendungen, die im Webbrowser laufen, vereinfacht."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+            "description":"JavaScriptMVC ist ein quelloffenes Framework, welches die besten Ideen aus der jQuery-Entwicklung beinhaltet."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+            "description":"Meteor ist eine quelloffene Plattform zum Erstellen von qualitativ hochwertigen Web-Apps in kürzester Zeit, egal ob du ein erfahrerener Entwickler bist oder gerade erst angefangen hast."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+            "description":"Spice ist ein extrem minimales (&lt; 3k) und flexibles MVC-Framework für JavaScript. Spice kann leicht in bestehende Anwendungen integriert werden und arbeitet gut mit anderen Technologien wie jQuery, pjax, turbolinks, node oder womit auch immer du arbeitest, zusammen"
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+            "description":"Riot ist eine unglaublich schnelle, mächtige und zugleich kleine clientseitige (MV*) Bibliothek zum Erstellen von umfangreichen Webanwendungen. Trotz der kleinen Größe sind alle wichtigen Bausteine vorhanden: eine Template-Engine, ein Router, eine Event-Bibliothek und ein striktes MVP-Muster, um Dinge organisiert zu halten."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+            "description":"CanJS ist ein JavaScript-Framework, welches die Entwicklung von komplexen Anwendungen einfach und schnell macht. Einfach zu erlernen, klein und eine flexible Anwendungsstruktur, dazu moderne Features wie Custom Tags und Two-Way-Binding."
           }
         ]
       },
@@ -221,17 +221,17 @@
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+            "description":"Erstellt von Facebook. React ist eine JavaScript-Bibliothek zum Erstellen von User Interfaces von Facebook und Instagram. React wird von vielen als das V in MVC angesehen."
           },
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+            "description":"Handlebars bietet die Mächtigkeit, semantische Templates effektiv ohne Frust zu erstellen."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchronous templates for the browser and node.js."
+            "description":"Asynchrone Templates für den Browser und node.js."
           }
         ]
       },
@@ -241,59 +241,59 @@
           {
             "name":"Velocity.js",
             "url":"http://julian.com/research/velocity/",
-            "description":"Velocity is an animation engine with the same API as jQuery's $.animate()."
+            "description":"Velocity ist eine Animations-Engine mit derselben API wie jQuerys $.animate()."
           },
           {
             "name":"Bounce.js",
             "url":"http://bouncejs.com/",
-            "description":"Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations."
+            "description":"Bounce.js ist ein Werkzeug und eine JS-Bibliothek, mit dem man schöne CSS3 getriebene Animationen erstellen kann."
           },
           {
             "name":"TweenJS",
             "url":"http://www.createjs.com/tweenjs",
-            "description":"A simple but powerful JavaScript library for tweening and animating HTML5 and JavaScript properties."
+            "description":"Eine einfache aber mächtige JavaScript-Bibliothek für das Animieren und Tweenen von HTML5- und JavaScript-Objekten."
           },
           {
             "name":"Move.js",
             "url":"http://visionmedia.github.io/move.js/",
-            "description":"Move.js is a small JavaScript library making CSS3 backed animation extremely simple and elegant."
+            "description":"Move.js ist eine kleine JavaScript-Bibliothek, die das Erstellen von CSS3 getriebenen Animationen extrem einfach und elegant macht."
           },
           {
             "name":"Snap.svg",
             "url":"http://snapsvg.io/",
-            "description":"SVG is an excellent way to create interactive, resolution-independent vector graphics that will look great on any size screen."
+            "description":"SVG ist ein ausgezeichneter Weg, um interaktive, auflösungsunabhängige Vektorgrafiken zu erstellen, die auf allen Bildschirmgrößen gut aussehen."
           },
           {
             "name":"Rekapi",
             "url":"http://rekapi.com/",
-            "description":"Rekapi is a library for making canvas and DOM animations with JavaScript, as well as CSS @keyframe animations for modern browsers."
+            "description":"Rekapi ist eine Bibliothek zum Erstellen sowohl von Canvas- und DOM-Animationen mit JavaScript als auch von CSS @keyframe-Animationen für moderne Browser."
           },
           {
             "name":"Favico.js",
             "url":"http://lab.ejci.net/favico.js/",
-            "description":"Make use of your favicon with badges, images or videos."
+            "description":"Mach Gebrauch von deinem Favicon mit Badges, Bildern oder Videos."
           },
           {
             "name":"Textillate.js",
             "url":"http://jschr.github.io/textillate/",
-            "description":"Textillate.js combines some awesome libraries to provide a ease-to-use plugin for applying CSS3 animations to any text."
+            "description":"Textillate.js kombiniert einige geniale Bibliotheken, um ein einfach zu verwendendes Plugin zum Zuweisen von CSS3-Animationen zu jeglichen Texten zur Verfügung zu stellen."
           },
           {
             "name":"Motio",
             "url":"http://darsa.in/motio/",
-            "description":"Motio is a small JavaScript library for simple but powerful sprite based animations and panning."
+            "description":"Motio ist eine kleine JavaScript-Bibliothek für einfache aber umfangreiche auf Sprites basierende Animationen und Panning."
           },
           {
             "name":"Anima.js",
             "url":"http://lvivski.com/anima/",
-            "description":"With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!"
+            "description":"Mit Anima ist es einfach, mehr als hundert Objekte zur selben Zeit zu animieren. Jedem Element kann eine Masse und Viskosität zugewiesen werden, um reale Objekte zu emulieren."
           }
         ]
       }
     ]
   },
   "gameEngines":{
-    "title":"GAME ENGINES",
+    "title":"SPIELE-ENGINES",
     "links":[
       {
         "name":"MelonJS",
@@ -863,7 +863,7 @@
   "footer":{
     "credit":"Erstellt und gewartet von",
     "contributors":"Mitwirkende",
-    "contribDesc":"Dieses Projekt wäre ohne die Hilfe von diesen großartigen Personen nicht zustande gekommen. Vielen Dank dafür, dass ihr es möglich macht!",
+    "contribDesc":"Dieses Projekt wäre ohne die Hilfe von diesen großartigen Personen nicht zustande gekommen. Vielen Dank, dass ihr es ermöglicht!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
