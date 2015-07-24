@@ -12,7 +12,7 @@
         "url":"#getting-started"
       },
       {
-        "title":"JavaScript Code Style",
+        "title":"JavaScript Code-Style",
         "url":"#js-code-style"
       },
       {
@@ -70,7 +70,7 @@
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
-    "title":"JS CODE STYLE",
+    "title":"JS CODE-STYLE",
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
