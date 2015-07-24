@@ -298,57 +298,57 @@
       {
         "name":"MelonJS",
         "url":"http://melonJS.org",
-        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+        "description":"MelonJS ist eine freie, leichtgewichtige HTML5 Spiele-Engine. Die Engine verwendet ein tiled Map-Format, welches das Leveldesign vereinfacht."
       },
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS is one of the more tested-and-true HTML5 game engines with the initial release all the way back at the end of 2010. It is very well maintained and updated, and has a good-sized community backing it. There exists plenty of documentation - even two books on the subject of creating games with the engine."
+        "description":"ImpactJS ist eine der eher länger bewährten HTML5 Spiele-Engines, deren erste Veröffentlichung bis Ende 2010 zurückreicht. Sie wird sehr gut gewartet und regelgemäßig geupdatet und hat eine große Community, die sie unterstützt. Es existieren sowohl umfangreiche Dokumentationen als auch zwei Bücher zum Thema Spieleentwicklung mit dieser Engine."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers."
+        "description":"LimeJS ist ein HTML5 Spiele-Framework zum Erstellen von schnellen, native-experience Spielen für alle modernen Touchscreens und Desktop-Browser."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty is a game engine that dates back to late 2010. Crafty makes it really easy to get started making JavaScript games."
+        "description":"Crafty ist eine Spiele-Engine, welche von Ende 2010 stammt. Crafty ermöglicht einen einfachen Einstieg in das Erstellen von JavaScript-Spielen."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5 is an open-source web 2D game framework, released under MIT License. It is a HTML5 version of Cocos2d-x project. The focus for Cocos2d-html5 development is around making Cocos2d cross platforms between browsers and native application."
+        "description":"Cocos2d-HTML5 ist ein quelloffenes 2D Web-Spiele-Framework, veröffentlicht unter der MIT Lizenz. Es ist eine HTML5-Version von dem Cocos2d-x Projekt. Das Ziel der Cocos2d-HTML5- Entwicklung ist, Cocos2d plattformunabhängig von Browsern und nativen Anwendungen zu machen."
       },
       {
         "name":"Phaser",
         "url":"http://phaser.io",
-        "description":"Phaser is based heavily on <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. It is maintained by Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) who has been very active in the HTML5 community for years."
+        "description":"Phaser basiert stark auf <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. Es wird gewartet von Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>), der in der HTML5-Community bereits seit Jahren sehr aktiv ist."
       },
       {
         "name":"Goo",
         "url":"http://www.goocreate.com/learn",
-        "description":"Goo is a 3D JavaScript gaming engine entirely built on WebGL/HTML5"
+        "description":"Goo ist eine 3D JavaScript-Spiele-Engine, die komplett auf WebGL/HTML5 aufbaut."
       },
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS is a JavaScript Game library that offers a complete solution for prototyping and deployment of HTML5 Canvas, WebGL or native OpenGL(ES) based games inside the Web Browser or native environments."
+        "description":"LycheeJS ist eine JavaScript-Spiele-Bibliothek, die eine Komplettlösung für das Prototyping und die Entwicklung von HTML5 Canvas, WebGL oder nativen OpenGL(ES) basierten Spielen innerhalb des Browsers oder einer nativen Umgebung bietet."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus is an HTML5 game engine designed to be modular and lightweight, with a concise JavaScript-friendly syntax."
+        "description":"Quintus ist eine HTML5-Spiele-Engine, die einen modularen und leichtgewichtigen Ansatz mit einer prägnanten JavaScript-freundlichen Syntax verfolgt."
       },
       {
         "name":"KiwiJS",
         "url":"http://www.kiwijs.org",
-        "description":"Kiwi.js is a fun and friendly Open Source HTML5 Game Engine. Some people call it the WordPress of HTML5 game engines"
+        "description":"Kiwi.js ist eine lustige und freundliche quelloffene HTML5-Spiele-Engine. Manche bezeichnen es als WordPress der HTMl5-Spiele-Engines."
       },
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering."
+        "description":"Panda.js ist eine HTML5-Spiele-Engine mit Canvas und WebGL-Rendering für mobile Endgeräte und für den Desktop."
       }
     ]
   },
