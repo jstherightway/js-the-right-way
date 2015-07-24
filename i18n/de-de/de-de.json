@@ -473,52 +473,52 @@
           {
             "name":"Understanding JavaScript OOP",
             "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+            "description":"von <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
           },
           {
             "name":"Understanding “Prototypes” in JavaScript",
             "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
+            "description":"von <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
           },
           {
             "name":"Prototypes and Inheritance in JavaScript",
             "url":"http://msdn.microsoft.com/en-us/magazine/ff852808.aspx",
-            "description":"by <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
+            "description":"von <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
           },
           {
             "name":"Partial Application in JavaScript",
             "url":"http://benalman.com/news/2012/09/partial-application-in-javascript",
-            "description":"by <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
+            "description":"von <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
           },
           {
             "name":"Getting Over jQuery",
             "url":"http://blog.ponyfoo.com/2013/07/09/getting-over-jquery",
-            "description":"by <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
+            "description":"von <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
           },
           {
             "name":"A Dive Into Plain JavaScript",
             "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
+            "description":"von <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
           },
           {
             "name":"A Deeper Look at Objects in JavaScript",
             "url":"http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+            "description":"von <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
           {
             "name":"Introduction to Easing in JavaScript",
             "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+            "description":"von <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
           {
             "name":"How to Learn JavaScript Properly",
             "url":"http://javascriptissexy.com/how-to-learn-javascript-properly",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
+            "description":"von <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
           },
           {
             "name":"How to Start with JavaScript",
             "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
+            "description":"von <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
           }
         ]
       },
@@ -530,107 +530,107 @@
           {
             "name":"Eloquent JavaScript",
             "url":"http://eloquentjavascript.net",
-            "description":"by <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
+            "description":"von <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
           },
           {
             "name":"JavaScript: The Definitive Guide",
             "url":"http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
           },
           {
             "name":"JavaScript: The Good Parts",
             "url":"http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
           },
           {
             "name":"JavaScript Patterns",
             "url":"http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
             "name":"JavaScript Testing Recipes",
             "url":"http://jstesting.jcoglan.com",
-            "description":"by <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
+            "description":"von <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
           },
           {
             "name":"Professional JavaScript for Web Developers",
             "url":"http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
             "name":"High Performance JavaScript",
             "url":"http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
           },
           {
             "name":"Human JavaScript",
             "url":"http://humanjavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
+            "description":"von <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
           },
           {
             "name":"Object Oriented JavaScript",
             "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
-            "description":"by <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
           {
             "name":"Pro JavaScript Design Patterns",
             "url":"http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X",
-            "description":"by <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
+            "description":"von <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
           },
           {
             "name":"Secrets of the JavaScript Ninja",
             "url":"http://jsninja.com",
-            "description":"by <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
+            "description":"von <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
           },
           {
             "name":"JavaScript Application Design",
             "url":"http://bevacqua.io/bf",
-            "description":"by <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
+            "description":"von <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
           },
           {
             "name":"Speaking JavaScript",
             "url":"http://speakingjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
+            "description":"von <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
           },
           {
             "name":"Test-Driven JavaScript Development",
             "url":"http://tddjs.com",
-            "description":"by <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
+            "description":"von <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
           },
           {
             "name":"You Don't Know JS",
             "url":"https://github.com/getify/You-Dont-Know-JS",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+            "description":"von <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
           },
           {
             "name":"You Might Not Need jQuery",
             "url":"http://youmightnotneedjquery.com",
-            "description":"by <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
+            "description":"von <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
           },
           {
             "name":"JavaScript Garden",
             "url":"http://bonsaiden.github.io/JavaScript-Garden/",
-            "description":"by <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
+            "description":"von <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
           },
           {
             "name":"Effective JavaScript",
             "url":"http://effectivejs.com",
-            "description":"by <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
+            "description":"von <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
             "name":"Functional JavaScript",
             "url":"http://functionaljavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
+            "description":"von <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
           },
           {
             "name":"JavaScript Allongé",
             "url":"https://leanpub.com/javascript-allonge",
-            "description":"by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+            "description":"von <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
           },
           {
             "name":"JSBooks",
             "url":"http://jsbooks.revolunet.com",
-            "description":"by <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
+            "description":"von <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
           }
         ]
       },
