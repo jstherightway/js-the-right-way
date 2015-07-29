@@ -1,0 +1,97 @@
+<h3>Objektorientiert</h3>
+
+<p>
+    JavaScript hat große Möglichkeiten für objektorientierte Programmierung auch wenn es einige Diskussionen bezüglich der Unterschiede von objektorientierten JavaScript zu anderen Programmiersprachen gegeben hat.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Einführung in objektorientiertes JavaScript</a>
+</p>
+
+<h3>Anonyme Funktionen</h3>
+
+<p>
+    Anonyme Funktionen sind Funktionen, die dynamisch zur Laufzeit deklariert werden. Sie werden anonyme Funktionen genannt, weil ihnen im Gegensatz zu normalen Funktionen kein Name vergeben wird.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+</p>
+
+<h3>Funktionen als First-Class-Objekte</h3>
+
+<p>
+    Funktionen sind in JavaScript First-Class-Objekte. Das bedeutet, dass JavaScript-Funktionen einfach nur ein spezieller Typ von Objekten sind, die wie normale Objekte behandelt werden.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+</p>
+
+<h3>Loose Typing</h3>
+
+<p>
+    Viele Frontend-Entwickler haben ihre erste Erfahrung mit einer Skript- und/oder interpretierten Sprache mit JavaScript gemacht. Für jene Entwickler mag das Konzept und die Folgen von Variablen mit "loose typing" eher zweiter Natur sein. Jedoch hat der rasant steigende Bedarf nach modernen Webapplikationen zur Folge, dass viele Backend-Entwickler in clientseitige Technologien eintauchen. Viele von ihnen kommen aus einem Bereich, in dem Sprachen mit "strong typing" wie z.B. C# oder Java verbreitet sind und sind daher nicht vertraut mit der Freiheit und zugleich den möglichen Fallstricken, die das Arbeiten mit "loose typing" mit sich bringen.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
+
+<h3>Scoping und Hoisting</h3>
+
+<p>
+    <b>Scoping:</b> In JavaScript sind Funktionen unsere <i>de facto</i> Trennzeichen von Gültigkeitsbereichen (Scopes) für das Deklarieren von Variablen, was wiederum bedeutet, dass die üblichen Blöcke von Schleifen und Bedingungen (wie if, for, while, switch und try) keinen neuen Gültigkeitsbereich (Scope) erzeugen wie in vielen anderen Sprachen. Daher teilen sich diese Blöcke denselben Gültigkeitsbereich wie die Funktion, von der sie umgeben werden. Auf diese Weise kann es gefährlich sein, Variablen innerhalb von Blocks zu definieren, weil es so scheinen mag, als ob die Variable nur zu dem Block gehöre.
+</p>
+
+<p>
+    <b>Hoisting:</b> Während der Laufzeit werden alle Variablen- und Funktionen-Deklarationen an den Beginn jeder Funktion (ihren Gültigkeitsbereich) gestellt - dieses Verfahren ist als "Hoisting" bekannt. Vor diesem Hintergrund ist es eine gute Praxis, Variablen allesamt in der ersten Zeile zu deklarieren, um falschen Erwartungen mit Variablen vorzubeugen, die später deklariert wurden, aber bereits vorher einen Wert beinhalten. Für viele Entwickler, die aus einer Sprache mit blockweisen Gültigkeitsbereichen kommen, ist dies ein häufiger Fallstrick.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+</p>
+
+<h3>Bindung von Funktionen (Function binding)</h3>
+
+<p>
+
+    Die Bindung von Funktionen ist sehr wahrscheinlich das kleinste Problem beim Einstieg in JavaScript. Wenn man jedoch eine Lösung für das Problem sucht, wie man den Kontext vom Schlüsselwort this in einer anderen Funktion beibehält, dann wird man wahrscheinlich auf <b>Function.prototype.bind()</b> kommen.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
+
+<h3>Closure-Funktionen</h3>
+
+<p>
+    Closures sind Funktionen, die auf unabhängige (freie) Variablen verweisen. In anderen Worten: Die Funktion, welche innerhalb einer Closure definiert wurde, merkt sich, in welcher Umgebung sie erstellt wurde.
+Dies ist ein wichtiges Konzept, welches man verstehen sollte, weil es während der Entwicklung hilfreich sein kann, um bspw. private Methoden zu emulieren. Es kann ebenfalls dabei helfen, häufige Fehler zu vermeiden, wie bspw. Closures in Schleifen zu erstellen.
+ </p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Closures">Closures (Funktionsabschlüsse)</a>
+</p>
+
+<h3>Strikter Modus</h3>
+
+<p>
+    ECMAScript 5's strikter Modus (Strict Mode) ist eine Möglichkeit, um eine etwas eingeschränktere Variante von JavaScript zu betreten. Der strikte Modus ist nicht einfach nur ein untergeordneter Modus: er hat absichtlich eine andere Semantik als normaler Code. Bei Browsern, die den strikten Modus nicht unterstützen, wird sich Code im strikten Modus anders verhalten als bei Browsern mit Unterstützung. Daher sollte man sich nicht auf den strikten Modus verlassen, ohne die relevanten Aspekte des Modus auf die Unterstützung der entsprechenden Features zu testen. Es kann auch neben Code für den strikten Modus zusätzlich noch Code für den nicht-strikten Modus existieren, damit Skripte bei Möglichkeit den strikten Modus verwenden können.
+ </p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Strict_mode">Strict Mode</a>
+</p>
+
+<h3>Immediately-Invoked Function Expression (IIFE)</h3>
+
+<p>
+   Ein unmittelbar aufgerufener Funktionsausdruck (Immediately-Invoked Function Expression - IIFE) ist ein Muster, welches einen lexikalischen Gültigkeitsbereich mittels einer JavaScript-Funktion erzeugt. Diese Ausdrücke können dazu genutzt werden, das Hoisting von Variablen innerhalb eines Blocks zu verhindern, sich gegen das Zumüllen der globalen Umgebung zu schützen und zeitgleich öffentlichen Zugang zu Methoden zu schaffen, während die Variablen nur innerhalb ihrer Funktion aufgerufen werden können, also privat bleiben.<br/><br/>
+
+   <i>Dieses Muster wurde oft als selbstausführende anonyme Funktion (self-executing anonymous function) bezeichnet, jedoch hat <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) den Begriff IIFE als semantisch passenderen Begriff für das Muster eingeführt</i>.
+</p>
+
+<p class="source">
+    Quelle: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+</p>
