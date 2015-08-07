@@ -234,6 +234,61 @@
             "description":"브라우저와 node.js를 위한 비동기 템플릿 라이브러리입니다."
           }
         ]
+      },
+      {
+        "title":"애니메이션",
+        "links":[
+          {
+            "name":"Velocity.js",
+            "url":"http://julian.com/research/velocity/",
+            "description":"Velocity는 jQuery의 $.animate()와 같은 API를 가지고 있는 애니메이션 엔진입니다."
+          },
+          {
+            "name":"Bounce.js",
+            "url":"http://bouncejs.com/",
+            "description":"Bounce.js는 아름다운 CSS3 애니메이션 제작을 가능하게 하는 툴인 동시에 JavaScript 라이브러리입니다."
+          },
+          {
+            "name":"TweenJS",
+            "url":"http://www.createjs.com/tweenjs",
+            "description":"HTML5와 JavaScript 프로퍼티의 tweening과 애니메이션을 지원하는 간단하지만 강력한 JavaScript 라이브러리입니다."
+          },
+          {
+            "name":"Move.js",
+            "url":"http://visionmedia.github.io/move.js/",
+            "description":"Move.js는 CSS3기반 애니메이션을 아주 간단하고 우아하게 만들 수 있는 작은 JavaScript 라이브러리입니다."
+          },
+          {
+            "name":"Snap.svg",
+            "url":"http://snapsvg.io/",
+            "description":"SVG는 스크린 사이즈와 해상도에 독립적이면서 상호작용하는 벡터 그래픽을 만드는 훌륭한 방법입니다."
+          },
+          {
+            "name":"Rekapi",
+            "url":"http://rekapi.com/",
+            "description":"Rekapi는 canvas와 DOM 애니메이션을 만들기 위한 JavaScript 라이브러리입니다. 또한, 모던 브라우저를 위한 @keyframe 애니메이션도 지원합니다."
+          },
+          {
+            "name":"Favico.js",
+            "url":"http://lab.ejci.net/favico.js/",
+            "description":"배지, 이미지, 비디오와 함께 favicon을 사용하세요."
+          },
+          {
+            "name":"Textillate.js",
+            "url":"http://jschr.github.io/textillate/",
+            "description":"Textillate.js는 몇몇 멋진 라이브러리들을 통합하여 어떤 텍스트에든 CSS3 애니메이션을 적용가능하게 해주는 사용하기 편리한 플러그인을 제공합니다."
+          },
+          {
+            "name":"Motio",
+            "url":"http://darsa.in/motio/",
+            "description":"Motio는 간단하지만 강력한 스프라이트 기반의 애니메이션과 panning을 지원하는 JavaScript 라이브러리입니다."
+          },
+          {
+            "name":"Anima.js",
+            "url":"http://lvivski.com/anima/",
+            "description":"Anima로 수백 개의 객체의 애니메이션을 쉽게 만들 수 있습니다. 각 객체는 질량과 점성을 가질 수 있어서 실제 세계의 객체를 모방할 수 있습니다!"
+          }
+        ]
       }
     ]
   },
