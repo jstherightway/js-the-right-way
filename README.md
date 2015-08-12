@@ -1,8 +1,5 @@
 ![](http://i.imgur.com/jaEbd80.png)
 
-## Note
-# The project's translation is in progress on [**i18n** branch](https://github.com/braziljs/js-the-right-way/tree/i18n).
-
 Feel free to contribute!
 
 ## Where
