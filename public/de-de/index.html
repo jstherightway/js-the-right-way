@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>JS: A forma certa</title>
+        <title>JS: Der richtige Weg</title>
         <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
-        <meta property="og:title" content="JS: A forma certa">
-        <meta property="og:site_name" content="JS: A forma certa">
-        <meta name="description" property="og:description" content="Uma referência rápida para as melhores práticas de como escrever JavaScript -- links para padrões de código e tutoriais de toda a web">
+        <meta property="og:title" content="JS: Der richtige Weg">
+        <meta property="og:site_name" content="JS: Der richtige Weg">
+        <meta name="description" property="og:description" content="Eine kurze �bersicht an Best-Practices f�r das Programmieren mit JavaScript -- Links zu Entwurfsmustern und Tutorials aus dem Web">
         <meta property="og:url" content="http://www.jstherightway.org">
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
@@ -59,18 +59,18 @@
 
         <section class="welcome">
             <div class="wrapper">
-              <h1>Ei, você!</h1>
+              <h1>Hey, du!</h1>
 
 <p>
-    Esse é um guia com a intenção de apresentar novos desenvolvedores ao JavaScript e ajudar desenvolvedores experientes aprenderem mais sobre as melhores práticas.
+    Dies ist ein Leitfaden, der Entwicklern beim Einstieg in JavaScript helfen soll und erfahrenen Entwicklern mit Best-Practices helfen soll.
 </p>
 
 <p>
-    Apesar do nome, esse guia não significa necessariamente "o único caminho" ao JavaScript
+    Trotz des Namens steht dieser Leitfaden nicht f�r "den einzigen Weg", den man mit JavaScript gehen kann.
 </p>
 
 <p>
-    Nós apenas juntamos todos os artigos, dicas e artimanhas dos desenvolvedores top e colocamos aqui. Uma vez que esse material vem de pessoas excepcionais, nós podemos dizer que é "a forma certa", ou a melhor forma de fazer.
+    Wir sammeln lediglich all diese Artikel, Tipps und Tricks von namhaften Entwicklern und f�gen sie hier ein. Da sie von ausgezeichneten Leuten stammen, k�nnen wir sagen, dass es "der richtige Weg" oder der beste Weg ist.
 </p>
 
             </div>
@@ -78,57 +78,56 @@
 
         <section class="main" id="main">
             <div class="wrapper">
-                <h1><a href="#main">Escolha seu caminho</a></h1>
+                <h1><a href="#main">W�hle deinen Weg</a></h1>
 
                 <ul>
-                    <li><a href="#getting-started">Começando</a></li>
-                    <li><a href="#js-code-style">Estilo de códigos JavaScript</a></li>
-                    <li><a href="#the-good-parts">As partes boas</a></li>
-                    <li><a href="#patterns">Padrões</a></li>
-                    <li><a href="#testing-tools">Ferramentas de teste</a></li>
+                    <li><a href="#getting-started">Erste Schritte</a></li>
+                    <li><a href="#js-code-style">JavaScript Code-Style</a></li>
+                    <li><a href="#the-good-parts">Die Vorteile</a></li>
+                    <li><a href="#patterns">Entwurfsmuster</a></li>
+                    <li><a href="#testing-tools">Testwerkzeuge</a></li>
                     <li><a href="#frameworks">Frameworks</a></li>
-                    <li><a href="#game-engines">Motores de jogos</a></li>
-                    <li><a href="#news">Novidades</a></li>
-                    <li><a href="#reading">Leitura</a></li>
+                    <li><a href="#game-engines">Spiele-Engines</a></li>
+                    <li><a href="#news">Neuigkeiten</a></li>
+                    <li><a href="#reading">Literatur</a></li>
                     <li><a href="#podcasts">Podcasts</a></li>
                     <li><a href="#screencasts">Screencasts</a></li>
-                    <li><a href="#whotofollow">Quem seguir</a></li>
-                    <li><a href="#paas">Provedores de PaaS</a></li>
-                    <li><a href="#helpers">Helpers</a></li>
+                    <li><a href="#whotofollow">Wem ist zu folgen</a></li>
+                    <li><a href="#paas">PaaS-Anbieter</a></li>
+                    <li><a href="#helpers">Helferlein</a></li>
                 </ul>
             </div>
         </section>
 
         <section class="section" id="getting-started">
             <div class="wrapper">
-                <h1><a href="#getting-started">INICIANDO</a></h1>
-                <h3>SOBRE</h3>
+                <h1><a href="#getting-started">ERSTE SCHRITTE</a></h1>
+                <h3>�BER</h3>
 
 <p>
-    Criado pela Netscape em 1995 como uma extensão do HTML para o navegador Netscape Navigator 2.0, o JavaScript teve como função principal a manipulação de documentos HTML e a validação de formulários.
+    Erstellt von Netscape im Jahre 1995 als eine Erweiterung von HTML f�r den Netscape Navigator 2.0, waren die grundlegenden Funktionen von JavaScript die Manipulation von HTML-Dokumenten und die Formularvalidierung.
 
-    Antes de ganhar seu nome tão famoso hoje em dia, o JavaScript foi chamado de Mocha. Quando saiu pela primeira vez em uma versão beta foi chamado oficialmente de LiveScript e finalmente quando foi liberado pela Sun Microsystems foi batizado pelo nome que hoje nós conhecemos.
+    Bevor der Name zu seinem heutigen Bekanntheitsgrad gelangt ist, wurde JavaScript fr�her Mocha genannt. Als zun�chst Beta-Versionen davon erschienen sind, wurde es offiziell LiveScript gennant und schlie�lich, als es von Sun Microsystems ver�ffentlicht wurde, hat es den heutigen Namen angenommen.
 
-    Devido a similaridade de nomes, algumas pessoas confundem o JavaScript com o Java. Embora ambos tenham a estrutura léxica da programação, elas não são a mesma linguagem.
+    Wegen der �hnlichen Namen, wird JavaScript oft mit Java verwechselt. Obwohl beide die lexikalische Struktur einer Programmiersprache haben, handelt es nicht um dieselbe Programmiersprache.
 
-    Diferente do C, C# e do Java, o JavaScript é uma linguagem interpretada. Isso significa que ele precisa de um "interpretador". No caso do JavaScript, o interpretador é o navegador.
+    Anders als C, C# und Java, ist JavaScript eine interpretierte Programmiersprache. Sie braucht also einen "Interpreter". Im Fall von JavaScript, ist der Browser der Interpreter.
 </p>
 
-<h3>VERSÃO ATUAL</h3>
+<h3>AKTUELLE VERSION</h3>
 
 <p>
-    O padrão do JavaScript é o ECMAScript. Em 2012 todo os navegadores modernos passaram a dar suporte ao ECMAScript 5.1. Navegadores antigos suportam pelo menos o ECMAScript 3. Uma sexta revisão desses padrões esta em andamento.
+    Der JavaScript-Standard ist ECMAScript. Nach dem Stand von 2012 unterst�tzen alle modernen Browser ECMAScript 5.1 vollst�ndig. �ltere Browser unterst�tzen zumindest ECMAScript 3. An einer sechsten gro�en Revision des Standards wird momentan gearbeitet.
 </p>
 
 <p>
-    Uma boa referência para versões, referências e novidades sobre o JavaScript pode ser encontrada no 
-    <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/JavaScript">Mozilla Developer Network</a>.
+    Eine gute Sammlung f�r Versionen, Referenzen und Neuigkeiten �ber JavaScript findet man im <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
 </p>
 
-<h3>O DOM</h3>
+<h3>DAS DOM</h3>
 
 <p>
-    O Modelo de Objetos de Documentos é uma API para documentos HTML e XML. Ele fornece uma representação estrutural do documento, permitindo que você modifique seu conteúdo e sua apresentação visual usando linguagem de scripts como o JavaScript. Leia mais em <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/DOM/">Mozilla Developer Network - Referência do DOM</a>.
+    Das Document Object Model (DOM) ist eine API f�r HTML- und XML-Dokumente. Es liefert eine strukturelle Representation des Dokuments. Damit ist es m�glich, den Inhalt und die visuelle Pr�sentation des Dokuments mit einer Skriptsprache wie JavaScript zu ver�ndern. Erfahre mehr unter <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>.
 </p>
 
             </div>
@@ -136,119 +135,120 @@
 
         <section class="section" id="js-code-style">
             <div class="wrapper">
-                <h1><a href="#js-code-style">ESTILOS DE CÓDIGO JS</a></h1>
-                <h3>Convenções</h3>
+                <h1><a href="#js-code-style">JS CODE-STYLE</a></h1>
+                <h3>Richtlinien</h3>
 
 <p>
-    Assim como todas as linguagens, JavaScript tem muitos guias de estilo de código. Talvez o mais usado e recomendado seja o <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, mas recomendamos a leitura do <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
+    Auch JavaScript hat, so wie jede Programmiersprache, viele unterschiedliche Leitf�den f�r den Code-Style. Der wom�glich am meisten verwendete und weiterempfohlene ist der <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code-Style-Guide f�r JavaScript</a>, aber wir empfehlen dir <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a> zu lesen.
 </p>
 
-<h3>Analise de código (<i>Linting</i>)</h3>
+<h3>Code-Analyse (Linting)</h3>
 
 <p>
-    Nos dias de hoje a melhor ferramenta para analise de código em JavaScript é o <a target="_blank" href="http://www.jshint.com/">JSHint</a>. Nós recomendamos que sempre que possível você verifique o seu estilo de código e padrões com uma ferramenta de analise (<i>Lint Tool</i>).
+    Mittlerweile hat sich als Tool f�r die Code-Analyse (Linting) von JavaScript-Code <a target="_blank" href="http://www.jshint.com/">JSHint</a> bew�hrt. Wir empfehlen euch, euren Code-Style und Entwurfsmuster durchgehend mit einem Lint-Tool zu �berpr�fen.
 </p>
 
         </div></section>
 
         <section class="section" id="the-good-parts">
             <div class="wrapper">
-                <h1><a href="#the-good-parts">AS PARTES BOAS</a></h1>
-                <h3>Orientação a Objetos</h3>
+                <h1><a href="#the-good-parts">DIE VORTEILE</a></h1>
+                <h3>Objektorientiert</h3>
 
 <p>
-    JavaScript tem fortes capacidades de programação orientada a objetos, apesar de ocorrerem algumas discussões devido às diferenças da orientação a objetos no JavaScript em comparação com outras linguagens.
+    JavaScript hat große Möglichkeiten für objektorientierte Programmierung auch wenn es einige Diskussionen bezüglich der Unterschiede von objektorientierten JavaScript zu anderen Programmiersprachen gegeben hat.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introdução ao JavaScript Orientado a Objeto</a>
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Einführung in objektorientiertes JavaScript</a>
 </p>
 
-<h3>Funções anonimas</h3>
+<h3>Anonyme Funktionen</h3>
 
 <p>
-    Funções anonimas são funções que são declaradas dinamicamentes em tempo de execução. Elas são chamadas de funções anonimas devido a elas não receberem um nome como as funções normais.
+    Anonyme Funktionen sind Funktionen, die dynamisch zur Laufzeit deklariert werden. Sie werden anonyme Funktionen genannt, weil ihnen im Gegensatz zu normalen Funktionen kein Name vergeben wird.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+    Quelle: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
 </p>
 
-<h3>Funções como Objetos de primeira classe</h3>
+<h3>Funktionen als First-Class-Objekte</h3>
 
 <p>
-    Funções em JavaScript são funções de primeira classe. Isso significa que no JavaScript as funções são um tipo especial de objeto que podem fazer todas as coisas que um objeto normal pode fazer.
+    Funktionen sind in JavaScript First-Class-Objekte. Das bedeutet, dass JavaScript-Funktionen einfach nur ein spezieller Typ von Objekten sind, die wie normale Objekte behandelt werden.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+    Quelle: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
 </p>
 
-<h3>Tipagem fraca</h3>
+<h3>Loose Typing</h3>
 
 <p>
-    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, com o crescimento explosivo na demanda por aplicações web modernas, resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
+    Viele Frontend-Entwickler haben ihre erste Erfahrung mit einer Skript- und/oder interpretierten Sprache mit JavaScript gemacht. Für jene Entwickler mag das Konzept und die Folgen von Variablen mit "loose typing" eher zweiter Natur sein. Jedoch hat der rasant steigende Bedarf nach modernen Webapplikationen zur Folge, dass viele Backend-Entwickler in clientseitige Technologien eintauchen. Viele von ihnen kommen aus einem Bereich, in dem Sprachen mit "strong typing" wie z.B. C# oder Java verbreitet sind und sind daher nicht vertraut mit der Freiheit und zugleich den möglichen Fallstricken, die das Arbeiten mit "loose typing" mit sich bringen.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+    Quelle: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
 </p>
 
-<h3>Escopos e elevação (<i>hoisting</i>)</h3>
+<h3>Scoping und Hoisting</h3>
 
 <p>
-    <b>Escopos:</b> Em JavaScript, funções são nosso <i>de fato</i> delimitador de escopo para declaração de variáveis, que significa que blocos usuais de loops e condicionais (como <i>if</i>, <i>for</i>, <i>while</i>, <i>switch</i> e <i>try</i>) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
+    <b>Scoping:</b> In JavaScript sind Funktionen unsere <i>de facto</i> Trennzeichen von Gültigkeitsbereichen (Scopes) für das Deklarieren von Variablen, was wiederum bedeutet, dass die üblichen Blöcke von Schleifen und Bedingungen (wie if, for, while, switch und try) keinen neuen Gültigkeitsbereich (Scope) erzeugen wie in vielen anderen Sprachen. Daher teilen sich diese Blöcke denselben Gültigkeitsbereich wie die Funktion, von der sie umgeben werden. Auf diese Weise kann es gefährlich sein, Variablen innerhalb von Blocks zu definieren, weil es so scheinen mag, als ob die Variable nur zu dem Block gehöre.
 </p>
 
 <p>
-    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, em ordem de evitar falsas expectativas com uma variável que foi declarada depois mas aconteceu de ter um valor anteriormente - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
+    <b>Hoisting:</b> Während der Laufzeit werden alle Variablen- und Funktionen-Deklarationen an den Beginn jeder Funktion (ihren Gültigkeitsbereich) gestellt - dieses Verfahren ist als "Hoisting" bekannt. Vor diesem Hintergrund ist es eine gute Praxis, Variablen allesamt in der ersten Zeile zu deklarieren, um falschen Erwartungen mit Variablen vorzubeugen, die später deklariert wurden, aber bereits vorher einen Wert beinhalten. Für viele Entwickler, die aus einer Sprache mit blockweisen Gültigkeitsbereichen kommen, ist dies ein häufiger Fallstrick.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+    Quelle: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
 </p>
 
-<h3><i>Binding</i> de funções</h3>
+<h3>Bindung von Funktionen (Function binding)</h3>
 
 <p>
-    <i>Binding</i> de funções será provavelmente a última de suas preocupações quando estiver começando com o JavaScript, mas quando você perceber que precisa de uma solução para o problema de como manter o contexto do <i>'this'</i> dentro de outra função, então você pode se dar conta do que realmente precisa é a função <b>Function.prototype.bind()</b>.
+
+    Die Bindung von Funktionen ist sehr wahrscheinlich das kleinste Problem beim Einstieg in JavaScript. Wenn man jedoch eine Lösung für das Problem sucht, wie man den Kontext vom Schlüsselwort this in einer anderen Funktion beibehält, dann wird man wahrscheinlich auf <b>Function.prototype.bind()</b> kommen.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+    Quelle: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
 </p>
 
-<h3>Funções de fechamentos (<i>Closure</i>)</h3>
+<h3>Closure-Funktionen</h3>
 
 <p>
-    <i>Closures</i> (fechamentos) são funções que se referem a variáveis livres (independentes). Em outras palavras, a função definida no <i>closure</i> "lembra" do ambiente em que ela foi criada.
-    
-    Esse é um importante conseito a ser entendido pois pode ser muito útil durante o desenvolvimento, como emulando métodos privados. Também pode ajudar a aprender como evitar erros comuns, como criando closures em loops.
+    Closures sind Funktionen, die auf unabhängige (freie) Variablen verweisen. In anderen Worten: Die Funktion, welche innerhalb einer Closure definiert wurde, merkt sich, in welcher Umgebung sie erstellt wurde.
+Dies ist ein wichtiges Konzept, welches man verstehen sollte, weil es während der Entwicklung hilfreich sein kann, um bspw. private Methoden zu emulieren. Es kann ebenfalls dabei helfen, häufige Fehler zu vermeiden, wie bspw. Closures in Schleifen zu erstellen.
  </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Closures">Closures (Funktionsabschlüsse)</a>
 </p>
 
-<h3>Modo rigoroso</h3>
+<h3>Strikter Modus</h3>
 
 <p>
-    O modo rigoroso do ECMAScript 5 é um modo de optar por uma restrita variação do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar por modo rigoroso incrementalmente.
+    ECMAScript 5's strikter Modus (Strict Mode) ist eine Möglichkeit, um eine etwas eingeschränktere Variante von JavaScript zu betreten. Der strikte Modus ist nicht einfach nur ein untergeordneter Modus: er hat absichtlich eine andere Semantik als normaler Code. Bei Browsern, die den strikten Modus nicht unterstützen, wird sich Code im strikten Modus anders verhalten als bei Browsern mit Unterstützung. Daher sollte man sich nicht auf den strikten Modus verlassen, ohne die relevanten Aspekte des Modus auf die Unterstützung der entsprechenden Features zu testen. Es kann auch neben Code für den strikten Modus zusätzlich noch Code für den nicht-strikten Modus existieren, damit Skripte bei Möglichkeit den strikten Modus verwenden können.
  </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+    Quelle: <a target="_blank" href="https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Strict_mode">Strict Mode</a>
 </p>
 
-<h3>Expressão de Função Invocada Imediatamente (IIFE - Immediately-Invoked Function Expression)</h3>
+<h3>Immediately-Invoked Function Expression (IIFE)</h3>
 
 <p>
-    Uma função imediata é um padrão que produz um escopo léxico unado a função de escopo do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (<i>hoisting</i>) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retem a privacidade para as variáveis declaradas dentro da função.<br><br>
-   <i>Esse padrão tem sido referenciado como função anônima de auto execução, mas <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais semântico para o padrão</i>.
+   Ein unmittelbar aufgerufener Funktionsausdruck (Immediately-Invoked Function Expression - IIFE) ist ein Muster, welches einen lexikalischen Gültigkeitsbereich mittels einer JavaScript-Funktion erzeugt. Diese Ausdrücke können dazu genutzt werden, das Hoisting von Variablen innerhalb eines Blocks zu verhindern, sich gegen das Zumüllen der globalen Umgebung zu schützen und zeitgleich öffentlichen Zugang zu Methoden zu schaffen, während die Variablen nur innerhalb ihrer Funktion aufgerufen werden können, also privat bleiben.<br><br>
+
+   <i>Dieses Muster wurde oft als selbstausführende anonyme Funktion (self-executing anonymous function) bezeichnet, jedoch hat <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) den Begriff IIFE als semantisch passenderen Begriff für das Muster eingeführt</i>.
 </p>
 
 <p class="source">
-    Fonte: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+    Quelle: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
 </p>
 
             </div>
@@ -256,19 +256,19 @@
 
         <section class="section" id="patterns">
             <div class="wrapper">
-                <h1><a href="#patterns">PADRÕES</a></h1>
+                <h1><a href="#patterns">ENTWURFSMUSTER</a></h1>
                 
-                <h3>Descrição</h3>
+                <h3>Beschreibung</h3>
 
                 <p>
-                    Enquanto o JavaScript contém padrões de projeto que são exclusivos da linguagem, outros padrões clássicos também podem ser implementados.
+                    Während JavaScript einige exklusive Entwurfsmuster besitzt, können viele klassische Entwurfsmuster ebenfalls implementiert werden.
                 </p>
 
                 <p>
-                    Uma boa maneira de aprender eles é ler o livro de de código aberto <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> do <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>. A maioria dos links são baseados nesse livro.
+                    Ein guter Weg, mehr darüber zu erfahren, ist <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>’s frei erhältliches Buch <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">"Learning JavaScript Design Patterns"</a>, auf dem die meisten der unten aufgelisteten Links basieren.
                 </p>
 
-                <h3>Padrões de projeto (<i>Design Patterns</i>)</h3>
+                <h3>Entwurfsmuster</h3>
 
                 <section class="txt">
                     <ul>
@@ -314,10 +314,10 @@
                     Behavioral Design Patterns
                 </p>
 
-                <h3>MV* Patterns</h3>
+                <h3>MV*-Patterns</h3>
 
                 <section class="txt">
-                    Existem algumas implementações do tradicional padrão MVC e sua variações no JavaScript.
+                    Es gibt einige Implementierungen des traditionellen MVC-Patterns und einige Abwandlungen dessen in JavaScript.
                 </section>
 
                 <section class="txt">
@@ -333,10 +333,10 @@
 
         <section class="section" id="testing-tools">
             <div class="wrapper">
-                <h1><a href="#testing-tools">FERRAMENTAS DE TESTE</a></h1>
-                <h3>Descrição</h3>
+                <h1><a href="#testing-tools">TESTWERKZEUGE</a></h1>
+                <h3>Beschreibung</h3>
 
-<p>Várias bibliotecas e frameworks para fazer testes em JavaScript.</p>
+<p>Verschiedene Bibliotheken und Frameworks, um Tests in JavaScript auszuf�hren.</p>
 
 
                 <h3>Links</h3>
@@ -347,7 +347,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida por <a target="_blank" href="https://github.com/visionmedia">TJ Holowaychuk</a>
+                  wird gewartet von <a target="_blank" href="https://github.com/visionmedia">TJ Holowaychuk</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -356,7 +356,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida por <a target="_blank" href="https://github.com/jquery">jQuery</a>
+                  wird gewartet von <a target="_blank" href="https://github.com/jquery">jQuery</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -365,7 +365,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida por <a target="_blank" href="https://github.com/pivotal/jasmine">Pivotal Labs</a>
+                  wird gewartet von <a target="_blank" href="https://github.com/pivotal/jasmine">Pivotal Labs</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -374,7 +374,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida pelo time por trás do AngularJS. Maioria por <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
+                  wird gewartet von dem Team hinter AngularJS. Am meisten durch <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -383,7 +383,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida por <a target="_blank" href="http://www.sitepen.com">Sitepen</a>
+                  wird gewartet von <a target="_blank" href="http://www.sitepen.com">Sitepen</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -392,7 +392,7 @@
                 </section>
 
                 <p class="source">
-                  Uma ferramenta de cobertura de código JavaScript escrita em JavaScript, mantida por  <a target="_blank" href="https://github.com/gotwarlost">Krishnan Anantheswaran</a>
+                  Ein JavaScript Code-Coverage-Tool, geschrieben in JavaScript. Wird gewartet von <a target="_blank" href="https://github.com/gotwarlost">Krishnan Anantheswaran</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -401,7 +401,7 @@
                 </section>
 
                 <p class="source">
-                  Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de teste unit. Criado por <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS community</a>
+                  Eigenst�ndige Test-Spies, Stubs und Mocks f�r JavaScript. Keine Abh�ngigkeiten, funktioniert mit beliebigen Unit-Test-Frameworks. Erstellt von der <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS Community</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -410,7 +410,7 @@
                 </section>
 
                 <p class="source">
-                  Um helper de teste para fazer mocks de funções e de objetos XHR, mantido por <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
+                  Ein Test-Helferlein, um Mocks von Funktionen und dem XHR-Objekt zu erstellen, gewartet von <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
                 </p>
 
             </div>
@@ -420,7 +420,7 @@
             <div class="wrapper">
                 <h1><a href="#frameworks">FRAMEWORKS</a></h1>
 
-                <h3>PROPOSTA GERAL</h3>
+                <h3>ALLGEMEINER ZWECK</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://jquery.com">jQuery</a></li>
@@ -428,7 +428,7 @@
                 </section>
 
                 <p class="source">
-                  jQuery é uma biblioteca JavaScript rápida, pequena e cheia de recursos. Criada por <a target="_blank" href="https://twitter.com/jeresig">John Resig</a>.
+                  jQuery ist eine schnelle, kleine und featurereiche JavaScript-Bibliothek. Erstellt von <a target="_blank" href="https://twitter.com/jeresig">John Resig</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -437,7 +437,7 @@
                 </section>
 
                 <p class="source">
-                  Criado pelo Yahoo!, YUI é uma biblioteca JavaScript e CSS de código aberto para criação de aplicações web ricas e interativas. <a target="_blank" href="http://yahooeng.tumblr.com">Novas atualizações estão paradas desde 29 de Agosto de 2014</a>.
+                  Erstellt von Yahoo!, YUI ist eine freie, quelloffene JavaScript- und CSS-Bibliothek f�r die Erstellung von interaktiven Webanwendungen. <a target="_blank" href="http://yahooeng.tumblr.com">Die Weiterentwicklung wurde seit dem 29. August 2014 gestoppt.</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -446,7 +446,7 @@
                 </section>
 
                 <p class="source">
-                  Zepto é uma biblioteca JavaScript minimalista para navegadores modernos com uma grande compatibilidade com a API do jQuery. Se você usa jQuery, você já sabe como usar o Zepto.
+                  Zepto ist eine minimalistische Javascript-Bibliothek f�r moderne Browser mit einer weitestgehend jQuery-kompatiblen API. Wenn du bereits jQuery verwendest, wei�t du bereits, wie man Zepto benutzt.
                 </p>
                 <section class="txt">
                     <ul>
@@ -455,7 +455,7 @@
                 </section>
 
                 <p class="source">
-                  Dojo é um kit de ferramentas JavaScript grátis e de código aberto para criação de aplicações web de alto desempenho. Os patrocinadores do projeto incluem IBM e SitePen.
+                  Dojo ist ein freies, quelloffenes JavaScript-Toolkit zum Erstellen von hochperformanten  Webanwendungen. Projektsponsoren umfassen unter anderem IBM und SitePen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -464,7 +464,7 @@
                 </section>
 
                 <p class="source">
-                  Underscore.js é uma biblioteca JavaScript que fornece uma enorme quantidade de helpers úteis sem estender qualquer objeto interno.
+                  Underscore.js ist eine JavaScript-Bibliothek, die unterschiedlichste hilfreiche und funktionale Programmhelferlein bietet, ohne die eingebauten Objekte zu ver�ndern.
                 </p>
                 <h3>MV*</h3>
                 <section class="txt">
@@ -474,7 +474,7 @@
                 </section>
 
                 <p class="source">
-                  Framework JavaScript <i>client-side</i> muito popular, criado por <a target="_blank" href="http://twitter.com/jashkenas">@jashkenas</a>.
+                  Sehr beliebtes clientseitiges JavaScript-Framework, erstellt von <a target="_blank" href="http://twitter.com/jashkenas">@jashkenas</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -483,7 +483,7 @@
                 </section>
 
                 <p class="source">
-                  Criado por <a target="_blank" href="http://twitter.com/wycats">@wycats</a>, desenvolvedores do núcleo do jQuery e Ruby on Rails .
+                  Erstellt von <a target="_blank" href="http://twitter.com/wycats">@wycats</a>, jQuery und den Ruby on Rails-Hauptentwicklern.
                 </p>
                 <section class="txt">
                     <ul>
@@ -492,7 +492,7 @@
                 </section>
 
                 <p class="source">
-                  Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM).
+                  Vereinfacht dynamische JavaScript-UIs, indem es dem Model-View-View Model (MVVM)-Schema folgt.
                 </p>
                 <section class="txt">
                     <ul>
@@ -501,7 +501,7 @@
                 </section>
 
                 <p class="source">
-                  Criado pelo Google, Angular.js é como um <i>polyfill</i> para o futuro do HTML.
+                  Erstellt von Google, Angular.js ist eine Art Polyfill f�r die Zukunft von HTML.
                 </p>
                 <section class="txt">
                     <ul>
@@ -510,7 +510,7 @@
                 </section>
 
                 <p class="source">
-                  Cappuccino é um framework de código aberto que torna fácil a criação de aplicações parecidas com desktop que rodam em um navegador.
+                  Cappuccino ist ein quelloffenes Framework, welches die Erstellung von Desktop-Caliber-Anwendungen, die im Webbrowser laufen, vereinfacht.
                 </p>
                 <section class="txt">
                     <ul>
@@ -519,7 +519,7 @@
                 </section>
 
                 <p class="source">
-                  JavaScriptMVC é um framework de código aberto que contém as melhores ideias no desenvolvimento do jQuery.
+                  JavaScriptMVC ist ein quelloffenes Framework, welches die besten Ideen aus der jQuery-Entwicklung beinhaltet.
                 </p>
                 <section class="txt">
                     <ul>
@@ -528,7 +528,7 @@
                 </section>
 
                 <p class="source">
-                  Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, sendo você um desenvolvedor experiente ou que esta apenas começando.
+                  Meteor ist eine quelloffene Plattform zum Erstellen von qualitativ hochwertigen Web-Apps in k�rzester Zeit, egal ob du ein erfahrerener Entwickler bist oder gerade erst angefangen hast.
                 </p>
                 <section class="txt">
                     <ul>
@@ -537,7 +537,7 @@
                 </section>
 
                 <p class="source">
-                  Spice é um framework MVC em JavaScript minúsculo (&lt; 3k) e flexível. Spice foi construido para ser fácil de ser adicionado em qualquer aplicação existente e funciona bem com outras tecnologias como jQuery, pjax, turbolinks, node ou qualquer outra coisa que você esteja usando.
+                  Spice ist ein extrem minimales (&lt; 3k) und flexibles MVC-Framework f�r JavaScript. Spice kann leicht in bestehende Anwendungen integriert werden und arbeitet gut mit anderen Technologien wie jQuery, pjax, turbolinks, node oder womit auch immer du arbeitest, zusammen
                 </p>
                 <section class="txt">
                     <ul>
@@ -546,7 +546,7 @@
                 </section>
 
                 <p class="source">
-                  Riot é uma biblioteca <i>client-side</i> (MV*) incrivelmente rápida, potente e pequena para criar aplicações web de grande escala. Apesar do tamanho pequeno todos os blocos de construção estão lá: um motor de templates, rotas, biblioteca de eventos e um padrão MVP rígido para manter as coisas organizadas.
+                  Riot ist eine unglaublich schnelle, m�chtige und zugleich kleine clientseitige (MV*) Bibliothek zum Erstellen von umfangreichen Webanwendungen. Trotz der kleinen Gr��e sind alle wichtigen Bausteine vorhanden: eine Template-Engine, ein Router, eine Event-Bibliothek und ein striktes MVP-Muster, um Dinge organisiert zu halten.
                 </p>
                 <section class="txt">
                     <ul>
@@ -555,9 +555,9 @@
                 </section>
 
                 <p class="source">
-                  CanJS é um framework JavaScript que simplifica e agiliza o desenvolvimento de aplicações complexas. Fácil de aprender, pequeno e com uma estrutura modesta, mas com características modernas como tags customizadas e com binding de duas vias.
+                  CanJS ist ein JavaScript-Framework, welches die Entwicklung von komplexen Anwendungen einfach und schnell macht. Einfach zu erlernen, klein und eine flexible Anwendungsstruktur, dazu moderne Features wie Custom Tags und Two-Way-Binding.
                 </p>
-                <h3>Biblioteca</h3>
+                <h3>Bibliotheken</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://facebook.github.io/react">React</a></li>
@@ -565,7 +565,7 @@
                 </section>
 
                 <p class="source">
-                  Criado pelo Facebook. React é uma biblioteca JavaScript para criação de interfaces de usuários do Facebook e do Instagram. Muitas pessoas escolhem em pensar no React como o V do MVC.
+                  Erstellt von Facebook. React ist eine JavaScript-Bibliothek zum Erstellen von User Interfaces von Facebook und Instagram. React wird von vielen als das V in MVC angesehen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -574,7 +574,7 @@
                 </section>
 
                 <p class="source">
-                  Handlebars fornece eficazmente o poder necessário para você criar templates semânticos sem frustrações.
+                  Handlebars bietet die M�chtigkeit, semantische Templates effektiv ohne Frust zu erstellen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -583,9 +583,9 @@
                 </section>
 
                 <p class="source">
-                  Templates assíncronos para o navegador e para node.js.
+                  Asynchrone Templates f�r den Browser und node.js.
                 </p>
-                <h3>Animação</h3>
+                <h3>Animation</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://julian.com/research/velocity/">Velocity.js</a></li>
@@ -593,7 +593,7 @@
                 </section>
 
                 <p class="source">
-                  Velocity é um motor de animações com a mesma API  $.animate() do jQuery.
+                  Velocity ist eine Animations-Engine mit derselben API wie jQuerys $.animate().
                 </p>
                 <section class="txt">
                     <ul>
@@ -602,7 +602,7 @@
                 </section>
 
                 <p class="source">
-                  Bounce.js é uma biblioteca JavaScript e uma ferramenta que permite você criar lindas e incrementadas animações do CSS3.
+                  Bounce.js ist ein Werkzeug und eine JS-Bibliothek, mit dem man sch�ne CSS3 getriebene Animationen erstellen kann.
                 </p>
                 <section class="txt">
                     <ul>
@@ -611,7 +611,7 @@
                 </section>
 
                 <p class="source">
-                  Uma biblioteca JavaScript simples mas poderosa para interpolação e animação de HTML5 e propriedades do JavaScript.
+                  Eine einfache aber m�chtige JavaScript-Bibliothek f�r das Animieren und Tweenen von HTML5- und JavaScript-Objekten.
                 </p>
                 <section class="txt">
                     <ul>
@@ -620,7 +620,7 @@
                 </section>
 
                 <p class="source">
-                  Move.js é uma biblioteca JavaScript pequena que torna animações do CSS3 super simples e elegante.
+                  Move.js ist eine kleine JavaScript-Bibliothek, die das Erstellen von CSS3 getriebenen Animationen extrem einfach und elegant macht.
                 </p>
                 <section class="txt">
                     <ul>
@@ -629,7 +629,7 @@
                 </section>
 
                 <p class="source">
-                  SVG é um excelente caminho para criação de vetores de gráfico interativos e independentes de resolução, ficará bonito em qualquer tamanho de tela.
+                  SVG ist ein ausgezeichneter Weg, um interaktive, aufl�sungsunabh�ngige Vektorgrafiken zu erstellen, die auf allen Bildschirmgr��en gut aussehen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -638,7 +638,7 @@
                 </section>
 
                 <p class="source">
-                  Rekapi é uma biblioteca para criação de  animações de canvas e DOM com JavaScript, assim como animações @keyframe do CSS para navegadores modernos.
+                  Rekapi ist eine Bibliothek zum Erstellen sowohl von Canvas- und DOM-Animationen mit JavaScript als auch von CSS @keyframe-Animationen f�r moderne Browser.
                 </p>
                 <section class="txt">
                     <ul>
@@ -647,7 +647,7 @@
                 </section>
 
                 <p class="source">
-                  Faça uso do seu <i>favicon</i> com emblemas, imagens ou vídeos.
+                  Mach Gebrauch von deinem Favicon mit Badges, Bildern oder Videos.
                 </p>
                 <section class="txt">
                     <ul>
@@ -656,7 +656,7 @@
                 </section>
 
                 <p class="source">
-                  Textillate.js combina algumas bibliotecas impressionantes para fornecer um plugin fácil de usar para aplicar animações de CSS3 em qualquer texto.
+                  Textillate.js kombiniert einige geniale Bibliotheken, um ein einfach zu verwendendes Plugin zum Zuweisen von CSS3-Animationen zu jeglichen Texten zur Verf�gung zu stellen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -665,7 +665,7 @@
                 </section>
 
                 <p class="source">
-                  Motio é uma pequena biblioteca JavaScript para uma simples porém poderosa animação baseada em <i>sprites</i> e <i>panning</i> (panorâmica).
+                  Motio ist eine kleine JavaScript-Bibliothek f�r einfache aber umfangreiche auf Sprites basierende Animationen und Panning.
                 </p>
                 <section class="txt">
                     <ul>
@@ -674,7 +674,7 @@
                 </section>
 
                 <p class="source">
-                  Com a Anima é fácil de animar mais de cem objetos de cada vez. Cada item pode ter sua massa e viscosidade para simular objetos da vida real!
+                  Mit Anima ist es einfach, mehr als hundert Objekte zur selben Zeit zu animieren. Jedem Element kann eine Masse und Viskosit�t zugewiesen werden, um reale Objekte zu emulieren.
                 </p>
             </div>
         </section>
@@ -682,7 +682,7 @@
 
         <section class="section" id="game-engines">
             <div class="wrapper">
-                <h1><a href="#game-engines">MOTORES DE JOGOS</a></h1>
+                <h1><a href="#game-engines">SPIELE-ENGINES</a></h1>
 
                 <br>
                 <section class="txt">
@@ -692,7 +692,7 @@
                 </section>
 
                 <p class="source">
-                  MelonJS é um motor de jogos leve e grátis. O motor integra o formato de mapa em ladrilhos (azulejos) tornando o level de design fácil.
+                  MelonJS ist eine freie, leichtgewichtige HTML5 Spiele-Engine. Die Engine verwendet ein tiled Map-Format, welches das Leveldesign vereinfacht.
                 </p>
                 <section class="txt">
                     <ul>
@@ -701,7 +701,7 @@
                 </section>
 
                 <p class="source">
-                  ImpactJS é um dos motores de jogos mais testados e fielmente HTML5, com sua primeira publicação no final de 2010. Ele é muito bem mantido e atualizado, conta com uma boa comunidade dando suporte. A documentação é boa e conta com dois livros falando sobre criação de jogos com esse motor.
+                  ImpactJS ist eine der eher l�nger bew�hrten HTML5 Spiele-Engines, deren erste Ver�ffentlichung bis Ende 2010 zur�ckreicht. Sie wird sehr gut gewartet und regelgem��ig geupdatet und hat eine gro�e Community, die sie unterst�tzt. Es existieren sowohl umfangreiche Dokumentationen als auch zwei B�cher zum Thema Spieleentwicklung mit dieser Engine.
                 </p>
                 <section class="txt">
                     <ul>
@@ -710,7 +710,7 @@
                 </section>
 
                 <p class="source">
-                  LimeJS é um framework de jogos em HTML5 para criação rápida de jogos com experiência nativa para navegadores modernos e dispositivos touch.
+                  LimeJS ist ein HTML5 Spiele-Framework zum Erstellen von schnellen, native-experience Spielen f�r alle modernen Touchscreens und Desktop-Browser.
                 </p>
                 <section class="txt">
                     <ul>
@@ -719,7 +719,7 @@
                 </section>
 
                 <p class="source">
-                  Crafty é um motor de jogo lançado no final de 2010. Crafty torna realmente fácil o inicio do desenvolvimento de jogos com JavaScript.
+                  Crafty ist eine Spiele-Engine, welche von Ende 2010 stammt. Crafty erm�glicht einen einfachen Einstieg in das Erstellen von JavaScript-Spielen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -728,7 +728,7 @@
                 </section>
 
                 <p class="source">
-                  Cocos2d-html5 é um framework de código aberto para desenvolvimento de jogos web em 2D, lançado sobe a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco para o desenvolvimento do Cocos2d-html5, esta em torno de fazer o Cocos2d multiplataforma entre navegadores e aplicações nativas.
+                  Cocos2d-HTML5 ist ein quelloffenes 2D Web-Spiele-Framework, ver�ffentlicht unter der MIT Lizenz. Es ist eine HTML5-Version von dem Cocos2d-x Projekt. Das Ziel der Cocos2d-HTML5- Entwicklung ist, Cocos2d plattformunabh�ngig von Browsern und nativen Anwendungen zu machen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -737,7 +737,7 @@
                 </section>
 
                 <p class="source">
-                  Phaser é baseado fortemente no <a target="_blank" href="http://www.flixel.org">Flixel</a>. É mantido por Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>) que tem sido bem ativo por anos na comunidade HTML5.
+                  Phaser basiert stark auf <a target="_blank" href="http://www.flixel.org">Flixel</a>. Es wird gewartet von Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>), der in der HTML5-Community bereits seit Jahren sehr aktiv ist.
                 </p>
                 <section class="txt">
                     <ul>
@@ -746,7 +746,7 @@
                 </section>
 
                 <p class="source">
-                  Goo é um motor de jogos JavaScript 3D feito inteiramente em WebGL/HTML5
+                  Goo ist eine 3D JavaScript-Spiele-Engine, die komplett auf WebGL/HTML5 aufbaut.
                 </p>
                 <section class="txt">
                     <ul>
@@ -755,7 +755,7 @@
                 </section>
 
                 <p class="source">
-                  LycheeJS é uma biblioteca de jogos em JavaScript que oferece uma solução completa para prototipação e desenvolvimento de HTML5 Canvas, WebGL ou OpenGL(ES) nativo, baseado no navegador ou em ambientes nativos.
+                  LycheeJS ist eine JavaScript-Spiele-Bibliothek, die eine Komplettl�sung f�r das Prototyping und die Entwicklung von HTML5 Canvas, WebGL oder nativen OpenGL(ES) basierten Spielen innerhalb des Browsers oder einer nativen Umgebung bietet.
                 </p>
                 <section class="txt">
                     <ul>
@@ -764,7 +764,7 @@
                 </section>
 
                 <p class="source">
-                  Quintus é um motor de jogos HTML5 designado a ser modular e leve, com uma sintaxe concisa e bem próxima ao JavaScript.
+                  Quintus ist eine HTML5-Spiele-Engine, die einen modularen und leichtgewichtigen Ansatz mit einer pr�gnanten JavaScript-freundlichen Syntax verfolgt.
                 </p>
                 <section class="txt">
                     <ul>
@@ -773,7 +773,7 @@
                 </section>
 
                 <p class="source">
-                  Kiwi.js é um motor de jogos de código aberto. Algumas pessoas o chamam de o WordPress dos motores de jogos HTML5.
+                  Kiwi.js ist eine lustige und freundliche quelloffene HTML5-Spiele-Engine. Manche bezeichnen es als WordPress der HTMl5-Spiele-Engines.
                 </p>
                 <section class="txt">
                     <ul>
@@ -782,7 +782,7 @@
                 </section>
 
                 <p class="source">
-                  Panda.js é um motor de jogos em HTML5 para dispositivos mobile e desktop com renderização de Canvas e WebGL.
+                  Panda.js ist eine HTML5-Spiele-Engine mit Canvas und WebGL-Rendering f�r mobile Endger�te und f�r den Desktop.
                 </p>
 
             </div>
@@ -790,9 +790,9 @@
 
         <section class="section" id="news">
             <div class="wrapper">
-                <h1><a href="#news">NOVIDADES</a></h1>
+                <h1><a href="#news">Neuigkeiten</a></h1>
 
-                <h3>Websites</h3>
+                <h3>Webseiten</h3>
                 <div class="links-container">
                     <p class="source link">
                         <a href="http://javascript.com" target="_blank">JavaScript.com</a>
@@ -861,166 +861,166 @@
 
         <section class="section" id="reading">
             <div class="wrapper">
-                <h1><a href="#reading">LEITURA</a></h1>
+                <h1><a href="#reading">Literatur</a></h1>
 
-                <h3>Artigos</h3>
+                <h3>Artikel</h3>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html">Entendendo POO em JavaScript</a></li>
+                        <li><a target="_blank" href="http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html">Understanding JavaScript OOP</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://github.com/robotlolita">Quildreen Motta</a>
+                  von <a target="_blank" href="https://github.com/robotlolita">Quildreen Motta</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript">Entendendo “Protótipos” em JavaScript</a></li>
+                        <li><a target="_blank" href="http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript">Understanding �Prototypes� in JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://github.com/wycats">Yehuda Katz</a>
+                  von <a target="_blank" href="https://github.com/wycats">Yehuda Katz</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://msdn.microsoft.com/en-us/magazine/ff852808.aspx">Protótipos e Herança em JavaScript</a></li>
+                        <li><a target="_blank" href="http://msdn.microsoft.com/en-us/magazine/ff852808.aspx">Prototypes and Inheritance in JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://odetocode.com/blogs/scott">Scott Allen</a>
+                  von <a target="_blank" href="http://odetocode.com/blogs/scott">Scott Allen</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://benalman.com/news/2012/09/partial-application-in-javascript">Aplicações Parciais em JavaScript</a></li>
+                        <li><a target="_blank" href="http://benalman.com/news/2012/09/partial-application-in-javascript">Partial Application in JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://github.com/cowboy">Ben Alman</a>
+                  von <a target="_blank" href="http://github.com/cowboy">Ben Alman</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://blog.ponyfoo.com/2013/07/09/getting-over-jquery">Superando o jQuery</a></li>
+                        <li><a target="_blank" href="http://blog.ponyfoo.com/2013/07/09/getting-over-jquery">Getting Over jQuery</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://github.com/bevacqua">Nico Bevacqua</a>
+                  von <a target="_blank" href="http://github.com/bevacqua">Nico Bevacqua</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript">Um mergulho em JavaScript puro</a></li>
+                        <li><a target="_blank" href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript">A Dive Into Plain JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://twitter.com/viljamis">Viljami S.</a>
+                  von <a target="_blank" href="https://twitter.com/viljamis">Viljami S.</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm">Uma olhada mais profunda em JavaScript</a></li>
+                        <li><a target="_blank" href="http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm">A Deeper Look at Objects in JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
+                  von <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm">Introdução ao Easing (atenuação) em JavaScript</a></li>
+                        <li><a target="_blank" href="http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm">Introduction to Easing in JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
+                  von <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly">Como aprender JavaScript da forma correta</a></li>
+                        <li><a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly">How to Learn JavaScript Properly</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://twitter.com/jsissexy">JavaScript Is Sexy</a>
+                  von <a target="_blank" href="http://twitter.com/jsissexy">JavaScript Is Sexy</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://jugoncalv.es/blog/javascript/how-to-start-with-javascript">Como começar com JavaScript</a></li>
+                        <li><a target="_blank" href="http://jugoncalv.es/blog/javascript/how-to-start-with-javascript">How to Start with JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://twitter.com/junspector">Ju Gonçalves</a>
+                  von <a target="_blank" href="http://twitter.com/junspector">Ju Gon�alves</a>
                 </p>
 
 
 
-                <h3>Livros</h3>
+                <h3>B�cher</h3>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="https://github.com/braziljs/eloquente-javascript">JavaScript Eloquente</a></li>
+                        <li><a target="_blank" href="http://eloquentjavascript.net">Eloquent JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://marijnhaverbeke.nl">Marijn Haverbeke</a>
-                </p>
-
-
-                <section class="txt">
-                    <ul>
-                        <li><a target="_blank" href="http://www.buscape.com.br/javascript-o-guia-definitivo-david-flanagan-856583719x.html">JavaScript: O Guia Definitivo</a></li>
-                    </ul>
-                </section>
-
-                <p class="source">
-                  por <a target="_blank" href="http://davidflanagan.com/">David Flanagan</a>
+                  von <a target="_blank" href="http://marijnhaverbeke.nl">Marijn Haverbeke</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.buscape.com.br/o-melhor-do-javascript-douglas-crockford-8576082799.html">O melhor do JavaScript</a></li>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527">JavaScript: The Definitive Guide</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.crockford.com/">Douglas Crockford</a>
+                  von <a target="_blank" href="http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1">David Flanagan</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.buscape.com.br/padroes-javascript-construa-aplicacoes-mais-robustas-usando-padroes-de-projeto-e-programacao-stoyan-stefanov-857522266x.html">Padrôes JavaScript</a></li>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">JavaScript: The Good Parts</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.phpied.com/">Stoyan Stefanov</a>
+                  von <a target="_blank" href="http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1">Douglas Crockford</a>
+                </p>
+
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752">JavaScript Patterns</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  von <a target="_blank" href="http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1">Stoyan Stefanov</a>
                 </p>
 
 
@@ -1031,7 +1031,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://jcoglan.com">James Coglan</a>
+                  von <a target="_blank" href="http://jcoglan.com">James Coglan</a>
                 </p>
 
 
@@ -1042,18 +1042,18 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.nczonline.net/">Nicholas C. Zakas</a>
+                  von <a target="_blank" href="http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1">Nicholas C. Zakas</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.buscape.com.br/javascript-de-alto-desempenho-nicholas-c-zakas-8575222414.html">Javascript de Alto Desempenho</a></li>
+                        <li><a target="_blank" href="http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X">High Performance JavaScript</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.nczonline.net/">Nicholas C. Zakas</a>
+                  von <a target="_blank" href="http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1">Nicholas C. Zakas</a>
                 </p>
 
 
@@ -1064,7 +1064,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://joreteg.com/">Henrik Joreteg</a>
+                  von <a target="_blank" href="http://joreteg.com/">Henrik Joreteg</a>
                 </p>
 
 
@@ -1075,7 +1075,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.phpied.com/">Stoyan Stefanov</a>
+                  von <a target="_blank" href="http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1">Stoyan Stefanov</a>
                 </p>
 
 
@@ -1086,18 +1086,18 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://twitter.com/ded">Dustin Diaz</a>
+                  von <a target="_blank" href="https://twitter.com/ded">Dustin Diaz</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.buscape.com.br/segredos-do-ninja-javascript-john-resig-bear-bibeault-8575223283.html">Segredos do Ninja JavaScript</a></li>
+                        <li><a target="_blank" href="http://jsninja.com">Secrets of the JavaScript Ninja</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://ejohn.org">John Resig</a>
+                  von <a target="_blank" href="http://ejohn.org">John Resig</a>
                 </p>
 
 
@@ -1108,7 +1108,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://blog.ponyfoo.com">Nicolas Bevacqua</a>
+                  von <a target="_blank" href="http://blog.ponyfoo.com">Nicolas Bevacqua</a>
                 </p>
 
 
@@ -1119,7 +1119,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://www.rauschma.de">Axel Rauschmayer</a>
+                  von <a target="_blank" href="http://www.rauschma.de">Axel Rauschmayer</a>
                 </p>
 
 
@@ -1130,7 +1130,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://cjohansen.no">Christian Johansen</a>
+                  von <a target="_blank" href="http://cjohansen.no">Christian Johansen</a>
                 </p>
 
 
@@ -1141,7 +1141,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://github.com/getify">>Kyle Simpson</a>
+                  von <a target="_blank" href="https://github.com/getify">>Kyle Simpson</a>
                 </p>
 
 
@@ -1152,7 +1152,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://twitter.com/burgessdryan">Ryan Burgess</a>
+                  von <a target="_blank" href="http://twitter.com/burgessdryan">Ryan Burgess</a>
                 </p>
 
 
@@ -1163,7 +1163,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="https://blog.grandcentrix.net">Ivo Wetzel</a>
+                  von <a target="_blank" href="https://blog.grandcentrix.net">Ivo Wetzel</a>
                 </p>
 
 
@@ -1174,7 +1174,7 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://calculist.org">David Herman</a>
+                  von <a target="_blank" href="http://calculist.org">David Herman</a>
                 </p>
 
 
@@ -1185,18 +1185,18 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://blog.fogus.me">Michael Fogus</a>
+                  von <a target="_blank" href="http://blog.fogus.me">Michael Fogus</a>
                 </p>
 
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="https://leanpub.com/javascript-allonge">JavaScript Allongé</a></li>
+                        <li><a target="_blank" href="https://leanpub.com/javascript-allonge">JavaScript Allong�</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://raganwald.com">Reginald Braithwaite</a>
+                  von <a target="_blank" href="http://raganwald.com">Reginald Braithwaite</a>
                 </p>
 
 
@@ -1207,12 +1207,12 @@
                 </section>
 
                 <p class="source">
-                  por <a target="_blank" href="http://devfreebooks.org">DevFreeBooks</a>
+                  von <a target="_blank" href="http://devfreebooks.org">DevFreeBooks</a>
                 </p>
 
 
 
-                <h3>E-Books grátis</h3>
+                <h3>Kostenlose E-Books</h3>
 
 
                 <section class="links-container">
@@ -1226,7 +1226,7 @@
 
                 </section>
 
-                <h3>Portais</h3>
+                <h3>Portale</h3>
 
 
                 <section class="links-container">
@@ -1241,7 +1241,7 @@
                         <a target="_blank" href="http://www.w3fools.com">W3Fools</a>
                     </p>
                     <p class="source link">
-                        <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Mozilla Developer Network</a>
+                        <a target="_blank" href="http://developer.mozilla.org/docs/JavaScript">Mozilla Developer Network</a>
                     </p>
                     <p class="source link">
                         <a target="_blank" href="http://docs.webplatform.org/wiki/javascript">Web Platform</a>
@@ -1250,13 +1250,13 @@
                         <a target="_blank" href="http://coding.smashingmagazine.com/tag/javascript">Smashing Magazine</a>
                     </p>
                     <p class="source link">
-                        <a target="_blank" href="http://nodeschool.io/pt-br/">Node School</a>
+                        <a target="_blank" href="http://nodeschool.io">Node School</a>
                     </p>
                     <p class="source link">
                         <a target="_blank" href="http://howtonode.org">How to Node</a>
                     </p>
                     <p class="source link">
-                        <a target="_blank" href="http://nodeguide.com/beginner.html">Felix’s Node.js Beginners Guide</a>
+                        <a target="_blank" href="http://nodeguide.com/beginner.html">Felix�s Node.js Beginners Guide</a>
                     </p>
 
                 </section>
@@ -1281,7 +1281,7 @@
                         <a href="http://nodeup.com" target="_blank">Node Up</a>
                     </p>
                     <p class="source link">
-                        <a href="http://five-js.envylabs.com" target="_blank">5 Minutes of JavaScript</a>
+                        <a href="ttp://five-js.envylabs.com" target="_blank">5 Minutes of JavaScript</a>
                     </p>
                     <p class="source link">
                         <a href="http://www.meteorpodcast.com" target="_blank">The Meteor Podcast</a>
@@ -1323,7 +1323,7 @@
 
         <section class="section" id="whotofollow">
             <div class="wrapper">
-                <h1><a href="#whotofollow">QUEM SEGUIR</a></h1>
+                <h1><a href="#whotofollow">Wem ist zu folgen</a></h1>
 
                 <div class="users"></div>
             </div>
@@ -1331,7 +1331,7 @@
 
         <section class="section" id="paas">
             <div class="wrapper">
-                <h1><a href="#paas">PROVEDORES PaaS</a></h1>
+                <h1><a href="#paas">PaaS-Anbieter</a></h1>
 
                 <br><br>
                 <section class="links-container">
@@ -1361,7 +1361,7 @@
 
         <section class="section" id="helpers">
             <div class="wrapper">
-                <h1><a href="#helpers">Helpers</a></h1>
+                <h1><a href="#helpers">Helferlein</a></h1>
 
                 <div class="helpers-container">
 
@@ -1413,7 +1413,7 @@
         <section class="section" id="footer">
             <div class="wrapper">
                 <div class="bio">
-                    <h3>Criado e mantido por</h3>
+                    <h3>Erstellt und gewartet von</h3>
                     <a class="william" href="https://github.com/gnuwilliam">
                         <img src="https://0.gravatar.com/avatar/05671f27a334fd17b787a88bf3d7d5b8?d=https%3A%2F%2Fidenticons.github.com%2Fdf5529fee499f928d4cfe6ffdac9d89c.png&r=x&s=440" alt="William oliveira">
                         <b>William Oliveira</b>
@@ -1423,8 +1423,8 @@
                 <hr>
 
                 <div class="contributors">
-                    <h1>Contribuidores</h1>
-                    <p>Este projeto não existiria sem esses maravilhosos contribuidores. Obrigado galera por tornarem isso real!</p>
+                    <h1>Mitwirkende</h1>
+                    <p>Dieses Projekt w�re ohne die Hilfe von diesen gro�artigen Personen nicht zustande gekommen. Vielen Dank, dass ihr es erm�glicht!</p>
                     <div class="users"></div>
                 </div>
 
@@ -1433,7 +1433,7 @@
                         <img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png">
                     </a>
                     <br>
-                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: A forma certa</span> por <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a>.<br>Licenciado sobre <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.pt_BR">Creative Commons Atribuição-NãoComercial 4.0 Internacional</a>.<br>Baseado no trabalho em <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: Der richtige Weg</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a>.<br>Lizenziert unter einer <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Namensnennung - Nicht kommerziell 4.0 International Lizenz</a>.<br>Basierend auf der Arbeit an <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
                 </p>
 
 
