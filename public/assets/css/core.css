@@ -698,7 +698,4 @@ iframe[id^="oauth2relay"]{
     .contributors {
         padding-top: 15px;
     }
-    #dropdown label .flag {
-        display: none;
-    }
 }
