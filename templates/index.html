@@ -2,16 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{{meta.title}}</title>
+        <title>{{data.data.meta.title}}</title>
         <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
-        <meta property="og:title" content="{{ meta.title }}">
-        <meta property="og:site_name" content="{{ meta.title }}">
-        <meta name="description" property="og:description" content="{{ meta.description  }}">
+        <meta property="og:title" content="{{data.data.meta.title}}">
+        <meta property="og:site_name" content="{{data.data.meta.title}}">
+        <meta name="description" property="og:description" content="{{ data.meta.description  }}">
         <meta property="og:url" content="http://www.jstherightway.org">
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width, user-scalable=no">
-        <link rel="stylesheet" href="{{paths.csspath}}core.min.css">
+
+        <r-css normalize.css>
+        <r-css core.css>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
@@ -21,7 +23,7 @@
 
             <div class="wrapper">
                 <h1>JavaScript</h1>
-                <small>The Right Way</small>                
+                <small>The Right Way</small>
             </div>
 
             <div id="dropdown">
@@ -62,56 +64,56 @@
 
         <section class="welcome">
             <div class="wrapper">
-              {{ welcome }}
+              {{data.welcome}}
             </div>
         </section>
 
         <section class="main" id="main">
             <div class="wrapper">
-                <h1><a href="#main">{{ menu.title }}</a></h1>
+                <h1><a href="#main">{{data.menu.title}}</a></h1>
 
                 <ul>
-                  {{#menu.links}}
+                  {{#data.menu.links}}
                     <li><a href="{{url}}">{{title}}</a></li>
-                  {{/menu.links}}
+                  {{/data.menu.links}}
                 </ul>
             </div>
         </section>
 
         <section class="section" id="getting-started">
             <div class="wrapper">
-                <h1><a href="#getting-started">{{ gettingStarted.title }}</a></h1>
-                {{ gettingStarted.text }}
+                <h1><a href="#getting-started">{{data.gettingStarted.title}}</a></h1>
+                {{data.gettingStarted.text}}
             </div>
         </section>
 
         <section class="section" id="js-code-style">
             <div class="wrapper">
-                <h1><a href="#js-code-style">{{ codeStyle.title }}</a></h1>
-                {{ codeStyle.text }}
+                <h1><a href="#js-code-style">{{data.codeStyle.title}}</a></h1>
+                {{data.codeStyle.text}}
         </section>
 
         <section class="section" id="the-good-parts">
             <div class="wrapper">
-                <h1><a href="#the-good-parts">{{ goodParts.title }}</a></h1>
-                {{ goodParts.text }}
+                <h1><a href="#the-good-parts">{{data.goodParts.title}}</a></h1>
+                {{data.goodParts.text}}
             </div>
         </section>
 
         <section class="section" id="patterns">
             <div class="wrapper">
-                <h1><a href="#patterns">{{ patterns.title}}</a></h1>
-                {{patterns.text}}
+                <h1><a href="#patterns">{{data.patterns.title}}</a></h1>
+                {{data.patterns.text}}
             </div>
         </section>
 
         <section class="section" id="testing-tools">
             <div class="wrapper">
-                <h1><a href="#testing-tools">{{testingTools.title}}</a></h1>
-                {{testingTools.text}}
+                <h1><a href="#testing-tools">{{data.testingTools.title}}</a></h1>
+                {{data.testingTools.text}}
 
                 <h3>Links</h3>
-                {{#testingTools.links}}
+                {{#data.testingTools.links}}
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="{{url}}">{{name}}</a></li>
@@ -121,16 +123,16 @@
                 <p class="source">
                   {{description}}
                 </p>
-                {{/testingTools.links}}
+                {{/data.testingTools.links}}
 
             </div>
         </section>
 
         <section class="section" id="frameworks">
             <div class="wrapper">
-                <h1><a href="#frameworks">{{frameworks.title}}</a></h1>
+                <h1><a href="#frameworks">{{data.frameworks.title}}</a></h1>
 
-                {{#frameworks.cat}}
+                {{#data.frameworks.cat}}
                 <h3>{{title}}</h3>
                 {{#links}}
                 <section class="txt">
@@ -143,17 +145,17 @@
                   {{description}}
                 </p>
                 {{/links}}
-                {{/frameworks.cat}}
+                {{/data.frameworks.cat}}
             </div>
         </section>
 
 
         <section class="section" id="game-engines">
             <div class="wrapper">
-                <h1><a href="#game-engines">{{gameEngines.title}}</a></h1>
+                <h1><a href="#game-engines">{{data.gameEngines.title}}</a></h1>
 
                 <br/>
-                {{#gameEngines.links}}
+                {{#data.gameEngines.links}}
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="{{url}}">{{name}}</a></li>
@@ -161,18 +163,18 @@
                 </section>
 
                 <p class="source">
-                  {{description}}
+                  {{data.description}}
                 </p>
-                {{/gameEngines.links}}
+                {{/data.gameEngines.links}}
 
             </div>
         </section>
 
         <section class="section" id="news">
             <div class="wrapper">
-                <h1><a href="#news">{{news.title}}</a></h1>
+                <h1><a href="#news">{{data.news.title}}</a></h1>
 
-                {{#news.cat}}
+                {{#data.news.cat}}
                 <h3>{{title}}</h3>
                 <div class="links-container">
                 {{#links}}
@@ -181,19 +183,19 @@
                     </p>
                 {{/links}}
                 </div>
-                {{/news.cat}}
+                {{/data.news.cat}}
 
             </div>
         </section>
 
         <section class="section" id="reading">
             <div class="wrapper">
-                <h1><a href="#reading">{{reading.title}}</a></h1>
+                <h1><a href="#reading">{{data.reading.title}}</a></h1>
 
-                {{#reading.cat}}
+                {{#data.reading.cat}}
                 <h3>{{title}}</h3>
 
-                {{#credit}}
+                {{#data.credit}}
                 {{#links}}
 
                 <section class="txt">
@@ -207,9 +209,9 @@
                 </p>
 
                 {{/links}}
-                {{/credit}}
+                {{/data.credit}}
 
-                {{#box}}
+                {{#data.box}}
                 <section class="links-container">
 
                     {{#links}}
@@ -219,46 +221,46 @@
                     {{/links}}
 
                 </section>
-                {{/box}}
+                {{/data.box}}
 
-                {{/reading.cat}}
+                {{/data.reading.cat}}
 
             </div>
         </section>
 
         <section class="section" id="podcasts">
             <div class="wrapper">
-                <h1><a href="#podcasts">{{podcasts.title}}</a></h1>
+                <h1><a href="#podcasts">{{data.podcasts.title}}</a></h1>
 
                 <br/><br/>
                 <div class="links-container">
-                    {{#podcasts.links}}
+                    {{#data.podcasts.links}}
                     <p class="source link">
                         <a href="{{url}}" target="_blank">{{name}}</a>
                     </p>
-                    {{/podcasts.links}}
+                    {{/data.podcasts.links}}
                 </div>
             </div>
         </section>
 
         <section class="section" id="screencasts">
             <div class="wrapper">
-                <h1><a href="#screencasts">{{screencasts.title}}</a></h1>
+                <h1><a href="#screencasts">{{data.screencasts.title}}</a></h1>
 
-                {{#screencasts.links}}
+                {{#data.screencasts.links}}
                 <div class="screencasts-container">
                     <a href="{{url}}" target="_blank">
                         <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                     </a>
                 </div>
-                {{/screencasts.links}}
+                {{/data.screencasts.links}}
 
             </div>
         </section>
 
         <section class="section" id="whotofollow">
             <div class="wrapper">
-                <h1><a href="#whotofollow">{{whoToFollow.title}}</a></h1>
+                <h1><a href="#whotofollow">{{data.whoToFollow.title}}</a></h1>
 
                 <div class="users"></div>
             </div>
@@ -266,16 +268,16 @@
 
         <section class="section" id="paas">
             <div class="wrapper">
-                <h1><a href="#paas">{{paasProviders.title}}</a></h1>
+                <h1><a href="#paas">{{data.paasProviders.title}}</a></h1>
 
                 <br/><br/>
                 <section class="links-container">
 
-                  {{#paasProviders.links}}
+                  {{#data.paasProviders.links}}
                     <p class="source link">
                         <a href="{{url}}" target="_blank">{{name}}</a>
                     </p>
-                  {{/paasProviders.links}}
+                  {{/data.paasProviders.links}}
 
                 </section>
             </div>
@@ -283,17 +285,17 @@
 
         <section class="section" id="helpers">
             <div class="wrapper">
-                <h1><a href="#helpers">{{helpers.title}}</a></h1>
+                <h1><a href="#helpers">{{data.helpers.title}}</a></h1>
 
                 <div class="helpers-container">
 
-                  {{#helpers.links}}
+                  {{#data.helpers.links}}
                     <a target="_blank" href="{{url}}">
                         <figure>
                             <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                         </figure>
                     </a>
-                  {{/helpers.links}}
+                  {{/data.helpers.links}}
 
                 </div>
             </div>
@@ -302,7 +304,7 @@
         <section class="section" id="footer">
             <div class="wrapper">
                 <div class="bio">
-                    <h3>{{footer.credit}}</h3>
+                    <h3>{{data.footer.credit}}</h3>
                     <a class="william" href="https://github.com/gnuwilliam">
                         <img src="https://0.gravatar.com/avatar/05671f27a334fd17b787a88bf3d7d5b8?d=https%3A%2F%2Fidenticons.github.com%2Fdf5529fee499f928d4cfe6ffdac9d89c.png&amp;r=x&amp;s=440" alt="William oliveira" />
                         <b>William Oliveira</b>
@@ -312,18 +314,18 @@
                 <hr/>
 
                 <div class="contributors">
-                    <h1>{{footer.contributors}}</h1>
-                    <p>{{footer.contribDesc}}</p>
+                    <h1>{{data.footer.contributors}}</h1>
+                    <p>{{data.footer.contribDesc}}</p>
                     <div class="users"></div>
                 </div>
 
-                {{footer.licence}}
+                {{data.footer.licence}}
 
             </div>
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="{{paths.jspath}}core.min.js"></script>
+        <r-js core.js>
         <div id="fb-root"></div>
         <script>
             function asyncScriptLoad( url, id ) {

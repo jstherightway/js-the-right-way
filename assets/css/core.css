@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-} 
+}
 
 .wrapper {
     width: 80%;
@@ -66,8 +66,8 @@ header small {
     display: none;
 }
 
-#dropdown label, 
-#dropdown ul li, 
+#dropdown label,
+#dropdown ul li,
 #dropdown ul li a {
     background-color:#1A7594;
     font-size:13px;
