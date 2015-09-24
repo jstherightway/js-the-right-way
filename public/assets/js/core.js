@@ -25,10 +25,7 @@ var App = (function( window, document, $ ) {
       'rwaldron',
       'darkwing',
       'bevacqua',
-      'sindresorhus',
-      'sebmck',
-      'seldo',
-      'jonathansampson'
+      'sindresorhus'
 
     ],
     userIsDone,
