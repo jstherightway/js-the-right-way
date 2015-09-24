@@ -25,7 +25,11 @@ var App = (function( window, document, $ ) {
       'rwaldron',
       'darkwing',
       'bevacqua',
-      'sindresorhus'
+      'sindresorhus',
+      'sebmck',
+      'seldo',
+      'jonathansampson'
+
     ],
     userIsDone,
     URL = 'https://api.github.com/';
@@ -39,7 +43,7 @@ var App = (function( window, document, $ ) {
         // Getting and appending users of github
         getGithubUsers: function() {
             var i=0, length = userIsDone = users.length,
-                str=''; 
+                str='';
 
             // Callback function
             function cb( result ) {
