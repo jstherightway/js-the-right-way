@@ -25,7 +25,9 @@ var App = (function( window, document, $ ) {
       'rwaldron',
       'darkwing',
       'bevacqua',
-      'sindresorhus'
+      'sindresorhus',
+      'getify',
+      'ericelliott'
     ],
     userIsDone,
     URL = 'https://api.github.com/';
