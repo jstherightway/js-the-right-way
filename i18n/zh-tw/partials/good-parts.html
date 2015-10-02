@@ -1,0 +1,95 @@
+<h3>物件導向</h3>
+
+<p>
+    JavaScript 即使跟其他語言在物件導向方面有些爭論的地方，但仍具有強烈物件導向的編程能力。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="https://developer.mozilla.org/zh-TW/docs/JavaScript_%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91%E4%BB%8B%E7%B4%B9">JavaScript 物件導向介紹</a>
+</p>
+
+<h3>匿名函式</h3>
+
+<p>
+    匿名函式是在程式運行時動態宣告的函式。之所以稱為匿名函式是因為它跟其他一般函式不同，它並沒有給予指定的函式名稱。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+</p>
+
+<h3>第一級物件為函式（function）</h3>
+
+<p>
+    函式（function）是 JavaScript 的第一級物件。這意味著 JavaScript 中的函式（function）只是一種特殊型態的物件，並且能做到一般物件所能執行的行為。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+</p>
+
+<h3>弱型別</h3>
+
+<p>
+    對於許多前端開發者而言，JavaScript 是他們所使用的第一個腳本語言或是直譯語言。對這些開發者來說，弱型別變數的概念跟影響或許像是第二天性一般自然。然而現在網頁應用程式的爆炸性成長需求，使得後端開發者必需涉足客戶端技術。這類的開發者大部分都有強型別的語言背景，例如 C# 或是 Java，因此並不熟悉弱型別變數所給予的高度自由及潛在的陷阱。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+</p>
+
+<h3>作用域及變數提升</h3>
+
+<p>
+    <b>作用域：</b> 在 JavaScript 中，函式是我們在宣告變量時，<i>實際</i>的作用域分隔符，也就是說常見的迴圈及條件式（如 if, for, while, switch 及 try）並“不能“指定作用域，這一點是有別於大部分的程式語言。因此函式中的這些區塊將會共享相同的作用域。這樣使得在這些區塊內部宣告只屬於這些區塊的變量的行為變成可能是危險的。
+</p>
+
+<p>
+    <b>變量提升：</b> 在運行時，所有的變數及函式宣告將會被移至各函式的起始位置（即函式的作用域）- 這就是所謂的變量提升。雖然如此，但是良好的習慣還是在作用域的一開始就先宣告所有變量，避免因未宣告就操作變量造成未預期的錯誤。 - 這是一個習慣有區塊作用域語言開發者的常見問題。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+</p>
+
+<h3>函式綁定</h3>
+
+<p>
+    剛開始學習 JavaScript 時，你可能不需花什麼時間在處理函式綁定上面，但你漸漸會遇到如何在另一個函式中保留 this 內容的問題，最終你會了解，你真正需要的其實是 <b>函式原型綁定（Function.prototype.bind()）</b>。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+</p>
+
+<h3>閉包函式</h3>
+
+<p>
+    閉包是參照獨立（自由）變量的函式。換句話說，閉包中所定義的函式會“保留“它被產生出來時的環境。
+    了解這個概念是很重要的，因為它在開發過程中是有用的，類似私有方法的功能。它也可以幫助你學習如何避免一些常見的錯誤，例如在迴圈中使用閉包。
+ </p>
+
+<p class="source">
+    來源: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+</p>
+
+<h3>嚴格模式</h3>
+
+<p>
+    ECMAScript 5 的嚴格模式是用來限制一些 JavaScript 不嚴謹的寫法。嚴格模式並非只是一個子集：它特地在語義上有別於一般的程式碼。各家瀏覽器對於嚴格模式有不同的支援度，所以在使用嚴格模式時，建議要進行功能測試。嚴格模式的程式碼與非嚴格模式的程式碼是可以並存的，所以可以自由決定嚴格模式部分的多寡。
+ </p>
+
+<p class="source">
+    來源: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+</p>
+
+<h3>立即調用函式 (IIFE)</h3>
+
+<p>
+    立即調用函式是指使用 JavaScript 的函式來限制作用域範圍的模式。立即調用函式可以阻止區塊內的變量提升，保護區塊內的變量不被其他作用範圍的變量污染，同時也允許宣告公開方法來操作區塊中的私有變量。<br/><br/>
+    <i>這種模式被稱為自執行匿名函式，但 <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) 為它定義了語義上更適合的字彙 IIFE</i> 。
+</p>
+
+<p class="source">
+    來源: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+</p>
