@@ -25,7 +25,6 @@ var App = (function( window, document, $ ) {
       'rwaldron',
       'darkwing',
       'bevacqua',
-      'sindresorhus'
       'sindresorhus',
       'getify',
       'ericelliott',

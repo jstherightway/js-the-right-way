@@ -860,5 +860,13 @@
     "contributors":"Contributors",
     "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
     "licence":"{{@link=partials/licence.html}}"
-  }
+  },
+  "languages": [
+    {"url":"pt-br","name":"Português"},
+    {"url":"ko-kr","name":"한국어"},
+    {"url":"es-es","name":"Español"},
+    {"url":"de-de","name":"German"},
+    {"url":"en-us","name":"English"},
+    {"url":"zh-tw","name":"繁體中文"}
+  ]
 }
