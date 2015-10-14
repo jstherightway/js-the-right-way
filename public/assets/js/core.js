@@ -30,7 +30,8 @@ var App = (function( window, document, $ ) {
       'ericelliott',
       'aaronfrost',
       'jhusain',
-      'ryanflorence'
+      'ryanflorence',
+      'gaearon'
     ],
     userIsDone,
     URL = 'https://api.github.com/';
