@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-} 
+}
 
 .wrapper {
     width: 80%;
@@ -59,18 +59,18 @@ header small {
 #dropdown {
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 15px;
 }
 
 #dropdown input {
     display: none;
 }
 
-#dropdown label, 
-#dropdown ul li, 
+#dropdown label,
+#dropdown ul li,
 #dropdown ul li a {
     background-color:#1A7594;
-    font-size:13px;
+    font-size:16px;
     color:#DDD;
     cursor:pointer;
 }
@@ -92,6 +92,7 @@ header small {
 
 #dropdown label .flag {
     margin-right: 5px;
+    margin: 1em 1em;
 }
 
 #dropdown label:after {

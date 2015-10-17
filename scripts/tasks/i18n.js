@@ -26,8 +26,9 @@ module.exports = function (grunt) {
   // Read the i18n directory and render a template with the json's data
   var generate = function () {
     var template = grunt.file.read(path.join(TEMPLATE_PATH, TEMPLATE_FILE));
-    var data, t;
+    var data, t, label;
     var defaultData = grunt.file.readJSON(path.join(JSON_PATH, DEFAULT_LANGUAGE.replace('.json', ''),DEFAULT_LANGUAGE));
+
 
     grunt.file.recurse( JSON_PATH, function (abspath, rootdir, subdir, filename){
 
@@ -36,6 +37,23 @@ module.exports = function (grunt) {
 
         // Extend from default language
         data = extend(true, defaultData, data);
+
+        data.dropdown = {
+          options: data.languages.map(function (lang) {
+            var buf;
+            if(lang.url !== filename.replace('.json', '')) {
+
+              buf = {name:lang.name, url: DEFAULT_LANGUAGE.replace('.json', '') === lang.url ? '' : lang.url};
+            } else {
+              label = lang.name;
+              buf = false;
+            }
+            return buf;
+          }).filter(function (l) {
+            return l;
+          }),
+          label: label
+        };
 
         // Paths
         var prop  = grunt.cli.tasks.indexOf('dist') !== -1 ? 'dist' : 'dev';
