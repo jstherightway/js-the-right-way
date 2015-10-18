@@ -318,7 +318,7 @@
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5 é um framework de código aberto para desenvolvimento de jogos web em 2D, lançado sobe a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco para o desenvolvimento do Cocos2d-html5, esta em torno de fazer o Cocos2d multiplataforma entre navegadores e aplicações nativas."
+        "description":"Cocos2d-html5 é um framework de código aberto para desenvolvimento de jogos web em 2D, lançado sob a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco para o desenvolvimento do Cocos2d-html5, esta em torno de fazer o Cocos2d multiplataforma entre navegadores e aplicações nativas."
       },
       {
         "name":"Phaser",
