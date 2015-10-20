@@ -1,0 +1,864 @@
+{
+  "meta": {
+      "title":"JS: The Right Way",
+      "description":"学习 JavaScript 的最佳快速指南 -- 来自网上的代码风格和教程链接"
+  },
+  "welcome": "{{@link=partials/welcome.html}}",
+  "menu": {
+    "title": "选择你想看的主题",
+    "links": [
+      {
+        "title":"开始入门",
+        "url":"#getting-started"
+      },
+      {
+        "title":"JavaScript 代码风格",
+        "url":"#js-code-style"
+      },
+      {
+        "title":"语言精粹",
+        "url":"#the-good-parts"
+      },
+      {
+        "title":"设计模式",
+        "url":"#patterns"
+      },
+      {
+        "title":"测试工具",
+        "url":"#testing-tools"
+      },
+      {
+        "title":"框架",
+        "url":"#frameworks"
+      },
+      {
+        "title":"游戏引擎",
+        "url":"#game-engines"
+      },
+      {
+        "title":"资讯",
+        "url":"#news"
+      },
+      {
+        "title":"阅读",
+        "url":"#reading"
+      },
+      {
+        "title":"播客",
+        "url":"#podcasts"
+      },
+      {
+        "title":"拍客（Screencasts）",
+        "url":"#screencasts"
+      },
+      {
+        "title":"关注谁",
+        "url":"#whotofollow"
+      },
+      {
+        "title":"PaaS 提供者",
+        "url":"#paas"
+      },
+      {
+        "title":"帮助",
+        "url":"#helpers"
+      }
+    ]
+  },
+  "gettingStarted": {
+    "title":"开始入门",
+    "text":"{{@link=partials/getting-started.html}}"
+  },
+  "codeStyle": {
+    "title":"JavaScript 代码风格",
+    "text":"{{@link=partials/code-style.html}}"
+  },
+  "goodParts":{
+    "title":"语言精粹",
+    "text":"{{@link=partials/good-parts.html}}"
+  },
+  "patterns":{
+    "title":"设计模式",
+    "text":"{{@link=partials/patterns.html}}"
+  },
+  "testingTools":{
+    "title":"测试工具",
+    "text":"{{@link=partials/testing-tools.html}}",
+    "links":[
+        {
+          "name":"Mocha",
+          "url":"http://mochajs.org",
+          "description":"由 <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a> 维护。"
+        },
+        {
+          "name":"QUnit",
+          "url":"http://qunitjs.com",
+          "description":"由 <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a> 维护。"
+        },
+        {
+          "name":"Jasmine",
+          "url":"https://github.com/pivotal/jasmine",
+          "description":"由 <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a> 维护。"
+        },
+        {
+          "name":"Karma",
+          "url":"http://karma-runner.github.io/",
+          "description":"由 the team behind AngularJS. Mostly by <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a> 维护。"
+        },
+        {
+          "name":"Intern",
+          "url":"http://theintern.io",
+          "description":"由 <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a> 维护。"
+        },
+        {
+          "name":"Istanbul",
+          "url":"http://gotwarlost.github.io/istanbul",
+          "description":"JavaScript 代码覆盖率工具，由 <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a> 维护。"
+        },
+        {
+          "name":"Sinon.JS",
+          "url":"http://sinonjs.org",
+          "description":"JavaScript 独立测试套件 Test spy, stub 及 mock）。 不依赖于任何的单元测试框架。由 <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a> 创作。"
+        },
+        {
+          "name":"DexterJS",
+          "url":"https://github.com/leobalter/DexterJS",
+          "description":"模擬函数及 XHR 对象的测试帮助工具，由 <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a> 维护。"
+        }
+    ]
+  },
+  "frameworks":{
+    "title":"框架",
+    "cat":[
+      {
+        "title":"热门",
+        "links":[
+          {
+            "name":"jQuery",
+            "url":"http://jquery.com",
+            "description":"jQuery 是一个快速、轻巧及功能丰富的 JavaScript 库。由 <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a> 建立。"
+          },
+          {
+            "name":"YUI",
+            "url":"http://yuilibrary.com",
+            "description":"由 Yahoo 建立！ YUI 是一个免费、开源的 JavaScript 及 CSS 库，用于建立富交互的 web 应用。 <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">已于 2014年8月29日停止更新</a>."
+          },
+          {
+            "name":"ZeptoJS",
+            "url":"http://zeptojs.com",
+            "description":"Zepto 是一个针对现在浏览器开发的，极简的 JavaScript 函数库，兼容大量的 jQuery API。只要你会用 jQuery，那么你已经会用 Zepto 了。"
+          },
+          {
+            "name":"Dojo Toolkit",
+            "url":"http://dojotoolkit.org",
+            "description":"Dojo 是一个免费、开源的 JavaScript 工具包，用來建立高效能的网站应用。赞助商商有  IBM 及 SitePen。"
+          },
+          {
+            "name":"Underscore.js",
+            "url":"http://underscorejs.org",
+            "description":"Underscore.js 是一个提供整套函数式编程的好工具，同时并不扩展原生 JavaScript 的库。"
+          }
+        ]
+      },
+      {
+        "title":"MV*",
+        "links":[
+          {
+            "name":"Backbone.js",
+            "url":"http://backbonejs.org",
+            "description":"非常热门的 JavaScript 客户端框架，由 <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a> 建立。"
+          },
+          {
+            "name":"Ember.js",
+            "url":"http://emberjs.com",
+            "description":"由 <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a> 建立， jQuery 及 Ruby on Rails 核心开发者。"
+          },
+          {
+            "name":"Knockout.js",
+            "url":"http://knockoutjs.com",
+            "description":"使用 Model-View-View Model (MVVM) 构建简单动态的 JavaScript 用户界面。"
+          },
+          {
+            "name":"Angular.js",
+            "url":"http://angularjs.org",
+            "description":"由 Google 建立，Angular.js 类似 polyfill 用于 HTML。"
+          },
+          {
+            "name":"Cappuccino",
+            "url":"http://cappuccino.org",
+            "description":"Cappuccino 是一个可以让人简单搭建运行在浏览器的桌面应用的开源框架。"
+          },
+          {
+            "name":"JavaScript MVC",
+            "url":"http://javascriptmvc.com/",
+            "description":"JavaScriptMVC 是一个包含 jQuery 最佳创意的开源框架。"
+          },
+          {
+            "name":"Meteor",
+            "url":"https://www.meteor.com",
+            "description":"Meteor 是一个不管菜鸟还是高手都可以在短时间内建立起高质量的网络应用的开源平台。"
+          },
+          {
+            "name":"Spice.js",
+            "url":"http://spicejs.github.io/spicejs/",
+            "description":"Spice 是一个非常小（&lt; 3k）且有可扩展性的 javascript MVC 框架。 Spice 可以轻松的融合任何已有的应用正在使用的技术如 jQuery、pjax、turbolinks、node 或是和任何你正在使用的技术共同顺利工作。"
+          },
+          {
+            "name":"Riot.js",
+            "url":"http://www.riotjs.com/",
+            "description":"Riot 是快速且功能强大的轻量客户端（MV*）函数库，用于创建大型的网络应用。 尽管它的体积很小，但却包含以下組成：模版引擎、路由、事件函数库及标准的 MVP 模式，让代码保持模块化。"
+          },
+          {
+            "name":"CanJS",
+            "url":"http://canjs.com",
+            "description":"CanJS 是一个可以让开发复杂应用程序变得简单且快速的框架。 学习简单、轻巧并且不改变你的应用结构，同同时更提供一些新的功能，如自定义标签和双向绑定。"
+          }
+        ]
+      },
+      {
+        "title":"函数库",
+        "links":[
+          {
+            "name":"React",
+            "url":"http://facebook.github.io/react",
+            "description":"由 Facebook 创建。 React 是一个 JavaScript 函数库，用于开发 Facebook 及 Instagram 的用户界面。 许多人认为 React 是 MVC 中的 V。"
+          },
+          {
+            "name":"Handlebars",
+            "url":"http://handlebarsjs.com",
+            "description":"Handlebars 让你可以无痛的建立有语义的模板。"
+          },
+          {
+            "name":"Dust.js",
+            "url":"http://linkedin.github.io/dustjs",
+            "description":"浏览器和 node.js 的非同步模板。"
+          }
+        ]
+      },
+      {
+        "title":"动画",
+        "links":[
+          {
+            "name":"Velocity.js",
+            "url":"http://julian.com/research/velocity/",
+            "description":"Velocity 是一个和 jQuery 的 $.animate() 有相同 API 的动画引擎。"
+          },
+          {
+            "name":"Bounce.js",
+            "url":"http://bouncejs.com/",
+            "description":"Bounce.js 是一个让你创造精美 CSS3 动画的工具及 JS 函数库。"
+          },
+          {
+            "name":"TweenJS",
+            "url":"http://www.createjs.com/tweenjs",
+            "description":"一个简单且强大的 JavaScript 函数库，用來建立 HTML5 的。"
+          },
+          {
+            "name":"Move.js",
+            "url":"http://visionmedia.github.io/move.js/",
+            "description":"Move.js 是一个基于 CSS3 极为简单又优雅 JavaScript 函数库。"
+          },
+          {
+            "name":"Snap.svg",
+            "url":"http://snapsvg.io/",
+            "description":"SVG 是一个专门处理交互、高解析度的矢量图，让各种大小的屏幕都能完美的呈现画面。"
+          },
+          {
+            "name":"Rekapi",
+            "url":"http://rekapi.com/",
+            "description":"Rekapi 不但是一个创建 canvas 及 DOM 动画的 JavaScript 函数库，同时也是新一代浏览器中的 CSS @keyframe 动画。"
+          },
+          {
+            "name":"Favico.js",
+            "url":"http://lab.ejci.net/favico.js/",
+            "description":"用标识、图片或视频来建立你喜爱的图标。"
+          },
+          {
+            "name":"Textillate.js",
+            "url":"http://jschr.github.io/textillate/",
+            "description":"Textillate.js 结合许多写的不错的函数库来提供一个容易使用的的插件，让人可以在任何內容中使用 CSS3 的动画。"
+          },
+          {
+            "name":"Motio",
+            "url":"http://darsa.in/motio/",
+            "description":"Motio 是一个轻量的 JavaScript 函数库，基于动画和平移建立简单且强大的的 2D 动画。"
+          },
+          {
+            "name":"Anima.js",
+            "url":"http://lvivski.com/anima/",
+            "description":"使用 Anima 可以让人简单的同时操控近百个对象。 每一个对象都能有仿真的质量及速度效果！"
+          }
+        ]
+      }
+    ]
+  },
+  "gameEngines":{
+    "title":"游戏引擎",
+    "links":[
+      {
+        "name":"MelonJS",
+        "url":"http://melonJS.org",
+        "description":"MelonJS 是一个免费、轻量的游戏引擎。 这个引擎集成了地图拼接格式，让关卡设计变得更轻松。"
+      },
+      {
+        "name":"ImpactJS",
+        "url":"http://impactjs.com",
+        "description":"ImpactJS 是从2010年底开始发布的可测试及运行的 HTML5 游戏引擎之一。 它保持良好的更新和维护，也用有一定的社区人员支持它。 它除了有两个关于如何使用此引擎建立游戏的书籍外，还有大量的文档可參考。"
+      },
+      {
+        "name":"LimeJS",
+        "url":"http://limejs.com",
+        "description":"LimeJS 是一个可以在各种触控屏幕及桌面浏览器上建立快速、原生体验游戏的 HTML5 游戏框架。"
+      },
+      {
+        "name":"Crafty",
+        "url":"http://craftyjs.com",
+        "description":"Crafty 是从 2010 年开始就存在的一个游戏引擎。 Crafty 开发 JavaScript 游戏变得相当容易。"
+      },
+      {
+        "name":"Cocos2d-HTML5",
+        "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
+        "description":"Cocos2d-html5 是一个 MIT 许可的开源 2D 游戏框架。 它是一个 HTML5 版本的 Cocos2d-x 计划。 Cocos2d-html5 的开发者终于让 Cocos2d 可以跨平台。"
+      },
+      {
+        "name":"Phaser",
+        "url":"http://phaser.io",
+        "description":"Phaser 依赖于 <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>。 由已在 HTML5 社区活跃多年的 Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) 维护。"
+      },
+      {
+        "name":"Goo",
+        "url":"http://www.goocreate.com/learn",
+        "description":"Goo 是一个基于 WebGL/HTML5 建立的 3D 游戏引擎。"
+      },
+      {
+        "name":"LycheeJS",
+        "url":"http://lycheejs.org",
+        "description":"LycheeJS 是一个 JavaScript 游戏函数库，提供原型及 HTML5 Canvas，WebGL 或 原生 OpenGL(ES) 在网络浏览器或本地环境部署的完整解決方案。"
+      },
+      {
+        "name":"Quintus",
+        "url":"http://html5quintus.com",
+        "description":"Quintus 是一个采用模块化设计的 HTML5 游戏引擎、轻量、使用容易具有简洁的 JavaScript 语法。"
+      },
+      {
+        "name":"KiwiJS",
+        "url":"http://www.kiwijs.org",
+        "description":"Kiwi.js 是一个有趣且友善的开源 HTML5 游戏引擎。 有些人称它为 HTML5 游戏引擎界的 WordPress。"
+      },
+      {
+        "name":"PandaJS",
+        "url":"http://www.pandajs.net",
+        "description":"Panda.js 是一个用于手机及电脑，使用 Canvas 和 WebGL 渲染的游戏引擎。"
+      }
+    ]
+  },
+  "news":{
+    "title":"资讯",
+    "cat":[
+      {
+        "title":"网站",
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"http://javascript.com",
+            "description":""
+          },
+          {
+            "name":"DailyJS",
+            "url":"http://dailyjs.com",
+            "description":""
+          },
+          {
+            "name":"Echo JS",
+            "url":"http://www.echojs.com",
+            "description":""
+          },
+          {
+            "name":"The Treehouse Show",
+            "url":"http://teamtreehouse.com/library/the-treehouse-show",
+            "description":""
+          },
+          {
+            "name":"/r/javascript on Reddit",
+            "url":"http://www.reddit.com/r/javascript",
+            "description":""
+          },
+          {
+            "name":"Open Web Platform Daily Digest",
+            "url":"http://webplatformdaily.org",
+            "description":""
+          },
+          {
+            "name":"Badass JavaScript",
+            "url":"http://badassjs.com",
+            "description":""
+          },
+          {
+            "name":"AngularJS Daily",
+            "url":"http://paper.li/gwinnem/1390553142",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"订阅",
+        "links":[
+          {
+            "name":"JavaScript Weekly",
+            "url":"http://javascriptweekly.com",
+            "description":""
+          },
+          {
+            "name":"A Drip of JavaScript",
+            "url":"http://designpepper.com/a-drip-of-javascript",
+            "description":""
+          },
+          {
+            "name":"Ember Weekly",
+            "url":"http://emberweekly.com",
+            "description":""
+          },
+          {
+            "name":"Node Weekly",
+            "url":"http://nodeweekly.com",
+            "description":""
+          },
+          {
+            "name":"Meteor Weekly",
+            "url":"http://meteorhacks.com/meteor-weekly",
+            "description":""
+          },
+          {
+            "name":"Grunt Weekly",
+            "url":"https://twitter.com/gruntweekly",
+            "description":""
+          },
+          {
+            "name":"Gamedev.js Weekly",
+            "url":"http://weekly.gamedevjs.com",
+            "description":""
+          },
+          {
+            "name":"HTML5 Weekly",
+            "url":"http://html5weekly.com",
+            "description":""
+          },
+          {
+            "name":"UDGWebDev Weekly",
+            "url":"http://udgwebdev.com/newsletter",
+            "description":""
+          },
+          {
+            "name":"The React Newsletter",
+            "url":"http://theproblemsolver.nl/TheReactNewsletter/Subscribe",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "reading":{
+    "title":"阅读",
+    "cat":[
+      {
+        "title":"文章",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Understanding JavaScript OOP",
+            "url":"http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html",
+            "description":"作者 <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
+          },
+          {
+            "name":"Understanding “Prototypes” in JavaScript",
+            "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
+            "description":"作者 <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
+          },
+          {
+            "name":"Prototypes and Inheritance in JavaScript",
+            "url":"http://msdn.microsoft.com/en-us/magazine/ff852808.aspx",
+            "description":"作者 <a target=\"_blank\" href=\"http://odetocode.com/blogs/scott\">Scott Allen</a>"
+          },
+          {
+            "name":"Partial Application in JavaScript",
+            "url":"http://benalman.com/news/2012/09/partial-application-in-javascript",
+            "description":"作者 <a target=\"_blank\" href=\"http://github.com/cowboy\">Ben Alman</a>"
+          },
+          {
+            "name":"Getting Over jQuery",
+            "url":"http://blog.ponyfoo.com/2013/07/09/getting-over-jquery",
+            "description":"作者 <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
+          },
+          {
+            "name":"A Dive Into Plain JavaScript",
+            "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
+            "description":"作者 <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
+          },
+          {
+            "name":"A Deeper Look at Objects in JavaScript",
+            "url":"http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm",
+            "description":"作者 <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"Introduction to Easing in JavaScript",
+            "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
+            "description":"作者 <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
+          },
+          {
+            "name":"How to Learn JavaScript Properly",
+            "url":"http://javascriptissexy.com/how-to-learn-javascript-properly",
+            "description":"作者 <a target=\"_blank\" href=\"http://twitter.com/jsissexy\">JavaScript Is Sexy</a>"
+          },
+          {
+            "name":"How to Start with JavaScript",
+            "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
+            "description":"作者 <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
+          }
+        ]
+      },
+      {
+        "title":"书籍",
+        "credit":true,
+        "box":false,
+        "links":[
+          {
+            "name":"Eloquent JavaScript",
+            "url":"http://eloquentjavascript.net",
+            "description":"作者 <a target=\"_blank\" href=\"http://marijnhaverbeke.nl\">Marijn Haverbeke</a>"
+          },
+          {
+            "name":"JavaScript: The Definitive Guide",
+            "url":"http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1\">David Flanagan</a>"
+          },
+          {
+            "name":"JavaScript: The Good Parts",
+            "url":"http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1\">Douglas Crockford</a>"
+          },
+          {
+            "name":"JavaScript Patterns",
+            "url":"http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+          },
+          {
+            "name":"JavaScript Testing Recipes",
+            "url":"http://jstesting.jcoglan.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://jcoglan.com\">James Coglan</a>"
+          },
+          {
+            "name":"Professional JavaScript for Web Developers",
+            "url":"http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+          },
+          {
+            "name":"High Performance JavaScript",
+            "url":"http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1\">Nicholas C. Zakas</a>"
+          },
+          {
+            "name":"Human JavaScript",
+            "url":"http://humanjavascript.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
+          },
+          {
+            "name":"Object Oriented JavaScript",
+            "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
+          },
+          {
+            "name":"Pro JavaScript Design Patterns",
+            "url":"http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X",
+            "description":"作者 <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
+          },
+          {
+            "name":"Secrets of the JavaScript Ninja",
+            "url":"http://jsninja.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
+          },
+          {
+            "name":"JavaScript Application Design",
+            "url":"http://bevacqua.io/bf",
+            "description":"作者 <a target=\"_blank\" href=\"http://blog.ponyfoo.com\">Nicolas Bevacqua</a>"
+          },
+          {
+            "name":"Speaking JavaScript",
+            "url":"http://speakingjs.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
+          },
+          {
+            "name":"Test-Driven JavaScript Development",
+            "url":"http://tddjs.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://cjohansen.no\">Christian Johansen</a>"
+          },
+          {
+            "name":"You Don't Know JS",
+            "url":"https://github.com/getify/You-Dont-Know-JS",
+            "description":"作者 <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+          },
+          {
+            "name":"You Might Not Need jQuery",
+            "url":"http://youmightnotneedjquery.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://twitter.com/burgessdryan\">Ryan Burgess</a>"
+          },
+          {
+            "name":"JavaScript Garden",
+            "url":"http://bonsaiden.github.io/JavaScript-Garden/",
+            "description":"作者 <a target=\"_blank\" href=\"https://blog.grandcentrix.net\">Ivo Wetzel</a>"
+          },
+          {
+            "name":"Effective JavaScript",
+            "url":"http://effectivejs.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
+          },
+          {
+            "name":"Functional JavaScript",
+            "url":"http://functionaljavascript.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
+          },
+          {
+            "name":"JavaScript Allongé",
+            "url":"https://leanpub.com/javascript-allonge",
+            "description":"作者 <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+          },
+          {
+            "name":"JSBooks",
+            "url":"http://jsbooks.revolunet.com",
+            "description":"作者 <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
+          }
+        ]
+      },
+      {
+        "title":"免费电子书",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JSBooks",
+            "url":"http://jsbooks.revolunet.com",
+            "description":""
+          },
+          {
+            "name":"DevFreeBooks",
+            "url":"http://devfreebooks.org",
+            "description":""
+          }
+        ]
+      },
+      {
+        "title":"入门学习网站",
+        "credit":false,
+        "box":true,
+        "links":[
+          {
+            "name":"JavaScript.com",
+            "url":"https://www.javascript.com",
+            "description":""
+          },
+          {
+            "name":"HTML5 Rocks",
+            "url":"http://www.html5rocks.com",
+            "description":""
+          },
+          {
+            "name":"W3Fools",
+            "url":"http://www.w3fools.com",
+            "description":""
+          },
+          {
+            "name":"Mozilla Developer Network",
+            "url":"http://developer.mozilla.org/docs/JavaScript",
+            "description":""
+          },
+          {
+            "name":"Web Platform",
+            "url":"http://docs.webplatform.org/wiki/javascript",
+            "description":""
+          },
+          {
+            "name":"Smashing Magazine",
+            "url":"http://coding.smashingmagazine.com/tag/javascript",
+            "description":""
+          },
+          {
+            "name":"Node School",
+            "url":"http://nodeschool.io",
+            "description":""
+          },
+          {
+            "name":"How to Node",
+            "url":"http://howtonode.org",
+            "description":""
+          },
+          {
+            "name":"Felix’s Node.js Beginners Guide",
+            "url":"http://nodeguide.com/beginner.html",
+            "description":""
+          }
+        ]
+      }
+    ]
+  },
+  "podcasts":{
+    "title":"播客",
+    "links":[
+      {
+        "name":"Ember Hot Seat",
+        "url":"http://emberhotseat.com",
+        "description":""
+      },
+      {
+        "name":"JavaScript Jabber",
+        "url":"http://javascriptjabber.com",
+        "description":""
+      },
+      {
+        "name":"Node Up",
+        "url":"http://nodeup.com",
+        "description":""
+      },
+      {
+        "name":"5 Minutes of JavaScript",
+        "url":"https://fivejs.codeschool.com",
+        "description":""
+      },
+      {
+        "name":"The Meteor Podcast",
+        "url":"http://www.meteorpodcast.com",
+        "description":""
+      },
+      {
+        "name":"JSConf",
+        "url":"https://www.youtube.com/user/jsconfeu",
+        "description":""
+      }
+    ]
+  },
+  "screencasts":{
+    "title":"拍客（Screencasts）",
+    "links":[
+      {
+        "name":"Egghead",
+        "img":"egghead.svg",
+        "url":"https://egghead.io",
+        "description":""
+      },
+      {
+        "name":"DevFreeCasts",
+        "img":"devfreecasts.png",
+        "url":"http://devfreecasts.org",
+        "description":""
+      },
+      {
+        "name":"tagtree.tv",
+        "img":"tagtree.png",
+        "url":"https://tagtree.tv/",
+        "description":""
+      },
+      {
+        "name":"frontndmasters.com",
+        "img":"frontendmasters.svg",
+        "url":"http://frontendmasters.com",
+        "description":""
+      }
+    ]
+  },
+  "whoToFollow":{
+    "title":"关注谁"
+  },
+  "paasProviders":{
+    "title":"PaaS 提供者",
+    "links":[
+      {
+        "name":"Heroku",
+        "url":"http://heroku.com",
+        "description":""
+      },
+      {
+        "name":"Modulus",
+        "url":"https://modulus.io",
+        "description":""
+      },
+      {
+        "name":"Nodejitsu",
+        "url":"http://nodejitsu.com",
+        "description":""
+      },
+      {
+        "name":"OpenShift",
+        "url":"https://www.openshift.com",
+        "description":""
+      },
+      {
+        "name":"dotCloud",
+        "url":"http://getupcloud.com/index_en.html",
+        "description":""
+      },
+      {
+        "name":"Windows Azure",
+        "url":"http://www.windowsazure.com/en-us/develop/nodejs",
+        "description":""
+      }
+    ]
+  },
+  "helpers":{
+    "title":"帮助",
+    "links":[
+      {
+        "name":"npm",
+        "img":"npm.png",
+        "url":"https://npmjs.org",
+        "description":""
+      },
+      {
+        "name":"bower",
+        "img":"bower-logo.png",
+        "url":"http://bower.io",
+        "description":""
+      },
+      {
+        "name":"yeoman",
+        "img":"yeoman-logo.png",
+        "url":"http://yeoman.io",
+        "description":""
+      },
+      {
+        "name":"grunt",
+        "img":"grunt-logo.png",
+        "url":"http://gruntjs.com",
+        "description":""
+      },
+      {
+        "name":"gulp",
+        "img":"gulp.png",
+        "url":"http://gulpjs.com",
+        "description":""
+      },
+      {
+        "name":"brunch",
+        "img":"brunch-logo.png",
+        "url":"http://brunch.io",
+        "description":""
+      },
+      {
+        "name":"Browser compilation library",
+        "img":"broccoli-logo.png",
+        "url":"https://github.com/broccolijs/broccoli",
+        "description":""
+      },
+      {
+        "name":"todo mvc",
+        "img":"todomvc-logo.png",
+        "url":"http://todomvc.com",
+        "description":""
+      }
+    ]
+  },
+  "footer":{
+    "credit":"网站创始兼维护者",
+    "contributors":"贡献者",
+    "contribDesc":"如果没有这些伟大的贡献者，本网站也无法完成。谢谢你们帮忙完成这个网站！",
+    "licence":"{{@link=partials/licence.html}}"
+  }
+}
