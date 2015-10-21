@@ -12,7 +12,8 @@ Today we have a bunch of websites running JavaScript. I think we need a place to
 
 ## Who
 
-My name is [William Oliveira](http://github.com/gnuwilliam). I'm a contributor of many open source projects, and also a Freelance Developer.
+[William Oliveira](http://github.com/gnuwilliam) - Open Source Developer
+[Allan Esquina](http://github.com/allanesquina) - Open Source Developer
 
 ## License
 
