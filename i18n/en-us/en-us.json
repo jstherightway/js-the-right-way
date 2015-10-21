@@ -867,6 +867,7 @@
     {"url":"es-es","name":"Español"},
     {"url":"de-de","name":"German"},
     {"url":"en-us","name":"English"},
-    {"url":"zh-tw","name":"繁體中文"}
+    {"url":"zh-tw","name":"繁體中文"},
+    {"url":"zh-cn","name":"简体中文"}
   ]
 }
