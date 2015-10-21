@@ -569,6 +569,8 @@ header small {
     text-decoration: none;
     text-align: center;
     clear: both;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 #footer .bio p {
@@ -616,7 +618,7 @@ header small {
 #footer hr {
     width: 100%;
     float: left;
-    margin-top: 80px;
+    margin-top: 50px;
     border-color: #666;
 }
 
