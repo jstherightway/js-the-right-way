@@ -613,6 +613,7 @@ header small {
 #footer h3 {
     text-align: center;
     display: inline-block;
+    padding-right: 10px;
 }
 
 #footer hr {
