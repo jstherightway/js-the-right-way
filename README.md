@@ -13,6 +13,7 @@ Today we have a bunch of websites running JavaScript. I think we need a place to
 ## Who
 
 [William Oliveira](http://github.com/gnuwilliam) - Open Source Developer
+
 [Allan Esquina](http://github.com/allanesquina) - Open Source Developer
 
 ## License
