@@ -1,7 +1,7 @@
 {
   "meta": {
       "title":"JS: La forma correcta",
-      "description":"Una referencia para las mejores prácticas para escribir JavaScript -- enlaces de patrones de código y tutoriales alrededor de la web"
+      "description":"Una referencia a las mejores prácticas para escribir código JavaScript -- enlaces de patrones de código y tutoriales alrededor de la web"
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
@@ -40,7 +40,7 @@
         "url":"#news"
       },
       {
-        "title":"Lectura",
+        "title":"Lecturas",
         "url":"#reading"
       },
       {
@@ -70,7 +70,7 @@
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
-    "title":"ESTILO DE CODIGO JS",
+    "title":"ESTILO DE CODIGO DE JS",
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
@@ -88,42 +88,42 @@
       {
         "name":"Mocha",
         "url":"http://mochajs.org",
-        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>."
       },
       {
         "name":"QUnit",
         "url":"http://qunitjs.com",
-        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>."
       },
       {
         "name":"Jasmine",
         "url":"https://github.com/pivotal/jasmine",
-        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+        "description":"Mantenido por <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>."
       },
       {
         "name":"Karma",
         "url":"http://karma-runner.github.io/",
-        "description":"Mantenido por el equipo detrás de  AngularJS. Mayormente por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+        "description":"Mantenido por el equipo detrás de  AngularJS. Mayormente por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>."
       },
       {
         "name":"Intern",
         "url":"http://theintern.io",
-        "description":"Mantenido por <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+        "description":"Mantenido por <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>."
       },
       {
         "name":"Istanbul",
         "url":"http://gotwarlost.github.io/istanbul",
-        "description":"Una herramienta de cobertura de código JavaScript escrita en JavaScript, mantenida por <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>"
+        "description":"Una herramienta de cobertura de código JavaScript escrita en JavaScript, mantenida por <a target=\"_blank\" href=\"https://github.com/gotwarlost\">Krishnan Anantheswaran</a>."
       },
       {
         "name":"Sinon.JS",
         "url":"http://sinonjs.org",
-        "description":"Espias de prueba autónomos, stubs y mocks para JavaScript. Sin ependencias, trabaja con cualquier framework de pruebas unitarias. Creado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+        "description":"Espias de pruebas autónomos, stubs y mocks para JavaScript. Sin ependencias, trabaja con cualquier framework de pruebas unitarias. Creado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>."
       },
       {
         "name":"DexterJS",
         "url":"https://github.com/leobalter/DexterJS",
-        "description":"Un ayudante para simular funciones y los objetos XHR, mantenido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+        "description":"Un ayudante para simular funciones y objetos XHR, mantenido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>."
       }
     ]
   },
@@ -136,27 +136,27 @@
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery es una libreria en Javascript rápida, pequeña, y abundante en características. Contruida por <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery es una libreria hecha en Javascript rápida, pequeña, y abundante en características. Construida por <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Construido por Yahoo!, YUI es una libreria Javascript y CSS gratis, de código abierto para construir aplicaciones web altamente interactivas. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">El nuevo desarrollo ha sido detenido desde el 29 de Agosto del 2014</a>."
+            "description":"Creado por Yahoo!, YUI es una libreria Javascript y CSS de código abierto para construir aplicaciones web altamente interactivas. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Apartir del 29 de Agosto del 2014 se detuvo el desarrollo del framework</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto es una libreria JavaScript minimalista para navegadores modernos con un API en gran parte compatible con jQuery. Si usas jQuery, estas listo para conocer como se usa Zepto."
+            "description":"Zepto es una libreria JavaScript minimalista para navegadores modernos con una API en gran parte compatible con jQuery. Si usas jQuery, estas listo para conocer como se usa Zepto."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo son herramientas Javascript gratuitas, código abierto para construir aplicaciones web de alto rendimento. IBM y SitePen son patrocinantes el proyecto."
+            "description":"Dojo dispone de una serie de herramientas Javascript gratuitas, de código abierto para construir aplicaciones web de alto rendimento. IBM y SitePen son patrocinadores del proyecto."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js es una libreria JavaScript que provee una maraña de ayudantes de programación funcional sin extender alguno de los objetos preconstruidos."
+            "description":"Underscore.js es una libreria JavaScript que nos proporciona una serie de utilidades de la programación funcional sin necesidad de extender de alguno de los objetos preconstruidos."
           }
         ]
       },
@@ -166,12 +166,17 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Framework javascript del lado cliente muy popular, Construido por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Creado por <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery y personas del equipo de desarrollo de Ruby on Rails."
+          },
+          {
+            "name":"Ember.js",
+            "url":"http://emberjs.com/",
+            "description":"Framework javascript del lado del cliente muy popular, Construido por <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           },
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplifica UI dináimcas JavaScript aplicando Model-View-View Model (MVVM)."
+            "description":"Simplifica la creación de UI dinámicas en JavaScript aplicando el patrón Model-View-View Model (MVVM)."
           },
           {
             "name":"Angular.js",
@@ -181,32 +186,107 @@
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino es un framework de código abierto que hace fácil la contrucción de aplicaciones del calibre de aplicaciones desktop que se ejecutan en un navegador web."
+            "description":"Cappuccino es un framework de código abierto que hace fácil la contrucción de aplicaciones del calibre de aplicaciones desktop pero que se ejecutaran en un navegador web."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC es un framework de código abierto que con tiene las mejores ideas del desarrollo con jQuery."
+            "description":"JavaScriptMVC es un framework de código abierto que contiene las mejores ideas del desarrollo con jQuery."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor es una plataforma de código abierto para construir aplicaciones web de alta calidad en una fracción de tiempo, siendo un desarrollador experto o quien solo acaba de comenzar."
+            "description":"Meteor es una plataforma de código abierto para construir aplicaciones web de alta calidad en corto tiempo, ideal para programadores avanzados, y también para programadores que hasta ahora estan comenzando."
           },
           {
             "name":"Spice.js",
             "url":"http://spicejs.github.io/spicejs/",
-            "description":"Spice es un super mínimo (&lt; 3k) y flexible framework MVC para javascript. Spice fue construido para agregar fácilmente a cualquier application existente y jugar bien con otras tecnologías tales como jQuery, pjax, turbolinks, node o cualquier itra que usted utilice."
+            "description":"Spice es un framework MVC flexible y extremadamente leve(&lt; 3k) para javascript. Spice fue construido para ser agregado fácilmente a cualquier aplicación existente y para coexistir con otras tecnologías tales como jQuery, pjax, turbolinks, node o cualquier otra libreria existente."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot es un incriblemente rápido, poderoso y aún así pequeña libreria (MV*) del lado cliente para contruir aplicacione web de gran escala. A persar de su pequeño tamaño todos los bloques de construcción se encuentran: un motor de plantilla, enrutador, libreria de eventos y un patrón MVP estricto para mantener las cosas organizadas."
+            "description":"Riot es una libreria (MV*) incriblemente rápida, poderosa y aún así ligera del lado del cliente para contruir aplicacione web de gran escala. A pesar de ser tan ligera cuenta con todas las funcionalidades necesarias: un motor de plantillas, enrutador, libreria para el control de eventos y un patrón MVP estricto para mantener todo organizado."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS es un framework Javascript que hace el desarrollo de aplicaciones complejas sencillo y rápido. De fácil aprendizaje, pequeña, y sin ninguna asumpción de estructura de aplicación, pero con características modernas como etiquetar y vinculación doble vía."
+            "description":"CanJS es un framework Javascript que hace el desarrollo de aplicaciones complejas sencillo y rápido. De fácil aprendizaje, pequeña, y sin forzar a utilizar ninguna estructura de aplicación, cuenta con características modernas como custom tags (etiquetas html customizadas) y 2-way binding (Vinculación de doble vía)."
+          }
+        ]
+      },
+      {
+        "title":"Librerias",
+        "links":[
+          {
+            "name":"React",
+            "url":"http://facebook.github.io/react/s",
+            "description":"Creada por Facebook. React es una libreria para crear interfaces de usuarios utilizada por Facebook e Instagram. Muchas personas tienen a pensar en React como el componente V (La vista) en el módelo MVC."
+          },
+          {
+            "name":"Handlebars",
+            "url":"http://handlebarsjs.com/",
+            "description":"Handlebars provee el poder necesario para permitir la construción de plantillas semanticas sin ninguna fustración."
+          },
+          {
+            "name":"Dust.js",
+            "url":"http://linkedin.github.io/dustjs/",
+            "description":"Plantillas asincronas para el navegador y node.js"
+          }
+        ]
+      },
+      {
+        "title":"Animación",
+        "links":[
+          {
+            "name":"Velocity.js",
+            "url":"http://julian.com/research/velocity/",
+            "description":"Velocity es un motor de animaciones que hace uso de la misma API de JQuery $.animate()."
+          },
+          {
+            "name":"Bounce.js",
+            "url":"http://bouncejs.com/",
+            "description":"Bounce.js es una herramienta y una libreria de JS que permite crear poderosas animaciones CSS3."
+          },
+          {
+            "name":"TweenJS",
+            "url":"http://www.createjs.com/tweenjs",
+            "description":"Una libreria de Javascript simple pero poderosa para interpolar y animar elementos de HTML5 y de JavaScript."
+          },
+          {
+            "name":"Move.js",
+            "url":"http://visionmedia.github.io/move.js/",
+            "description":"Move.js es una pequeña libreria de JavaScript que permite crear animaciones CSS3 extremadamente simples y elegantes."
+          },
+          {
+            "name":"Snap.svg",
+            "url":"http://snapsvg.io/",
+            "description":"SVG es una excelente forma de crear vectores gráficos interactivos, independientes de la resolución, los cuales luciran geniales en cualquier tamaño de pantalla."
+          },
+          {
+            "name":"Rekapi",
+            "url":"http://rekapi.com/",
+            "description":"Rekapi es una libreria para crear animaciones en el canvas y en el DOM con Javascript, permitiendo también animaciones CSS utilizando @keyframe para los navegadores modernos."
+          },
+          {
+            "name":"Favico.js",
+            "url":"http://lab.ejci.net/favico.js/",
+            "description":"Realiza tu favicon con banderillas, imagenes o videos."
+          },
+          {
+            "name":"Textillate.js",
+            "url":"http://jschr.github.io/textillate/",
+            "description":"Textillate.js hace uso de algunas librerias increibles para proveer un plugin sencillo para realizar animaciones CSS3 en cualquier texto."
+          },
+          {
+            "name":"Motio",
+            "url":"http://darsa.in/motio/",
+            "description":"Motio es una pequeña libreria JavaScript para crear animacione simples y poderosas basadas en sprites."
+          },
+          {
+            "name":"Anima.js",
+            "url":"http://lvivski.com/anima/",
+            "description":"Con Anima es fácil animar sobre cientos de objetos al mismo tiempo. Cada objeto cuenta con su propia masa y viscocidad para emular objetos reales!"
           }
         ]
       }
@@ -218,32 +298,32 @@
       {
         "name":"MelonJS",
         "url":"http://melonJS.org",
-        "description":"MelonJS es gratuito, Motor de juego en HTML5 ligero. El motor integra el formato de mapa de baldosas haciendo el diseño de niveles muy fácil."
+        "description":"MelonJS es un motor de juegos en HTML5 gratuito y ligero. El motor integra el formato de mapa de baldosas haciendo el diseño de niveles muy fácil."
       },
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS es uno de los mas probados y verdaderos motores de juegos en HTML5 con la publicación inicial se remonta al finales del 2010. Esta está muy bien mantenida y actualizada, y tiene comunidad que lo respalda de un buen tamaño. Existe abundante documentación - incluso dos libros obre el tema de crear juegos con el motor."
+        "description":"ImpactJS es uno de los mas probados y verdaderos motores de juegos en HTML5. Su publicación inicial se remonta a finales del 2010. Se encuentra muy bien mantenido y actualizado, y tiene toda una comunidad de gran tamaño que lo respalda. Existe suficiente documentación - incluso dos libros para la creación juegos con el motor ImpactJS."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers."
+        "description":"LimeJS is en un framework para la creación rápida de juegos en HTML5, creando una experiencia nativa en los navegadores modernos, tanto para dispositivos moviles como para dispositivos de escritorio."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty es un motor de juegos que data de finales del 2010. Crafty permite que sea realmente fácil comenzar a hacer juegos con JavaScript."
+        "description":"Crafty es un motor de juegos creado a finales del 2010. Crafty hace que sea realmente fácil la creación de juegos con JavaScript."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5 es un framework de juegos web 2D, liberado bajo MIT License. Este es una versión en HTML5 del proyecto Cocos2d-x. Cocos2d-html5 se enfoca en el desarrollo al readedor de hacer Cocos2d compatible con entre todas las plataformas, navegadores y applicaciones nativas."
+        "description":"Cocos2d-html5 es un framework de juegos web 2D, liberado bajo licencia MIT. Este es una versión en HTML5 del proyecto Cocos2d-x. Cocos2d-html5 se enfoca en hacer que Cocos2d sea compatible en todas las plataformas, navegadores y applicaciones nativas."
       },
       {
         "name":"Phaser",
         "url":"http://phaser.io",
-        "description":"Phaser is esta basado based fuertemente en <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. Este es mantenido por Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) quien ha sido muy activo en la comunidad de HTML5 durante años."
+        "description":"Phaser se encuentra basado basado fuertemente en <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. Es mantenido por Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) quien ha sido muy activo en la comunidad de HTML5 durante años."
       },
       {
         "name":"Goo",
@@ -253,12 +333,12 @@
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS es una libreria para juegos en JavaScript que ofrece un solución completa para protoripar y desarrollar juegos basados en Canvas HTML5,  WebGL o OpenGL(ES) nativo dentro del Navegador Web o ambientes nativos."
+        "description":"LycheeJS es una libreria para juegos en JavaScript que ofrece un solución completa para prototipar y desarrollar juegos basados en el Canvas de HTML5, WebGL u OpenGL(ES) nativo dentro del Navegador Web o ambientes nativos."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus es un motor de juego HTML5 diseñado para ser modular y ligero, con una syntaxis concisa amigable en JavaScript."
+        "description":"Quintus es un motor de juego HTML5 diseñado para ser modular y ligero, con una syntaxis concisa y amigable en JavaScript."
       },
       {
         "name":"KiwiJS",
@@ -411,7 +491,7 @@
             "description":"por <a target=\"_blank\" href=\"http://github.com/bevacqua\">Nico Bevacqua</a>"
           },
           {
-            "name":"Una sumergida en Simple JavaScript",
+            "name":"Una sumergida en JavaScript puro",
             "url":"http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript",
             "description":"por <a target=\"_blank\" href=\"https://twitter.com/viljamis\">Viljami S.</a>"
           },
@@ -421,7 +501,7 @@
             "description":"por <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
           {
-            "name":"Introducción a Flexibilización en JavaScript",
+            "name":"Introducción al Easing(Flexibilización) en JavaScript",
             "url":"http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm",
             "description":"por <a target=\"_blank\" href=\"https://twitter.com/kirupa\">Kirupa Chinnathambi</a>"
           },
@@ -443,7 +523,7 @@
         "box":false,
         "links":[
           {
-            "name":"JavaScript Elocuente",
+            "name":"Eloquent Javascript",
             "url":"http://eloquentjavascript.net/",
             "description":"por <a target=\"_blank\" href=\"http://marijnhaverbeke.nl/\">Marijn Haverbeke</a>"
           },
@@ -483,7 +563,7 @@
             "description":"por <a target=\"_blank\" href=\"http://joreteg.com/\">Henrik Joreteg</a>"
           },
           {
-            "name":"JavaScript Orientado aObjetos",
+            "name":"JavaScript Orientado a Objetos",
             "url":"http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141",
             "description":"por <a target=\"_blank\" href=\"http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1\">Stoyan Stefanov</a>"
           },
@@ -587,7 +667,7 @@
             "description":""
           },
           {
-            "name":"Red de Desarrolladores Mozilla",
+            "name":"Red de Desarrolladores de Mozilla",
             "url":"http://developer.mozilla.org/docs/JavaScript",
             "description":""
           },
@@ -607,12 +687,12 @@
             "description":""
           },
           {
-            "name":"Cómo hacer Node?",
+            "name":"¿Cómo hacer Node?",
             "url":"http://howtonode.org",
             "description":""
           },
           {
-            "name":"La guía de Node.js Felix",
+            "name":"La guía de Node.js de Felix",
             "url":"http://nodeguide.com/beginner.html",
             "description":""
           }
@@ -647,6 +727,11 @@
         "name":"The Meteor Podcast",
         "url":"http://www.meteorpodcast.com",
         "description":""
+      },
+      {
+        "name":"JSConf",
+        "url":"https://www.youtube.com/user/jsconfeu",
+        "description":""
       }
     ]
   },
@@ -680,7 +765,7 @@
     ]
   },
   "whoToFollow":{
-    "title":"¿A quien seguir?"
+    "title":"¿A quién seguir?"
   },
   "paasProviders":{
     "title":"Proveedores PaaS",
@@ -771,9 +856,9 @@
     ]
   },
   "footer":{
-    "credit":"Creado y maatenido por",
+    "credit":"Creado y mantenido por",
     "contributors":"Colaboradores",
-    "contribDesc":"Es proyecto no existiría sin estos maravillosos colaboradores. Gracias muchachos por hacer esto real!",
+    "contribDesc":"Este proyecto no existiría sin estos maravillosos colaboradores. Muchas gracias muchachos por hacer esto real!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
