@@ -349,6 +349,11 @@
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
         "description":"Panda.js es un motor de juegos en HTML5 para moviles y escritorios con renderizado en Canvas y WebGL."
+      },
+      {
+        "name":"WhitestormJS",
+        "url":"https://github.com/sasha240100/WhitestormJS",
+        "description":"WhitestormJS es un motor de juego 3D basado en Three.js y cannon.js (física)."
       }
     ]
   },
