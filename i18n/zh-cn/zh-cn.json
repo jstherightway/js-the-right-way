@@ -349,6 +349,11 @@
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
         "description":"Panda.js 是一个用于手机及电脑，使用 Canvas 和 WebGL 渲染的游戏引擎。"
+      },
+      {
+        "name":"WhitestormJS",
+        "url":"https://github.com/sasha240100/WhitestormJS",
+        "description":"WhitestormJS 是基於 THREE.js 和 cannon.js（物理）3D 遊戲引擎。"
       }
     ]
   },
