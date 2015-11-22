@@ -1,11 +1,11 @@
 {
   "meta": {
     "title":"JS: Der richtige Weg",
-    "description":"Eine kurze Übersicht an Best-Practices für das Programmieren mit JavaScript -- Links zu Entwurfsmustern und Tutorials aus dem Web"
+    "description":"Eine kurze Ãœbersicht an Best-Practices fÃ¼r das Programmieren mit JavaScript -- Links zu Entwurfsmustern und Tutorials aus dem Web"
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
-    "title": "Wähle deinen Weg",
+    "title": "WÃ¤hle deinen Weg",
     "links": [
       {
         "title":"Erste Schritte",
@@ -118,7 +118,7 @@
       {
         "name":"Sinon.JS",
         "url":"http://sinonjs.org",
-        "description":"Eigenständige Test-Spies, Stubs und Mocks für JavaScript. Keine Abhängigkeiten, funktioniert mit beliebigen Unit-Test-Frameworks. Erstellt von der <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS Community</a>"
+        "description":"EigenstÃ¤ndige Test-Spies, Stubs und Mocks fÃ¼r JavaScript. Keine AbhÃ¤ngigkeiten, funktioniert mit beliebigen Unit-Test-Frameworks. Erstellt von der <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS Community</a>"
       },
       {
         "name":"DexterJS",
@@ -141,12 +141,12 @@
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Erstellt von Yahoo!, YUI ist eine freie, quelloffene JavaScript- und CSS-Bibliothek für die Erstellung von interaktiven Webanwendungen. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Die Weiterentwicklung wurde seit dem 29. August 2014 gestoppt.</a>."
+            "description":"Erstellt von Yahoo!, YUI ist eine freie, quelloffene JavaScript- und CSS-Bibliothek fÃ¼r die Erstellung von interaktiven Webanwendungen. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Die Weiterentwicklung wurde seit dem 29. August 2014 gestoppt.</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto ist eine minimalistische Javascript-Bibliothek für moderne Browser mit einer weitestgehend jQuery-kompatiblen API. Wenn du bereits jQuery verwendest, weißt du bereits, wie man Zepto benutzt."
+            "description":"Zepto ist eine minimalistische Javascript-Bibliothek fÃ¼r moderne Browser mit einer weitestgehend jQuery-kompatiblen API. Wenn du bereits jQuery verwendest, weiÃŸt du bereits, wie man Zepto benutzt."
           },
           {
             "name":"Dojo Toolkit",
@@ -156,7 +156,7 @@
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js ist eine JavaScript-Bibliothek, die unterschiedlichste hilfreiche und funktionale Programmhelferlein bietet, ohne die eingebauten Objekte zu verändern."
+            "description":"Underscore.js ist eine JavaScript-Bibliothek, die unterschiedlichste hilfreiche und funktionale Programmhelferlein bietet, ohne die eingebauten Objekte zu verÃ¤ndern."
           }
         ]
       },
@@ -181,7 +181,7 @@
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Erstellt von Google, Angular.js ist eine Art Polyfill für die Zukunft von HTML."
+            "description":"Erstellt von Google, Angular.js ist eine Art Polyfill fÃ¼r die Zukunft von HTML."
           },
           {
             "name":"Cappuccino",
@@ -196,17 +196,17 @@
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor ist eine quelloffene Plattform zum Erstellen von qualitativ hochwertigen Web-Apps in kürzester Zeit, egal ob du ein erfahrerener Entwickler bist oder gerade erst angefangen hast."
+            "description":"Meteor ist eine quelloffene Plattform zum Erstellen von qualitativ hochwertigen Web-Apps in kÃ¼rzester Zeit, egal ob du ein erfahrerener Entwickler bist oder gerade erst angefangen hast."
           },
           {
             "name":"Spice.js",
             "url":"http://www.3den.org/spicejs",
-            "description":"Spice ist ein extrem minimales (&lt; 3k) und flexibles MVC-Framework für JavaScript. Spice kann leicht in bestehende Anwendungen integriert werden und arbeitet gut mit anderen Technologien wie jQuery, pjax, turbolinks, node oder womit auch immer du arbeitest, zusammen"
+            "description":"Spice ist ein extrem minimales (&lt; 3k) und flexibles MVC-Framework fÃ¼r JavaScript. Spice kann leicht in bestehende Anwendungen integriert werden und arbeitet gut mit anderen Technologien wie jQuery, pjax, turbolinks, node oder womit auch immer du arbeitest, zusammen"
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot ist eine unglaublich schnelle, mächtige und zugleich kleine clientseitige (MV*) Bibliothek zum Erstellen von umfangreichen Webanwendungen. Trotz der kleinen Größe sind alle wichtigen Bausteine vorhanden: eine Template-Engine, ein Router, eine Event-Bibliothek und ein striktes MVP-Muster, um Dinge organisiert zu halten."
+            "description":"Riot ist eine unglaublich schnelle, mÃ¤chtige und zugleich kleine clientseitige (MV*) Bibliothek zum Erstellen von umfangreichen Webanwendungen. Trotz der kleinen GrÃ¶ÃŸe sind alle wichtigen Bausteine vorhanden: eine Template-Engine, ein Router, eine Event-Bibliothek und ein striktes MVP-Muster, um Dinge organisiert zu halten."
           },
           {
             "name":"CanJS",
@@ -226,12 +226,12 @@
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars bietet die Mächtigkeit, semantische Templates effektiv ohne Frust zu erstellen."
+            "description":"Handlebars bietet die MÃ¤chtigkeit, semantische Templates effektiv ohne Frust zu erstellen."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchrone Templates für den Browser und node.js."
+            "description":"Asynchrone Templates fÃ¼r den Browser und node.js."
           }
         ]
       },
@@ -246,12 +246,12 @@
           {
             "name":"Bounce.js",
             "url":"http://bouncejs.com/",
-            "description":"Bounce.js ist ein Werkzeug und eine JS-Bibliothek, mit dem man schöne CSS3 getriebene Animationen erstellen kann."
+            "description":"Bounce.js ist ein Werkzeug und eine JS-Bibliothek, mit dem man schÃ¶ne CSS3 getriebene Animationen erstellen kann."
           },
           {
             "name":"TweenJS",
             "url":"http://www.createjs.com/tweenjs",
-            "description":"Eine einfache aber mächtige JavaScript-Bibliothek für das Animieren und Tweenen von HTML5- und JavaScript-Objekten."
+            "description":"Eine einfache aber mÃ¤chtige JavaScript-Bibliothek fÃ¼r das Animieren und Tweenen von HTML5- und JavaScript-Objekten."
           },
           {
             "name":"Move.js",
@@ -261,12 +261,12 @@
           {
             "name":"Snap.svg",
             "url":"http://snapsvg.io/",
-            "description":"SVG ist ein ausgezeichneter Weg, um interaktive, auflösungsunabhängige Vektorgrafiken zu erstellen, die auf allen Bildschirmgrößen gut aussehen."
+            "description":"SVG ist ein ausgezeichneter Weg, um interaktive, auflÃ¶sungsunabhÃ¤ngige Vektorgrafiken zu erstellen, die auf allen BildschirmgrÃ¶ÃŸen gut aussehen."
           },
           {
             "name":"Rekapi",
             "url":"http://rekapi.com/",
-            "description":"Rekapi ist eine Bibliothek zum Erstellen sowohl von Canvas- und DOM-Animationen mit JavaScript als auch von CSS @keyframe-Animationen für moderne Browser."
+            "description":"Rekapi ist eine Bibliothek zum Erstellen sowohl von Canvas- und DOM-Animationen mit JavaScript als auch von CSS @keyframe-Animationen fÃ¼r moderne Browser."
           },
           {
             "name":"Favico.js",
@@ -276,17 +276,17 @@
           {
             "name":"Textillate.js",
             "url":"http://jschr.github.io/textillate/",
-            "description":"Textillate.js kombiniert einige geniale Bibliotheken, um ein einfach zu verwendendes Plugin zum Zuweisen von CSS3-Animationen zu jeglichen Texten zur Verfügung zu stellen."
+            "description":"Textillate.js kombiniert einige geniale Bibliotheken, um ein einfach zu verwendendes Plugin zum Zuweisen von CSS3-Animationen zu jeglichen Texten zur VerfÃ¼gung zu stellen."
           },
           {
             "name":"Motio",
             "url":"http://darsa.in/motio/",
-            "description":"Motio ist eine kleine JavaScript-Bibliothek für einfache aber umfangreiche auf Sprites basierende Animationen und Panning."
+            "description":"Motio ist eine kleine JavaScript-Bibliothek fÃ¼r einfache aber umfangreiche auf Sprites basierende Animationen und Panning."
           },
           {
             "name":"Anima.js",
             "url":"http://lvivski.com/anima/",
-            "description":"Mit Anima ist es einfach, mehr als hundert Objekte zur selben Zeit zu animieren. Jedem Element kann eine Masse und Viskosität zugewiesen werden, um reale Objekte zu emulieren."
+            "description":"Mit Anima ist es einfach, mehr als hundert Objekte zur selben Zeit zu animieren. Jedem Element kann eine Masse und ViskositÃ¤t zugewiesen werden, um reale Objekte zu emulieren."
           }
         ]
       }
@@ -303,22 +303,22 @@
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS ist eine der eher länger bewährten HTML5 Spiele-Engines, deren erste Veröffentlichung bis Ende 2010 zurückreicht. Sie wird sehr gut gewartet und regelgemäßig geupdatet und hat eine große Community, die sie unterstützt. Es existieren sowohl umfangreiche Dokumentationen als auch zwei Bücher zum Thema Spieleentwicklung mit dieser Engine."
+        "description":"ImpactJS ist eine der eher lÃ¤nger bewÃ¤hrten HTML5 Spiele-Engines, deren erste VerÃ¶ffentlichung bis Ende 2010 zurÃ¼ckreicht. Sie wird sehr gut gewartet und regelgemÃ¤ÃŸig geupdatet und hat eine groÃŸe Community, die sie unterstÃ¼tzt. Es existieren sowohl umfangreiche Dokumentationen als auch zwei BÃ¼cher zum Thema Spieleentwicklung mit dieser Engine."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS ist ein HTML5 Spiele-Framework zum Erstellen von schnellen, native-experience Spielen für alle modernen Touchscreens und Desktop-Browser."
+        "description":"LimeJS ist ein HTML5 Spiele-Framework zum Erstellen von schnellen, native-experience Spielen fÃ¼r alle modernen Touchscreens und Desktop-Browser."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty ist eine Spiele-Engine, welche von Ende 2010 stammt. Crafty ermöglicht einen einfachen Einstieg in das Erstellen von JavaScript-Spielen."
+        "description":"Crafty ist eine Spiele-Engine, welche von Ende 2010 stammt. Crafty ermÃ¶glicht einen einfachen Einstieg in das Erstellen von JavaScript-Spielen."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-HTML5 ist ein quelloffenes 2D Web-Spiele-Framework, veröffentlicht unter der MIT Lizenz. Es ist eine HTML5-Version von dem Cocos2d-x Projekt. Das Ziel der Cocos2d-HTML5- Entwicklung ist, Cocos2d plattformunabhängig von Browsern und nativen Anwendungen zu machen."
+        "description":"Cocos2d-HTML5 ist ein quelloffenes 2D Web-Spiele-Framework, verÃ¶ffentlicht unter der MIT Lizenz. Es ist eine HTML5-Version von dem Cocos2d-x Projekt. Das Ziel der Cocos2d-HTML5- Entwicklung ist, Cocos2d plattformunabhÃ¤ngig von Browsern und nativen Anwendungen zu machen."
       },
       {
         "name":"Phaser",
@@ -333,12 +333,12 @@
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS ist eine JavaScript-Spiele-Bibliothek, die eine Komplettlösung für das Prototyping und die Entwicklung von HTML5 Canvas, WebGL oder nativen OpenGL(ES) basierten Spielen innerhalb des Browsers oder einer nativen Umgebung bietet."
+        "description":"LycheeJS ist eine JavaScript-Spiele-Bibliothek, die eine KomplettlÃ¶sung fÃ¼r das Prototyping und die Entwicklung von HTML5 Canvas, WebGL oder nativen OpenGL(ES) basierten Spielen innerhalb des Browsers oder einer nativen Umgebung bietet."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus ist eine HTML5-Spiele-Engine, die einen modularen und leichtgewichtigen Ansatz mit einer prägnanten JavaScript-freundlichen Syntax verfolgt."
+        "description":"Quintus ist eine HTML5-Spiele-Engine, die einen modularen und leichtgewichtigen Ansatz mit einer prÃ¤gnanten JavaScript-freundlichen Syntax verfolgt."
       },
       {
         "name":"KiwiJS",
@@ -348,7 +348,7 @@
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js ist eine HTML5-Spiele-Engine mit Canvas und WebGL-Rendering für mobile Endgeräte und für den Desktop."
+        "description":"Panda.js ist eine HTML5-Spiele-Engine mit Canvas und WebGL-Rendering fÃ¼r mobile EndgerÃ¤te und fÃ¼r den Desktop."
       }
     ]
   },
@@ -471,7 +471,7 @@
             "description":"von <a target=\"_blank\" href=\"https://github.com/robotlolita\">Quildreen Motta</a>"
           },
           {
-            "name":"Understanding “Prototypes” in JavaScript",
+            "name":"Understanding \"Prototypes\" in JavaScript",
             "url":"http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript",
             "description":"von <a target=\"_blank\" href=\"https://github.com/wycats\">Yehuda Katz</a>"
           },
@@ -513,12 +513,12 @@
           {
             "name":"How to Start with JavaScript",
             "url":"http://jugoncalv.es/blog/javascript/how-to-start-with-javascript",
-            "description":"von <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
+            "description":"von <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju GonÃ§alves</a>"
           }
         ]
       },
       {
-        "title":"Bücher",
+        "title":"BÃ¼cher",
         "credit":true,
         "box":false,
         "links":[
@@ -618,7 +618,7 @@
             "description":"von <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
           },
           {
-            "name":"JavaScript Allongé",
+            "name":"JavaScript AllongÃ©",
             "url":"https://leanpub.com/javascript-allonge",
             "description":"von <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
           },
@@ -692,7 +692,7 @@
             "description":""
           },
           {
-            "name":"Felix’s Node.js Beginners Guide",
+            "name":"Felix's Node.js Beginners Guide",
             "url":"http://nodeguide.com/beginner.html",
             "description":""
           }
@@ -858,7 +858,7 @@
   "footer":{
     "credit":"Erstellt und gewartet von",
     "contributors":"Mitwirkende",
-    "contribDesc":"Dieses Projekt wäre ohne die Hilfe von diesen großartigen Personen nicht zustande gekommen. Vielen Dank, dass ihr es ermöglicht!",
+    "contribDesc":"Dieses Projekt wÃ¤re ohne die Hilfe von diesen groÃŸartigen Personen nicht zustande gekommen. Vielen Dank, dass ihr es ermÃ¶glicht!",
     "licence":"{{@link=partials/licence.html}}"
   }
 }
