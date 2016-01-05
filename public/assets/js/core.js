@@ -31,7 +31,8 @@ var App = (function( window, document, $ ) {
       'aaronfrost',
       'jhusain',
       'ryanflorence',
-      'gaearon'
+      'gaearon',
+      'rauschma'
     ],
     userIsDone,
     URL = 'https://api.github.com/';
