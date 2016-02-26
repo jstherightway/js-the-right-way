@@ -9,6 +9,15 @@ body {
     padding: 0;
 }
 
+.rtl {
+	direction: rtl;
+}
+.rtl section h3,
+.rtl section p {
+    float: right;
+}
+
+
 .wrapper {
     width: 80%;
     position: relative;

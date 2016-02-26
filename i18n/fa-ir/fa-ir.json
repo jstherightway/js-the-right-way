@@ -1,66 +1,66 @@
 {
   "meta": {
-      "title":"JS: The Right Way",
-      "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
+      "title":"جاوااسکریپت: از راه درستش",
+      "description":"یک مرجع سریع به بهترین شیوه برای برنامه‌نویسی جاوااسکریپت -- پیوند به الگوها و آموزش‌های سراسر وب"
   },
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
-    "title": "Choose your path",
+    "title": "مسیر خود را انتخاب کنید",
     "links": [
       {
-        "title":"Getting Started",
+        "title":"شروع",
         "url":"#getting-started"
       },
       {
-        "title":"JavaScript Code Style",
+        "title":"سَبک کدنویسی در جاوااسکریپت",
         "url":"#js-code-style"
       },
       {
-        "title":"The Good Parts",
+        "title":"قسمت‌های خوب",
         "url":"#the-good-parts"
       },
       {
-        "title":"Patterns",
+        "title":"الگوها",
         "url":"#patterns"
       },
       {
-        "title":"Testing Tools",
+        "title":"ابزارهای تست",
         "url":"#testing-tools"
       },
       {
-        "title":"Frameworks",
+        "title":"چارچوب‌ها (فرم‌ورک‌ها)",
         "url":"#frameworks"
       },
       {
-        "title":"Game Engines",
+        "title":"موتور‌های بازی",
         "url":"#game-engines"
       },
       {
-        "title":"News",
+        "title":"اخبار",
         "url":"#news"
       },
       {
-        "title":"Reading",
+        "title":"مطالعه بیشتر",
         "url":"#reading"
       },
       {
-        "title":"Podcasts",
+        "title":"پادکست‌ها",
         "url":"#podcasts"
       },
       {
-        "title":"Screencasts",
+        "title":"اسکرین‌کست‌ها",
         "url":"#screencasts"
       },
       {
-        "title":"Who to follow",
+        "title":"از چه کسی پیروی کنیم",
         "url":"#whotofollow"
       },
       {
-        "title":"PaaS Providers",
+        "title":"ارائه دهنده‌های PaaS (بستر به عنوان سرویس)",
         "url":"#paas"
       },
       {
-        "title":"Helpers",
+        "title":"کمک‌ها",
         "url":"#helpers"
       }
     ]
@@ -913,5 +913,6 @@
     {"url":"zh-tw","name":"繁體中文"},
     {"url":"zh-cn","name":"简体中文"},
     {"url":"fa-ir","name":"فارسی"}
-  ]
+  ],
+  "direction": "rtl"
 }
