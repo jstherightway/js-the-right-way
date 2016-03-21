@@ -3,6 +3,7 @@
     "title":"JS: Der richtige Weg",
     "description":"Eine kurze Übersicht an Best-Practices für das Programmieren mit JavaScript -- Links zu Entwurfsmustern und Tutorials aus dem Web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Wähle deinen Weg",

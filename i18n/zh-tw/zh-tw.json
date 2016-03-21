@@ -3,6 +3,7 @@
       "title":"JS: The Right Way",
       "description":"練習撰寫 JavaScript 的最佳快速指南 -- 來自網路上的程式碼風格及教學連結"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "選擇你想看的主題",

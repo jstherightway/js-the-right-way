@@ -27,6 +27,8 @@ module.exports = function(grunt){
             dev: {
                 files: {
                     '.tmp/public/assets/js/core.min.js': [
+                        'public/assets/js/vendor/jquery.scrollstop.js',
+                        'public/assets/js/vendor/jquery.lazyload.js',
                         'public/assets/js/core.js'
                     ]
                 }
@@ -34,6 +36,8 @@ module.exports = function(grunt){
             dist: {
                 files: {
                     'dist/public/assets/js/core.min.js': [
+                        'public/assets/js/vendor/jquery.scrollstop.js',
+                        'public/assets/js/vendor/jquery.lazyload.js',
                         'public/assets/js/core.js'
                     ]
                 }

@@ -3,6 +3,7 @@
       "title":"JS: The Right Way",
       "description":"学习 JavaScript 的最佳快速指南 -- 来自网上的代码风格和教程链接"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "选择你想看的主题",

@@ -249,7 +249,7 @@
                 {{#screencasts.links}}
                 <div class="screencasts-container">
                     <a href="{{url}}" target="_blank">
-                        <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
+                        <img class="lazy" data-original="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                     </a>
                 </div>
                 {{/screencasts.links}}
@@ -291,7 +291,7 @@
                   {{#helpers.links}}
                     <a target="_blank" href="{{url}}">
                         <figure>
-                            <img src="{{paths.imgpath}}{{img}}" alt="{{name}}" />
+                            <img class="lazy" data-original="{{paths.imgpath}}{{img}}" alt="{{name}}" />
                         </figure>
                     </a>
                   {{/helpers.links}}
@@ -328,7 +328,7 @@
             </div>
         </section>
 
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.2.2.min.js"></script>
         <script type="text/javascript" src="{{paths.jspath}}core.min.js"></script>
         <div id="fb-root"></div>
         <script>

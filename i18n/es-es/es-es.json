@@ -3,6 +3,7 @@
       "title":"JS: La forma correcta",
       "description":"Una referencia a las mejores prácticas para escribir código JavaScript -- enlaces de patrones de código y tutoriales alrededor de la web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Elije tu camino",

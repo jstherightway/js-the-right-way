@@ -3,6 +3,7 @@
       "title":"JS: A forma certa",
       "description":"Uma referência rápida para as melhores práticas de como escrever JavaScript -- links para padrões de código e tutoriais de toda a web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Escolha seu caminho",

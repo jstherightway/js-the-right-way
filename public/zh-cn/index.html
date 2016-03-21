@@ -15,7 +15,7 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
-    <body class="rtl">
+    <body class="ltr">
         <header>
             <a href="https://github.com/braziljs/js-the-right-way/" class="github-corner">
                 <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#3A8AA5; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1)"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>
@@ -185,7 +185,7 @@
 <h3>弱类型</h3>
 
 <p>
-    对于许多前端开发者而言，JavaScript 是他们所使用的第一个脚本语言。对这些开发者来说，弱类型的概念和印象或许像第二天性一样自然。然而现在网页应用的需求爆炸式增长，使得后端开发者必须涉足客户端技术。这类的开发者大部分都有强类型语言的背景，例如 C# 或 Java,因此并不熟悉弱类型语言所带来的高度自由及潜在陷阱。
+    对于许多前端开发者而言，JavaScript 是他们所使用的第一个脚本语言。对这些开发者来说，弱类型的概念和印象或许像第二天性一样自然。然而现在网页应用的需求爆炸式增长，使得后端开发者必须涉足客户端技术。这类的开发者大部分都有强类型语言的背景，例如 C# 或 Java,因此并不熟悉弱类型语言所带来的高度自由及潜在陷进。
 </p>
 
 <p class="source">
@@ -199,7 +199,7 @@
 </p>
 
 <p>
-    <b>变量提升：</b> 在运行时，所有的变量及函数声明将会被移到函数的起始位置（即函式的作用域）- 这就是所谓的变量提升。虽然如此，但是良好的习惯是在作用域的一开始就声明所有变量，避免因未声明就操作变量造成未预期的错误。 -这是一个块作用域语言开发者常见的问题。
+    <b>变量提升：</b> 在运行时，所有的变量及函数声明将会被移到函数的起始位置（即函式的作用域）- 这就是所谓的变量提示。虽然如此，但是良好的习惯是在作用域的一开始就声明所有变量，避免因未声明就操作变量造成未预期的错误。 -这是一个块作用域语言开发者常见的问题。
 </p>
 
 <p class="source">
@@ -1338,22 +1338,22 @@
 
                 <div class="screencasts-container">
                     <a href="https://egghead.io" target="_blank">
-                        <img src="/assets/img/egghead.svg" alt="Egghead">
+                        <img class="lazy" data-original="/assets/img/egghead.svg" alt="Egghead">
                     </a>
                 </div>
                 <div class="screencasts-container">
                     <a href="http://devfreecasts.org" target="_blank">
-                        <img src="/assets/img/devfreecasts.png" alt="DevFreeCasts">
+                        <img class="lazy" data-original="/assets/img/devfreecasts.png" alt="DevFreeCasts">
                     </a>
                 </div>
                 <div class="screencasts-container">
                     <a href="https://tagtree.tv/" target="_blank">
-                        <img src="/assets/img/tagtree.png" alt="tagtree.tv">
+                        <img class="lazy" data-original="/assets/img/tagtree.png" alt="tagtree.tv">
                     </a>
                 </div>
                 <div class="screencasts-container">
                     <a href="http://frontendmasters.com" target="_blank">
-                        <img src="/assets/img/frontendmasters.svg" alt="frontndmasters.com">
+                        <img class="lazy" data-original="/assets/img/frontendmasters.svg" alt="frontndmasters.com">
                     </a>
                 </div>
 
@@ -1406,57 +1406,57 @@
 
                     <a target="_blank" href="https://npmjs.org">
                         <figure>
-                            <img src="/assets/img/npm.png" alt="npm">
+                            <img class="lazy" data-original="/assets/img/npm.png" alt="npm">
                         </figure>
                     </a>
                     <a target="_blank" href="http://bower.io">
                         <figure>
-                            <img src="/assets/img/bower-logo.png" alt="bower">
+                            <img class="lazy" data-original="/assets/img/bower-logo.png" alt="bower">
                         </figure>
                     </a>
                     <a target="_blank" href="http://yeoman.io">
                         <figure>
-                            <img src="/assets/img/yeoman-logo.png" alt="yeoman">
+                            <img class="lazy" data-original="/assets/img/yeoman-logo.png" alt="yeoman">
                         </figure>
                     </a>
                     <a target="_blank" href="http://gruntjs.com">
                         <figure>
-                            <img src="/assets/img/grunt-logo.png" alt="grunt">
+                            <img class="lazy" data-original="/assets/img/grunt-logo.png" alt="grunt">
                         </figure>
                     </a>
                     <a target="_blank" href="http://gulpjs.com">
                         <figure>
-                            <img src="/assets/img/gulp.png" alt="gulp">
+                            <img class="lazy" data-original="/assets/img/gulp.png" alt="gulp">
                         </figure>
                     </a>
                     <a target="_blank" href="http://brunch.io">
                         <figure>
-                            <img src="/assets/img/brunch-logo.png" alt="brunch">
+                            <img class="lazy" data-original="/assets/img/brunch-logo.png" alt="brunch">
                         </figure>
                     </a>
                     <a target="_blank" href="https://github.com/broccolijs/broccoli">
                         <figure>
-                            <img src="/assets/img/broccoli-logo.png" alt="Browser compilation library">
+                            <img class="lazy" data-original="/assets/img/broccoli-logo.png" alt="Browser compilation library">
                         </figure>
                     </a>
                     <a target="_blank" href="http://todomvc.com">
                         <figure>
-                            <img src="/assets/img/todomvc-logo.png" alt="todo mvc">
+                            <img class="lazy" data-original="/assets/img/todomvc-logo.png" alt="todo mvc">
                         </figure>
                     </a>
                     <a target="_blank" href="http://rollupjs.org/">
                         <figure>
-                            <img src="/assets/img/rollup-logo.png" alt="Rollup">
+                            <img class="lazy" data-original="/assets/img/rollup-logo.png" alt="Rollup">
                         </figure>
                     </a>
                     <a target="_blank" href="http://browserify.org/">
                         <figure>
-                            <img src="/assets/img/browserify-logo.png" alt="Browserify">
+                            <img class="lazy" data-original="/assets/img/browserify-logo.png" alt="Browserify">
                         </figure>
                     </a>
                     <a target="_blank" href="http://todomvc.com">
                         <figure>
-                            <img src="/assets/img/todomvc-logo.png" alt="todo mvc">
+                            <img class="lazy" data-original="/assets/img/todomvc-logo.png" alt="todo mvc">
                         </figure>
                     </a>
 
@@ -1499,7 +1499,7 @@
             </div>
         </section>
 
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.2.2.min.js"></script>
         <script type="text/javascript" src="/assets/js/core.min.js"></script>
         <div id="fb-root"></div>
         <script>

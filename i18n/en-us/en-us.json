@@ -3,6 +3,7 @@
       "title":"JS: The Right Way",
       "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Choose your path",
