@@ -125,6 +125,11 @@
         "name":"DexterJS",
         "url":"https://github.com/leobalter/DexterJS",
         "description":"Ein Test-Helferlein, um Mocks von Funktionen und dem XHR-Objekt zu erstellen, gewartet von <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+      },
+      {
+        "name":"AVA",
+        "url":"https://github.com/sindresorhus/ava",
+        "description":"Test Runner mit asynchronen Tests, gewartet von <a target=\"_blank\" href=\"https://twitter.com/sindresorhus\">Sindre Sorhus</a>"
       }
     ]
   },
