@@ -355,6 +355,11 @@
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
         "description":"Panda.js ist eine HTML5-Spiele-Engine mit Canvas und WebGL-Rendering für mobile Endgeräte und für den Desktop."
+      },
+      {
+        "name":"Rot.js",
+        "url":"https://github.com/ondras/rot.js",
+        "description":"Rot.js ist eine Sammlung von JavaScript Bibliotheken, die einen bei der Rogue-like Entwicklung in der Browserumgebung unterstützen soll."
       }
     ]
   },
@@ -579,6 +584,11 @@
             "description":"von <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
           },
           {
+            "name":"Learning JavaScript Design Patterns",
+            "url":"https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+            "description":"von <a target=\"_blank\" href=\"http://twitter.com/addyosmani\">Addy Osmani</a>"
+          },
+          {
             "name":"Secrets of the JavaScript Ninja",
             "url":"http://jsninja.com",
             "description":"von <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
@@ -627,6 +637,11 @@
             "name":"JavaScript Allongé",
             "url":"https://leanpub.com/javascript-allonge",
             "description":"von <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+          },
+          {
+            "name":"Exploring ES6",
+            "url":"http://exploringjs.com/es6/",
+            "description":"von <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
           },
           {
             "name":"JSBooks",
@@ -737,6 +752,11 @@
       {
         "name":"JSConf",
         "url":"https://www.youtube.com/user/jsconfeu",
+        "description":""
+      },
+      {
+        "name":"JavaScript Air",
+        "url":"http://javascriptair.com/",
         "description":""
       }
     ]
@@ -851,6 +871,24 @@
         "name":"Browser compilation library",
         "img":"broccoli-logo.png",
         "url":"https://github.com/broccolijs/broccoli",
+        "description":""
+      },
+      {
+        "name":"Webpack",
+        "img":"webpack-logo.png",
+        "url":"https://webpack.github.io/",
+        "description":""
+      },
+      {
+        "name":"Rollup",
+        "img":"rollup-logo.png",
+        "url":"http://rollupjs.org/",
+        "description":""
+      },
+      {
+        "name":"Browserify",
+        "img":"browserify-logo.png",
+        "url":"http://browserify.org/",
         "description":""
       },
       {
