@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>{{meta.title}}</title>
-        <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
+        <meta property="og:image" content="https://camo.githubusercontent.com/aaff5164e88291cf2bc33cfbdc259ce4d34935f3/687474703a2f2f692e696d6775722e636f6d2f6a6145626438302e706e67">
         <meta property="og:title" content="{{ meta.title }}">
         <meta property="og:site_name" content="{{ meta.title }}">
         <meta name="description" property="og:description" content="{{ meta.description  }}">
@@ -11,7 +11,11 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="stylesheet" href="{{paths.csspath}}core.min.css">
+        <link rel="manifest" href="manifest.json">
+        
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
