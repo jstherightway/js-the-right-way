@@ -18,7 +18,7 @@
     Fonte: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
 </p>
 
-<h3>Funções como Objetos de primeira classe</h3>
+<h3>Funções como objetos de primeira classe</h3>
 
 <p>
     Funções em JavaScript são funções de primeira classe. Isso significa que no JavaScript as funções são um tipo especial de objeto que podem fazer todas as coisas que um objeto normal pode fazer.
@@ -31,7 +31,7 @@
 <h3>Tipagem fraca</h3>
 
 <p>
-    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e/ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, o crescimento explosivo na demanda por aplicações web modernas resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
+    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e/ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser naturais. Entretanto, o crescimento explosivo na demanda por aplicações web modernas resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
 </p>
 
 <p class="source">
@@ -45,7 +45,7 @@
 </p>
 
 <p>
-    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, em ordem de evitar falsas expectativas com uma variável que foi declarada depois mas aconteceu de ter um valor anteriormente - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
+    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, a fim de evitar falsas expectativas em relação a uma variável que foi declarada depois mas que acabou recebendo um valor antes - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
 </p>
 
 <p class="source">
@@ -62,7 +62,7 @@
     Fonte: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
 </p>
 
-<h3>Funções de fechamentos (<i>Closure</i>)</h3>
+<h3>Funções de fechamento (<i>Closures</i>)</h3>
 
 <p>
     <i>Closures</i> (fechamentos) são funções que se referem a variáveis livres (independentes). Em outras palavras, a função definida no <i>closure</i> "lembra" do ambiente em que ela foi criada.
@@ -77,7 +77,7 @@
 <h3>Modo rigoroso</h3>
 
 <p>
-    O modo rigoroso do ECMAScript 5 é um modo de optar por uma restrita variação do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar por modo rigoroso incrementalmente.
+    O modo rigoroso do ECMAScript 5 é um modo de optar por uma variação restrita do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar pelo modo rigoroso incrementalmente.
  </p>
 
 <p class="source">

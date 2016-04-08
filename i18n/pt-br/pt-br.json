@@ -83,7 +83,7 @@
     "text":"{{@link=partials/patterns.html}}"
   },
   "testingTools":{
-    "title":"FERRAMENTAS DE TESTE",
+    "title":"FERRAMENTAS DE TESTES",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
         {
@@ -104,7 +104,7 @@
         {
           "name":"Karma",
           "url":"http://karma-runner.github.io/",
-          "description":"Mantida pelo time por trás do AngularJS. Maioria por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+          "description":"Mantida pelo time por trás do AngularJS. Em maior parte por <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
         },
         {
           "name":"Intern",
@@ -119,12 +119,12 @@
         {
           "name":"Sinon.JS",
           "url":"http://sinonjs.org",
-          "description":"Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de teste unit. Criado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+          "description":"Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de testes unitários. Criado por <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
         },
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"Um helper de teste para fazer mocks de funções e de objetos XHR, mantido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+          "description":"Um helper de testes para fazer mocks de funções e de objetos XHR, mantido por <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         }
     ]
   },
@@ -177,7 +177,7 @@
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM)."
+            "description":"Simplifica interfaces de cliente dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM)."
           },
           {
             "name":"Angular.js",
@@ -304,7 +304,7 @@
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS é um dos motores de jogos mais testados e fielmente HTML5, com sua primeira publicação no final de 2010. Ele é muito bem mantido e atualizado, conta com uma boa comunidade dando suporte. A documentação é boa e conta com dois livros falando sobre criação de jogos com esse motor."
+        "description":"ImpactJS é um dos motores de jogos mais \"testados e aprovados\" em HTML5, com sua primeira publicação no final de 2010. Ele é muito bem mantido e atualizado, conta com uma boa comunidade dando suporte. A documentação é boa e conta com dois livros falando sobre criação de jogos com esse motor."
       },
       {
         "name":"LimeJS",
