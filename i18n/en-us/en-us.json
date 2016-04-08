@@ -360,6 +360,11 @@
         "name":"Rot.js",
         "url":"https://github.com/ondras/rot.js",
         "description":"Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment."
+      },
+      {
+        "name":"Isogenic",
+        "url":"http://www.isogenicengine.com/",
+        "description":"Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. "
       }
     ]
   },
