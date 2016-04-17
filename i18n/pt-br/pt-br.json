@@ -350,6 +350,11 @@
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
         "description":"Panda.js é um motor de jogos em HTML5 para dispositivos mobile e desktop com renderização de Canvas e WebGL."
+      },
+      {
+        "name":"Isogenic",
+        "url":"http://www.isogenicengine.com/",
+        "description":"Isogenic é um motor de jogos que fornece as mais avançadas funcionalidades de rede e multiplayer em tempo real disponíveis em qualquer motor de jogos HTML 5. O sistema é baseado em streaming de entidades e inclui opções poderosas de simulação e interpolação de entidades no client a partir de delta updates."
       }
     ]
   },
