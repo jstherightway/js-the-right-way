@@ -6,8 +6,6 @@ Feel free to contribute!
 
 <http://www.jstherightway.org>
 
-- Temporary URL <http://braziljs.github.io/js-the-right-way>
-
 ## Why?
 
 Today we have a bunch of websites running JavaScript. I think we need a place to put all the best practices and references together so we can share this (good) information and help keep the web more organized.
