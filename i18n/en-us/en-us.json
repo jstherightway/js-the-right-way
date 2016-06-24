@@ -230,6 +230,11 @@
             "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
           },
           {
+            "name":"Vue.js",
+            "url":"http://www.vuejs.org",
+            "description":"Is an MVVM library providing two-way data binding, HTML extended behaviour (through directives) and reactive components. By using native add-ons a developer can also have routing, AJAX, a Flux-like state management, form validation and more. Provides a helpful Chrome extension to inspect components built with Vue."
+          },
+          {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
             "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."

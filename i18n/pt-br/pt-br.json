@@ -225,6 +225,11 @@
             "description":"Criado pelo Facebook. React é uma biblioteca JavaScript para criação de interfaces de usuários do Facebook e do Instagram. Muitas pessoas enxergam o React como o V do MVC."
           },
           {
+            "name":"Vue.js",
+            "url":"http://www.vuejs.org",
+            "description":"É uma biblioteca MVVM que provê two-way data binding, adiciona comportamento adicional ao HTML (através de diretivas) e componentes reativos. Ao utilizar add-ons nativos o desenvolvedor pode também contar com rotas, AJAX, gerenciamento de fonte de dados ao estilo Flux, validação de formulários e mais. Provê uma extensão para Chrome que é muito útil para inspecionar componentes construídos com Vue."
+          },
+          {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
             "description":"Handlebars fornece de forma eficaz o poder necessário para você criar templates semânticos sem frustrações."
