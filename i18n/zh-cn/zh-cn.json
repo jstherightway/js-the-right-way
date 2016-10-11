@@ -124,7 +124,7 @@
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"模擬函数及 XHR 对象的测试帮助工具，由 <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a> 维护。"
+          "description":"模拟函数及 XHR 对象的测试帮助工具，由 <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a> 维护。"
         }
     ]
   },
