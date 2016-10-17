@@ -130,6 +130,10 @@
           "name":"AVA",
           "url":"https://github.com/sindresorhus/ava",
           "description":"Test runner with asynchronous tests, maintained by <a target=\"_blank\" href=\"https://twitter.com/sindresorhus\">Sindre Sorhus</a>"
+        },{
+          "name":"Jest",
+          "url":"https://github.com/facebook/jest",
+          "description":"Painless JavaScript Testing, maintained by <a target=\"_blank\" href=\"https://github.com/facebook\">Facebook</a>"
         }
     ]
   },
