@@ -254,6 +254,11 @@
       {
         "title":"Animation",
         "links":[
+         {
+            "name":"GSAP",
+            "url":"http://greensock.com/",
+            "description":"GSAP is the fastest full-featured scripted animation tool on the planet. It's even faster than CSS3 animations and transitions in many cases."
+          },
           {
             "name":"Velocity.js",
             "url":"http://julian.com/research/velocity/",
