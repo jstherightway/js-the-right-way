@@ -1,115 +1,115 @@
 {
   "meta": {
-      "title":"JS: The Right Way",
-      "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
+      "title":"JS: Правильный путь",
+      "description":"Краткий справочник по лучшим практикам написания кода на JavaScript -- ссылки на типовые решения и обучающие материалы из Сети"
   },
   "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
-    "title": "Choose your path",
+    "title": "Выбери свой путь",
     "links": [
       {
-        "title":"Getting Started",
+        "title":"С чего начать",
         "url":"#getting-started"
       },
       {
-        "title":"JavaScript Code Style",
+        "title":"JavaScript - стиль написания кода",
         "url":"#js-code-style"
       },
       {
-        "title":"The Good Parts",
+        "title":"Сильные стороны",
         "url":"#the-good-parts"
       },
       {
-        "title":"Patterns",
+        "title":"Типовые решения",
         "url":"#patterns"
       },
       {
-        "title":"Testing Tools",
+        "title":"Инструменты для тестирования",
         "url":"#testing-tools"
       },
       {
-        "title":"Frameworks",
+        "title":"Фреймворки",
         "url":"#frameworks"
       },
       {
-        "title":"Game Engines",
+        "title":"Игровые движки",
         "url":"#game-engines"
       },
       {
-        "title":"News",
+        "title":"Новости",
         "url":"#news"
       },
       {
-        "title":"Reading",
+        "title":"К прочтению",
         "url":"#reading"
       },
       {
-        "title":"Podcasts",
+        "title":"Подкасты",
         "url":"#podcasts"
       },
       {
-        "title":"Screencasts",
+        "title":"Скринкасты",
         "url":"#screencasts"
       },
       {
-        "title":"Who to follow",
+        "title":"За кем стоит понаблюдать",
         "url":"#whotofollow"
       },
       {
-        "title":"PaaS Providers",
+        "title":"PaaS ресурсы",
         "url":"#paas"
       },
       {
-        "title":"Helpers",
+        "title":"Полезности",
         "url":"#helpers"
       }
     ]
   },
   "gettingStarted": {
-    "title":"GETTING STARTED",
+    "title":"С ЧЕГО НАЧАТЬ",
     "text":"{{@link=partials/getting-started.html}}"
   },
   "codeStyle": {
-    "title":"JS CODE STYLE",
+    "title":"JS - СТИЛЬ НАПИСАНИЯ КОДА",
     "text":"{{@link=partials/code-style.html}}"
   },
   "goodParts":{
-    "title":"THE GOOD PARTS",
+    "title":"СИЛЬНЫЕ СТОРОНЫ",
     "text":"{{@link=partials/good-parts.html}}"
   },
   "patterns":{
-    "title":"PATTERNS",
+    "title":"ТИПОВЫЕ РЕШЕНИЯ",
     "text":"{{@link=partials/patterns.html}}"
   },
   "testingTools":{
-    "title":"TESTING TOOLS",
+    "title":"ИНСТРУМЕНТЫ ДЛЯ ТЕСТИРОВАНИЯ",
     "text":"{{@link=partials/testing-tools.html}}",
     "links":[
         {
           "name":"Mocha",
           "url":"http://mochajs.org",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
+          "description":"Поддерживается <a target=\"_blank\" href=\"https://github.com/visionmedia\">TJ Holowaychuk</a>"
         },
         {
           "name":"QUnit",
           "url":"http://qunitjs.com",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
+          "description":"Поддерживается <a target=\"_blank\" href=\"https://github.com/jquery\">jQuery</a>"
         },
         {
           "name":"Jasmine",
           "url":"https://github.com/pivotal/jasmine",
-          "description":"Maintained by <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
+          "description":"Поддерживается <a target=\"_blank\" href=\"https://github.com/pivotal/jasmine\">Pivotal Labs</a>"
         },
         {
           "name":"Karma",
           "url":"http://karma-runner.github.io/",
-          "description":"Maintained by the team behind AngularJS. Mostly by <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
+          "description":"Поддерживается командой АнгуларJS. По-большей части <a target=\"_blank\" href=\"https://github.com/vojtajina\">Vojta Jina</a>"
         },
         {
           "name":"Intern",
           "url":"http://theintern.io",
-          "description":"Maintained by <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
+          "description":"Поддерживается <a target=\"_blank\" href=\"http://www.sitepen.com\">Sitepen</a>"
         },
         {
           "name":"Istanbul",
@@ -119,55 +119,55 @@
         {
           "name":"Sinon.JS",
           "url":"http://sinonjs.org",
-          "description":"Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
+          "description":"Независимый набор тестовых 'шпионов', моков и заглушек для JavaScript. Без зависимостей, работает с любым тестовым фреймворком. Создан <a target=\"_blank\" href=\"https://github.com/cjohansen/Sinon.JS\">Sinon.JS community</a>"
         },
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+          "description":"Вспомогательные утилиты для мока функций Javascript и объекта XHR, поддерживается <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
         },
         {
           "name":"AVA",
           "url":"https://github.com/sindresorhus/ava",
-          "description":"Test runner with asynchronous tests, maintained by <a target=\"_blank\" href=\"https://twitter.com/sindresorhus\">Sindre Sorhus</a>"
+          "description":"Тест-ранер (утилита для запуска тестов) с асинхронными тестами, поддерживается <a target=\"_blank\" href=\"https://twitter.com/sindresorhus\">Sindre Sorhus</a>"
         },
 	{
 	 "name":"Jest",
 	 "url":"https://github.com/facebook/jest",
-	 "description":"Painless JavaScript Testing, maintained by <a target=\"_blank\" href=\"https://github.com/facebook\">Facebook</a>"
+	 "description":"Безболезненное тестирование Javascript, поддерживается <a target=\"_blank\" href=\"https://github.com/facebook\">Facebook</a>"
         }
     ]
   },
   "frameworks":{
-    "title":"FRAMEWORKS",
+    "title":"ФРЕЙМВОРКИ",
     "cat":[
       {
-        "title":"GENERAL PURPOSE",
+        "title":"ОБЩЕГО НАЗНАЧЕНИЯ",
         "links":[
           {
             "name":"jQuery",
             "url":"http://jquery.com",
-            "description":"jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
+            "description":"jQuery - это быстрая, маленькая библиотека с богатым функционалом. Создана <a target=\"_blank\" href=\"https://twitter.com/jeresig\">John Resig</a>."
           },
           {
             "name":"YUI",
             "url":"http://yuilibrary.com",
-            "description":"Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">New development has stopped since August 29th, 2014</a>."
+            "description":"Создан Yahoo!, YUI - бесплатная библиотека с открытым исходным кодом. Использует набор решений на  JavaScript и CSS  для построения интерфейса интерактивных веб приложений. <a target=\"_blank\" href=\"http://yahooeng.tumblr.com\">Разработка прекращена 29го августа 2014</a>."
           },
           {
             "name":"ZeptoJS",
             "url":"http://zeptojs.com",
-            "description":"Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto."
+            "description":"Zepto - минималистичная JavaScript библиотека для современных браузеров. По-большей части имеет jQuery-совместимое API. Если вы пользовались jQuery, то вы уже знаете как работать с Zepto."
           },
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen."
+            "description":"Dojo - бесплатный инструмент с открытым исходным кодом для построения высокопроизводительных веб-приложений. Проект спонсируется IBM и SitePen."
           },
           {
             "name":"Underscore.js",
             "url":"http://underscorejs.org",
-            "description":"Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+            "description":"Underscore.js - JS библиотека, которая предоставляет полный набор разнообразных вспомогательных функций без изменения встроенных объектов."
           }
         ]
       },
@@ -177,226 +177,221 @@
           {
             "name":"Backbone.js",
             "url":"http://backbonejs.org",
-            "description":"Very popular JavaScript client-side framework, built by <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
+            "description":"Очень популярный JavaScript клиент-серверный фреймворк, созданый <a target=\"_blank\" href='http://twitter.com/jashkenas'>@jashkenas</a>."
           },
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Built by <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, jQuery and Ruby on Rails core developer."
+            "description":"Создан <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, который явялется значимым разрабочиком jQuery и Ruby on Rails."
           },
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM)."
+            "description":"Упрощает построение динамических интерфейсов посредством использования  паттерна Model-View-View Model (MVVM)."
           },
           {
             "name":"Angular.js",
             "url":"http://angularjs.org",
-            "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
+            "description":"Создан командой из Google. Angular.js похож на полифилл для будущих версий HTML."
           },
           {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
-            "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
+            "description":"Cappuccino проект с открытым кодом, который подзволяет легко создавать приложения, похожие на десктопный, но так чтобы они работали в браузере."
           },
           {
             "name":"JavaScript MVC",
             "url":"http://javascriptmvc.com/",
-            "description":"JavaScriptMVC is an open-source framework containing the best ideas in jQuery development."
+            "description":"JavaScriptMVC проект с открытым кодом который сочетает в себе лучшие идеи разработки на jQuery."
           },
           {
             "name":"Meteor",
             "url":"https://www.meteor.com",
-            "description":"Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started."
+            "description":"Meteor - opensource проект для создания высококачественных веб-приложений. Доступен как опытным разработчикам так и новичкам."
           },
           {
             "name":"Spice.js",
             "url":"http://spicejs.github.io/spicejs/",
-            "description":"Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using."
+            "description":"Spice - супер минималистичный (&lt; 3k) и гибкий MVC фреймворк для javascript. Spice был создан для быстрого добавления к существующим приложениям и хорошо сочетается с jQuery, pjax, turbolinks, node или что там еще вами используется."
           },
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized."
+            "description":"Riot - невероятно быстрая, мощная и маленькая библиотека, для использования паттерна  (MV*) в построении расширяемых веб приложений. Несмотря на маленький размер содержит все необходимое - шаблонизатор, роутер, событийную модель и строгий MVP для организации струтуры приложения."
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
+            "description":"CanJS - JavaScript фреймворк, который делает разработку сложнжых приложений простой и быстрой. Легкий в освоении, маленький, нетребовательный к архитектуре вашего приложения, но с современными подходыми вроде пользовательских тегов и двустороннего биндинга"
           }
         ]
       },
       {
-        "title":"Library",
+        "title":"Библиотеки",
         "links":[
           {
             "name":"React",
             "url":"http://facebook.github.io/react",
-            "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
+            "description":"Создана Facebook. React - это Javascript библиотека для создания пользовательского интерфейса в Facebook и Instagram. Многие люди предпочитают рассматривать React как V в MVC."
           },
           {
             "name":"Vue.js",
             "url":"http://www.vuejs.org",
-            "description":"Is an MVVM library providing two-way data binding, HTML extended behaviour (through directives) and reactive components. By using native add-ons a developer can also have routing, AJAX, a Flux-like state management, form validation and more. Provides a helpful Chrome extension to inspect components built with Vue."
+            "description":"MVVM библиотека обеспечивающая двустороннее связывание, расширение HTML посредством директив и реактивные компоненты. Использу я дополнения разработчик так же получает роутинг, AJAX запрос, Flux-подобное управление состоянием, валидацию форм и многое другое. В наличии полезное расширение для Chrome, позволяющее инспектировать компоненты созданные на Vue."
           },
           {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
-            "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
+            "description":"Handlebars - мощный и гибкий инструмент, позволяющий создавать семантические шаблоны (с использованием компонент/вспомогательных тегов)."
           },
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Asynchronous templates for the browser and node.js."
+            "description":"Асинхронный шаблонизатор для браузера и  node.js."
           }
         ]
       },
       {
-        "title":"Animation",
+        "title":"Анимации",
         "links":[
          {
             "name":"GSAP",
             "url":"http://greensock.com/",
-            "description":"GSAP is the fastest full-featured scripted animation tool on the planet. It's even faster than CSS3 animations and transitions in many cases."
+            "description":"GSAP самый быстрый и полнофункциональный инструмент. Он во многих случаях даже быстрее CSS3 анимаций и переходов."
           },
           {
             "name":"Velocity.js",
             "url":"http://julian.com/research/velocity/",
-            "description":"Velocity is an animation engine with the same API as jQuery's $.animate()."
+            "description":"Velocity - библиотека для анимации с тем же  API что и $.animate() из jQuery."
           },
           {
             "name":"Bounce.js",
             "url":"http://bouncejs.com/",
-            "description":"Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations."
+            "description":"Bounce.js - библиотека позволяющая задавать анимации, на базе CSS3."
           },
           {
             "name":"TweenJS",
             "url":"http://www.createjs.com/tweenjs",
-            "description":"A simple but powerful JavaScript library for tweening and animating HTML5 and JavaScript properties."
+            "description":"Простая, но мощная, Javascript библиотека для изменения и анимирования HTML5."
           },
           {
             "name":"Move.js",
             "url":"http://visionmedia.github.io/move.js/",
-            "description":"Move.js is a small JavaScript library making CSS3 backed animation extremely simple and elegant."
+            "description":"Move.js - маленькая JavaScript библиотека делающая анимации на базе CSS3 простыми и элегантными."
           },
           {
             "name":"Snap.svg",
             "url":"http://snapsvg.io/",
-            "description":"SVG is an excellent way to create interactive, resolution-independent vector graphics that will look great on any size screen."
+            "description":"SVG - прекрасный способ реализовать взаимодествие с пользователем, векторная графика, которая не зависит от разрешения и размера экрана."
           },
           {
             "name":"Rekapi",
             "url":"http://rekapi.com/",
-            "description":"Rekapi is a library for making canvas and DOM animations with JavaScript, as well as CSS @keyframe animations for modern browsers."
+            "description":"Rekapi - библиотека для создания анимаций на базе canvas или DOM, так же хорошо как CSS @keyframe анимации в современных браузерах."
           },
           {
             "name":"Favico.js",
             "url":"http://lab.ejci.net/favico.js/",
-            "description":"Make use of your favicon with badges, images or videos."
+            "description":"Позволяет использовать в качестве favicon  спрайты, картинки или видео."
           },
           {
             "name":"Textillate.js",
             "url":"http://jschr.github.io/textillate/",
-            "description":"Textillate.js combines some awesome libraries to provide a ease-to-use plugin for applying CSS3 animations to any text."
+            "description":"Textillate.js - набор прикрасных библиотек предоставляющий легкие в использовании расширения для применения CSS3 анимаций к любому тексту."
           },
           {
             "name":"Motio",
             "url":"http://darsa.in/motio/",
-            "description":"Motio is a small JavaScript library for simple but powerful sprite based animations and panning."
+            "description":"Motio - маленькая JavaScript библиотека для простых, но мощных анимаций и панарам на базе спрайтов."
           },
           {
             "name":"Anima.js",
             "url":"http://lvivski.com/anima/",
-            "description":"With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!"
+            "description":"С Anima очень легко анимировать сотни объектов. Каждый объект может иметь свои характеристики, что упрощает моделирование объектов реального мира."
           }
         ]
       }
     ]
   },
   "gameEngines":{
-    "title":"GAME ENGINES",
+    "title":"ИГРОВЫЕ ДВИЖКИ",
     "links":[
       {
         "name":"MelonJS",
         "url":"http://melonJS.org",
-        "description":"MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier."
+        "description":"MelonJS - бесплатный и легковесный HTML5 игровой движек. Движек интеграрован с тайловыми картами, что делает разработку уровней еще проще."
       },
       {
         "name":"ImpactJS",
         "url":"http://impactjs.com",
-        "description":"ImpactJS is one of the more tested-and-true HTML5 game engines with the initial release all the way back at the end of 2010. It is very well maintained and updated, and has a good-sized community backing it. There exists plenty of documentation - even two books on the subject of creating games with the engine."
+        "description":"ImpactJS - один из самый провереных и надежных движков для создания игр на HTML5. Первая версия вышла еще в конце 2010 года. Он прекрасно поддерживается и регулярно обновляется, имеет приличных размеров сообщество, которое его поддерживает. Сущестует достаточное колличество документации - даже две книги по созданию игр на этом движке."
       },
       {
         "name":"LimeJS",
         "url":"http://limejs.com",
-        "description":"LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers."
+        "description":"LimeJS - это фреймворк для создания быстрых HTML5 игр, с качественной поддержкой сенсорных экранов и десктопных браузеров."
       },
       {
         "name":"Crafty",
         "url":"http://craftyjs.com",
-        "description":"Crafty is a game engine that dates back to late 2010. Crafty makes it really easy to get started making JavaScript games."
+        "description":"Crafty - игровой движек, который берет начало из конца 2010 года. Его создали чтобы начать делать игры на Javascript было действительно просто."
       },
       {
         "name":"Cocos2d-HTML5",
         "url":"http://www.cocos2d-x.org/wiki/Cocos2d-html5",
-        "description":"Cocos2d-html5 is an open-source web 2D game framework, released under MIT License. It is a HTML5 version of Cocos2d-x project. The focus for Cocos2d-html5 development is around making Cocos2d cross platforms between browsers and native application."
+        "description":"Cocos2d-html5 - игровой 2D движек с открытым исходным кодом, распространяется под MIT лицензией. Это HTML5 версия проекта Cocos2d. Основное внимание при разработке Cocos2d-html5 уделено тому, чтобы сделать проект кроссплатформенным и доступным в разных браузерах и мобильных приложениях."
       },
       {
         "name":"Phaser",
         "url":"http://phaser.io",
-        "description":"Phaser is based heavily on <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. It is maintained by Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>) who has been very active in the HTML5 community for years."
+        "description":"Phaser в большой степени опирается на <a target=\"_blank\" href=\"http://www.flixel.org\">Flixel</a>. Он поддерживается Richard Davey (<a target=\"_blank\" href=\"http://www.photonstorm.com/\">Photon Storm</a>), который долгие годы был очень активным участником HTML5 сообщества."
       },
       {
         "name":"Goo",
         "url":"http://www.goocreate.com/learn",
-        "description":"Goo is a 3D JavaScript gaming engine entirely built on WebGL/HTML5"
+        "description":"Goo - это 3D игровой движек на JavaScript полностью построенный на WebGL/HTML5"
       },
       {
         "name":"LycheeJS",
         "url":"http://lycheejs.org",
-        "description":"LycheeJS is a JavaScript Game library that offers a complete solution for prototyping and deployment of HTML5 Canvas, WebGL or native OpenGL(ES) based games inside the Web Browser or native environments."
+        "description":"LycheeJS - это JavaScript библиотека, предлагающая комплексное решение для создания и развертывания прототипов HTML5 игр с использованием Canvas, WebGL или нативного OpenGL(ES). Поддерживаются как игры для веб-браузеров так и для мобильных приложений."
       },
       {
         "name":"Quintus",
         "url":"http://html5quintus.com",
-        "description":"Quintus is an HTML5 game engine designed to be modular and lightweight, with a concise JavaScript-friendly syntax."
+        "description":"Quintus - это игровой движек для HTML5. Легковесный, модульный, с понятным Javascript API."
       },
       {
         "name":"KiwiJS",
         "url":"http://www.kiwijs.org",
-        "description":"Kiwi.js is a fun and friendly Open Source HTML5 Game Engine. Some people call it the WordPress of HTML5 game engines"
+        "description":"Kiwi.js - забавный и дружелюбный игровой движек с открытым исходным кодом. Некоторые называют его WordPress в мире игровых движков для HTML5."
       },
       {
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
-        "description":"Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering."
+        "description":"Panda.js - это игровой движек для HTML5 под мобильные устройства и десктопные браузеры с поддержкой рендеринга через Canvas и WebGL."
       },
       {
         "name":"Rot.js",
         "url":"https://github.com/ondras/rot.js",
-        "description":"Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment."
+        "description":"Rot.js - набор Javascript библиотек, призваный помочь с разработкой ролевых игр (roguelike) для браузеров."
       },
       {
         "name":"Isogenic",
         "url":"http://www.isogenicengine.com/",
-        "description":"Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. "
+        "description":"Isogenic - продвинутый игровой движек, который обеспечивает поддержку соверменных сетей и возможностей HTML5 для разработки многопользовательских игр c взаимодействием в реальном времени. Система основана на потоковой передаче данных и включает в себя мощные возможности по моделированию на стороне клиента на основе дельт-обновлений (передача изменений состояния)."
       }
     ]
   },
   "news":{
-    "title":"News",
+    "title":"Где можно следить за новостями?",
     "cat":[
       {
-        "title":"Websites",
+        "title":"Вебсайты",
         "links":[
           {
             "name":"JavaScript.com",
             "url":"http://javascript.com",
-            "description":""
-          },
-          {
-            "name":"DailyJS",
-            "url":"http://dailyjs.com",
             "description":""
           },
           {
@@ -432,7 +427,7 @@
         ]
       },
       {
-        "title":"Newsletter",
+        "title":"Рассылки",
         "links":[
           {
             "name":"JavaScript Weekly",
@@ -489,10 +484,10 @@
     ]
   },
   "reading":{
-    "title":"Reading",
+    "title":"Что стоит прочитать?",
     "cat":[
       {
-        "title":"Articles",
+        "title":"Статьи",
         "credit":true,
         "box":false,
         "links":[
@@ -549,7 +544,7 @@
         ]
       },
       {
-        "title":"Books",
+        "title":"Книги",
         "credit":true,
         "box":false,
         "links":[
@@ -671,7 +666,7 @@
         ]
       },
       {
-        "title":"Free E-Books",
+        "title":"Бесплатные электронные книги",
         "credit":false,
         "box":true,
         "links":[
@@ -688,7 +683,7 @@
         ]
       },
       {
-        "title":"Portals",
+        "title":"Порталы",
         "credit":false,
         "box":true,
         "links":[
@@ -742,7 +737,7 @@
     ]
   },
   "podcasts":{
-    "title":"Podcasts",
+    "title":"Подкасты",
     "links":[
       {
         "name":"Ember Hot Seat",
@@ -782,7 +777,7 @@
     ]
   },
   "screencasts":{
-    "title":"Screencasts",
+    "title":"Скринкасты",
     "links":[
       {
         "name":"Egghead",
@@ -811,10 +806,10 @@
     ]
   },
   "whoToFollow":{
-    "title":"Who To Follow"
+    "title":"К кому стоит присмотреться"
   },
   "paasProviders":{
-    "title":"PaaS Provider",
+    "title":"Облачные сервисы",
     "links":[
       {
         "name":"Heroku",
@@ -849,7 +844,7 @@
     ]
   },
   "helpers":{
-    "title":"Helpers",
+    "title":"Утилиты",
     "links":[
       {
         "name":"npm",
@@ -920,9 +915,9 @@
     ]
   },
   "footer":{
-    "credit":"Created and maintained by",
-    "contributors":"Contributors",
-    "contribDesc":"This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+    "credit":"Создано и поддерживается",
+    "contributors":"Участники",
+    "contribDesc":"Этот проект не существовал бы без этих замечательных людей. Спасибо, ребята, что воплотили его в жизнь!",
     "licence":"{{@link=partials/licence.html}}"
   },
   "languages": [
