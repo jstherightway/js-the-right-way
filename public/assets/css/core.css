@@ -36,6 +36,11 @@ body {
     margin-left: -4px;
 }
 
+.adsbygoogle {
+    height: 90px;
+    display: block;
+}
+
 header {
     text-align: center;
     width: 100%;
@@ -170,7 +175,7 @@ header small {
 }
 
 .share .twitter-share-button {
-    width: 100px !important;
+    width: 72px !important;
 }
 
 .welcome {
@@ -478,6 +483,13 @@ header small {
 
 .screencasts-container a img{
     width: inherit;
+}
+
+#top-banner,
+#mid-banner,
+#foot-banner {
+    background: #505050;
+    text-align: center;
 }
 
 .source {

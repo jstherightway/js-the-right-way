@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5880565531223171",
+            enable_page_level_ads: true
+          });
+        </script>
         <meta charset="utf-8">
         <title>JS: A forma certa</title>
-        <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
+        <meta property="og:image" content="https://camo.githubusercontent.com/aaff5164e88291cf2bc33cfbdc259ce4d34935f3/687474703a2f2f692e696d6775722e636f6d2f6a6145626438302e706e67">
         <meta property="og:title" content="JS: A forma certa">
         <meta property="og:site_name" content="JS: A forma certa">
         <meta name="description" property="og:description" content="Uma referência rápida para as melhores práticas de como escrever JavaScript -- links para padrões de código e tutoriais de toda a web">
@@ -11,11 +18,23 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width,user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="stylesheet" href="/assets/css/core.min.css">
+        <link rel="manifest" href="manifest.json">
+
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
     <body class="ltr">
+        <section class="section" id="top-banner">
+            <!-- banner topo -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="9952620842" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+
         <header>
             <a href="https://github.com/braziljs/js-the-right-way/" class="github-corner">
                 <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#3A8AA5; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1)"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>
@@ -36,6 +55,7 @@
                     <li><a href="/zh-tw"> 繁體中文 </a></li>
                     <li><a href="/zh-cn"> 简体中文 </a></li>
                     <li><a href="/fa-ir"> فارسی </a></li>
+                    <li><a href="/ru-ru"> Русский </a></li>
                 </ul>
             </div>
         </header>
@@ -58,6 +78,13 @@
                     <div class="g-plusone" data-href="http://jstherightway.org" data-size="medium" data-annotation="bubble" data-width="300"></div>
 
                     <div class="fb-like" data-href="http://jstherightway.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top: 15px">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="MJGZYQTS9FGPG">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 </div>
             </section>
         </section>
@@ -67,11 +94,11 @@
               <h1>Ei, você!</h1>
 
 <p>
-    Esse é um guia com a intenção de apresentar novos desenvolvedores ao JavaScript e ajudar desenvolvedores experientes aprenderem mais sobre as melhores práticas.
+    Esse é um guia com a intenção de apresentar novos desenvolvedores ao JavaScript e ajudar desenvolvedores experientes a aprenderem mais sobre as melhores práticas.
 </p>
 
 <p>
-    Apesar do nome, esse guia não significa necessariamente "o único caminho" ao JavaScript
+    Apesar do nome, esse guia não significa necessariamente "o único caminho" em JavaScript.
 </p>
 
 <p>
@@ -114,7 +141,7 @@
 
     Antes de ganhar seu nome tão famoso hoje em dia, o JavaScript foi chamado de Mocha. Quando saiu pela primeira vez em uma versão beta foi chamado oficialmente de LiveScript e finalmente quando foi liberado pela Sun Microsystems foi batizado pelo nome que hoje nós conhecemos.
 
-    Devido a similaridade de nomes, algumas pessoas confundem o JavaScript com o Java. Embora ambos tenham a estrutura léxica da programação, elas não são a mesma linguagem.
+    Devido à similaridade de nomes, algumas pessoas confundem o JavaScript com o Java. Embora ambos tenham a estrutura léxica da programação, elas não são a mesma linguagem.
 
     Diferente do C, C# e do Java, o JavaScript é uma linguagem interpretada. Isso significa que ele precisa de um "interpretador". No caso do JavaScript, o interpretador é o navegador.
 </p>
@@ -122,18 +149,18 @@
 <h3>VERSÃO ATUAL</h3>
 
 <p>
-    O padrão do JavaScript é o ECMAScript. Em 2012 todo os navegadores modernos passaram a dar suporte ao ECMAScript 5.1. Navegadores antigos suportam pelo menos o ECMAScript 3. Uma sexta revisão desses padrões esta em andamento.
+    O padrão do JavaScript é o ECMAScript. Em 2012 todos os navegadores modernos passaram a dar suporte ao ECMAScript 5.1. Navegadores antigos suportam pelo menos o ECMAScript 3. Uma sexta revisão desses padrões está em andamento.
 </p>
 
 <p>
-    Uma boa referência para versões, referências e novidades sobre o JavaScript pode ser encontrada no 
+    Uma boa referência para versões, referências e novidades sobre o JavaScript pode ser encontrada no
     <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/JavaScript">Mozilla Developer Network</a>.
 </p>
 
 <h3>O DOM</h3>
 
 <p>
-    O Modelo de Objetos de Documentos é uma API para documentos HTML e XML. Ele fornece uma representação estrutural do documento, permitindo que você modifique seu conteúdo e sua apresentação visual usando linguagem de scripts como o JavaScript. Leia mais em <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/DOM/">Mozilla Developer Network - Referência do DOM</a>.
+  O Modelo de Objetos de Documentos é uma API para documentos HTML e XML. Ele fornece uma representação estrutural do documento, permitindo que você modifique seu conteúdo e sua apresentação visual usando linguagens de script como o JavaScript. Leia mais em <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/DOM/">Mozilla Developer Network - Referência do DOM</a>.
 </p>
 
             </div>
@@ -145,13 +172,13 @@
                 <h3>Convenções</h3>
 
 <p>
-    Assim como todas as linguagens, JavaScript tem muitos guias de estilo de código. Talvez o mais usado e recomendado seja o <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, mas recomendamos a leitura do <a target="_blank" href="https://github.com/rwaldron/idiomatic.js/tree/master/translations/pt_BR">Idiomatic.js</a>.
+    Assim como todas as linguagens, JavaScript tem muitos guias de estilo de código. Talvez o mais usado e recomendado seja o <a target="_blank" href="https://google.github.io/styleguide/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, mas recomendamos a leitura do <a target="_blank" href="https://github.com/rwaldron/idiomatic.js/tree/master/translations/pt_BR">Idiomatic.js</a>.
 </p>
 
-<h3>Analise de código (<i>Linting</i>)</h3>
+<h3>Análise de código (<i>Linting</i>)</h3>
 
 <p>
-    Nos dias de hoje a melhor ferramenta para analise de código em JavaScript é o <a target="_blank" href="http://www.jshint.com/">JSHint</a>. Nós recomendamos que sempre que possível você verifique o seu estilo de código e padrões com uma ferramenta de analise (<i>Lint Tool</i>).
+  Nos dias de hoje, a melhor ferramenta para analise de código em JavaScript é o <a target="_blank" href="http://www.jshint.com/">JSHint</a>. Nós recomendamos que sempre que possível você verifique o seu estilo de código e padrões com uma ferramenta de análise (<i>Lint Tool</i>).
 </p>
 
         </div></section>
@@ -169,17 +196,17 @@
     Fonte: <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introdução ao JavaScript Orientado a Objeto</a>
 </p>
 
-<h3>Funções anonimas</h3>
+<h3>Funções anônimas</h3>
 
 <p>
-    Funções anonimas são funções que são declaradas dinamicamentes em tempo de execução. Elas são chamadas de funções anonimas devido a elas não receberem um nome como as funções normais.
+    Funções anônimas são funções que são declaradas dinamicamente em tempo de execução. Elas são chamadas de funções anônimas devido ao fato de não receberem um nome, como as funções tradicionais.
 </p>
 
 <p class="source">
     Fonte: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
 </p>
 
-<h3>Funções como Objetos de primeira classe</h3>
+<h3>Funções como objetos de primeira classe</h3>
 
 <p>
     Funções em JavaScript são funções de primeira classe. Isso significa que no JavaScript as funções são um tipo especial de objeto que podem fazer todas as coisas que um objeto normal pode fazer.
@@ -192,7 +219,7 @@
 <h3>Tipagem fraca</h3>
 
 <p>
-    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser de uma segunda natureza. Entretanto, com o crescimento explosivo na demanda por aplicações web modernas, resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
+    Para muitos desenvolvedores <i>front-end</i>, o JavaScript foi o primeiro gostinho de uma linguagem de <i>script</i> e/ou de linguagem interpretada. Para esses desenvolvedores, os conceitos e implicações de variáveis de tipagem fraca podem ser naturais. Entretanto, o crescimento explosivo na demanda por aplicações web modernas resultou no crescimento do número de desenvolvedores <i>back-end</i> que tiveram que enfiar seus pés nas tecnologias de <i>client-side</i>. Muitos desses desenvolvedores estão chegando com conhecimentos de uma linguagem fortemente tipada, como c# ou Java, e não estão familiarizados com a liberdade e as armadilhas envolvidas em trabalhar com variáveis de tipagem fraca.
 </p>
 
 <p class="source">
@@ -202,11 +229,11 @@
 <h3>Escopos e elevação (<i>hoisting</i>)</h3>
 
 <p>
-    <b>Escopos:</b> Em JavaScript, funções são nosso <i>de fato</i> delimitador de escopo para declaração de variáveis, que significa que blocos usuais de loops e condicionais (como <i>if</i>, <i>for</i>, <i>while</i>, <i>switch</i> e <i>try</i>) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
+    <b>Escopos:</b> Em JavaScript, funções são nosso delimitador de escopo <i>de facto</i> para declaração de variáveis, o que significa que blocos usuais de loops e estruturas condicionais (como <i>if</i>, <i>for</i>, <i>while</i>, <i>switch</i> e <i>try</i>) NÃO delimitam escopos, diferente de muitas outras linguagens. Portanto, esses blocos irão compartilhar do mesmo escopo que a função que os contém. Dessa forma, pode ser perigoso declarar variáveis dentro de blocos, já que irá parecer que a variável pertence apenas ao bloco.
 </p>
 
 <p>
-    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, em ordem de evitar falsas expectativas com uma variável que foi declarada depois mas aconteceu de ter um valor anteriormente - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
+    <b>Elevação (<i>hoisting</i>):</b> Em tempo de execução, todas as variáveis e declarações de funções são movidas para o início de cada função (seu próprio escopo) - isso é conhecido como elevação (<i>hoisting</i>). Dito isso, é uma boa prática declarar todas as variáveis juntas na primeira linha, a fim de evitar falsas expectativas em relação a uma variável que foi declarada depois mas que acabou recebendo um valor antes - esse é um problema comum para programadores vindos de linguagens com escopos em blocos.
 </p>
 
 <p class="source">
@@ -223,12 +250,12 @@
     Fonte: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
 </p>
 
-<h3>Funções de fechamentos (<i>Closure</i>)</h3>
+<h3>Funções de fechamento (<i>Closures</i>)</h3>
 
 <p>
     <i>Closures</i> (fechamentos) são funções que se referem a variáveis livres (independentes). Em outras palavras, a função definida no <i>closure</i> "lembra" do ambiente em que ela foi criada.
-    
-    Esse é um importante conseito a ser entendido pois pode ser muito útil durante o desenvolvimento, como emulando métodos privados. Também pode ajudar a aprender como evitar erros comuns, como criando closures em loops.
+
+    Esse é um importante conceito a ser entendido, pois pode ser muito útil durante o desenvolvimento, como emulando métodos privados. Também pode ajudar a aprender como evitar erros comuns, como criando closures em loops.
  </p>
 
 <p class="source">
@@ -238,7 +265,7 @@
 <h3>Modo rigoroso</h3>
 
 <p>
-    O modo rigoroso do ECMAScript 5 é um modo de optar por uma restrita variação do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar por modo rigoroso incrementalmente.
+    O modo rigoroso do ECMAScript 5 é um modo de optar por uma variação restrita do JavaScript. O modo rigoroso não é apenas um subconjunto, ele intencionalmente tem a semântica diferente do código normal. Navegadores que não suportam o modo rigoroso irão executar o código com o comportamento diferente de navegadores que suportam, então não confie no modo restrito sem contar com testes de funcionalidades em aspectos relevantes do modo restrito. Modo rigoroso de código e não rigoroso podem coexistir, então scripts podem optar pelo modo rigoroso incrementalmente.
  </p>
 
 <p class="source">
@@ -248,7 +275,7 @@
 <h3>Expressão de Função Invocada Imediatamente (IIFE - Immediately-Invoked Function Expression)</h3>
 
 <p>
-    Uma função imediata é um padrão que produz um escopo léxico unado a função de escopo do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (<i>hoisting</i>) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retem a privacidade para as variáveis declaradas dentro da função.<br><br>
+    Uma função imediata é um padrão que produz um escopo léxico usando os escopos de função do JavaScript. Funções imediatas podem ser usadas para evitar a elevação de variáveis (<i>hoisting</i>) dentro de blocos, protegendo o ambiente global de ser poluído e simultanamente permite o acesso público a métodos enquanto retém a privacidade para as variáveis declaradas dentro da função.<br><br>
    <i>Esse padrão tem sido referenciado como função anônima de auto execução, mas <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais semântico para o padrão</i>.
 </p>
 
@@ -266,11 +293,11 @@
                 <h3>Descrição</h3>
 
                 <p>
-                    Enquanto o JavaScript contém padrões de projeto que são exclusivos da linguagem, outros padrões clássicos também podem ser implementados.
+                    Apesar de o JavaScript possuir padrões de projeto exclusivos da linguagem, outros padrões clássicos também podem ser implementados.
                 </p>
 
                 <p>
-                    Uma boa maneira de aprender eles é ler o livro de código aberto <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> do <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>. A maioria dos links são baseados nesse livro.
+                    Uma boa maneira de aprendê-los é ler o livro de código aberto <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a> do <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>. A maioria dos links abaixo são baseados nesse livro.
                 </p>
 
                 <h3>Padrões de projeto (<i>Design Patterns</i>)</h3>
@@ -338,7 +365,7 @@
 
         <section class="section" id="testing-tools">
             <div class="wrapper">
-                <h1><a href="#testing-tools">FERRAMENTAS DE TESTE</a></h1>
+                <h1><a href="#testing-tools">FERRAMENTAS DE TESTES</a></h1>
                 <h3>Descrição</h3>
 
 <p>Várias bibliotecas e frameworks para fazer testes em JavaScript.</p>
@@ -379,7 +406,7 @@
                 </section>
 
                 <p class="source">
-                  Mantida pelo time por trás do AngularJS. Maioria por <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
+                  Mantida pelo time por trás do AngularJS. Em maior parte por <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -406,7 +433,7 @@
                 </section>
 
                 <p class="source">
-                  Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de teste unit. Criado por <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS community</a>
+                  Espiões de teste standalone, stubs (esboços) e mocks (simulação/imitação) para JavaScript. Sem dependências, funciona com qualquer framework de testes unitários. Criado por <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS community</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -415,7 +442,7 @@
                 </section>
 
                 <p class="source">
-                  Um helper de teste para fazer mocks de funções e de objetos XHR, mantido por <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
+                  Um helper de testes para fazer mocks de funções e de objetos XHR, mantido por <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -425,6 +452,15 @@
 
                 <p class="source">
                   Test runner with asynchronous tests, maintained by <a target="_blank" href="https://twitter.com/sindresorhus">Sindre Sorhus</a>
+                </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/facebook/jest">Jest</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  Painless JavaScript Testing, maintained by <a target="_blank" href="https://github.com/facebook">Facebook</a>
                 </p>
 
             </div>
@@ -506,7 +542,7 @@
                 </section>
 
                 <p class="source">
-                  Simplifica interfaces de clientes dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM).
+                  Simplifica interfaces de cliente dinâmicas criadas em JavaScript aplicando o modelo <i>Model-View-View</i> (MVVM).
                 </p>
                 <section class="txt">
                     <ul>
@@ -542,7 +578,7 @@
                 </section>
 
                 <p class="source">
-                  Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, sendo você um desenvolvedor experiente ou que esta apenas começando.
+                  Meteor é uma plataforma de código aberto para criação rápida de aplicações web de alta qualidade, seja você um desenvolvedor experiente ou que está apenas começando.
                 </p>
                 <section class="txt">
                     <ul>
@@ -579,7 +615,16 @@
                 </section>
 
                 <p class="source">
-                  Criado pelo Facebook. React é uma biblioteca JavaScript para criação de interfaces de usuários do Facebook e do Instagram. Muitas pessoas escolhem em pensar no React como o V do MVC.
+                  Criado pelo Facebook. React é uma biblioteca JavaScript para criação de interfaces de usuários do Facebook e do Instagram. Muitas pessoas enxergam o React como o V do MVC.
+                </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.vuejs.org">Vue.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  É uma biblioteca MVVM que provê two-way data binding, adiciona comportamento adicional ao HTML (através de diretivas) e componentes reativos. Ao utilizar add-ons nativos o desenvolvedor pode também contar com rotas, AJAX, gerenciamento de fonte de dados ao estilo Flux, validação de formulários e mais. Provê uma extensão para Chrome que é muito útil para inspecionar componentes construídos com Vue.
                 </p>
                 <section class="txt">
                     <ul>
@@ -588,7 +633,7 @@
                 </section>
 
                 <p class="source">
-                  Handlebars fornece eficazmente o poder necessário para você criar templates semânticos sem frustrações.
+                  Handlebars fornece de forma eficaz o poder necessário para você criar templates semânticos sem frustrações.
                 </p>
                 <section class="txt">
                     <ul>
@@ -616,7 +661,7 @@
                 </section>
 
                 <p class="source">
-                  Bounce.js é uma biblioteca JavaScript e uma ferramenta que permite você criar lindas e incrementadas animações do CSS3.
+                  Bounce.js é uma biblioteca JavaScript e uma ferramenta que permite você criar lindas animações em CSS3.
                 </p>
                 <section class="txt">
                     <ul>
@@ -625,7 +670,7 @@
                 </section>
 
                 <p class="source">
-                  Uma biblioteca JavaScript simples mas poderosa para interpolação e animação de HTML5 e propriedades do JavaScript.
+                  Uma biblioteca JavaScript simples mas poderosa para interpolar e animar propriedades HTML5 e JavaScript.
                 </p>
                 <section class="txt">
                     <ul>
@@ -634,7 +679,7 @@
                 </section>
 
                 <p class="source">
-                  Move.js é uma biblioteca JavaScript pequena que torna animações do CSS3 super simples e elegante.
+                  Move.js é uma biblioteca JavaScript pequena que torna animações em CSS3 super simples e elegantes.
                 </p>
                 <section class="txt">
                     <ul>
@@ -643,7 +688,7 @@
                 </section>
 
                 <p class="source">
-                  SVG é um excelente caminho para criação de vetores de gráfico interativos e independentes de resolução, ficará bonito em qualquer tamanho de tela.
+                  SVG é uma excelente forma de criar gráficos vetoriais interativos e independentes de resolução que ficam ótimos em qualquer tamanho de tela.
                 </p>
                 <section class="txt">
                     <ul>
@@ -652,7 +697,7 @@
                 </section>
 
                 <p class="source">
-                  Rekapi é uma biblioteca para criação de  animações de canvas e DOM com JavaScript, assim como animações @keyframe do CSS para navegadores modernos.
+                  Rekapi é uma biblioteca para fazer animações canvas e DOM com JavaScript, assim como animações @keyframe do CSS, para navegadores modernos.
                 </p>
                 <section class="txt">
                     <ul>
@@ -670,7 +715,7 @@
                 </section>
 
                 <p class="source">
-                  Textillate.js combina algumas bibliotecas impressionantes para fornecer um plugin fácil de usar para aplicar animações de CSS3 em qualquer texto.
+                  Textillate.js combina algumas bibliotecas impressionantes para fornecer um plugin fácil de usar para aplicar animações CSS3 em qualquer texto.
                 </p>
                 <section class="txt">
                     <ul>
@@ -690,6 +735,15 @@
                 <p class="source">
                   Com a Anima é fácil de animar mais de cem objetos de cada vez. Cada item pode ter sua massa e viscosidade para simular objetos da vida real!
                 </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://lvivski.com/anima/">Anima.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!
+                </p>
             </div>
         </section>
 
@@ -706,7 +760,7 @@
                 </section>
 
                 <p class="source">
-                  MelonJS é um motor de jogos leve e grátis. O motor integra o formato de mapa em ladrilhos (azulejos) tornando o level de design fácil.
+                  MelonJS é um motor de jogos leve e grátis. O motor integra o formato tiled map, tornando o level design mais fácil.
                 </p>
                 <section class="txt">
                     <ul>
@@ -715,7 +769,7 @@
                 </section>
 
                 <p class="source">
-                  ImpactJS é um dos motores de jogos mais testados e fielmente HTML5, com sua primeira publicação no final de 2010. Ele é muito bem mantido e atualizado, conta com uma boa comunidade dando suporte. A documentação é boa e conta com dois livros falando sobre criação de jogos com esse motor.
+                  ImpactJS é um dos motores de jogos mais "testados e aprovados" em HTML5, com sua primeira publicação no final de 2010. Ele é muito bem mantido e atualizado, conta com uma boa comunidade dando suporte. A documentação é boa e conta com dois livros falando sobre criação de jogos com esse motor.
                 </p>
                 <section class="txt">
                     <ul>
@@ -733,7 +787,7 @@
                 </section>
 
                 <p class="source">
-                  Crafty é um motor de jogo lançado no final de 2010. Crafty torna realmente fácil o inicio do desenvolvimento de jogos com JavaScript.
+                  Crafty é um motor de jogo lançado no final de 2010. Crafty torna realmente fácil começar a desenvolver jogos com JavaScript.
                 </p>
                 <section class="txt">
                     <ul>
@@ -742,7 +796,7 @@
                 </section>
 
                 <p class="source">
-                  Cocos2d-html5 é um framework de código aberto para desenvolvimento de jogos web em 2D, lançado sob a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco para o desenvolvimento do Cocos2d-html5, esta em torno de fazer o Cocos2d multiplataforma entre navegadores e aplicações nativas.
+                  Cocos2d-html5 é um framework de código aberto para desenvolvimento de jogos web em 2D, lançado sob a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco para o desenvolvimento do Cocos2d-html5 está em torná-lo multiplataforma entre navegadores e aplicações nativas.
                 </p>
                 <section class="txt">
                     <ul>
@@ -778,7 +832,7 @@
                 </section>
 
                 <p class="source">
-                  Quintus é um motor de jogos HTML5 designado a ser modular e leve, com uma sintaxe concisa e bem próxima ao JavaScript.
+                  Quintus é um motor de jogos HTML5 projetado para ser modular e leve, com uma sintaxe concisa e bem próxima ao JavaScript.
                 </p>
                 <section class="txt">
                     <ul>
@@ -800,15 +854,32 @@
                 </p>
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="https://github.com/ondras/rot.js">Rot.js</a></li>
+                        <li><a target="_blank" href="http://www.isogenicengine.com/">Isogenic</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                  Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment.
+                  Isogenic é um motor de jogos que fornece as mais avançadas funcionalidades de rede e multiplayer em tempo real disponíveis em qualquer motor de jogos HTML 5. O sistema é baseado em streaming de entidades e inclui opções poderosas de simulação e interpolação de entidades no client a partir de delta updates.
+                </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.isogenicengine.com/">Isogenic</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. 
                 </p>
 
             </div>
+        </section>
+
+        <section class="section" id="mid-banner">
+            <!-- banner meio -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="5382820448" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
 
         <section class="section" id="news">
@@ -819,9 +890,6 @@
                 <div class="links-container">
                     <p class="source link">
                         <a href="http://javascript.com" target="_blank">JavaScript.com</a>
-                    </p>
-                    <p class="source link">
-                        <a href="http://dailyjs.com" target="_blank">DailyJS</a>
                     </p>
                     <p class="source link">
                         <a href="http://www.echojs.com" target="_blank">Echo JS</a>
@@ -1394,7 +1462,7 @@
                         <a href="https://www.openshift.com" target="_blank">OpenShift</a>
                     </p>
                     <p class="source link">
-                        <a href="http://getupcloud.com/index_en.html" target="_blank">dotCloud</a>
+                        <a href="http://getupcloud.com" target="_blank">Getup</a>
                     </p>
                     <p class="source link">
                         <a href="http://www.windowsazure.com/en-us/develop/nodejs" target="_blank">Windows Azure</a>
@@ -1503,6 +1571,14 @@
 
 
             </div>
+        </section>
+
+        <section class="section" id="foot-banner">
+            <!-- banner rodape -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="6859553646" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-2.2.2.min.js"></script>

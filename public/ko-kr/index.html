@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5880565531223171",
+            enable_page_level_ads: true
+          });
+        </script>
         <meta charset="utf-8">
         <title>JS: The Right Way</title>
-        <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
+        <meta property="og:image" content="https://camo.githubusercontent.com/aaff5164e88291cf2bc33cfbdc259ce4d34935f3/687474703a2f2f692e696d6775722e636f6d2f6a6145626438302e706e67">
         <meta property="og:title" content="JS: The Right Way">
         <meta property="og:site_name" content="JS: The Right Way">
         <meta name="description" property="og:description" content="JavaScript를 작성할 때 있어서 최고의 방법들에 대한 간편한 참고문헌입니다. 웹에 있는 코드 패턴들과 튜토리얼들의 링크를 포함하고 있습니다.">
@@ -11,11 +18,23 @@
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
         <meta name="viewport" content="width=device-width,user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <link rel="stylesheet" href="/assets/css/core.min.css">
+        <link rel="manifest" href="manifest.json">
+
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
     </head>
 
     <body class="ltr">
+        <section class="section" id="top-banner">
+            <!-- banner topo -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="9952620842" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+
         <header>
             <a href="https://github.com/braziljs/js-the-right-way/" class="github-corner">
                 <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#3A8AA5; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1)"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg>
@@ -36,6 +55,7 @@
                     <li><a href="/zh-tw"> 繁體中文 </a></li>
                     <li><a href="/zh-cn"> 简体中文 </a></li>
                     <li><a href="/fa-ir"> فارسی </a></li>
+                    <li><a href="/ru-ru"> Русский </a></li>
                 </ul>
             </div>
         </header>
@@ -58,6 +78,13 @@
                     <div class="g-plusone" data-href="http://jstherightway.org" data-size="medium" data-annotation="bubble" data-width="300"></div>
 
                     <div class="fb-like" data-href="http://jstherightway.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top: 15px">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="MJGZYQTS9FGPG">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 </div>
             </section>
         </section>
@@ -144,7 +171,7 @@
                 <h3>컨벤션 (코드 작성 규칙)</h3>
 
 <p>
-    다른 언어들과 마찬가지로 JavaScript에도 다양한 코딩 스타일 규칙이 있습니다. 아마도 가장 많은 이들이 사용하고, 추천하는 것은 <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">구글 JavaScript 코드 스타일 규칙</a>일 것입니다. 하지만 우리는 당신에게 <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a> 를 읽어볼 것을 추천합니다.
+    다른 언어들과 마찬가지로 JavaScript에도 다양한 코딩 스타일 규칙이 있습니다. 아마도 가장 많은 이들이 사용하고, 추천하는 것은 <a target="_blank" href="https://google.github.io/styleguide/javascriptguide.xml">구글 JavaScript 코드 스타일 규칙</a>일 것입니다. 하지만 우리는 당신에게 <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a> 를 읽어볼 것을 추천합니다.
 </p>
 
 <h3>린팅 (코드 스타일 검사)</h3>
@@ -423,6 +450,15 @@
                 <p class="source">
                   Test runner with asynchronous tests, maintained by <a target="_blank" href="https://twitter.com/sindresorhus">Sindre Sorhus</a>
                 </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/facebook/jest">Jest</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  Painless JavaScript Testing, maintained by <a target="_blank" href="https://github.com/facebook">Facebook</a>
+                </p>
 
             </div>
         </section>
@@ -596,6 +632,15 @@
                 <p class="source">
                   브라우저와 node.js를 위한 비동기 템플릿 라이브러리입니다.
                 </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://linkedin.github.io/dustjs">Dust.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  Asynchronous templates for the browser and node.js.
+                </p>
                 <h3>애니메이션</h3>
                 <section class="txt">
                     <ul>
@@ -686,6 +731,15 @@
 
                 <p class="source">
                   Anima로 수백 개의 객체의 애니메이션을 쉽게 만들 수 있습니다. 각 객체는 질량과 점성을 가질 수 있어서 실제 세계의 객체를 모방할 수 있습니다!
+                </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://lvivski.com/anima/">Anima.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!
                 </p>
             </div>
         </section>
@@ -804,8 +858,25 @@
                 <p class="source">
                   Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment.
                 </p>
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.isogenicengine.com/">Isogenic</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                  Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. 
+                </p>
 
             </div>
+        </section>
+
+        <section class="section" id="mid-banner">
+            <!-- banner meio -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="5382820448" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
 
         <section class="section" id="news">
@@ -816,9 +887,6 @@
                 <div class="links-container">
                     <p class="source link">
                         <a href="http://javascript.com" target="_blank">JavaScript.com</a>
-                    </p>
-                    <p class="source link">
-                        <a href="http://dailyjs.com" target="_blank">DailyJS</a>
                     </p>
                     <p class="source link">
                         <a href="http://www.echojs.com" target="_blank">Echo JS</a>
@@ -1391,7 +1459,7 @@
                         <a href="https://www.openshift.com" target="_blank">OpenShift</a>
                     </p>
                     <p class="source link">
-                        <a href="http://getupcloud.com/index_en.html" target="_blank">dotCloud</a>
+                        <a href="http://getupcloud.com/en/" target="_blank">Getup</a>
                     </p>
                     <p class="source link">
                         <a href="http://www.windowsazure.com/en-us/develop/nodejs" target="_blank">Windows Azure</a>
@@ -1500,6 +1568,14 @@
 
 
             </div>
+        </section>
+
+        <section class="section" id="foot-banner">
+            <!-- banner rodape -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5880565531223171" data-ad-slot="6859553646" data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
 
         <script type="text/javascript" src="//code.jquery.com/jquery-2.2.2.min.js"></script>
