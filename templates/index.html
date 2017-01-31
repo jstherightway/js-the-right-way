@@ -129,6 +129,23 @@
             </div>
         </section>
 
+        <section class="section" id="must-see">
+            <div class="wrapper">
+                <h1><a href="#must-see">{{ mustSee.title }}</a></h1>
+
+                <section class="video-list">
+                    {{#mustSee.videos}}
+                    <section class="video-item">
+                        <h5>{{title}}</h5>
+                        <div class="video-wrapper">
+                            <iframe width="560" height="315" src="{{url}}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </section>
+                    {{/mustSee.videos}}
+                </section>
+            </div>
+        </section>
+
         <section class="section" id="patterns">
             <div class="wrapper">
                 <h1><a href="#patterns">{{ patterns.title}}</a></h1>

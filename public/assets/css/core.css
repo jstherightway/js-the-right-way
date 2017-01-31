@@ -268,14 +268,13 @@ header small {
     text-decoration: none;
 }
 
-.section h3 {
+.section h3, .section h5  {
     border-bottom: 3px solid rgba(0, 0, 0, 0.08);
     display: inline-block;
     text-transform: uppercase;
     clear: both;
     float: left;
 }
-
 .section h4 {
     float: left;
     clear: both;
@@ -284,6 +283,11 @@ header small {
     color: #000;
     font-size: 20px;
     text-align: center;
+}
+
+.section h5 {
+  float: none;
+  font-size: 16px;
 }
 
 .section ul {
@@ -322,6 +326,35 @@ header small {
 
 #the-good-parts {
     background: #C35C48;
+}
+
+#must-see {
+    background: #5844c0;
+}
+
+#must-see .video-list {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#must-see .video-list {
+
+}
+
+#must-see .video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+#must-see .video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #patterns {
