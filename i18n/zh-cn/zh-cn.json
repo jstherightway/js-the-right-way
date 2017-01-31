@@ -21,6 +21,10 @@
         "url":"#the-good-parts"
       },
       {
+        "title": "Must See",
+        "url": "#must-see"
+      },
+      {
         "title":"设计模式",
         "url":"#patterns"
       },
