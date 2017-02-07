@@ -194,6 +194,11 @@
             "description":"Erstellt von Google, Angular.js ist eine Art Polyfill für die Zukunft von HTML."
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"Ein framework.Mobile & desktop. Eine Möglichkeit, Anwendungen mit Angular zu erstellen und Ihren Code und Fähigkeiten zu verwenden, um Anwendungen für jedes Deployment-Ziel zu erstellen. Für Web, mobiles Web, native mobile und native Desktop."
+          },
+          {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
             "description":"Cappuccino ist ein quelloffenes Framework, welches die Erstellung von Desktop-Caliber-Anwendungen, die im Webbrowser laufen, vereinfacht."
