@@ -196,7 +196,7 @@
           {
             "name":"Angular",
             "url":"https://angular.io",
-            "description":"One framework.Mobile & desktop. One way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop."
+            "description":"One framework.Mobile &amp; desktop. One way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop."
           },
           {
             "name":"Cappuccino",
