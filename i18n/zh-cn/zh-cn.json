@@ -189,6 +189,11 @@
             "description":"由 Google 建立，Angular.js 类似 polyfill 用于 HTML。"
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"一个framework.Mobile和桌面。 一种使用Angular创建应用程序的方法，并使用您的代码和技能为每个部署目标创建应用程序。 对于web，移动网站，本机手机和本地桌面。"
+          },
+          {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
             "description":"Cappuccino 是一个可以让人简单搭建运行在浏览器的桌面应用的开源框架。"

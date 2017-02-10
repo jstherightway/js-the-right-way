@@ -189,6 +189,11 @@
             "description":"Google이 개발한 Angular.js는 마치 미래의 HTML을 위한 polyfill 같습니다."
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"프레임 워크입니다. 모바일 및 데스크톱입니다. Angular로 응용 프로그램을 만들고 코드와 기술을 사용하여 각 배포 목표에 맞는 응용 프로그램을 만드는 한 가지 방법입니다. 웹, 모바일 웹, 기본 휴대 전화 및 기본 데스크탑 용."
+          },
+          {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
             "description":"Cappuccino는 데스크톱 앱 품질의 웹 애플리케이션을 쉽게 개발할 수 있게 해주는 오픈소스 프레임워크입니다."

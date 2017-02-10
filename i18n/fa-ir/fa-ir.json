@@ -194,6 +194,11 @@
             "description":"Built by Google, Angular.js is like a polyfill for the future of HTML."
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"One framework.Mobile &amp; desktop. One way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop."
+          },
+          {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
             "description":"Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."

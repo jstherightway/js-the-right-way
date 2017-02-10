@@ -189,6 +189,11 @@
             "description":"Criado pelo Google, Angular.js é como um <i>polyfill</i> para o futuro do HTML."
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"Um framework.Mobile &amp; desktop. Uma maneira de criar aplicativos com o Angular e usar seu código e habilidades para criar aplicativos para cada meta de implantação. Para web, web móvel, telefone móvel nativo e desktop nativo."
+          },
+          {
             "name":"Cappuccino",
             "url":"http://cappuccino.org",
             "description":"Cappuccino é um framework de código aberto que torna fácil a criação de aplicações parecidas com desktop que rodam em um navegador."
