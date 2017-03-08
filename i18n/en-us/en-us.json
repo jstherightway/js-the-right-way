@@ -352,8 +352,8 @@
       },
       {
         "name":"WhitestormJS",
-        "url":"https://github.com/sasha240100/WhitestormJS",
-        "description":"WhitestormJS is a 3D game engine based on THREE.js and cannon.js (physics)."
+        "url":"https://github.com/WhitestormJS/whitestorm.js",
+        "description":"Super-fast 3D framework for Web Applications & Games. Based on Three.js"
       }
     ]
   },
