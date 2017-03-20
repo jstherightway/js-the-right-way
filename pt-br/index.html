@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript: O jeito certo</title>
+        <meta property="og:image" content="http://www.jstherightway.org/images/og-logo.png">
+        <meta property="og:title" content="Javascript: O jeito certo">
+        <meta property="og:site_name" content="Javascript: O jeito certo">
+        <meta name="description" property="og:description" content="A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web">
+        <meta property="og:url" content="http://www.jstherightway.org">
+        <meta property="og:type" content="website">
+        <meta name="robots" content="index,follow,archive">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="../css/core.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a class="fork-me" href="https://github.com/braziljs/js-the-right-way" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+
+            <div class="wrapper">
+                <h1>JavaScript</h1>
+                <small>O jeito certo</small>
+            </div>
+        </header>
+
+        <section class="social">
+            <section class="github">
+                <div class="wrapper">
+                    <iframe class="gh-button" src="http://ghbtns.com/github-btn.html?user=braziljs&amp;repo=js-the-right-way&amp;type=watch&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+                    <iframe class="gh-button" src="http://ghbtns.com/github-btn.html?user=braziljs&amp;repo=js-the-right-way&amp;type=fork&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+
+                    <iframe class="gh-follow-button" src="http://ghbtns.com/github-btn.html?user=gnuwilliam&amp;type=follow&amp;count=true"
+        allowtransparency="true" frameborder="0" scrolling="0" width="175" height="20"></iframe>
+                </div>
+            </section>
+
+            <section class="share">
+                <div class="wrapper">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.jstherightway.org/" data-size="medium" data-hashtags="js">Tweet</a>
+
+                    <div class="g-plusone" data-href="http://jstherightway.org" data-size="medium" data-annotation="bubble" data-width="300"></div>
+
+                    <div class="fb-like" data-href="http://jstherightway.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                </div>
+            </section>
+        </section>
+
+        <section class="welcome">
+            <div class="wrapper">
+                <h1>Ei, você!</h1>
+
+                <p>
+                    Este guia tem a intenção de introduzir novos desenvolvedores a linguagem Javascript e ajudar desenvolvedores experientes a aprender mais sobre as melhores práticas.
+                </p>
+
+                <p>
+                    Apesar de o nome ser "O jeito certo", esse guia não é a única forma de escrever Javascript.
+                </p>
+
+                <p>
+                    Nós reunimos artigos, dicas e truques dos principais desenvolvedores. Já que vem de pessoas excepcionais, podemos dizer que é "a melhor forma" ou maneira de faze-lo.
+                </p>
+            </div>
+        </section>
+
+        <section class="main" id="main">
+            <div class="wrapper">
+                <h1><a href="#main">Escolha seu caminho</a></h1>
+
+                <ul>
+                    <li><a href="#getting-started">Iniciando</a></li>
+                    <li><a href="#js-code-style">Estilo de código Javascript</a></li>
+                    <li><a href="#the-good-parts">As boas partes</a></li>
+                    <li><a href="#patterns">Padrões</a></li>
+                    <li><a href="#testing-tools">Ferramentas de testes</a></li>
+                    <li><a href="#frameworks">Frameworks</a></li>
+                    <li><a href="#game-engines">Game Engines</a></li>
+                    <li><a href="#news">Novidades</a></li>
+                    <li><a href="#reading">Leituras</a></li>
+                    <li><a href="#podcasts">Podcasts</a></li>
+                    <li><a href="#screencasts">Screencasts</a></li>
+                    <li><a href="#whotofollow">Quem seguir?</a></li>
+                    <li><a href="#paas">PaaS Providers</a></li>
+                    <li><a href="#helpers">Ajuda</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="getting-started">
+            <div class="wrapper">
+                <h1><a href="#getting-started">INICIANDO</a></h1>
+
+                <h3>SOBRE</h3>
+
+                <p>
+                    Criado pela Netscape em 1995 como uma extensão do HTML para o Navegador Netscape 2.0, Javascript teve como função principal a manipulação de documentos HTML e validação de formulários.
+
+                    Antes de ganhar este nome tão famoso hoje em dia, Javascript foi chamado de Mocha. Quando enviado pela primeira vez em versões beta, foi oficialmente chamado de LiveScript e quando foi lançado oficialmente pela Sun Microsystems foi batizado pelo nome qual é conhecido hoje.
+
+                    Por causa desses nome similares, as pessoas confudem Javascript com Java. Embora ambos tenham a estrutura léxical de programação, eles não são a mesma lingua.
+
+                    Diferente de C, C# e Java, Javascript é uma linguagem interpretada. Isso significa que é necessário um "intérprete". No caso do Javascript, o "intérprete" é o navegador.
+                </p>
+
+                <h3>VERSÃO ATUAL</h3>
+
+                <p>
+                    O norma Javascript é ECMAScript. A partir de 2012, todos os navegadores modernos suportam totalmente o ECMAScript 5.1. Navegadores antigos suportam pelo menos a versão ECMAScript 3. Uma grande revisão do padrão 6 está sendo trabalhado.
+                </p>
+
+                <p>
+                    Uma boa referência para versões, referências e novidades sobre Javascript podem ser achadas em <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
+                </p>
+
+                <h3>O DOM</h3>
+
+                <p>
+                    O Document Object Model (DOM) é uma API para documentos HTML e XML. Que permite que você modifique o seu conteúdo e apresentação visual usando uma linguagem de script como Javascript. Veja mais no <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a> 
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="js-code-style">
+            <div class="wrapper">
+                <h1><a href="#js-code-style">ESTILO DE CÓDIGO JAVASCRIPT</a></h1>
+
+                <h3>Convenções</h3>
+
+                <p>
+                    Como todas as linguagens, Javascript tem muito guia de estilo de código. Talvez o mais recomendado é o <a target="_blank" href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Guia de Estilo de código do Google para Javascript</a>, mas nós recomendamos para você ler o <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
+                </p>
+
+                <h3>Linting</h3>
+
+                <p>
+                    Hoje em dia a melhor ferramenta para linting é a <a target="_blank" href="http://www.jshint.com/">JSHint</a>. Nós recomendamos sempre que possivel que você verifique seu estilo de código padrões com uma ferramenta Lint.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="the-good-parts">
+            <div class="wrapper">
+                <h1><a href="#the-good-parts">AS BOAS PARTES</a></h1>
+
+                <h3>Orientação a Objetos</h3>
+
+                <p>
+                    Javascript tem uma forte orintação a objetos. Apesar de alguns debates ocorrerem devido às diferenças em Javascript orienta a objetos em comparação com outras linguagens.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object-Oriented JavaScript</a>
+                </p>
+
+                <h3>Funções anônimas</h3>
+
+                <p>
+                    Funções anônimas são funções que são declaradas dinamicamente em tempo de execução. Elas são chamadas de funções anônimas porque elas não recebem um nome da mesma forma que as funções normais.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+                </p>
+
+                <h3>Funções como Objetos de Primeira Classe</h3>
+
+                <p>
+                    Funções em Javascript são objetos de primeira classe. Isso significa que as funções JavaScript são apenas um tipo especial de objeto que pode fazer todas as coisas que os objetos comuns podem fazer.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+                </p>
+
+                <h3>Fracamente Tipada</h3>
+
+                <p>
+                    Para muitos desenvolvedores front-end, Javascript foi seu primeiro gosto como uma linguagem de script e/ou interpretação. Para esses desenvolvedores os conceitos e implicações de váriaveis fracamente tipadas pode ser uma segunda natureza. No entanto, o crescimento explosivo de aplicações modernas resultou em um número crescente de desenvolvedores de back-end que tiveram que mergulhar os pés na piscina de tecnologias no lado cliente. Muito desses desenvolvedores estão vindo de linguagens fortemente tipadas como C# ou Java, e eles não são familiares com a liberdade e o potencial que envolve o trabalho com váriaveis fracamente tipadas.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+                </p>
+
+                <h3>Escopo e Hoisting</h3>
+
+                <p>
+                    <b>Escopo:</b> em Javascript, as nossas funções são de fato os delimitadores de escopo para váriaveis. Significa que bloqueia eventuais loops e condicionais (como if, for, while, switch e try) não delimitam o escopo. Ao contrário da maioria das outras linguagens. Portanto, esses blocos irão compartilhar o mesmo escopo que as funções que os contém. Desta forma, pode ser perigoso declarar váriaveis em blocos pode parecer que a váriavel pertence apenas a este bloco.
+                </p>
+
+                <p>
+                    <b>Hoisting:</b> Em tempo de execução, todas as declarações de váriaveis e funções são movidas para o inicio de cada função(no seu escopo) - isto é conhecido como hoisting. Dito assim, é uma boa prática declarar todas as váriaves completamente na primeira linha, a fim de evitar falsas expectativas com a váriavel que tem declaração mais tarde, mas aconteceu para manter um valor antes - este é um problema comum para programadores proveniente de linguagens com escopo de bloco.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+                </p>
+
+                <h3>Função Binding</h3>
+
+                <p>
+                    Função binding é provavelmente a menor de suas preocupações quando começando com Javascript, mas quando você percebe que precisa de uma solução para o problema de como manter o contexto deste dentro de outra função, então você pode perceber que o que você realmente precisa é de <b>Function.prototype.bind()</b>.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+                </p>
+
+                <h3>Funções Closure</h3>
+
+                <p>
+                    Closures são funções que se referem a váriaveis independentes(livres). Em outras palavras, as funções definidas em uma closure "lembra-se" ao ambiente na qual ele foi criado.
+        		    É um conceito importante para compreender como ele pode ser útil durante o desenvolvimento, como emular metódos privados. E também pode aprender a evitar erros comuns, como criar closures em loops.
+                 </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+                </p>
+
+          	    <h3>Modo Estrito</h3>
+
+                <p>
+                    Modo estrito do ECMAScript 5 é uma forma de optar por uma variante de Javascript. Modo estrito não é apenas um subconjunto: intencionalmente tem diferentes semânticas de código normal. Navegadores que não suportam o modo estrito irão rodar o modo estrito diferentes dos navegadores que suportam, então não dependem do modo estrito, sem recurso de teste de suporte para os aspectos relevantes para o modo estrito. Código de modo estrito e não estrito podem coexistir, de modo que os scripts podem optar o modo estrito de forma incremental.
+                 </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+                </p>
+
+                <h3>Funções de chamadas imediatas(Immediately-Invoked Function Expression(IIFE))</h3>
+
+                <p>
+                   Uma função de chamada imediata é um padrão que produz um escopo léxico usando a função de definição do âmbito de Javascript. Funções imeditas podem ser usadas para evitar elevação de váriavel de dentro de blocos, proteger contra a poluição do ambiente global e simultaneamente permitir o acesso público aos métodos, mantendo a privacidade para as váriaveis definidas dentro da função.<br/><br/>
+                   <i>Esse padrão tem sido referida como uma função anônima auto-executável, mas o <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduziu o termo IIFE como um termo mais preciso semanticamente para o padrão</i>.
+                </p>
+
+                <p class="source">
+                    Fonte: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+                </p>
+
+
+            </div>
+        </section>
+
+        <section class="section" id="patterns">
+            <div class="wrapper">
+                <h1><a href="#patterns">PADRÕES</a></h1>
+
+                <h3>Descrição</h3>
+
+                <p>
+                    Enquanto Javascript contém padrões de projetos que são exclusivos da linguagem, muitos padrões de design clássicos também podem ser implementados.
+                </p>
+
+                <p>
+                    A melhor forma de aprender sobre isso é lendo o <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">livro</a> de código aberto do <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>. Chamado <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Aprendendo Padrões de Projetos Javascript</a>.
+                </p>
+
+                <h3>Padrões de Projetos</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#factorypatternjavascript'>Factory</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#prototypepatternjavascript'>Prototype</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript'>Mixin</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript'>Singleton</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Padrões de Projetos Criacionais
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery'>Adapter</a></li>
+                        <li><a target="_blank" href='http://www.joezimjs.com/javascript/javascript-design-patterns-bridge/'>Bridge</a></li>
+                        <li><a target="_blank" href='http://www.joezimjs.com/javascript/javascript-design-patterns-composite/'>Composite</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript'>Decorator</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#facadepatternjavascript'>Facade</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailflyweight'>Flyweight</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript'>Module</a></li>
+                        <li><a target="_blank" href='http://www.joezimjs.com/javascript/javascript-design-patterns-proxy/'>Proxy</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript'>Revealing Module</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Padrões de Projetos Estruturais
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/'>Chain of Responsibility</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript'>Command</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript'>Mediator</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript'>Observer</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Padrões de Projetos Comportamentais
+                </p>
+
+                <h3>Padrões MV*</h3>
+
+                <section class="txt">
+                    Há algumas implementações do tradicional padrão MVC e suas váriações em Javascript.
+                </section>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvc'>MVC Pattern</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvp'>MVP Pattern</a></li>
+                        <li><a target="_blank" href='http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvvm'>MVVM Pattern</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+
+        <section class="section" id="testing-tools">
+            <div class="wrapper">
+                <h1><a href="#testing-tools">FERRAMENTAS DE TESTES</a></h1>
+
+                <h3>Descrição</h3>
+
+                <p>Frameworks e Bibliotecas de testes que são mantidas por suas organizações e/ou usuários.</p>
+
+                <h3>Links</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://mochajs.org/'>Mocha</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Mantido por <a target="_blank" href="https://github.com/visionmedia">TJ Holowaychuk</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://qunitjs.com/'>QUnit</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Mantido por <a target="_blank" href="https://github.com/jquery">jQuery</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='https://github.com/pivotal/jasmine'>Jasmine</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Mantido por <a target="_blank" href="https://github.com/pivotal">Pivotal Labs</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://karma-runner.github.io/">Karma</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Mantido pelo time por trás do AngularJS. Principalmente por <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://theintern.io/">Intern</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Mantido por <a target="_blank" href="http://www.sitepen.com/">Sitepen</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://gotwarlost.github.io/istanbul/">Istanbul</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Uma ferramenta de cobertura de código JavaScript escrito em JavaScript, mantido por <a href="https://github.com/gotwarlost">Krishnan Anantheswaran</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/leobalter/DexterJS/">DexterJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Um auxiliar de teste para as funções de simulação ao objeto XHR, mantido por <a href="http://leobalter.github.io">Leo Balter</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="frameworks">
+            <div class="wrapper">
+                <h1><a href="#frameworks">Frameworks</a></h1>
+
+                <h3>Objetivo Geral</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://jquery.com/'>jQuery</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    jQuery é uma biblioteca rápida, pequena e rica em recursos. Feita por <a target="_blank" href='https://twitter.com/jeresig'>John Resig</a>.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://yuilibrary.com/'>YUI</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Feita pelo Yahoo!, YUI é livre, biblioteca Javascript e CSS aberta para construir ricas aplicações web. <a target="_blank" href='http://yahooeng.tumblr.com/'>O desenvolvimento parou em 29 de Agosto de 2014</a>.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://zeptojs.com/'>ZeptoJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Zepto é uma biblioteca Javascript minimalista para os navegadores modernos que são compativeis com a API jQuery. Se você entende jQuery, você entenderá como usar o Zepto.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://dojotoolkit.org/'>Dojo Toolkit</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Dojo é livre, kit de ferramentas aberto para construção de aplicações de alta performance. Os patrocinadores do projeto incluem IBM e o SitePen.
+                </p>
+
+                <h3>MV*</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://backbonejs.org'>Backbone.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Um framework Javascript muito popular no lado cliente, feito por <a target="_blank" href='http://twitter.com/jashkenas'>@jashkenas</a>.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://emberjs.com'>Ember.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Feito por <a target="_blank" href='http://twitter.com/wycats'>@wycats</a>, jQuery e Ruby on Rails core developer.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://knockoutjs.com/'>Knockout.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Simplifique dinâmica JavaScript UIs, aplicando o modelo Model-View-View (MVVM).
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://angularjs.org/'>Angular.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Construído pelo Google, Angular.js é como um polyfill para o futuro do HTML
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://cappuccino.org/'>Cappuccino</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Cappuccino é um framework de código aberto que facilita a criação de aplicativos de desktop que são executados em um navegador web.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://javascriptmvc.com/'>JavaScript MVC</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    JavaScriptMVC é um framework código aberto que contém as melhores ideias em desenvolvimento jQuery.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='https://www.meteor.com/'>Meteor</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Meteor é uma plataforma de código aberto para a construção de aplicações web de alta qualidade em uma fração de tempo, se você é um desenvolvedor especialista ou apenas começando.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.riotjs.com/'>Riot.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Motim é incrivelmente rápido, poderoso e com uma pequena biblioteca no lado cliente (MV *) para a construção de aplicações web de grande escala. Apesar de pequeno blocos de todos os tamanhos de construção estão lá: um sistema de templates, roteador, biblioteca de evento e um padrão rigoroso MVP para manter as coisas organizadas.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://canjs.com/'>CanJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    CanJS é um framework Javascript que torna o desenvolvimento de aplicações complexas simples e rápida. Fácil de aprender, pequeno, despretensioso e de sua estrutura de aplicação, mas com características modernas, como as tags personalizadas e de 2 vias de ligação.
+                </p>
+
+                <h3>Library</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://facebook.github.io/react/'>React</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Feito pelo Facebook. React é uma biblioteca Javascript para criação de interfaces de usuários para o Facebook e Instagram. Muitas pessoas optam por pensar que o React é como o V do MVC.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://handlebarsjs.com/'>Handlebars</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Handlebars fornece a energia necessária para você construir modelos semânticos de forma eficaz, sem frustração.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://linkedin.github.io/dustjs/'>Dust.js</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Modelos assíncrono para o navegador e Node.js.
+                </p>
+
+            </div>
+        </section>
+
+
+        <section class="section" id="game-engines">
+            <div class="wrapper">
+                <h1><a href="#game-engines">Motores de Jogos</a></h1>
+                <br/>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://melonJS.org/'>MelonJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    MelonJS é livre, leve e em HTML5. Esse motor integra o famoso formato de telha, permitindo que seja facilmente usado.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://impactjs.com/'>ImpactJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    ImpactJS é um dos mais testados e verdadeiro motor de jogos em HTML5 com a versão inicial por volta de 2010. É bem mantido e atualizado e tem uma boa comunidade para apoiá-lo. Existe uma abundância de documentção - tem até dois livros sobre o assunto de criação de jogos no motor.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://limejs.com/'>LimeJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    LimeJS é uma estrutura de jogo HTML5 para a criação de jogos rápidos, pela experiência nativa e para todos os touchscreens modernos e navegadores desktop.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://craftyjs.com/'>Crafty</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Crafty é um motor de jogo que volta ao final de 2010. Crafty tornal muito facil para começar a criar jogos em Javascript.
+                </p>
+
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.cocos2d-x.org/wiki/Cocos2d-html5'>Cocos2d-HTML5</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Cocos2d-html5 é um framework de código aberto, distribuido sob a licença MIT. É uma versão HTML5 do projeto Cocos2d-x. O foco do desenvolvimento do Cocos2d-html5 é em torno de fazer plataforma cruzadas Cocos2d entre navegadores e aplicativos nativo.
+                </p>
+
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://phaser.io/'>Phaser</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Phaser é fortemente baseada em <a target="_blank" href="http://www.flixel.org">Flixel</a>. É mantido por Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>), que tem sido muito ativo na comunidade HTML5 por anos.
+                </p>
+
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.goocreate.com/learn/'>Goo</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Goo é um motor de jogo em Javascript inteiramente construido em WebGL/HTML5.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://lycheejs.org/'>LycheeJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    LycheeJS é uma biblioteca de jogo Javascript que oferece uma solução completa para prototipação e desenvolvimento em HTML5 Canvas, WebGL ou OpenGL(ES) nativa com base em jogos que estão nos navegadores modernos ou ambientes nativos.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://biz.turbulenz.com/developers'>Turbolenz</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Turbulenz é apoiado por 5 milhões de dólares em financiamento de risco. O motor é muito polido e focado principalmente em jogos HTML5 de alta qualidade. Parece ter pouco suporte para dispositivos móveis, mas eles vão logo pega-los quando todos os dispositivos móveis suportarem WebGL.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://html5quintus.com/'>Quintus</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Quintus é um motor de jogo em HTML5 projetada para ser modular e leve, com uma sintaxe Javascript amigável.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.kiwijs.org/'>KiwiJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Kiwi.js é de código aberto, divertida e amigável motor de jogo em HTML5. Muitas pessoas o chamam de Wordpress dos motores de jogos em HTML5.
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href='http://www.pandajs.net/'>PandaJS</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    Panda.js é um motor de jogo em HTML5 para dispositivos mobiles e desktops com renderização em Canvas e WebGL.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="section" id="news">
+            <div class="wrapper">
+                <h1><a href="#news">Novidades</a></h1>
+
+                <h3>Websites</h3>
+                <div class="links-container">
+                    <p class="source link">
+                        <a href="http://dailyjs.com/" target="_blank">DailyJS</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://www.echojs.com/" target="_blank">Echo JS</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://teamtreehouse.com/library/the-treehouse-show" target="_blank">A Treehouse Show</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://www.reddit.com/r/javascript" target="_blank">/r/javascript no Reddit</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://webplatformdaily.org/" target="_blank">Open Web Platform Daily Digest</a>
+                    </p>
+
+                    <p class="source link" style="margin-top: 0;">
+                        <a href="http://badassjs.com/" target="_blank">Badass JavaScript</a>
+                    </p>
+
+                    <p class="source link" style="margin-top: 0;">
+                        <a href="http://paper.li/gwinnem/1390553142" target="_blank">Diário AngularJS</a>
+                    </p>
+                </div>
+
+                <h3>Newsletter</h3>
+                <div class="links-container">
+                    <p class="source link">
+                        <a href="http://javascriptweekly.com/" target="_blank">JavaScript Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://designpepper.com/a-drip-of-javascript" target="_blank">A Drip of JavaScript</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://emberweekly.com/" target="_blank">Ember Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://backboneweekly.com/" target="_blank">Backbone Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://nodeweekly.com/" target="_blank">Node Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://meteorhacks.com/meteor-weekly/" target="_blank">Meteor Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="https://twitter.com/gruntweekly" target="_blank">Grunt Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://weekly.gamedevjs.com/" target="_blank">Gamedev.js Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://html5weekly.com" target="_blank">HTML5 Weekly</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://udgwebdev.com/newsletter" target="_blank">UDGWebDev Weekly</a>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="reading">
+            <div class="wrapper">
+                <h1><a href="#reading">Leitura</a></h1>
+
+                <h3>Artigos</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://robotlolita.github.io/2011/10/09/understanding-javascript-oop.html">Understanding JavaScript OOP</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://github.com/robotlolita">Quildreen Motta</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript/">Understanding “Prototypes” in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://github.com/wycats">Yehuda Katz</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://msdn.microsoft.com/en-us/magazine/ff852808.aspx">Prototypes and Inheritance in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://odetocode.com/blogs/scott/">Scott Allen</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://yehudakatz.com/2011/08/11/understanding-JavaScript-function-invocation-and-this/">Understanding JavaScript Function Invocation and “this”</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://github.com/wycats">Yehuda Katz</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://benalman.com/news/2012/09/partial-application-in-javascript/">Partial Application in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://github.com/cowboy">Ben Alman</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://blog.ponyfoo.com/2013/07/09/getting-over-jquery">Getting Over jQuery</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://github.com/bevacqua">Nico Bevacqua</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/">A Dive Into Plain JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://github.com/ryanburgess">Ryan Burgess</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm">A Deeper Look at Objects in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.kirupa.com/html5/closures_in_javascript.htm">Closures in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm">Introduction to Easing in JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://twitter.com/kirupa">Kirupa Chinnathambi</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://javascriptissexy.com/how-to-learn-javascript-properly/">How to Learn JavaScript Properly</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://twitter.com/jsissexy">JavaScript Is Sexy</a>
+                </p>
+
+                <h3>Books</h3>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://marijnhaverbeke.nl/">Marijn Haverbeke</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527">JavaScript: The Definitive Guide</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/David-Flanagan/e/B000APEZR4/ref=ntt_athr_dp_pel_pop_1">David Flanagan</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">JavaScript: The Good Parts</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/Douglas-Crockford/e/B002N3VYB6/ref=ntt_athr_dp_pel_1">Douglas Crockford</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/JavaScript-Patterns-Stoyan-Stefanov/dp/0596806752">JavaScript Patterns</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1">Stoyan Stefanov</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://jstesting.jcoglan.com/">JavaScript Testing Recipes</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://jcoglan.com/">James Coglan</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/dp/1118026691/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=253J6SW0KPB7J&coliid=IC7UM9W2VVSHL">Professional JavaScript for Web Developers</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1">Nicholas C. Zakas</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/Performance-JavaScript-Faster-Application-Interfaces/dp/059680279X">High Performance JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/Nicholas-C.-Zakas/e/B001IGUTOC/ref=ntt_athr_dp_pel_1">Nicholas C. Zakas</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://humanjavascript.com/">Human JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://joreteg.com/">Henrik Joreteg</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141">Object Oriented JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.amazon.com/Stoyan-Stefanov/e/B002BLXYIG/ref=ntt_athr_dp_pel_1">Stoyan Stefanov</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://www.amazon.com/Pro-JavaScript-Design-Patterns-Object-Oriented/dp/159059908X">Pro JavaScript Design Patterns</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="https://twitter.com/ded">Dustin Diaz</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://jsninja.com/">Secrets of the JavaScript Ninja</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://ejohn.org/">John Resig</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://bevacqua.io/bf/">JavaScript Application Design</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://blog.ponyfoo.com/">Nicolas Bevacqua</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://speakingjs.com/">Speaking JavaScript</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://www.rauschma.de/">Axel Rauschmayer</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://tddjs.com/">Test-Driven JavaScript Development</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://cjohansen.no/">Christian Johansen</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://youmightnotneedjquery.com/">You Might Not Need jQuery</a></li>
+                    </ul>
+                </section>
+
+                <p class="source">
+                    por <a target="_blank" href="http://github.com/ryanburgess">Ryan Burgess</a>
+                </p>
+
+                <section class="txt">
+                    <ul>
+                        <li><a target="_blank" href="http://bonsaiden.github.io/JavaScript-Garden/">JavaScript Garden</a></li>
+                    </ul>
+                </section>
+
+                <h3>E-Books Grátis</h3>
+
+                <section class="links-container">
+                    <p class="source link">
+                        <a target="_blank" href="http://jsbooks.revolunet.com/">JSBooks</a>
+                    </p>
+                </section>
+
+                <h3>Portáis</h3>
+
+                <section class="links-container">
+                    <p class="source link">
+                        <a href="http://www.html5rocks.com/" target="_blank">HTML5 Rocks</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://www.w3fools.com" target="_blank">W3Fools</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://developer.mozilla.org/docs/JavaScript" target="_blank">Mozilla Developer Network</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://docs.webplatform.org/wiki/javascript" target="_blank">Web Platform</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://coding.smashingmagazine.com/tag/javascript/" target="_blank">Smashing Magazine</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://nodeschool.io/" target="_blank">Node School</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://howtonode.org/" target="_blank">How to Node</a>
+                    </p>
+
+                    <p class="source link" style="margin-top: 0px">
+                        <a href="http://nodeguide.com/beginner.html" target="_blank">Felix’s Node.js Guia para iniciantes</a>
+                    </p>
+                </section>
+            </div>
+        </section>
+
+        <section class="section" id="podcasts">
+            <div class="wrapper">
+                <h1><a href="#podcasts">PODCASTS</a></h1>
+
+                <br/><br/>
+                <div class="links-container">
+                    <p class="source link">
+                        <a href="http://zofe.com.br/" target="_blank">ZONE OF FRONT-ENDERS</a>
+                    </p>
+                    
+                    <p class="source link">
+                        <a href="http://emberhotseat.com/" target="_blank">Ember Hot Seat</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://javascriptjabber.com/" target="_blank">JavaScript Jabber</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://nodeup.com/" target="_blank">Node Up</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://five-js.envylabs.com/" target="_blank">5 Minutes of JavaScript</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://www.meteorpodcast.com/" target="_blank">The Meteor Podcast</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="screencasts">
+            <div class="wrapper">
+                <h1><a href="#screencasts">SCREENCASTS</a></h1>
+
+                <div class="screencasts-container">
+                    <a href="https://egghead.io/" target="_blank">
+                        <img src="assets/egghead.svg" alt="egghead" />
+                    </a>
+                </div>
+
+                <div class="screencasts-container">
+                    <a href="http://caio-ribeiro-pereira.github.io/devfreecasts/" target="_blank">
+                        <img src="../assets/devfreecasts.png" alt="DevFreeCasts" />
+                    </a>
+                </div>
+
+                <div class="screencasts-container">
+                    <a href="http://tagtree.tv/" target="_blank">
+                        <img src="../assets/tagtree.png" alt="tagtree.tv" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="whotofollow">
+            <div class="wrapper">
+                <h1><a href="#whotofollow">Quem seguir?</a></h1>
+
+                <div class="users"></div>
+            </div>
+        </section>
+
+        <section class="section" id="paas">
+            <div class="wrapper">
+                <h1><a href="#paas">PaaS Providers</a></h1>
+
+                <br/><br/>
+                <section class="links-container">
+                    <p class="source link">
+                        <a href="http://heroku.com/" target="_blank">Heroku</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="https://modulus.io/" target="_blank">Modulus</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://nodejitsu.com/" target="_blank">Nodejitsu</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="https://www.openshift.com/" target="_blank">OpenShift</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://dotcloud.com/" target="_blank">dotCloud</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://getupcloud.com/index_en.html" target="_blank">Getup</a>
+                    </p>
+
+                    <p class="source link">
+                        <a href="http://www.windowsazure.com/en-us/develop/nodejs/" target="_blank">Windows Azure</a>
+                    </p>
+                </section>
+            </div>
+        </section>
+
+        <section class="section" id="helpers">
+            <div class="wrapper">
+                <h1><a href="#helpers">AJUDA</a></h1>
+
+                <div class="helpers-container">
+                    <a target="_blank" href="https://npmjs.org/">
+                        <figure>
+                            <img src="../assets/npm.png" alt="npm" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="http://bower.io/">
+                        <figure>
+                            <img src="../assets/bower-logo.png" alt="bower" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="http://yeoman.io/">
+                        <figure>
+                            <img src="../assets/yeoman-logo.png" alt="yeoman" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="http://gruntjs.com/">
+                        <figure>
+                            <img src="../assets/grunt-logo.png" alt="grunt" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="http://gulpjs.com/">
+                        <figure>
+                            <img src="../assets/gulp.png" alt="gulp" />
+                        </figure>
+                    </a>
+
+                    <a target="_blank" href="http://todomvc.com/">
+                        <figure>
+                            <img src="../assets/todomvc-logo.png" alt="todo mvc" />
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="footer">
+            <div class="wrapper">
+                <div class="bio">
+                    <h3>Criado e mantido por</h3>
+                    <a class="william" href="https://github.com/gnuwilliam">
+                        <img src="https://0.gravatar.com/avatar/05671f27a334fd17b787a88bf3d7d5b8?d=https%3A%2F%2Fidenticons.github.com%2Fdf5529fee499f928d4cfe6ffdac9d89c.png&amp;r=x&amp;s=440" alt="William oliveira" />
+                        <b>William Oliveira</b>
+                    </a>
+
+                    <p>
+                        Criador do <a href="http://jstherightway.org">http://jstherightway.org</a> e TDD Jedi.<br/>
+                        Amante Javascript, programador Python e viciado em VIM.
+                    </p>
+                </div>
+
+                <hr/>
+
+                <div class="contributors">
+                    <h1>COLABORADORES</h1>
+                    <p>Esse projeto não existiria sem a contribuição de incriveis colaboradores. Obrigado pessoal por fazerem disto uma realidade!</p>
+                    <div class="users"></div>
+                </div>
+
+                <p style="width: 100%;text-align: center;box-sizing:border-box;">
+                    <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+                    </a>
+                    <br/>
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: O Jeito Certo</span> por <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a> é licenciado pela <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Base do trabalho em: <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
+                </p>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="../js/core.min.js"></script>
+        <div id="fb-root"></div>
+        <script>
+            function asyncScriptLoad( url, id ) {
+                var js, fjs = document.getElementsByTagName( 'script' )[0];
+                if ( document.getElementById( id ) ) {
+                    return;
+                }
+                js = document.createElement( 'script' );
+                js.id = id;
+                js.src = url;
+                fjs.parentNode.insertBefore( js, fjs );
+            }
+            var _gaq = [['_setAccount', 'UA-33927105-1'], ['_trackPageview']];
+            asyncScriptLoad( '//www.google-analytics.com/ga.js', 'google-analytics' );
+            asyncScriptLoad( '//connect.facebook.net/en_US/all.js#xfbml=1', 'facebook-jssdk' );
+            asyncScriptLoad( '//platform.twitter.com/widgets.js', 'twitter-wjs' );
+            asyncScriptLoad( 'https://apis.google.com/js/plusone.js', 'google-plusone' );
+        </script>
+    </body>
+</html>
