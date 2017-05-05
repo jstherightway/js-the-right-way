@@ -11,46 +11,46 @@
             "title": "لنبدأ",
             "url": "#getting-started"
         }, {
-            "title": "JavaScript Code Style",
+            "title": "طريقة كتابة شفرة جافاسكريب",
             "url": "#js-code-style"
         }, {
-            "title": "The Good Parts",
+            "title": "الجوانب الصحيحة",
             "url": "#the-good-parts"
         }, {
-            "title": "Must See",
+            "title": "ما يجب رؤيته",
             "url": "#must-see"
         }, {
-            "title": "Patterns",
+            "title": "أنماط",
             "url": "#patterns"
         }, {
-            "title": "Testing Tools",
+            "title": "أدوات الاختبار",
             "url": "#testing-tools"
         }, {
             "title": "أطر العمل",
             "url": "#frameworks"
         }, {
-            "title": "Game Engines",
+            "title": "محركات الألعاب",
             "url": "#game-engines"
         }, {
             "title": "أخبار",
             "url": "#news"
         }, {
-            "title": "Reading",
+            "title": "قراءة",
             "url": "#reading"
         }, {
-            "title": "Podcasts",
+            "title": "المدونات الصوتية (برودكاست)",
             "url": "#podcasts"
         }, {
-            "title": "Screencasts",
+            "title": "دروس فيديو",
             "url": "#screencasts"
         }, {
-            "title": "Who to follow",
+            "title": "من تتابع",
             "url": "#whotofollow"
         }, {
             "title": "PaaS Providers",
             "url": "#paas"
         }, {
-            "title": "Helpers",
+            "title": "مساعدون",
             "url": "#helpers"
         }]
     },
