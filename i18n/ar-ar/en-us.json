@@ -6,9 +6,9 @@
     "direction": "rtl",
     "welcome": "{{@link=partials/welcome.html}}",
     "menu": {
-        "title": "Choose your path",
+        "title": "اختر طريقك",
         "links": [{
-            "title": "Getting Started",
+            "title": "لنبدأ",
             "url": "#getting-started"
         }, {
             "title": "JavaScript Code Style",
@@ -26,13 +26,13 @@
             "title": "Testing Tools",
             "url": "#testing-tools"
         }, {
-            "title": "Frameworks",
+            "title": "أطر العمل",
             "url": "#frameworks"
         }, {
             "title": "Game Engines",
             "url": "#game-engines"
         }, {
-            "title": "News",
+            "title": "أخبار",
             "url": "#news"
         }, {
             "title": "Reading",
@@ -55,7 +55,7 @@
         }]
     },
     "gettingStarted": {
-        "title": "GETTING STARTED",
+        "title": "لنبدأ",
         "text": "{{@link=partials/getting-started.html}}"
     },
     "codeStyle": {
