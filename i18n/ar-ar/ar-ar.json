@@ -74,7 +74,7 @@
         }]
     },
     "patterns": {
-        "title": "PATTERNS",
+        "title": "أنماط",
         "text": "{{@link=partials/patterns.html}}"
     },
     "testingTools": {
@@ -123,7 +123,7 @@
         }]
     },
     "frameworks": {
-        "title": "FRAMEWORKS",
+        "title": "أطر العمل",
         "cat": [{
             "title": "GENERAL PURPOSE",
             "links": [{
@@ -195,7 +195,7 @@
                 "description": "CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
             }]
         }, {
-            "title": "Library",
+            "title": "مكتبة",
             "links": [{
                 "name": "React",
                 "url": "http://facebook.github.io/react",
