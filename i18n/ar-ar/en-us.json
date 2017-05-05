@@ -3,7 +3,7 @@
         "title": "جافاسكريبت: الطريقة الصحيحة",
         "description": "A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
     },
-    "direction": "ltr",
+    "direction": "rtl",
     "welcome": "{{@link=partials/welcome.html}}",
     "menu": {
         "title": "Choose your path",
