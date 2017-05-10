@@ -14,7 +14,7 @@
             "title": "طريقة كتابة شفرة جافاسكريب",
             "url": "#js-code-style"
         }, {
-            "title": "الجوانب الصحيحة",
+            "title": "الجوانب الجيدة",
             "url": "#the-good-parts"
         }, {
             "title": "ما يجب رؤيته",
@@ -47,7 +47,7 @@
             "title": "من تتابع",
             "url": "#whotofollow"
         }, {
-            "title": "مزودو «منصة بصفة خدمة»",
+            "title": "مزودو «منصة حَوسَبة لخدمات البَرمَجة»",
             "url": "#paas"
         }, {
             "title": "مساعدون",
@@ -63,7 +63,7 @@
         "text": "{{@link=partials/code-style.html}}"
     },
     "goodParts": {
-        "title": "الجوانب الصحيحة",
+        "title": "الجوانب الجيدة",
         "text": "{{@link=partials/good-parts.html}}"
     },
     "mustSee": {
@@ -660,7 +660,7 @@
         "title": "من تتابع"
     },
     "paasProviders": {
-        "title": "مزودو «منصة بصفة خدمة»",
+        "title": "مزودو «منصة حَوسَبة لخدمات البَرمَجة»",
         "links": [{
             "name": "Heroku",
             "url": "http://heroku.com",
