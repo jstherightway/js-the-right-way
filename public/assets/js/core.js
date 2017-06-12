@@ -2,7 +2,7 @@ var App = (function (window, document, $) {
 
     'use strict';
 
-    var users = [
+    var users = shuffle([
             'BrendanEich',
             'isaacs',
             'rdworth',
@@ -42,7 +42,7 @@ var App = (function (window, document, $) {
             'jennschiffer',
             'kosamari',
             'cassidoo'
-        ],
+        ]),
         userIsDone,
         URL = 'https://api.github.com/';
 
@@ -115,6 +115,27 @@ var App = (function (window, document, $) {
     }
 
 }(window, document, jQuery));
+
+// Shuffle the elements of an array
+// Taken from stackoverflow.com/a/2450976
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
 
 // Starting the Application
 App.init();
