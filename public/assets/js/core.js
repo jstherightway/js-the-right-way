@@ -32,7 +32,16 @@ var App = (function (window, document, $) {
             'jhusain',
             'ryanflorence',
             'gaearon',
-            'rauschma'
+            'rauschma',
+            'sarasoueidan',
+            'rmurphey',
+            'bitchwhocodes',
+            'noopkat',
+            'sarah_edo',
+            'ohhoe',
+            'jennschiffer',
+            'kosamari',
+            'cassidoo'
         ]),
         userIsDone,
         URL = 'https://api.github.com/';
