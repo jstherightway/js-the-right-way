@@ -37,8 +37,8 @@ var App = (function (window, document, $) {
             'rmurphey',
             'bitchwhocodes',
             'noopkat',
-            'sarah_edo',
-            'ohhoe',
+            'sdras',
+            'rachelnicole',
             'jennschiffer',
             'kosamari',
             'cassidoo'
