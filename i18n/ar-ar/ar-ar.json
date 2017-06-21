@@ -11,46 +11,46 @@
             "title": "لنبدأ",
             "url": "#getting-started"
         }, {
-            "title": "JavaScript Code Style",
+            "title": "طريقة كتابة شفرة جافاسكريب",
             "url": "#js-code-style"
         }, {
-            "title": "The Good Parts",
+            "title": "الجوانب الجيدة",
             "url": "#the-good-parts"
         }, {
-            "title": "Must See",
+            "title": "ما يجب رؤيته",
             "url": "#must-see"
         }, {
-            "title": "Patterns",
+            "title": "أنماط",
             "url": "#patterns"
         }, {
-            "title": "Testing Tools",
+            "title": "أدوات الاختبار",
             "url": "#testing-tools"
         }, {
             "title": "أطر العمل",
             "url": "#frameworks"
         }, {
-            "title": "Game Engines",
+            "title": "محركات الألعاب",
             "url": "#game-engines"
         }, {
             "title": "أخبار",
             "url": "#news"
         }, {
-            "title": "Reading",
+            "title": "قراءة",
             "url": "#reading"
         }, {
-            "title": "Podcasts",
+            "title": "المدونات الصوتية (برودكاست)",
             "url": "#podcasts"
         }, {
-            "title": "Screencasts",
+            "title": "دروس فيديو",
             "url": "#screencasts"
         }, {
-            "title": "Who to follow",
+            "title": "من تتابع",
             "url": "#whotofollow"
         }, {
-            "title": "PaaS Providers",
+            "title": "مزودو «منصة حَوسَبة لخدمات البَرمَجة»",
             "url": "#paas"
         }, {
-            "title": "Helpers",
+            "title": "مساعدون",
             "url": "#helpers"
         }]
     },
@@ -59,26 +59,26 @@
         "text": "{{@link=partials/getting-started.html}}"
     },
     "codeStyle": {
-        "title": "JS CODE STYLE",
+        "title": "طريقة كتابة شفرة جافاسكريب",
         "text": "{{@link=partials/code-style.html}}"
     },
     "goodParts": {
-        "title": "THE GOOD PARTS",
+        "title": "الجوانب الجيدة",
         "text": "{{@link=partials/good-parts.html}}"
     },
     "mustSee": {
-        "title": "MUST SEE",
+        "title": "ما يجب رؤيته",
         "videos": [{
             "title": "Arindam Paul - JavaScript VM internals, EventLoop, Async and ScopeChains",
             "url": "https://www.youtube.com/embed/QyUFheng6J0"
         }]
     },
     "patterns": {
-        "title": "PATTERNS",
+        "title": "أنماط",
         "text": "{{@link=partials/patterns.html}}"
     },
     "testingTools": {
-        "title": "TESTING TOOLS",
+        "title": "أدوات الاختبار",
         "text": "{{@link=partials/testing-tools.html}}",
         "links": [{
             "name": "Mocha",
@@ -123,9 +123,9 @@
         }]
     },
     "frameworks": {
-        "title": "FRAMEWORKS",
+        "title": "أطر العمل",
         "cat": [{
-            "title": "GENERAL PURPOSE",
+            "title": "فائدة عامة",
             "links": [{
                 "name": "jQuery",
                 "url": "http://jquery.com",
@@ -195,7 +195,7 @@
                 "description": "CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding."
             }]
         }, {
-            "title": "Library",
+            "title": "مكتبة",
             "links": [{
                 "name": "React",
                 "url": "http://facebook.github.io/react",
@@ -214,7 +214,7 @@
                 "description": "Asynchronous templates for the browser and node.js."
             }]
         }, {
-            "title": "Animation",
+            "title": "حيوية",
             "links": [{
                 "name": "GSAP",
                 "url": "http://greensock.com/",
@@ -263,7 +263,7 @@
         }]
     },
     "gameEngines": {
-        "title": "GAME ENGINES",
+        "title": "محركات الألعاب",
         "links": [{
             "name": "MelonJS",
             "url": "http://melonJS.org",
@@ -323,9 +323,9 @@
         }]
     },
     "news": {
-        "title": "News",
+        "title": "أخبار",
         "cat": [{
-            "title": "Websites",
+            "title": "مواقع",
             "links": [{
                 "name": "JavaScript.com",
                 "url": "http://javascript.com",
@@ -356,7 +356,7 @@
                 "description": ""
             }]
         }, {
-            "title": "Newsletter",
+            "title": "قائمة بريدية",
             "links": [{
                 "name": "JavaScript Weekly",
                 "url": "http://javascriptweekly.com",
@@ -401,9 +401,9 @@
         }]
     },
     "reading": {
-        "title": "Reading",
+        "title": "قراءة",
         "cat": [{
-            "title": "Articles",
+            "title": "مقالات",
             "credit": true,
             "box": false,
             "links": [{
@@ -448,7 +448,7 @@
                 "description": "by <a target=\"_blank\" href=\"http://twitter.com/junspector\">Ju Gonçalves</a>"
             }]
         }, {
-            "title": "Books",
+            "title": "كتب",
             "credit": true,
             "box": false,
             "links": [{
@@ -545,7 +545,7 @@
                 "description": "by <a target=\"_blank\" href=\"http://devfreebooks.org\">DevFreeBooks</a>"
             }]
         }, {
-            "title": "Free E-Books",
+            "title": "كتب رقمية مجانية",
             "credit": false,
             "box": true,
             "links": [{
@@ -558,7 +558,7 @@
                 "description": ""
             }]
         }, {
-            "title": "Portals",
+            "title": "بوابات",
             "credit": false,
             "box": true,
             "links": [{
@@ -601,7 +601,7 @@
         }]
     },
     "podcasts": {
-        "title": "Podcasts",
+        "title": "مدونات صوتية (برودكاست)",
         "links": [{
             "name": "Ember Hot Seat",
             "url": "http://emberhotseat.com",
@@ -633,7 +633,7 @@
         }]
     },
     "screencasts": {
-        "title": "Screencasts",
+        "title": "دروس فيديو",
         "links": [{
             "name": "Egghead",
             "img": "egghead.svg",
@@ -657,10 +657,10 @@
         }]
     },
     "whoToFollow": {
-        "title": "Who To Follow"
+        "title": "من تتابع"
     },
     "paasProviders": {
-        "title": "PaaS Provider",
+        "title": "مزودو «منصة حَوسَبة لخدمات البَرمَجة»",
         "links": [{
             "name": "Heroku",
             "url": "http://heroku.com",
@@ -688,7 +688,7 @@
         }]
     },
     "helpers": {
-        "title": "Helpers",
+        "title": "مساعدون",
         "links": [{
             "name": "npm",
             "img": "npm.png",
@@ -747,9 +747,9 @@
         }]
     },
     "footer": {
-        "credit": "Created and maintained by",
-        "contributors": "Contributors",
-        "contribDesc": "This project wouldn't exist without these amazing contributors. Thank you guys for making this real!",
+        "credit": "إنشاء وصيانة",
+        "contributors": "مساهمون",
+        "contribDesc": "هذا المشروع لم يكن موجودا لولا هؤلاء المساهمون الرائعون. شكرا لكم لجعل هذا حقيقيا!",
         "licence": "{{@link=partials/licence.html}}"
     },
     "languages": [{
@@ -779,5 +779,8 @@
     }, {
         "url": "ru-ru",
         "name": "Русский"
+    }, {
+        "url": "ar-ar",
+        "name": "العربية"
     }]
 }
