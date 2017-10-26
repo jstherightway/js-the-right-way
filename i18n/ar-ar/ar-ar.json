@@ -171,7 +171,7 @@
                 "description": "One framework.Mobile &amp; desktop. One way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop."
             }, {
                 "name": "Cappuccino",
-                "url": "http://cappuccino.org",
+                "url": "http://www.cappuccino-project.org",
                 "description": "Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser."
             }, {
                 "name": "JavaScript MVC",
@@ -255,11 +255,8 @@
                 "name": "Motio",
                 "url": "http://darsa.in/motio/",
                 "description": "Motio is a small JavaScript library for simple but powerful sprite based animations and panning."
-            }, {
-                "name": "Anima.js",
-                "url": "http://lvivski.com/anima/",
-                "description": "With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!"
-            }]
+            }
+            ]
         }]
     },
     "gameEngines": {
@@ -528,10 +525,6 @@
                 "url": "http://effectivejs.com",
                 "description": "by <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
             }, {
-                "name": "Functional JavaScript",
-                "url": "http://functionaljavascript.com",
-                "description": "by <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
-            }, {
                 "name": "JavaScript Allongé",
                 "url": "https://leanpub.com/javascriptallongesix",
                 "description": "by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
@@ -603,10 +596,6 @@
     "podcasts": {
         "title": "مدونات صوتية (برودكاست)",
         "links": [{
-            "name": "Ember Hot Seat",
-            "url": "http://emberhotseat.com",
-            "description": ""
-        }, {
             "name": "JavaScript Jabber",
             "url": "https://devchat.tv/js-jabber/",
             "description": ""
