@@ -195,7 +195,7 @@
           },
           {
             "name":"Cappuccino",
-            "url":"http://cappuccino.org",
+            "url":"http://www.cappuccino-project.org",
             "description":"Cappuccino é um framework de código aberto que torna fácil a criação de aplicações parecidas com desktop que rodam em um navegador."
           },
           {
@@ -297,11 +297,6 @@
             "name":"Motio",
             "url":"http://darsa.in/motio/",
             "description":"Motio é uma pequena biblioteca JavaScript para uma simples porém poderosa animação baseada em <i>sprites</i> e <i>panning</i> (panorâmica)."
-          },
-          {
-            "name":"Anima.js",
-            "url":"http://lvivski.com/anima/",
-            "description":"Com a Anima é fácil de animar mais de cem objetos de cada vez. Cada item pode ter sua massa e viscosidade para simular objetos da vida real!"
           }
         ]
       }
@@ -628,11 +623,6 @@
             "description":"por <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
-            "name":"Functional JavaScript",
-            "url":"http://functionaljavascript.com",
-            "description":"por <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
-          },
-          {
             "name":"JavaScript Allongé",
             "url":"https://leanpub.com/javascript-allonge",
             "description":"por <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
@@ -718,11 +708,6 @@
   "podcasts":{
     "title":"Podcasts",
     "links":[
-      {
-        "name":"Ember Hot Seat",
-        "url":"http://emberhotseat.com",
-        "description":""
-      },
       {
         "name":"JavaScript Jabber",
         "url":"http://javascriptjabber.com",

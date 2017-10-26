@@ -195,7 +195,7 @@
           },
           {
             "name":"Cappuccino",
-            "url":"http://cappuccino.org",
+            "url":"http://www.cappuccino-project.org",
             "description":"Cappuccino는 데스크톱 앱 품질의 웹 애플리케이션을 쉽게 개발할 수 있게 해주는 오픈소스 프레임워크입니다."
           },
           {
@@ -292,11 +292,6 @@
             "name":"Motio",
             "url":"http://darsa.in/motio/",
             "description":"Motio는 간단하지만 강력한 스프라이트 기반의 애니메이션과 panning을 지원하는 JavaScript 라이브러리입니다."
-          },
-          {
-            "name":"Anima.js",
-            "url":"http://lvivski.com/anima/",
-            "description":"Anima로 수백 개의 객체의 애니메이션을 쉽게 만들 수 있습니다. 각 객체는 질량과 점성을 가질 수 있어서 실제 세계의 객체를 모방할 수 있습니다!"
           }
         ]
       }
@@ -708,11 +703,6 @@
   "podcasts":{
     "title":"팟캐스트",
     "links":[
-      {
-        "name":"Ember Hot Seat",
-        "url":"http://emberhotseat.com",
-        "description":""
-      },
       {
         "name":"JavaScript Jabber",
         "url":"http://javascriptjabber.com",

@@ -195,7 +195,7 @@
           },
           {
             "name":"Cappuccino",
-            "url":"http://cappuccino.org",
+            "url":"http://www.cappuccino-project.org",
             "description":"Cappuccino 是一個可以讓人簡單架起運行在瀏覽器的桌面應用程式的開源框架。"
           },
           {
@@ -292,11 +292,6 @@
             "name":"Motio",
             "url":"http://darsa.in/motio/",
             "description":"Motio 是一個輕量的 JavaScript 函式庫，基於動畫及平移建立簡單但強大的 2D 動畫。"
-          },
-          {
-            "name":"Anima.js",
-            "url":"http://lvivski.com/anima/",
-            "description":"使用 Anima 可以讓人簡單的同時操控近百個物件。 每一個物件都能擁有仿真的質量及速度效果！"
           }
         ]
       }
@@ -618,11 +613,6 @@
             "description":"作者 <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
-            "name":"Functional JavaScript",
-            "url":"http://functionaljavascript.com",
-            "description":"作者 <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
-          },
-          {
             "name":"JavaScript Allongé",
             "url":"https://leanpub.com/javascript-allonge",
             "description":"作者 <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
@@ -708,11 +698,6 @@
   "podcasts":{
     "title":"播客",
     "links":[
-      {
-        "name":"Ember Hot Seat",
-        "url":"http://emberhotseat.com",
-        "description":""
-      },
       {
         "name":"JavaScript Jabber",
         "url":"http://javascriptjabber.com",
