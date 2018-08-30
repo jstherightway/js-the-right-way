@@ -255,6 +255,10 @@
                 "name": "Motio",
                 "url": "http://darsa.in/motio/",
                 "description": "Motio is a small JavaScript library for simple but powerful sprite based animations and panning."
+            }, {
+                "name": "Between.js",
+                "url": "https://github.com/sasha240100/between.js",
+                "description": "Lightweight JavaScript (ES6) tweening engine"
             }]
         }]
     },
