@@ -729,6 +729,12 @@
     "title":"Videotutoriales",
     "links":[
       {
+        "name": "iLoveCoding",
+        "img": "ilovecoding.svg",
+        "url": "https://iLoveCoding.org",
+        "description": "Full-Stack JavaScript video training."
+      },
+      {
         "name":"Egghead",
         "img":"egghead.svg",
         "url":"https://egghead.io/",
