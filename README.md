@@ -2,7 +2,7 @@
 
 Feel free to contribute!
 
-## Where
+## Where?
 
 <http://www.jstherightway.org>
 
@@ -10,7 +10,7 @@ Feel free to contribute!
 
 Today we have a bunch of websites running JavaScript. I think we need a place to put all the best practices and references together so we can share this (good) information and help keep the web more organized.
 
-## Who
+## Who?
 
 [William Oliveira](http://github.com/gnuwilliam) - Open Source Developer
 
