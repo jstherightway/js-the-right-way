@@ -62,7 +62,7 @@ module.exports = function (grunt) {
         t = mustache.to_html(template, data);
         save(TEMPLATE_FILE, filename, entities.decode(t));
 
-        // Save the index file on the Public derectory with the default language
+        // Save the index file on the Public directory with the default language
         if(DEFAULT_LANGUAGE === filename) {
           save(TEMPLATE_FILE, '', entities.decode(t));
         }
