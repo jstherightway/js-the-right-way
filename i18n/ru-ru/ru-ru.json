@@ -186,12 +186,12 @@
           {
             "name":"Ember.js",
             "url":"http://emberjs.com",
-            "description":"Создан <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, который явялется значимым разрабочиком jQuery и Ruby on Rails."
+            "description":"Создан <a target=\"_blank\" href='http://twitter.com/wycats'>@wycats</a>, который является значимым разрабочиком jQuery и Ruby on Rails."
           },
           {
             "name":"Knockout.js",
             "url":"http://knockoutjs.com",
-            "description":"Упрощает построение динамических интерфейсов посредством использования  паттерна Model-View-View Model (MVVM)."
+            "description":"Упрощает построение динамических интерфейсов посредством использования паттерна Model-View-View Model (MVVM)."
           },
           {
             "name":"Angular.js",
@@ -201,7 +201,7 @@
           {
             "name":"Angular",
             "url":"https://angular.io",
-            "description":"Framework.Mobile и рабочий стол. Один из способов создания приложений с угловым и использовать навыки и программный код для создания приложений для каждой цели развертывания. Для веб-страниц, мобильный Интернет, мобильный телефон родной и родной рабочий стол."
+            "description":"Framework.Mobile и рабочий стол. Один из способов создания приложений с помощью Angular и использовать навыки и программный код для создания приложений для каждой цели развертывания. Для веб-страниц, мобильный Интернет, мобильный телефон родной и родной рабочий стол."
           },
           {
             "name":"Cappuccino",
@@ -256,7 +256,7 @@
           {
             "name":"Dust.js",
             "url":"http://linkedin.github.io/dustjs",
-            "description":"Асинхронный шаблонизатор для браузера и  node.js."
+            "description":"Асинхронный шаблонизатор для браузера и node.js."
           }
         ]
       },
@@ -276,7 +276,7 @@
           {
             "name":"Bounce.js",
             "url":"http://bouncejs.com/",
-            "description":"Bounce.js - библиотека позволяющая задавать анимации, на базе CSS3."
+            "description":"Bounce.js - библиотека, позволяющая задавать анимации на базе CSS3."
           },
           {
             "name":"TweenJS",
