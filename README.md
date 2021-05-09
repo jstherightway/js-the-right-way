@@ -22,4 +22,5 @@ Today we have a bunch of websites running JavaScript. I think we need a place to
 
 ## Sponsor
 
+This line should be treated as dummy
 [![GoBacklog](https://i.imgur.com/7lJBAXA.png)](https://gobacklog.com)
